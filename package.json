@@ -1,0 +1,19 @@
+{
+  "name": "css-cookbook",
+  "version": "1.0.0",
+  "description": "a cookbook about css edited by caigua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenMelon/css-cookbook.git"
+  },
+  "author": "caigua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreenMelon/css-cookbook/issues"
+  },
+  "homepage": "https://github.com/GreenMelon/css-cookbook#readme"
+}
