@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/GreenMelon/css-cookbook/issues"
   },
-  "homepage": "https://github.com/GreenMelon/css-cookbook#readme"
+  "homepage": "https://github.com/GreenMelon/css-cookbook#readme",
+  "dependencies": {
+    "vue": "^2.1.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-less": "^3.3.0",
+    "gulp-sass": "^2.3.2",
+    "webpack": "^1.14.0"
+  }
 }
