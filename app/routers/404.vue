@@ -4,7 +4,7 @@
 
 <script>
     module.exports = {
-        data: function() {
+        data() {
             return {
                 //
             }
@@ -12,7 +12,7 @@
         methods: {
             //
         },
-        created: function() {
+        created() {
             //
         }
     }
