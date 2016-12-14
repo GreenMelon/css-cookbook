@@ -1,0 +1,26 @@
+@import '../base/variable.less';
+@import '../base/mixin.less';
+
+@width-aside: 200px;
+
+.app {
+    padding-left: @width-aside;
+    aside {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: @width-aside;
+        background-color: @color-blue;
+        &::before {
+            .vertical-middle-translateY;
+            content: "";
+            left: 100%;
+            width: 20px;
+            height: 60px;
+            border-radius: 0 2px 2px 0;
+            background-color: @color-blue;
+            opacity: .8;
+        }
+    }
+}
