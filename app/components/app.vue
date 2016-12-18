@@ -5,7 +5,7 @@
 <template>
     <div class="app">
         <aside>
-            <ul class="list-module mod-module">
+            <ul class="list-module mod-modules">
                 <li v-for="module in modules" class="item">
                     <router-link
                         :to="module.route"
@@ -35,6 +35,9 @@
                     },{
                         name: 'visual',
                         route: '/visual'
+                    },{
+                        name: 'instance',
+                        route: '/instance'
                     }
                 ]
             }
