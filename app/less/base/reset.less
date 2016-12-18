@@ -2,3 +2,28 @@
     margin: 0;
     padding: 0;
 }
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+pre {
+    &.pre-code {
+        font-size: 0;
+    }
+    code {
+        display: block;
+        font-size: 14px;
+        border-radius: 10px;
+        color: #FFF;
+        background-color: #000;
+    }
+}

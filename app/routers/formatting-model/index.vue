@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>Index</h1>
+        <h1>FormattingModelIndex</h1>
     </main>
 </template>
 
