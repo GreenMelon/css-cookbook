@@ -29,6 +29,9 @@
                             },{
                                 name: 'border-radius',
                                 route: '/instance/draw/border-radius'
+                            },{
+                                name: 'radial-gradient',
+                                route: '/instance/draw/radial-gradient'
                             }
                         ]
                     }
