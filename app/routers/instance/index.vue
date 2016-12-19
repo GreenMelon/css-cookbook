@@ -30,6 +30,9 @@
                                 name: 'border-radius',
                                 route: '/instance/draw/border-radius'
                             },{
+                                name: 'box-shadow',
+                                route: '/instance/draw/box-shadow'
+                            },{
                                 name: 'radial-gradient',
                                 route: '/instance/draw/radial-gradient'
                             }
