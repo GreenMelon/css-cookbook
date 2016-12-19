@@ -30,6 +30,9 @@
                                 name: 'border-radius',
                                 route: '/instance/draw/border-radius'
                             },{
+                                name: 'outline',
+                                route: '/instance/draw/outline'
+                            },{
                                 name: 'box-shadow',
                                 route: '/instance/draw/box-shadow'
                             },{
