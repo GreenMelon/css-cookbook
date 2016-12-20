@@ -7,6 +7,9 @@ import Index from './routers/index';
 
 import FormattingModelIndex from './routers/formatting-model/index';
 
+import TypographicIndex from './routers/typographic/index';
+import TypographicFontFamily from './routers/typographic/font/font-family';
+
 import InstanceIndex from './routers/instance/index';
 import InstanceDrawBorderRadius from './routers/instance/draw/border-radius';
 import InstanceDrawOutline from './routers/instance/draw/outline';
@@ -25,6 +28,14 @@ export default [
     {
         path: '/formatting-model',
         component: FormattingModelIndex
+    },
+
+    {
+        path: '/typographic',
+        component: TypographicIndex
+    },{
+        path: '/typographic/font/font-family',
+        component: TypographicFontFamily
     },
 
     {
