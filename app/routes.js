@@ -10,6 +10,10 @@ import FormattingModelIndex from './routers/formatting-model/index';
 import TypographicIndex from './routers/typographic/index';
 import TypographicFontFamily from './routers/typographic/font/font-family';
 
+import VisualIndex from './routers/visual/index';
+import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
+import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
+
 import InstanceIndex from './routers/instance/index';
 import InstanceDrawBorderRadius from './routers/instance/draw/border-radius';
 import InstanceDrawOutline from './routers/instance/draw/outline';
@@ -36,6 +40,17 @@ export default [
     },{
         path: '/typographic/font/font-family',
         component: TypographicFontFamily
+    },
+
+    {
+        path: '/visual',
+        component: VisualIndex
+    },{
+        path: '/visual/box-shadow/loading-001',
+        component: VisualBoxShadowLoading1
+    },{
+        path: '/visual/box-shadow/loading-002',
+        component: VisualBoxShadowLoading2
     },
 
     {
