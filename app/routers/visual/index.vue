@@ -21,20 +21,14 @@
             return {
                 categories: [
                     {
-                        name: 'draw',
+                        name: 'box-shadow',
                         instances: [
                             {
-                                name: 'border-radius',
-                                route: '/instance/draw/border-radius'
+                                name: 'loading-001',
+                                route: '/visual/box-shadow/loading-001'
                             },{
-                                name: 'outline',
-                                route: '/instance/draw/outline'
-                            },{
-                                name: 'box-shadow',
-                                route: '/instance/draw/box-shadow'
-                            },{
-                                name: 'radial-gradient',
-                                route: '/instance/draw/radial-gradient'
+                                name: 'loading-002',
+                                route: '/visual/box-shadow/loading-002'
                             }
                         ]
                     }
