@@ -13,6 +13,7 @@ import TypographicFontFamily from './routers/typographic/font/font-family';
 import VisualIndex from './routers/visual/index';
 import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
+import VisualBackgroundClip from './routers/visual/background/background-clip';
 
 import InstanceIndex from './routers/instance/index';
 import InstanceDrawBorderRadius from './routers/instance/draw/border-radius';
@@ -51,6 +52,9 @@ export default [
     },{
         path: '/visual/box-shadow/loading-002',
         component: VisualBoxShadowLoading2
+    },{
+        path: '/visual/background/background-clip',
+        component: VisualBackgroundClip
     },
 
     {

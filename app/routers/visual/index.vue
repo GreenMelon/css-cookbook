@@ -31,6 +31,14 @@
                                 route: '/visual/box-shadow/loading-002'
                             }
                         ]
+                    },{
+                        name: 'background',
+                        instances: [
+                            {
+                                name: 'background-clip',
+                                route: '/visual/background/background-clip'
+                            }
+                        ]
                     }
                 ]
             }
