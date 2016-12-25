@@ -37,6 +37,23 @@
                                 route: '/instance/draw/radial-gradient'
                             }
                         ]
+                    },{
+                        name: 'hexagon',
+                        instances: [
+                            {
+                                name: 'border',
+                                route: '/instance/hexagon/border'
+                            },{
+                                name: 'transform',
+                                route: '/instance/hexagon/transform'
+                            },{
+                                name: 'svg',
+                                route: '/instance/hexagon/svg'
+                            },{
+                                name: 'canvas',
+                                route: '/instance/hexagon/canvas'
+                            }
+                        ]
                     }
                 ]
             }
