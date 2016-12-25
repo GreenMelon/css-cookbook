@@ -22,7 +22,7 @@ import InstanceDrawBoxShadow from './routers/instance/draw/box-shadow';
 import InstanceDrawRadialGradient from './routers/instance/draw/radial-gradient';
 
 import InstanceHexagonBorder from './routers/instance/hexagon/border';
-// import InstanceHexagonTransform from './routers/instance/hexagon/transform';
+import InstanceHexagonTransform from './routers/instance/hexagon/transform';
 // import InstanceHexagonSvg from './routers/instance/hexagon/svg';
 // import InstanceHexagonCanvas from './routers/instance/hexagon/canvas';
 
@@ -82,6 +82,9 @@ export default [
     {
         path: '/instance/hexagon/border',
         component: InstanceHexagonBorder
+    },{
+        path: '/instance/hexagon/transform',
+        component: InstanceHexagonTransform
     },
 
     {
