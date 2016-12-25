@@ -24,7 +24,7 @@ import InstanceDrawRadialGradient from './routers/instance/draw/radial-gradient'
 import InstanceHexagonBorder from './routers/instance/hexagon/border';
 import InstanceHexagonTransform from './routers/instance/hexagon/transform';
 import InstanceHexagonSvg from './routers/instance/hexagon/svg';
-// import InstanceHexagonCanvas from './routers/instance/hexagon/canvas';
+import InstanceHexagonCanvas from './routers/instance/hexagon/canvas';
 
 export default [
     {
@@ -88,6 +88,9 @@ export default [
     },{
         path: '/instance/hexagon/svg',
         component: InstanceHexagonSvg
+    },{
+        path: '/instance/hexagon/canvas',
+        component: InstanceHexagonCanvas
     },
 
     {
