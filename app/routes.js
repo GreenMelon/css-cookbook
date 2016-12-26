@@ -20,6 +20,7 @@ import InstanceDrawBorderRadius from './routers/instance/draw/border-radius';
 import InstanceDrawOutline from './routers/instance/draw/outline';
 import InstanceDrawBoxShadow from './routers/instance/draw/box-shadow';
 import InstanceDrawRadialGradient from './routers/instance/draw/radial-gradient';
+import InstanceDrawClip from './routers/instance/draw/clip';
 
 import InstanceHexagonBorder from './routers/instance/hexagon/border';
 import InstanceHexagonTransform from './routers/instance/hexagon/transform';
@@ -77,6 +78,9 @@ export default [
     },{
         path: '/instance/draw/radial-gradient',
         component: InstanceDrawRadialGradient
+    },{
+        path: '/instance/draw/clip',
+        component: InstanceDrawClip
     },
 
     {
