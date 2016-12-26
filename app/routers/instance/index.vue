@@ -35,6 +35,9 @@
                             },{
                                 name: 'radial-gradient',
                                 route: '/instance/draw/radial-gradient'
+                            },{
+                                name: 'clip',
+                                route: '/instance/draw/clip'
                             }
                         ]
                     },{
