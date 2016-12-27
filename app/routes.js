@@ -7,6 +7,9 @@ import Index from './routers/index';
 
 import FormattingModelIndex from './routers/formatting-model/index';
 
+import BoxModelIndex from './routers/box-model/index';
+import BoxModelClip1 from './routers/box-model/clip/reverse-clip-path-with-blend-modes';
+
 import TypographicIndex from './routers/typographic/index';
 import TypographicFontFamily from './routers/typographic/font/font-family';
 
@@ -39,6 +42,14 @@ export default [
     {
         path: '/formatting-model',
         component: FormattingModelIndex
+    },
+
+    {
+        path: '/box-model',
+        component: BoxModelIndex
+    },{
+        path: '/box-model/clip/reverse-clip-path-with-blend-modes',
+        component: BoxModelClip1
     },
 
     {
