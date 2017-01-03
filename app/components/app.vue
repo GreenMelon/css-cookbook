@@ -3,7 +3,7 @@
 </style>
 
 <template>
-    <div class="app">
+    <div :class="{'side-mode': sideMode}" class="app">
         <aside>
             <ul class="list-module mod-modules">
                 <li v-for="module in modules" class="item">
@@ -13,6 +13,7 @@
                     </router-link>
                 </li>
             </ul>
+            <i @click="switchFullScreen" class="icon-chevron"></i>
         </aside>
         <router-view></router-view>
     </div>
@@ -39,11 +40,15 @@
                         name: 'instance',
                         route: '/instance'
                     }
-                ]
+                ],
+
+                sideMode: false
             }
         },
         methods: {
-            //
+            switchFullScreen() {
+                this.sideMode = !this.sideMode;
+            }
         },
         created() {
             //

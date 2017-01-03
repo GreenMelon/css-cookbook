@@ -4,26 +4,43 @@
 @width-aside: 200px;
 
 .app {
+    height: 100vh;
     padding-left: @width-aside;
+    transition: padding-left .2s;
+    &.side-mode {
+        padding-left: 0;
+        aside {
+            left: -200px;
+        }
+        .icon-chevron {
+            opacity: .2;
+        }
+    }
     aside {
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         width: @width-aside;
-        background-color: @color-blue;
-        &::before {
-            .vertical-middle-translateY;
-            content: "";
-            left: 100%;
-            width: 20px;
-            height: 60px;
-            border-radius: 0 2px 2px 0;
-            background-color: @color-blue;
-            opacity: .8;
+        background-color: #324057;
+        transition: left .2s;
+    }
+    .icon-chevron {
+        .vertical-middle-translateY;
+        left: 100%;
+        width: 20px;
+        height: 60px;
+        border-radius: 0 4px 4px 0;
+        background-color: #324057;
+        opacity: .8;
+        cursor: pointer;
+        &:hover {
+            opacity: 1;
         }
     }
     main {
+        height: 100%;
         padding: 1em;
+        overflow-y: scroll;
     }
 }
