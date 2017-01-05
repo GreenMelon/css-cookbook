@@ -37,6 +37,9 @@
                         name: 'visual',
                         route: '/visual'
                     },{
+                        name: 'table',
+                        route: '/table'
+                    },{
                         name: 'instance',
                         route: '/instance'
                     }
