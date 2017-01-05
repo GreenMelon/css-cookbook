@@ -18,6 +18,9 @@ import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
 import VisualBackgroundClip from './routers/visual/background/background-clip';
 
+import TableIndex from './routers/table/index';
+import TableLayoutIndex from './routers/table/table-layout/index';
+
 import InstanceIndex from './routers/instance/index';
 import InstanceDrawBorderRadius from './routers/instance/draw/border-radius';
 import InstanceDrawOutline from './routers/instance/draw/outline';
@@ -72,6 +75,14 @@ export default [
     },{
         path: '/visual/background/background-clip',
         component: VisualBackgroundClip
+    },
+
+    {
+        path: '/table',
+        component: TableIndex
+    },{
+        path: '/table/table-layout',
+        component: TableLayoutIndex
     },
 
     {
