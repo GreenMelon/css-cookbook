@@ -1,0 +1,9 @@
+# 简易SQL
+
+## SELECT
+
+- SELECT * FROM `TABLE` WHERE id = 1
+
+## UPDATE
+
+- UPDATE `TABLE` SET status = 1 WHERE id = 1
