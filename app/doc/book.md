@@ -1,5 +1,6 @@
 # CSS
 
+![css-secrets](https://github.com/GreenMelon/css-cookbook/blob/master/app/doc/images/css-secrets.jpg?raw=true)
 - [css-secrets](http://www.salttiger.com/css-secrets/)
 - [CSS揭秘](http://product.dangdang.com/23953090.html)
 
