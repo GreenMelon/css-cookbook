@@ -13,7 +13,7 @@
 - [You Don’t Know JS: this & Object Prototypes](http://www.salttiger.com/you-dont-know-js-scope-and-closures/)
 
 ![you-dont-know-js-types-grammar](https://github.com/GreenMelon/css-cookbook/blob/master/app/doc/images/you-dont-know-js-types-grammar.jpg?raw=true)
-- [You Don’t Know JS: this & Object Prototypes](http://www.salttiger.com/you-dont-know-js-types-grammar/)
+- [You Don’t Know JS: Types & Grammar](http://www.salttiger.com/you-dont-know-js-types-grammar/)
 
 ![learning-javascript-3rd-edition](https://github.com/GreenMelon/css-cookbook/blob/master/app/doc/images/learning-javascript-3rd-edition.jpg?raw=true)
 - [learning-javascript-3rd-edition](http://www.salttiger.com/learning-javascript-3rd-edition/)
