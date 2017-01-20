@@ -21,6 +21,9 @@
 ![you-dont-know-js-async-and-performance](https://github.com/GreenMelon/css-cookbook/blob/master/app/doc/images/you-dont-know-js-async-and-performance.jpg?raw=true)
 - [You Don’t Know JS: Async & Performance](http://www.salttiger.com/you-dont-know-js-async-and-performance/)
 
+![you-dont-know-js-es6-beyond-early-release](https://github.com/GreenMelon/css-cookbook/blob/master/app/doc/images/you-dont-know-js-es6-beyond-early-release.jpg?raw=true)
+- [You Don’t Know JS: ES6 & Beyond, Early Release](http://www.salttiger.com/you-dont-know-js-es6-beyond-early-release/)
+
 ![learning-javascript-3rd-edition](https://github.com/GreenMelon/css-cookbook/blob/master/app/doc/images/learning-javascript-3rd-edition.jpg?raw=true)
 - [learning-javascript-3rd-edition](http://www.salttiger.com/learning-javascript-3rd-edition/)
 - [JavaScript學習手冊](http://product.dangdang.com/1046986149.html)
