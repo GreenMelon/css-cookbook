@@ -26,6 +26,9 @@
                             {
                                 name: 'font-family',
                                 route: '/typographic/font/font-family'
+                            },{
+                                name: 'overflow-wrap',
+                                route: '/typographic/wrap/overflow-wrap'
                             }
                         ]
                     }
