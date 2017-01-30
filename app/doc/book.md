@@ -31,6 +31,9 @@
 - [learning-javascript-3rd-edition](http://www.salttiger.com/learning-javascript-3rd-edition/)
 - [JavaScript學習手冊](http://product.dangdang.com/1046986149.html)
 
+![secrets-of-the-javascript-ninja-2nd-edition](https://github.com/GreenMelon/css-cookbook/blob/master/app/doc/images/secrets-of-the-javascript-ninja-2nd-edition.jpg?raw=true)
+- [Secrets of the JavaScript Ninja, 2nd Edition](http://www.salttiger.com/secrets-of-the-javascript-ninja-2nd-edition/)
+
 # React Native
 
 ![mastering-react-native](https://github.com/GreenMelon/css-cookbook/blob/master/app/doc/images/mastering-react-native.jpg?raw=true)
