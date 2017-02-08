@@ -13,7 +13,6 @@
                     </router-link>
                 </li>
             </ul>
-            <i @click="switchFullScreen" class="icon-chevron"></i>
         </aside>
         <router-view></router-view>
     </div>
@@ -43,15 +42,11 @@
                         name: 'instance',
                         route: '/instance'
                     }
-                ],
-
-                sideMode: false
+                ]
             }
         },
         methods: {
-            switchFullScreen() {
-                this.sideMode = !this.sideMode;
-            }
+            //
         },
         created() {
             //
