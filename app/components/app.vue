@@ -3,13 +3,13 @@
 </style>
 
 <template>
-    <div :class="{'side-mode': sideMode}" class="app">
+    <div class="app">
         <aside>
             <ul class="list-module mod-modules">
                 <li v-for="module in modules" class="item">
                     <router-link
                         :to="module.route"
-                        :class="{active: $route.path == module.route}">{{ module.name }}
+                        :class="{active: $route.path.startsWith(module.route)}">{{ module.name }}
                     </router-link>
                 </li>
             </ul>
