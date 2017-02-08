@@ -1,46 +1,31 @@
 @import '../base/variable.less';
 @import '../base/mixin.less';
 
-@width-aside: 200px;
-
 .app {
     height: 100vh;
-    padding-left: @width-aside;
+    padding: 50px 25px 0 225px;
+    background-color: #f7f8f9;
     transition: padding-left .2s;
     &.side-mode {
         padding-left: 0;
         aside {
             left: -200px;
         }
-        .icon-chevron {
-            opacity: .2;
-        }
     }
     aside {
         position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        width: @width-aside;
+        top: 50px;
+        left: 25px;
+        width: 200px;
         background-color: #324057;
         transition: left .2s;
     }
-    .icon-chevron {
-        .vertical-middle-translateY;
-        left: 100%;
-        width: 1em;
-        height: 60px;
-        border-radius: 0 4px 4px 0;
-        background-color: #324057;
-        opacity: .8;
-        cursor: pointer;
-        &:hover {
-            opacity: 1;
-        }
-    }
     main {
+        margin-left: 2em;
         height: 100%;
-        padding: 2em;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #fff;
         overflow-y: scroll;
     }
 }
