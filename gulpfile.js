@@ -31,6 +31,11 @@ gulp.task('browserSync', function() {
     })
 });
 
+// watch任务: 自动监测文件变化
+gulp.task('watch', ['browserSync', 'less'], function(){
+    gulp.watch('app/less/**/*.less', ['less'])
+});
+
 // clean任务： 清理旧文件
 gulp.task('clean', function(callback) {
     del('app/css/*');
