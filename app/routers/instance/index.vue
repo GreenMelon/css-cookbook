@@ -19,46 +19,7 @@
     module.exports = {
         data() {
             return {
-                categories: [
-                    {
-                        name: 'draw',
-                        instances: [
-                            {
-                                name: 'border-radius',
-                                route: '/instance/draw/border-radius'
-                            },{
-                                name: 'outline',
-                                route: '/instance/draw/outline'
-                            },{
-                                name: 'box-shadow',
-                                route: '/instance/draw/box-shadow'
-                            },{
-                                name: 'radial-gradient',
-                                route: '/instance/draw/radial-gradient'
-                            },{
-                                name: 'clip',
-                                route: '/instance/draw/clip'
-                            }
-                        ]
-                    },{
-                        name: 'hexagon',
-                        instances: [
-                            {
-                                name: 'border',
-                                route: '/instance/hexagon/border'
-                            },{
-                                name: 'transform',
-                                route: '/instance/hexagon/transform'
-                            },{
-                                name: 'svg',
-                                route: '/instance/hexagon/svg'
-                            },{
-                                name: 'canvas',
-                                route: '/instance/hexagon/canvas'
-                            }
-                        ]
-                    }
-                ]
+                categories: []
             }
         },
         methods: {
