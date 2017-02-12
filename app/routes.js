@@ -23,16 +23,19 @@ import TableIndex from './routers/table/index';
 import TableLayoutIndex from './routers/table/table-layout/index';
 
 import InstanceIndex from './routers/instance/index';
-import InstanceDrawBorderRadius from './routers/instance/draw/border-radius';
-import InstanceDrawOutline from './routers/instance/draw/outline';
-import InstanceDrawBoxShadow from './routers/instance/draw/box-shadow';
-import InstanceDrawRadialGradient from './routers/instance/draw/radial-gradient';
-import InstanceDrawClip from './routers/instance/draw/clip';
 
-import InstanceHexagonBorder from './routers/instance/hexagon/border';
-import InstanceHexagonTransform from './routers/instance/hexagon/transform';
-import InstanceHexagonSvg from './routers/instance/hexagon/svg';
-import InstanceHexagonCanvas from './routers/instance/hexagon/canvas';
+import DrawIndex from './routers/draw/index';
+import DrawBorderRadius1 from './routers/draw/border-radius/1';
+import DrawOutline1 from './routers/draw/outline/1';
+import DrawBoxShadow1 from './routers/draw/box-shadow/1';
+import DrawRadialGradient1 from './routers/draw/radial-gradient/1';
+import DrawClip1 from './routers/draw/clip/1';
+
+import ExercismIndex from './routers/exercism/index';
+import ExercismHexagonBorder from './routers/exercism/hexagon/border';
+import ExercismHexagonTransform from './routers/exercism/hexagon/transform';
+import ExercismHexagonSvg from './routers/exercism/hexagon/svg';
+import ExercismHexagonCanvas from './routers/exercism/hexagon/canvas';
 
 export default [
     {
@@ -92,35 +95,43 @@ export default [
     {
         path: '/instance',
         component: InstanceIndex
-    },{
-        path: '/instance/draw/border-radius',
-        component: InstanceDrawBorderRadius
-    },{
-        path: '/instance/draw/outline',
-        component: InstanceDrawOutline
-    },{
-        path: '/instance/draw/box-shadow',
-        component: InstanceDrawBoxShadow
-    },{
-        path: '/instance/draw/radial-gradient',
-        component: InstanceDrawRadialGradient
-    },{
-        path: '/instance/draw/clip',
-        component: InstanceDrawClip
     },
 
     {
-        path: '/instance/hexagon/border',
-        component: InstanceHexagonBorder
+        path: '/draw',
+        component: DrawIndex
     },{
-        path: '/instance/hexagon/transform',
-        component: InstanceHexagonTransform
+        path: '/draw/border-radius/1',
+        component: DrawBorderRadius1
     },{
-        path: '/instance/hexagon/svg',
-        component: InstanceHexagonSvg
+        path: '/draw/outline/1',
+        component: DrawOutline1
     },{
-        path: '/instance/hexagon/canvas',
-        component: InstanceHexagonCanvas
+        path: '/draw/box-shadow/1',
+        component: DrawBoxShadow1
+    },{
+        path: '/draw/radial-gradient/1',
+        component: DrawRadialGradient1
+    },{
+        path: '/draw/clip/1',
+        component: DrawClip1
+    },
+
+    {
+        path: '/exercism',
+        component: ExercismIndex
+    },{
+        path: '/exercism/hexagon/border',
+        component: ExercismHexagonBorder
+    },{
+        path: '/exercism/hexagon/transform',
+        component: ExercismHexagonTransform
+    },{
+        path: '/exercism/hexagon/svg',
+        component: ExercismHexagonSvg
+    },{
+        path: '/exercism/hexagon/canvas',
+        component: ExercismHexagonCanvas
     },
 
     {

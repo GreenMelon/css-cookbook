@@ -41,6 +41,12 @@
                     },{
                         name: 'instance',
                         route: '/instance'
+                    },{
+                        name: 'draw',
+                        route: '/draw'
+                    },{
+                        name: 'exercism',
+                        route: '/exercism'
                     }
                 ]
             }
