@@ -1,5 +1,5 @@
 /**
- * routes
+ * routesborder
  */
 
 import NotFound from './routers/404';
@@ -11,6 +11,7 @@ import FormattingModelShape2 from './routers/formatting-model/shape/2';
 
 import BoxModelIndex from './routers/box-model/index';
 import BoxModelClip1 from './routers/box-model/clip/reverse-clip-path-with-blend-modes';
+import BoxModelBorder1 from './routers/box-model/border/1';
 
 import TypographicIndex from './routers/typographic/index';
 import TypographicFontFamily from './routers/typographic/font/font-family';
@@ -67,6 +68,9 @@ export default [
     },{
         path: '/box-model/clip/reverse-clip-path-with-blend-modes',
         component: BoxModelClip1
+    },{
+        path: '/box-model/border/1',
+        component: BoxModelBorder1
     },
 
     {
