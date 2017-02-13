@@ -37,6 +37,8 @@ import ExercismHexagonTransform from './routers/exercism/hexagon/transform';
 import ExercismHexagonSvg from './routers/exercism/hexagon/svg';
 import ExercismHexagonCanvas from './routers/exercism/hexagon/canvas';
 
+import ExercismFloatCenterFloat from './routers/exercism/float-center/float';
+
 export default [
     {
         path: '/',
@@ -132,6 +134,9 @@ export default [
     },{
         path: '/exercism/hexagon/canvas',
         component: ExercismHexagonCanvas
+    },{
+        path: '/exercism/float-center/float',
+        component: ExercismFloatCenterFloat
     },
 
     {

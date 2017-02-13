@@ -37,6 +37,17 @@
                                 route: '/exercism/hexagon/canvas'
                             }
                         ]
+                    },{
+                        name: 'float-center',
+                        instances: [
+                            {
+                                name: 'float',
+                                route: '/exercism/float-center/float'
+                            },{
+                                name: 'shape',
+                                route: '/exercism/float-center/shape'
+                            }
+                        ]
                     }
                 ]
             }
