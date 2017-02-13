@@ -1,0 +1,18 @@
+<style lang="less" scoped>
+    //
+</style>
+
+<template>
+    <main>
+        <nav>xxxx</nav>
+        <ul>
+            <li>
+                //
+            </li>
+        </ul>
+    </main>
+</template>
+
+<script>
+    module.exports = {}
+</script>

@@ -28,6 +28,14 @@
                                 route: '/box-model/clip/reverse-clip-path-with-blend-modes'
                             }
                         ]
+                    },{
+                        name: 'border',
+                        instances: [
+                            {
+                                name: '透明边框',
+                                route: '/visual/background/background-clip'
+                            }
+                        ]
                     }
                 ]
             }
