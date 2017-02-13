@@ -28,6 +28,14 @@
                                 route: '/formatting-model/position/clip'
                             }
                         ]
+                    },{
+                        name: 'shape',
+                        instances: [
+                            {
+                                name: '1',
+                                route: '/formatting-model/shape/1'
+                            }
+                        ]
                     }
                 ]
             }
