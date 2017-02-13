@@ -7,6 +7,7 @@ import Index from './routers/index';
 
 import FormattingModelIndex from './routers/formatting-model/index';
 import FormattingModelShape1 from './routers/formatting-model/shape/1';
+import FormattingModelShape2 from './routers/formatting-model/shape/2';
 
 import BoxModelIndex from './routers/box-model/index';
 import BoxModelClip1 from './routers/box-model/clip/reverse-clip-path-with-blend-modes';
@@ -55,6 +56,9 @@ export default [
     },{
         path: '/formatting-model/shape/1',
         component: FormattingModelShape1
+    },{
+        path: '/formatting-model/shape/2',
+        component: FormattingModelShape2
     },
 
     {

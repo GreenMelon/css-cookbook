@@ -32,8 +32,11 @@
                         name: 'shape',
                         instances: [
                             {
-                                name: '1',
+                                name: 'shape - circle',
                                 route: '/formatting-model/shape/1'
+                            },{
+                                name: 'shape - polygon',
+                                route: '/formatting-model/shape/2'
                             }
                         ]
                     }
