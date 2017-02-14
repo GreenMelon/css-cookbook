@@ -27,13 +27,13 @@
 
     .tai-chi::before {
         left: 0;
-        border: unit(@width * 1.5, px) solid #000;
+        border: unit(1.5 * @width, px) solid #000;
         background: #fff;
     }
 
     .tai-chi::after {
         left: 50%;
-        border: unit(@width * 1.5, px) solid #fff;
+        border: unit(1.5 * @width, px) solid #fff;
         background: #000;
     }
 </style>

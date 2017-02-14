@@ -32,11 +32,14 @@
                             }
                         ]
                     },{
-                        name: 'background',
+                        name: 'background-clip',
                         instances: [
                             {
-                                name: 'background-clip',
-                                route: '/visual/background/background-clip'
+                                name: '透明边框',
+                                route: '/visual/background-clip/1'
+                            },{
+                                name: '文字背景特效',
+                                route: '/visual/background-clip/text'
                             }
                         ]
                     }

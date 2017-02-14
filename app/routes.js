@@ -20,7 +20,8 @@ import TypographicOverflowWrap from './routers/typographic/wrap/overflow-wrap';
 import VisualIndex from './routers/visual/index';
 import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
-import VisualBackgroundClip from './routers/visual/background/background-clip';
+import VisualBackgroundClip1 from './routers/visual/background-clip/1';
+import VisualBackgroundClipText from './routers/visual/background-clip/text';
 
 import TableIndex from './routers/table/index';
 import TableLayoutIndex from './routers/table/table-layout/index';
@@ -95,8 +96,11 @@ export default [
         path: '/visual/box-shadow/loading-002',
         component: VisualBoxShadowLoading2
     },{
-        path: '/visual/background/background-clip',
-        component: VisualBackgroundClip
+        path: '/visual/background-clip/1',
+        component: VisualBackgroundClip1
+    },{
+        path: '/visual/background-clip/text',
+        component: VisualBackgroundClipText
     },
 
     {
