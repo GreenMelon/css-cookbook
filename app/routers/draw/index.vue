@@ -60,6 +60,14 @@
                                 route: '/draw/radial-gradient/1'
                             }
                         ]
+                    },{
+                        name: 'padding',
+                        instances: [
+                            {
+                                name: '1',
+                                route: '/draw/padding/1'
+                            }
+                        ]
                     }
                 ]
             }
