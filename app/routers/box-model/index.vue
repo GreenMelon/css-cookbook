@@ -33,7 +33,7 @@
                         instances: [
                             {
                                 name: '透明边框',
-                                route: '/visual/background/background-clip'
+                                route: '/visual/background-clip/1'
                             }
                         ]
                     }
