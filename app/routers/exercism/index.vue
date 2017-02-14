@@ -48,6 +48,14 @@
                                 route: '/exercism/float-center/shape'
                             }
                         ]
+                    },{
+                        name: 'tai-chi',
+                        instances: [
+                            {
+                                name: '1',
+                                route: '/exercism/tai-chi/1'
+                            }
+                        ]
                     }
                 ]
             }
