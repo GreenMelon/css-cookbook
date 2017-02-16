@@ -31,6 +31,14 @@
                                 route: '/typographic/wrap/overflow-wrap'
                             }
                         ]
+                    },{
+                        name: 'text',
+                        instances: [
+                            {
+                                name: 'text-shadow',
+                                route: '/typographic/text/text-shadow'
+                            }
+                        ]
                     }
                 ]
             }

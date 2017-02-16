@@ -16,6 +16,7 @@ import BoxModelBorder1 from './routers/box-model/border/1';
 import TypographicIndex from './routers/typographic/index';
 import TypographicFontFamily from './routers/typographic/font/font-family';
 import TypographicOverflowWrap from './routers/typographic/wrap/overflow-wrap';
+import TypographicTextShadow from './routers/typographic/text/text-shadow';
 
 import VisualIndex from './routers/visual/index';
 import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
@@ -84,6 +85,9 @@ export default [
     },{
         path: '/typographic/wrap/overflow-wrap',
         component: TypographicOverflowWrap
+    },{
+        path: '/typographic/text/text-shadow',
+        component: TypographicTextShadow
     },
 
     {
