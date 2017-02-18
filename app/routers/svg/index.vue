@@ -29,6 +29,14 @@
                             }
                         ]
                     },{
+                        name: 'triangle',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/svg/triangle/1'
+                            }
+                        ]
+                    },{
                         name: 'rectangle',
                         instances: [
                             {
