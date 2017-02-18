@@ -29,6 +29,14 @@
                             }
                         ]
                     },{
+                        name: 'rectangle',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/svg/rectangle/1'
+                            }
+                        ]
+                    },{
                         name: 'circle',
                         instances: [
                             {
