@@ -50,6 +50,7 @@ import TestscrollTop from './routers/test/scroll-top/1';
 
 import SvgIndex from './routers/svg/index';
 import SvgLine1 from './routers/svg/line/1';
+import SvgCircle1 from './routers/svg/circle/1';
 
 export default [
     {
@@ -183,6 +184,9 @@ export default [
     },{
         path: '/svg/line/1',
         component: SvgLine1
+    },{
+        path: '/svg/circle/1',
+        component: SvgCircle1
     },
 
     {
