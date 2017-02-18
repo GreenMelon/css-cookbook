@@ -48,6 +48,9 @@ import ExercismTaiChi1 from './routers/exercism/tai-chi/1';
 import TestIndex from './routers/test/index';
 import TestscrollTop from './routers/test/scroll-top/1';
 
+import SvgIndex from './routers/svg/index';
+import SvgLine1 from './routers/svg/line/1';
+
 export default [
     {
         path: '/',
@@ -172,6 +175,14 @@ export default [
     },{
         path: '/test/scroll-top',
         component: TestscrollTop
+    },
+
+    {
+        path: '/svg',
+        component: SvgIndex
+    },{
+        path: '/svg/line/1',
+        component: SvgLine1
     },
 
     {
