@@ -50,6 +50,9 @@
                     },{
                         name: 'test',
                         route: '/test'
+                    },{
+                        name: 'svg',
+                        route: '/svg'
                     }
                 ]
             }
