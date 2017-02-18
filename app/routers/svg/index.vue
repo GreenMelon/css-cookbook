@@ -28,6 +28,14 @@
                                 route: '/svg/line/1'
                             }
                         ]
+                    },{
+                        name: 'circle',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/svg/circle/1'
+                            }
+                        ]
                     }
                 ]
             }
