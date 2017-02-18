@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/GreenMelon/css-cookbook#readme",
   "dependencies": {
+    "jquery": "^3.1.1",
     "vue": "^2.1.5",
     "vue-router": "^2.1.1"
   },

@@ -47,6 +47,9 @@
                     },{
                         name: 'exercism',
                         route: '/exercism'
+                    },{
+                        name: 'test',
+                        route: '/test'
                     }
                 ]
             }

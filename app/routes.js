@@ -45,6 +45,9 @@ import ExercismHexagonCanvas from './routers/exercism/hexagon/canvas';
 import ExercismFloatCenterFloat from './routers/exercism/float-center/float';
 import ExercismTaiChi1 from './routers/exercism/tai-chi/1';
 
+import TestIndex from './routers/test/index';
+import TestscrollTop from './routers/test/scroll-top/1';
+
 export default [
     {
         path: '/',
@@ -161,6 +164,14 @@ export default [
     },{
         path: '/exercism/tai-chi/1',
         component: ExercismTaiChi1
+    },
+
+    {
+        path: '/test',
+        component: TestIndex
+    },{
+        path: '/test/scroll-top',
+        component: TestscrollTop
     },
 
     {
