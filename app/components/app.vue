@@ -24,6 +24,9 @@
             return {
                 modules: [
                     {
+                        name: 'selector',
+                        route: '/selector'
+                    },{
                         name: 'formatting model',
                         route: '/formatting-model'
                     },{
