@@ -5,6 +5,9 @@
 import NotFound from './routers/404';
 import Index from './routers/index';
 
+import SelectorIndex from './routers/selector/index';
+import SelectorSelection1 from './routers/selector/selection/1';
+
 import FormattingModelIndex from './routers/formatting-model/index';
 import FormattingModelShape1 from './routers/formatting-model/shape/1';
 import FormattingModelShape2 from './routers/formatting-model/shape/2';
@@ -61,6 +64,14 @@ export default [
     }, {
         path: '/index',
         component: Index
+    },
+
+    {
+        path: '/selector',
+        component: SelectorIndex
+    },{
+        path: '/selector/selection/1',
+        component: SelectorSelection1
     },
 
     {
