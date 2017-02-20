@@ -27,6 +27,7 @@ import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
 import VisualBackgroundClip1 from './routers/visual/background-clip/1';
 import VisualBackgroundClipText from './routers/visual/background-clip/text';
+import LinearGradient1 from './routers/visual/linear-gradient/1';
 
 import TableIndex from './routers/table/index';
 import TableLayoutIndex from './routers/table/table-layout/index';
@@ -130,6 +131,9 @@ export default [
     },{
         path: '/visual/background-clip/text',
         component: VisualBackgroundClipText
+    },{
+        path: '/visual/linear-gradient/1',
+        component: LinearGradient1
     },
 
     {

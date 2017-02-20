@@ -42,6 +42,14 @@
                                 route: '/visual/background-clip/text'
                             }
                         ]
+                    },{
+                        name: 'linear-gradient',
+                        instances: [
+                            {
+                                name: '渐变边框',
+                                route: '/visual/linear-gradient/1'
+                            }
+                        ]
                     }
                 ]
             }
