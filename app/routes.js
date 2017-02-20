@@ -7,6 +7,7 @@ import Index from './routers/index';
 
 import SelectorIndex from './routers/selector/index';
 import SelectorSelection1 from './routers/selector/selection/1';
+import BrokenImage from './routers/selector/before/broken-image';
 
 import FormattingModelIndex from './routers/formatting-model/index';
 import FormattingModelShape1 from './routers/formatting-model/shape/1';
@@ -75,6 +76,9 @@ export default [
     },{
         path: '/selector/selection/1',
         component: SelectorSelection1
+    },{
+        path: '/selector/before/broken-image',
+        component: BrokenImage
     },
 
     {

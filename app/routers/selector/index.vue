@@ -21,11 +21,19 @@
             return {
                 categories: [
                     {
-                        name: 'selection',
+                        name: '::selection',
                         instances: [
                             {
                                 name: '001',
                                 route: '/selector/selection/1'
+                            }
+                        ]
+                    },{
+                        name: '::before',
+                        instances: [
+                            {
+                                name: 'broken-image',
+                                route: '/selector/before/broken-image'
                             }
                         ]
                     }
