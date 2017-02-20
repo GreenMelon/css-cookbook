@@ -20,6 +20,7 @@ import TypographicIndex from './routers/typographic/index';
 import TypographicFontFamily from './routers/typographic/font/font-family';
 import TypographicOverflowWrap from './routers/typographic/wrap/overflow-wrap';
 import TypographicTextShadow from './routers/typographic/text/text-shadow';
+import TextTransform from './routers/typographic/text/text-transform';
 
 import VisualIndex from './routers/visual/index';
 import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
@@ -108,6 +109,9 @@ export default [
     },{
         path: '/typographic/text/text-shadow',
         component: TypographicTextShadow
+    },{
+        path: '/typographic/text/text-transform',
+        component: TextTransform
     },
 
     {
