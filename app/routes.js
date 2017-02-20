@@ -32,6 +32,7 @@ import TableIndex from './routers/table/index';
 import TableLayoutIndex from './routers/table/table-layout/index';
 
 import InstanceIndex from './routers/instance/index';
+import Monalisa from './routers/instance/monalisa';
 
 import DrawIndex from './routers/draw/index';
 import DrawBorderRadius1 from './routers/draw/border-radius/1';
@@ -142,6 +143,9 @@ export default [
     {
         path: '/instance',
         component: InstanceIndex
+    },{
+        path: '/instance/monalisa',
+        component: Monalisa
     },
 
     {

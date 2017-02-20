@@ -1,15 +1,10 @@
 <template>
     <main>
         <nav>xxxx</nav>
-        <ul class="list-category mod-categories">
-            <li v-for="category in categories" class="item-main">
-                <h2 v-text="category.name"></h2>
-                <ul class="list-instance">
-                    <li v-for="instance in category.instances" class="item-sub">
-                        <router-link :to="instance.route">{{ instance.name }}
-                        </router-link>
-                    </li>
-                </ul>
+        <ul class="list-instance">
+            <li v-for="instance in instances" class="item-main">
+                <router-link :to="instance.route">{{ instance.name }}
+                </router-link>
             </li>
         </ul>
     </main>
@@ -19,7 +14,12 @@
     module.exports = {
         data() {
             return {
-                categories: []
+                instances: [
+                    {
+                        name: 'monalisa',
+                        route: '/instance/monalisa'
+                    }
+                ]
             }
         },
         methods: {
