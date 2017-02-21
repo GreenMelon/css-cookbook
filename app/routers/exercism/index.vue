@@ -56,6 +56,14 @@
                                 route: '/exercism/tai-chi/1'
                             }
                         ]
+                    },{
+                        name: 'flag',
+                        instances: [
+                            {
+                                name: '摸底小测试',
+                                route: '/exercism/flag/1'
+                            }
+                        ]
                     }
                 ]
             }
