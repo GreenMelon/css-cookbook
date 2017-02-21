@@ -50,6 +50,14 @@
                                 route: '/visual/linear-gradient/1'
                             }
                         ]
+                    },{
+                        name: 'drop-shadow',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/visual/drop-shadow/1'
+                            }
+                        ]
                     }
                 ]
             }

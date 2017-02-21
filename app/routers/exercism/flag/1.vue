@@ -4,7 +4,7 @@
         display: none;
     }
 
-    .flag {
+    .flag.border {
         margin: 10px auto;
         width: 200px;
         height: 150px;
@@ -17,7 +17,7 @@
     <main>
         <nav>xxxx</nav>
         <a href="http://www.cnblogs.com/coco1s/p/5893921.html">draw</a>
-        <div class="flag"></div>
+        <div class="flag border"></div>
         <ul></ul>
     </main>
 </template>
