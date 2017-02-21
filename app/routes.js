@@ -31,6 +31,7 @@ import VisualBackgroundClip1 from './routers/visual/background-clip/1';
 import VisualBackgroundClipText from './routers/visual/background-clip/text';
 import LinearGradient1 from './routers/visual/linear-gradient/1';
 import DropShadow1 from './routers/visual/drop-shadow/1';
+import BoxReflect1 from './routers/visual/box-reflect/1';
 
 import TableIndex from './routers/table/index';
 import TableLayoutIndex from './routers/table/table-layout/index';
@@ -150,6 +151,9 @@ export default [
     },{
         path: '/visual/drop-shadow/1',
         component: DropShadow1
+    },{
+        path: '/visual/box-reflect/1',
+        component: BoxReflect1
     },
 
     {
