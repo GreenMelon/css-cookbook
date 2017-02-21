@@ -34,6 +34,9 @@
                             {
                                 name: 'broken-image',
                                 route: '/selector/before/broken-image'
+                            },{
+                                name: '九宫格',
+                                route: '/selector/before/jiu-gong'
                             }
                         ]
                     }
