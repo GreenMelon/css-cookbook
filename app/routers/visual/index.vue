@@ -58,6 +58,14 @@
                                 route: '/visual/drop-shadow/1'
                             }
                         ]
+                    },{
+                        name: 'box-reflect',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/visual/box-reflect/1'
+                            }
+                        ]
                     }
                 ]
             }
