@@ -42,6 +42,9 @@
                         name: 'table',
                         route: '/table'
                     },{
+                        name: 'form',
+                        route: '/form'
+                    },{
                         name: 'instance',
                         route: '/instance'
                     },{

@@ -33,6 +33,9 @@ import LinearGradient1 from './routers/visual/linear-gradient/1';
 import TableIndex from './routers/table/index';
 import TableLayoutIndex from './routers/table/table-layout/index';
 
+import FormIndex from './routers/form/index';
+import Spellcheck from './routers/form/spellcheck/1';
+
 import InstanceIndex from './routers/instance/index';
 import Monalisa from './routers/instance/monalisa';
 
@@ -146,6 +149,14 @@ export default [
     },{
         path: '/table/table-layout',
         component: TableLayoutIndex
+    },
+
+    {
+        path: '/form',
+        component: FormIndex
+    },{
+        path: '/form/spellcheck/1',
+        component: Spellcheck
     },
 
     {
