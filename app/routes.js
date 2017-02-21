@@ -52,6 +52,7 @@ import ExercismHexagonBorder from './routers/exercism/hexagon/border';
 import ExercismHexagonTransform from './routers/exercism/hexagon/transform';
 import ExercismHexagonSvg from './routers/exercism/hexagon/svg';
 import ExercismHexagonCanvas from './routers/exercism/hexagon/canvas';
+import ExercismFlag from './routers/exercism/flag/1';
 
 import ExercismFloatCenterFloat from './routers/exercism/float-center/float';
 import ExercismTaiChi1 from './routers/exercism/tai-chi/1';
@@ -212,6 +213,9 @@ export default [
     },{
         path: '/exercism/tai-chi/1',
         component: ExercismTaiChi1
+    },{
+        path: '/exercism/flag/1',
+        component: ExercismFlag
     },
 
     {
