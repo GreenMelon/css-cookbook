@@ -18,15 +18,31 @@
     .left {
         -webkit-box-reflect: left;
     }
+
+    .inherit {
+        position: relative;
+        margin-top: 220px;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            bottom: -100%;
+            background: inherit;
+            transform: rotateX(180deg);
+        }
+    }
 </style>
 
 <template>
     <main>
         <nav>xxxx</nav>
-        <!-- <div class='box-reflect above'>above</div> -->
-        <!-- <div class='box-reflect right'>right</div> -->
-        <div class='box-reflect below'>below</div>
-        <!-- <div class='box-reflect left'>left</div> -->
+        <!-- <div class='box-reflect above'></div> -->
+        <!-- <div class='box-reflect right'></div> -->
+        <div class='box-reflect below'></div>
+        <!-- <div class='box-reflect left'></div> -->
+        <div class='box-reflect inherit'></div>
     </main>
 </template>
 
