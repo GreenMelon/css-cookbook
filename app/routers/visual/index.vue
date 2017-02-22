@@ -23,13 +23,17 @@
                     {
                         name: 'box-shadow',
                         instances: [
+                            // {
+                            //     name: 'loading-001',
+                            //     route: '/visual/box-shadow/loading-001'
+                            // },
                             {
-                                name: 'loading-001',
-                                route: '/visual/box-shadow/loading-001'
-                            },{
                                 name: 'loading-002',
                                 route: '/visual/box-shadow/loading-002'
-                            }
+                            },{
+                                name: '明月几时有',
+                                route: '/visual/box-shadow/moon'
+                            },
                         ]
                     },{
                         name: 'background-clip',
