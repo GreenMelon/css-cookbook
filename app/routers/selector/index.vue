@@ -40,6 +40,9 @@
                             },{
                                 name: '计数器',
                                 route: '/selector/before/counter'
+                            },{
+                                name: '扩大点击区域',
+                                route: '/selector/before/pointer-events'
                             }
                         ]
                     }
