@@ -37,6 +37,9 @@
                             },{
                                 name: '九宫格',
                                 route: '/selector/before/jiu-gong'
+                            },{
+                                name: '计数器',
+                                route: '/selector/before/counter'
                             }
                         ]
                     }

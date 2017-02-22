@@ -34,7 +34,7 @@
                     {name: '阴影'},
                     {name: '内阴影'},
                     {name: '滤镜 drop-shadow'},
-                    {name: '渐变 linearGradient'},
+                    {name: '渐变 linear-gradient'},
                     {name: '轮廓 outline'},
                     {name: '滚动条'},
                     {name: 'canvas'},
