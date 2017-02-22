@@ -9,6 +9,7 @@ import SelectorIndex from './routers/selector/index';
 import SelectorSelection1 from './routers/selector/selection/1';
 import BrokenImage from './routers/selector/before/broken-image';
 import JiuGong from './routers/selector/before/jiu-gong';
+import Counter1 from './routers/selector/before/counter-001';
 
 import FormattingModelIndex from './routers/formatting-model/index';
 import FormattingModelShape1 from './routers/formatting-model/shape/1';
@@ -89,6 +90,9 @@ export default [
     },{
         path: '/selector/before/jiu-gong',
         component: JiuGong
+    },{
+        path: '/selector/before/counter',
+        component: Counter1
     },
 
     {
