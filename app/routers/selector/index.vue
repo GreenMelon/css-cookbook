@@ -43,6 +43,9 @@
                             },{
                                 name: '扩大点击区域',
                                 route: '/selector/before/pointer-events'
+                            },{
+                                name: 'input',
+                                route: '/selector/before/input'
                             }
                         ]
                     }
