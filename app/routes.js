@@ -82,7 +82,8 @@ import SvgCircle1 from './routers/svg/circle/1';
 export default [
     {
         path: '/',
-        redirect: '/index'
+        // redirect: '/index'
+        redirect: '/visual/background-clip/text'
     }, {
         path: '/index',
         component: Index
