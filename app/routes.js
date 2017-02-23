@@ -41,6 +41,7 @@ import VisualBackgroundClip1 from './routers/visual/background-clip/1';
 import VisualBackgroundClipText from './routers/visual/background-clip/text';
 import LinearGradient1 from './routers/visual/linear-gradient/1';
 import DropShadow1 from './routers/visual/drop-shadow/1';
+import DropShadow2 from './routers/visual/drop-shadow/2';
 import BoxReflect1 from './routers/visual/box-reflect/1';
 
 import TransformIndex from './routers/transform/index';
@@ -192,6 +193,9 @@ export default [
     },{
         path: '/visual/drop-shadow/1',
         component: DropShadow1
+    },{
+        path: '/visual/drop-shadow/2',
+        component: DropShadow2
     },{
         path: '/visual/box-reflect/1',
         component: BoxReflect1
