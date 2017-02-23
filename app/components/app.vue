@@ -44,12 +44,14 @@
                     },{
                         name: 'table',
                         route: '/table'
-                    },{
-                        name: 'form',
-                        route: '/form'
-                    },{
-                        name: 'instance',
-                        route: '/instance'
+                    },
+                    // {
+                    //     name: 'form',
+                    //     route: '/form'
+                    // },
+                    {
+                        name: 'svg',
+                        route: '/svg'
                     },{
                         name: 'draw',
                         route: '/draw'
@@ -59,9 +61,6 @@
                     },{
                         name: 'test',
                         route: '/test'
-                    },{
-                        name: 'svg',
-                        route: '/svg'
                     }
                 ]
             }

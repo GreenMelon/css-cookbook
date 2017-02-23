@@ -53,6 +53,9 @@
                             },{
                                 name: '是否响应点击事件',
                                 route: '/visual/box-shadow/pointer-events'
+                            },{
+                                name: '蒙娜丽莎',
+                                route: '/visual/box-shadow/monalisa'
                             }
                         ]
                     },{
