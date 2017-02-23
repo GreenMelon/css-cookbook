@@ -28,6 +28,7 @@ import TypographicTextShadow from './routers/typographic/text/text-shadow';
 import TextTransform from './routers/typographic/text/text-transform';
 
 import VisualIndex from './routers/visual/index';
+import Outline1 from './routers/visual/outline/1';
 import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
 import Moon from './routers/visual/box-shadow/moon';
@@ -150,6 +151,9 @@ export default [
     {
         path: '/visual',
         component: VisualIndex
+    },{
+        path: '/visual/outline/1',
+        component: Outline1
     },{
         path: '/visual/box-shadow/loading-001',
         component: VisualBoxShadowLoading1

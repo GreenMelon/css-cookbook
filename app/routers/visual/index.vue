@@ -21,6 +21,14 @@
             return {
                 categories: [
                     {
+                        name: 'outline',
+                        instances: [
+                            {
+                                name: '定义',
+                                route: '/visual/outline/1'
+                            }
+                        ]
+                    },{
                         name: 'box-shadow',
                         instances: [
                             // {
