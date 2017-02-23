@@ -36,6 +36,9 @@
                             },{
                                 name: '多重边框',
                                 route: '/visual/box-shadow/multi-border'
+                            },{
+                                name: '是否响应点击事件',
+                                route: '/visual/box-shadow/pointer-events'
                             }
                         ]
                     },{

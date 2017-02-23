@@ -32,6 +32,7 @@ import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
 import Moon from './routers/visual/box-shadow/moon';
 import MultiBorder from './routers/visual/box-shadow/multi-border';
+import BoxShadowPpointerEvents from './routers/visual/box-shadow/pointer-events';
 import VisualBackgroundClip1 from './routers/visual/background-clip/1';
 import VisualBackgroundClipText from './routers/visual/background-clip/text';
 import LinearGradient1 from './routers/visual/linear-gradient/1';
@@ -158,6 +159,9 @@ export default [
     },{
         path: '/visual/box-shadow/multi-border',
         component: MultiBorder
+    },{
+        path: '/visual/box-shadow/pointer-events',
+        component: BoxShadowPpointerEvents
     },{
         path: '/visual/background-clip/1',
         component: VisualBackgroundClip1
