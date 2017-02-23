@@ -80,6 +80,9 @@
                             {
                                 name: '001',
                                 route: '/visual/drop-shadow/1'
+                            },{
+                                name: '与 box-shadow 比较',
+                                route: '/visual/drop-shadow/2'
                             }
                         ]
                     },{
