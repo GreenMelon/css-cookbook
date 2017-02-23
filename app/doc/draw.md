@@ -16,3 +16,6 @@ http://www.cnblogs.com/fsjohnhuang/p/4127888.html
 
 http://gcdn.gcpowertools.com.cn/showtopic-23858-1-3.html?utm_source=gold.xitu.io&utm_medium=referral&utm_campaign=20170116
 
+http://www.themeshock.com/css-drop-shadow/
+
+http://www.oxxostudio.tw/articles/201503/css-clip-path.html
