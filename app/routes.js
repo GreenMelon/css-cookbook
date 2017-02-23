@@ -29,6 +29,7 @@ import TextTransform from './routers/typographic/text/text-transform';
 
 import VisualIndex from './routers/visual/index';
 import Outline1 from './routers/visual/outline/1';
+import OutlineOffset1 from './routers/visual/outline/outline-offset';
 import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
 import Moon from './routers/visual/box-shadow/moon';
@@ -54,7 +55,6 @@ import Monalisa from './routers/instance/monalisa';
 
 import DrawIndex from './routers/draw/index';
 import DrawBorderRadius1 from './routers/draw/border-radius/1';
-import DrawOutline1 from './routers/draw/outline/1';
 import DrawRadialGradient1 from './routers/draw/radial-gradient/1';
 import DrawClip1 from './routers/draw/clip/1';
 
@@ -155,6 +155,9 @@ export default [
         path: '/visual/outline/1',
         component: Outline1
     },{
+        path: '/visual/outline/outline-offset',
+        component: OutlineOffset1
+    },{
         path: '/visual/box-shadow/loading-001',
         component: VisualBoxShadowLoading1
     },{
@@ -224,9 +227,6 @@ export default [
     },{
         path: '/draw/border-radius/1',
         component: DrawBorderRadius1
-    },{
-        path: '/draw/outline/1',
-        component: DrawOutline1
     },{
         path: '/draw/radial-gradient/1',
         component: DrawRadialGradient1

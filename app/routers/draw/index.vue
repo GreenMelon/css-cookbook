@@ -37,14 +37,6 @@
                             }
                         ]
                     },{
-                        name: 'outline',
-                        instances: [
-                            {
-                                name: '1',
-                                route: '/draw/outline/1'
-                            }
-                        ]
-                    },{
                         name: 'radial-gradient',
                         instances: [
                             {

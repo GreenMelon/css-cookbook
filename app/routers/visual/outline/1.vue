@@ -2,11 +2,14 @@
     p {
         margin: 20px auto;
         width: 400px;
+        height: 50px;
+        line-height: 50px;
         border: 1px solid crimson;
         text-align: center;
     }
     .first {
         outline: 1px dashed orange;
+        outline-offset: 0px;
     }
 </style>
 

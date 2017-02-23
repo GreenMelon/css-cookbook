@@ -26,6 +26,9 @@
                             {
                                 name: '定义',
                                 route: '/visual/outline/1'
+                            },{
+                                name: '偏移',
+                                route: '/visual/outline/outline-offset'
                             }
                         ]
                     },{
