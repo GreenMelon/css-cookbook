@@ -39,6 +39,9 @@ import LinearGradient1 from './routers/visual/linear-gradient/1';
 import DropShadow1 from './routers/visual/drop-shadow/1';
 import BoxReflect1 from './routers/visual/box-reflect/1';
 
+import TransformIndex from './routers/transform/index';
+import Parallelogram from './routers/transform/skew/parallelogram';
+
 import TableIndex from './routers/table/index';
 import TableLayoutIndex from './routers/table/table-layout/index';
 
@@ -177,6 +180,14 @@ export default [
     },{
         path: '/visual/box-reflect/1',
         component: BoxReflect1
+    },
+
+    {
+        path: '/transform',
+        component: TransformIndex
+    },{
+        path: '/transform/skew/parallelogram',
+        component: Parallelogram
     },
 
     {
