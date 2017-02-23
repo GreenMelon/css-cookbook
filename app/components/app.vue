@@ -39,6 +39,9 @@
                         name: 'visual',
                         route: '/visual'
                     },{
+                        name: 'transform',
+                        route: '/transform'
+                    },{
                         name: 'table',
                         route: '/table'
                     },{

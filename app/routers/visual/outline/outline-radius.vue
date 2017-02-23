@@ -9,6 +9,7 @@
         border: 10px solid crimson;
         border-radius: 50%;
         outline: 5px dashed black;
+        -moz-outline-radius: 50%;
     }
 </style>
 
@@ -18,17 +19,6 @@
         <ul>
             <li>
                 <div class="outline"></div>
-                <pre class="pre-code">
-                    <code>
-                        .outline {
-                            width: 100px;
-                            height: 100px;
-                            border: 10px solid crimson;
-                            border-radius: 50%;
-                            outline: 5px dashed black;
-                        }
-                    </code>
-                </pre>
             </li>
         </ul>
     </main>

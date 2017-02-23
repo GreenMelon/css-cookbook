@@ -21,27 +21,11 @@
             return {
                 categories: [
                     {
-                        name: 'border-radius',
+                        name: 'skew',
                         instances: [
                             {
-                                name: '1',
-                                route: '/draw/border-radius/1'
-                            }
-                        ]
-                    },{
-                        name: 'clip',
-                        instances: [
-                            {
-                                name: '1',
-                                route: '/draw/clip/1'
-                            }
-                        ]
-                    },{
-                        name: 'radial-gradient',
-                        instances: [
-                            {
-                                name: '1',
-                                route: '/draw/radial-gradient/1'
+                                name: '平行四边形',
+                                route: '/transform/skew/parallelogram'
                             }
                         ]
                     }

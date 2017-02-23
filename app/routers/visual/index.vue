@@ -21,6 +21,20 @@
             return {
                 categories: [
                     {
+                        name: 'outline',
+                        instances: [
+                            {
+                                name: '定义',
+                                route: '/visual/outline/1'
+                            },{
+                                name: '偏移',
+                                route: '/visual/outline/outline-offset'
+                            },{
+                                name: '圆角',
+                                route: '/visual/outline/outline-radius'
+                            }
+                        ]
+                    },{
                         name: 'box-shadow',
                         instances: [
                             // {
@@ -33,7 +47,13 @@
                             },{
                                 name: '明月几时有',
                                 route: '/visual/box-shadow/moon'
-                            },
+                            },{
+                                name: '多重边框',
+                                route: '/visual/box-shadow/multi-border'
+                            },{
+                                name: '是否响应点击事件',
+                                route: '/visual/box-shadow/pointer-events'
+                            }
                         ]
                     },{
                         name: 'background-clip',

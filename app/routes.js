@@ -28,14 +28,22 @@ import TypographicTextShadow from './routers/typographic/text/text-shadow';
 import TextTransform from './routers/typographic/text/text-transform';
 
 import VisualIndex from './routers/visual/index';
+import Outline1 from './routers/visual/outline/1';
+import OutlineOffset1 from './routers/visual/outline/outline-offset';
+import OutlineRadius from './routers/visual/outline/outline-radius';
 import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
 import Moon from './routers/visual/box-shadow/moon';
+import MultiBorder from './routers/visual/box-shadow/multi-border';
+import BoxShadowPpointerEvents from './routers/visual/box-shadow/pointer-events';
 import VisualBackgroundClip1 from './routers/visual/background-clip/1';
 import VisualBackgroundClipText from './routers/visual/background-clip/text';
 import LinearGradient1 from './routers/visual/linear-gradient/1';
 import DropShadow1 from './routers/visual/drop-shadow/1';
 import BoxReflect1 from './routers/visual/box-reflect/1';
+
+import TransformIndex from './routers/transform/index';
+import Parallelogram from './routers/transform/skew/parallelogram';
 
 import TableIndex from './routers/table/index';
 import TableLayoutIndex from './routers/table/table-layout/index';
@@ -48,8 +56,6 @@ import Monalisa from './routers/instance/monalisa';
 
 import DrawIndex from './routers/draw/index';
 import DrawBorderRadius1 from './routers/draw/border-radius/1';
-import DrawOutline1 from './routers/draw/outline/1';
-import DrawBoxShadow1 from './routers/draw/box-shadow/1';
 import DrawRadialGradient1 from './routers/draw/radial-gradient/1';
 import DrawClip1 from './routers/draw/clip/1';
 
@@ -147,6 +153,15 @@ export default [
         path: '/visual',
         component: VisualIndex
     },{
+        path: '/visual/outline/1',
+        component: Outline1
+    },{
+        path: '/visual/outline/outline-offset',
+        component: OutlineOffset1
+    },{
+        path: '/visual/outline/outline-radius',
+        component: OutlineRadius
+    },{
         path: '/visual/box-shadow/loading-001',
         component: VisualBoxShadowLoading1
     },{
@@ -155,6 +170,12 @@ export default [
     },{
         path: '/visual/box-shadow/moon',
         component: Moon
+    },{
+        path: '/visual/box-shadow/multi-border',
+        component: MultiBorder
+    },{
+        path: '/visual/box-shadow/pointer-events',
+        component: BoxShadowPpointerEvents
     },{
         path: '/visual/background-clip/1',
         component: VisualBackgroundClip1
@@ -170,6 +191,14 @@ export default [
     },{
         path: '/visual/box-reflect/1',
         component: BoxReflect1
+    },
+
+    {
+        path: '/transform',
+        component: TransformIndex
+    },{
+        path: '/transform/skew/parallelogram',
+        component: Parallelogram
     },
 
     {
@@ -202,12 +231,6 @@ export default [
     },{
         path: '/draw/border-radius/1',
         component: DrawBorderRadius1
-    },{
-        path: '/draw/outline/1',
-        component: DrawOutline1
-    },{
-        path: '/draw/box-shadow/1',
-        component: DrawBoxShadow1
     },{
         path: '/draw/radial-gradient/1',
         component: DrawRadialGradient1
