@@ -29,6 +29,9 @@
                             },{
                                 name: '偏移',
                                 route: '/visual/outline/outline-offset'
+                            },{
+                                name: '圆角',
+                                route: '/visual/outline/outline-radius'
                             }
                         ]
                     },{

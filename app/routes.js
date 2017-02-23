@@ -30,6 +30,7 @@ import TextTransform from './routers/typographic/text/text-transform';
 import VisualIndex from './routers/visual/index';
 import Outline1 from './routers/visual/outline/1';
 import OutlineOffset1 from './routers/visual/outline/outline-offset';
+import OutlineRadius from './routers/visual/outline/outline-radius';
 import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
 import Moon from './routers/visual/box-shadow/moon';
@@ -157,6 +158,9 @@ export default [
     },{
         path: '/visual/outline/outline-offset',
         component: OutlineOffset1
+    },{
+        path: '/visual/outline/outline-radius',
+        component: OutlineRadius
     },{
         path: '/visual/box-shadow/loading-001',
         component: VisualBoxShadowLoading1
