@@ -33,7 +33,10 @@
                             },{
                                 name: '明月几时有',
                                 route: '/visual/box-shadow/moon'
-                            },
+                            },{
+                                name: '多重边框',
+                                route: '/visual/box-shadow/multi-border'
+                            }
                         ]
                     },{
                         name: 'background-clip',

@@ -29,14 +29,6 @@
                             }
                         ]
                     },{
-                        name: 'box-shadow',
-                        instances: [
-                            {
-                                name: '1',
-                                route: '/draw/box-shadow/1'
-                            }
-                        ]
-                    },{
                         name: 'clip',
                         instances: [
                             {
