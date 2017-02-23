@@ -21,6 +21,14 @@
             return {
                 categories: [
                     {
+                        name: 'border-radius',
+                        instances: [
+                            {
+                                name: '无穷',
+                                route: '/visual/border-radius/infinity'
+                            }
+                        ]
+                    },{
                         name: 'outline',
                         instances: [
                             {

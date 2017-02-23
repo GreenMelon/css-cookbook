@@ -29,6 +29,7 @@ import TypographicTextShadow from './routers/typographic/text/text-shadow';
 import TextTransform from './routers/typographic/text/text-transform';
 
 import VisualIndex from './routers/visual/index';
+import Infinity from './routers/visual/border-radius/infinity';
 import Outline1 from './routers/visual/outline/1';
 import OutlineOffset1 from './routers/visual/outline/outline-offset';
 import OutlineRadius from './routers/visual/outline/outline-radius';
@@ -155,6 +156,9 @@ export default [
     {
         path: '/visual',
         component: VisualIndex
+    },{
+        path: '/visual/border-radius/infinity',
+        component: Infinity
     },{
         path: '/visual/outline/1',
         component: Outline1
