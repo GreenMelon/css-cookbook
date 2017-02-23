@@ -12,6 +12,7 @@ import JiuGong from './routers/selector/before/jiu-gong';
 import Counter1 from './routers/selector/before/counter-001';
 import PointerEvents from './routers/selector/before/pointer-events';
 import BeforeInput from './routers/selector/before/input';
+import BorderCornerShape from './routers/selector/before/border-corner-shape';
 
 import FormattingModelIndex from './routers/formatting-model/index';
 import FormattingModelShape1 from './routers/formatting-model/shape/1';
@@ -108,6 +109,9 @@ export default [
     },{
         path: '/selector/before/input',
         component: BeforeInput
+    },{
+        path: '/selector/before/border-corner-shape',
+        component: BorderCornerShape
     },
 
     {
