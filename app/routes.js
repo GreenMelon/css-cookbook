@@ -29,6 +29,7 @@ import TypographicTextShadow from './routers/typographic/text/text-shadow';
 import TextTransform from './routers/typographic/text/text-transform';
 
 import VisualIndex from './routers/visual/index';
+import Infinity from './routers/visual/border-radius/infinity';
 import Outline1 from './routers/visual/outline/1';
 import OutlineOffset1 from './routers/visual/outline/outline-offset';
 import OutlineRadius from './routers/visual/outline/outline-radius';
@@ -37,6 +38,7 @@ import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
 import Moon from './routers/visual/box-shadow/moon';
 import MultiBorder from './routers/visual/box-shadow/multi-border';
 import BoxShadowPpointerEvents from './routers/visual/box-shadow/pointer-events';
+import Monalisa from './routers/visual/box-shadow/monalisa';
 import VisualBackgroundClip1 from './routers/visual/background-clip/1';
 import VisualBackgroundClipText from './routers/visual/background-clip/text';
 import LinearGradient1 from './routers/visual/linear-gradient/1';
@@ -52,9 +54,6 @@ import TableLayoutIndex from './routers/table/table-layout/index';
 
 import FormIndex from './routers/form/index';
 import Spellcheck from './routers/form/spellcheck/1';
-
-import InstanceIndex from './routers/instance/index';
-import Monalisa from './routers/instance/monalisa';
 
 import DrawIndex from './routers/draw/index';
 import DrawBorderRadius1 from './routers/draw/border-radius/1';
@@ -83,7 +82,8 @@ import SvgCircle1 from './routers/svg/circle/1';
 export default [
     {
         path: '/',
-        redirect: '/index'
+        // redirect: '/index'
+        redirect: '/visual/background-clip/text'
     }, {
         path: '/index',
         component: Index
@@ -158,6 +158,9 @@ export default [
         path: '/visual',
         component: VisualIndex
     },{
+        path: '/visual/border-radius/infinity',
+        component: Infinity
+    },{
         path: '/visual/outline/1',
         component: Outline1
     },{
@@ -181,6 +184,9 @@ export default [
     },{
         path: '/visual/box-shadow/pointer-events',
         component: BoxShadowPpointerEvents
+    },{
+        path: '/visual/box-shadow/monalisa',
+        component: Monalisa
     },{
         path: '/visual/background-clip/1',
         component: VisualBackgroundClip1
@@ -223,14 +229,6 @@ export default [
     },{
         path: '/form/spellcheck/1',
         component: Spellcheck
-    },
-
-    {
-        path: '/instance',
-        component: InstanceIndex
-    },{
-        path: '/instance/monalisa',
-        component: Monalisa
     },
 
     {

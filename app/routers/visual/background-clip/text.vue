@@ -15,7 +15,7 @@
 <template>
     <main>
         <nav>xxxx</nav>
-        <p>hello world</p>
+        <p>hello caigua</p>
     </main>
 </template>
 

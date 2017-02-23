@@ -21,6 +21,14 @@
             return {
                 categories: [
                     {
+                        name: 'border-radius',
+                        instances: [
+                            {
+                                name: '无穷',
+                                route: '/visual/border-radius/infinity'
+                            }
+                        ]
+                    },{
                         name: 'outline',
                         instances: [
                             {
@@ -53,6 +61,9 @@
                             },{
                                 name: '是否响应点击事件',
                                 route: '/visual/box-shadow/pointer-events'
+                            },{
+                                name: '蒙娜丽莎',
+                                route: '/visual/box-shadow/monalisa'
                             }
                         ]
                     },{
