@@ -46,6 +46,9 @@
                             },{
                                 name: 'input',
                                 route: '/selector/before/input'
+                            },{
+                                name: '内凹圆角',
+                                route: '/selector/before/border-corner-shape'
                             }
                         ]
                     }
