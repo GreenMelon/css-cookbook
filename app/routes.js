@@ -73,6 +73,12 @@ import ExercismTaiChi1 from './routers/exercism/tai-chi/1';
 import TestIndex from './routers/test/index';
 import TestscrollTop from './routers/test/scroll-top/1';
 
+import CanvasIndex from './routers/canvas/index';
+import CanvasLine1 from './routers/canvas/line/1';
+import CanvasTriangle1 from './routers/canvas/triangle/1';
+import CanvasRectangle1 from './routers/canvas/rectangle/1';
+import CanvasCircle1 from './routers/canvas/circle/1';
+
 import SvgIndex from './routers/svg/index';
 import SvgLine1 from './routers/svg/line/1';
 import SvgTriangle1 from './routers/svg/triangle/1';
@@ -277,6 +283,23 @@ export default [
     },{
         path: '/test/scroll-top',
         component: TestscrollTop
+    },
+
+    {
+        path: '/canvas',
+        component: CanvasIndex
+    },{
+        path: '/canvas/line/1',
+        component: CanvasLine1
+    },{
+        path: '/canvas/triangle/1',
+        component: CanvasTriangle1
+    },{
+        path: '/canvas/rectangle/1',
+        component: CanvasRectangle1
+    },{
+        path: '/canvas/circle/1',
+        component: CanvasCircle1
     },
 
     {

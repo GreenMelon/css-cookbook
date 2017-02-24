@@ -53,6 +53,9 @@
                         name: 'svg',
                         route: '/svg'
                     },{
+                        name: 'canvas',
+                        route: '/canvas'
+                    },{
                         name: 'draw',
                         route: '/draw'
                     },{
