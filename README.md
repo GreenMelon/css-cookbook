@@ -1,2 +1,3 @@
-# css-cookbook
-css cookbook by caigua
+# npm i
+# npm run dev
+# 打开 http://localhost:8080/
