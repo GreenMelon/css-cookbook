@@ -51,6 +51,20 @@
         border-radius: 50% ~"/" 100%;
         background-color: red;
     }
+
+    .triangle-top-left {
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-right: 100px solid transparent;
+    }
+
+    .parallelogram {
+        width: 150px;
+        height: 100px;
+        background: red;
+        transform: skew(20deg);
+    }
 </style>
 
 <template>
@@ -144,6 +158,33 @@
                             height: 50px;
                             border-radius: 50% / 100%;
                             background-color: red;
+                        }
+                    </code>
+                </pre>
+            </li>
+            <li>
+                <div class="triangle-top-left"></div>
+                <pre class="pre-code">
+                    <code>
+                        .triangle-top-left {
+                            width: 0;
+                            height: 0;
+                            border-top: 100px solid red;
+                            border-right: 100px solid transparent;
+                        }
+                    </code>
+                </pre>
+            </li>
+            <li>
+                <div class="parallelogram"></div>
+                <pre class="pre-code">
+                    <code>
+                        .parallelogram {
+                            width: 150px;
+                            height: 100px;
+                            margin-left: 20px;
+                            background: red;
+                            transform: skew(20deg);
                         }
                     </code>
                 </pre>
