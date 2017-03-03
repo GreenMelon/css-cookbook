@@ -2,88 +2,89 @@
  * routesborder
  */
 
-import NotFound from './routers/404';
-import Index from './routers/index';
+import NotFound from '../page/404';
+import Index from '../page/index';
 
-import SelectorIndex from './routers/selector/index';
-import SelectorSelection1 from './routers/selector/selection/1';
-import BrokenImage from './routers/selector/before/broken-image';
-import JiuGong from './routers/selector/before/jiu-gong';
-import Counter1 from './routers/selector/before/counter-001';
-import PointerEvents from './routers/selector/before/pointer-events';
-import BeforeInput from './routers/selector/before/input';
-import BorderCornerShape from './routers/selector/before/border-corner-shape';
+import SelectorIndex from '../page/selector/index';
+import SelectorSelection1 from '../page/selector/selection/1';
+import BrokenImage from '../page/selector/before/broken-image';
+import JiuGong from '../page/selector/before/jiu-gong';
+import Counter1 from '../page/selector/before/counter-001';
+import PointerEvents from '../page/selector/before/pointer-events';
+import BeforeInput from '../page/selector/before/input';
+import BorderCornerShape from '../page/selector/before/border-corner-shape';
 
-import FormattingModelIndex from './routers/formatting-model/index';
-import FormattingModelShape1 from './routers/formatting-model/shape/1';
-import FormattingModelShape2 from './routers/formatting-model/shape/2';
+import FormattingModelIndex from '../page/formatting-model/index';
+import FormattingModelShape1 from '../page/formatting-model/shape/1';
+import FormattingModelShape2 from '../page/formatting-model/shape/2';
 
-import BoxModelIndex from './routers/box-model/index';
-import BoxModelClip1 from './routers/box-model/clip/reverse-clip-path-with-blend-modes';
-import BoxModelBorder1 from './routers/box-model/border/1';
+import BoxModelIndex from '../page/box-model/index';
+import BoxModelClip1 from '../page/box-model/clip/reverse-clip-path-with-blend-modes';
+import BoxModelBorder1 from '../page/box-model/border/1';
 
-import TypographicIndex from './routers/typographic/index';
-import TypographicFontFamily from './routers/typographic/font/font-family';
-import TypographicOverflowWrap from './routers/typographic/wrap/overflow-wrap';
-import TypographicTextShadow from './routers/typographic/text/text-shadow';
-import TextTransform from './routers/typographic/text/text-transform';
+import TypographicIndex from '../page/typographic/index';
+import TypographicFontFamily from '../page/typographic/font/font-family';
+import TypographicOverflowWrap from '../page/typographic/wrap/overflow-wrap';
+import TypographicTextShadow from '../page/typographic/text/text-shadow';
+import TextTransform from '../page/typographic/text/text-transform';
 
-import VisualIndex from './routers/visual/index';
-import Infinity from './routers/visual/border-radius/infinity';
-import Outline1 from './routers/visual/outline/1';
-import OutlineOffset1 from './routers/visual/outline/outline-offset';
-import OutlineRadius from './routers/visual/outline/outline-radius';
-import VisualBoxShadowLoading1 from './routers/visual/box-shadow/loading-001';
-import VisualBoxShadowLoading2 from './routers/visual/box-shadow/loading-002';
-import Moon from './routers/visual/box-shadow/moon';
-import MultiBorder from './routers/visual/box-shadow/multi-border';
-import BoxShadowPpointerEvents from './routers/visual/box-shadow/pointer-events';
-import Monalisa from './routers/visual/box-shadow/monalisa';
-import VisualBackgroundClip1 from './routers/visual/background-clip/1';
-import VisualBackgroundClipText from './routers/visual/background-clip/text';
-import LinearGradient1 from './routers/visual/linear-gradient/1';
-import DropShadow1 from './routers/visual/drop-shadow/1';
-import DropShadow2 from './routers/visual/drop-shadow/2';
-import BoxReflect1 from './routers/visual/box-reflect/1';
+import VisualIndex from '../page/visual/index';
+import Infinity from '../page/visual/border-radius/infinity';
+import Outline1 from '../page/visual/outline/1';
+import OutlineOffset1 from '../page/visual/outline/outline-offset';
+import OutlineRadius from '../page/visual/outline/outline-radius';
+import VisualBoxShadowLoading1 from '../page/visual/box-shadow/loading-001';
+import VisualBoxShadowLoading2 from '../page/visual/box-shadow/loading-002';
+import Moon from '../page/visual/box-shadow/moon';
+import MultiBorder from '../page/visual/box-shadow/multi-border';
+import BoxShadowPpointerEvents from '../page/visual/box-shadow/pointer-events';
+import Monalisa from '../page/visual/box-shadow/monalisa';
+import VisualBackgroundClip1 from '../page/visual/background-clip/1';
+import VisualBackgroundClipText from '../page/visual/background-clip/text';
+import LinearGradient1 from '../page/visual/linear-gradient/1';
+import DropShadow1 from '../page/visual/drop-shadow/1';
+import DropShadow2 from '../page/visual/drop-shadow/2';
+import BoxReflect1 from '../page/visual/box-reflect/1';
 
-import TransformIndex from './routers/transform/index';
-import Parallelogram from './routers/transform/skew/parallelogram';
+import TransformIndex from '../page/transform/index';
+import Parallelogram from '../page/transform/skew/parallelogram';
 
-import TableIndex from './routers/table/index';
-import TableLayoutIndex from './routers/table/table-layout/index';
+import TableIndex from '../page/table/index';
+import TableLayoutIndex from '../page/table/table-layout/index';
 
-import FormIndex from './routers/form/index';
-import Spellcheck from './routers/form/spellcheck/1';
+import FormIndex from '../page/form/index';
+import Spellcheck from '../page/form/spellcheck/1';
 
-import DrawIndex from './routers/draw/index';
-import DrawBorderRadius1 from './routers/draw/border-radius/1';
-import DrawRadialGradient1 from './routers/draw/radial-gradient/1';
-import DrawClip1 from './routers/draw/clip/1';
+import DrawIndex from '../page/draw/index';
+import DrawBorderRadius1 from '../page/draw/border-radius/1';
+import DrawRadialGradient1 from '../page/draw/radial-gradient/1';
+import DrawClip1 from '../page/draw/clip/1';
 
-import ExercismIndex from './routers/exercism/index';
-import ExercismHexagonBorder from './routers/exercism/hexagon/border';
-import ExercismHexagonTransform from './routers/exercism/hexagon/transform';
-import ExercismHexagonSvg from './routers/exercism/hexagon/svg';
-import ExercismHexagonCanvas from './routers/exercism/hexagon/canvas';
-import ExercismFlag from './routers/exercism/flag/1';
+import ExercismIndex from '../page/exercism/index';
+import ExercismHexagonBorder from '../page/exercism/hexagon/border';
+import ExercismHexagonTransform from '../page/exercism/hexagon/transform';
+import ExercismHexagonSvg from '../page/exercism/hexagon/svg';
+import ExercismHexagonCanvas from '../page/exercism/hexagon/canvas';
+import ExercismFlag from '../page/exercism/flag/1';
 
-import ExercismFloatCenterFloat from './routers/exercism/float-center/float';
-import ExercismTaiChi1 from './routers/exercism/tai-chi/1';
+import ExercismFloatCenterFloat from '../page/exercism/float-center/float';
+import ExercismTaiChi1 from '../page/exercism/tai-chi/1';
 
-import TestIndex from './routers/test/index';
-import TestscrollTop from './routers/test/scroll-top/1';
+import TestIndex from '../page/test/index';
+import TestscrollTop from '../page/test/scroll-top/1';
+import TestAce from '../page/test/editor/ace';
 
-import CanvasIndex from './routers/canvas/index';
-import CanvasLine1 from './routers/canvas/line/1';
-import CanvasTriangle1 from './routers/canvas/triangle/1';
-import CanvasRectangle1 from './routers/canvas/rectangle/1';
-import CanvasCircle1 from './routers/canvas/circle/1';
+import CanvasIndex from '../page/canvas/index';
+import CanvasLine1 from '../page/canvas/line/1';
+import CanvasTriangle1 from '../page/canvas/triangle/1';
+import CanvasRectangle1 from '../page/canvas/rectangle/1';
+import CanvasCircle1 from '../page/canvas/circle/1';
 
-import SvgIndex from './routers/svg/index';
-import SvgLine1 from './routers/svg/line/1';
-import SvgTriangle1 from './routers/svg/triangle/1';
-import SvgRectangle1 from './routers/svg/rectangle/1';
-import SvgCircle1 from './routers/svg/circle/1';
+import SvgIndex from '../page/svg/index';
+import SvgLine1 from '../page/svg/line/1';
+import SvgTriangle1 from '../page/svg/triangle/1';
+import SvgRectangle1 from '../page/svg/rectangle/1';
+import SvgCircle1 from '../page/svg/circle/1';
 
 export default [
     {
@@ -283,6 +284,9 @@ export default [
     },{
         path: '/test/scroll-top',
         component: TestscrollTop
+    },{
+        path: '/test/ace',
+        component: TestAce
     },
 
     {

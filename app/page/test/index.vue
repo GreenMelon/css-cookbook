@@ -26,6 +26,9 @@
                             {
                                 name: 'scrollTop',
                                 route: '/test/scroll-top'
+                            },{
+                                name: 'ace',
+                                route: '/test/ace'
                             }
                         ]
                     }
