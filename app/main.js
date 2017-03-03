@@ -8,7 +8,7 @@ import VueRouter from 'vue-router';
 import App from './app.vue';
 // import Env from './config/env';
 
-import routes from './routes';
+import routes from './config/routes';
 
 Vue.use(VueRouter);
 
