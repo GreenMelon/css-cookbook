@@ -3,7 +3,7 @@
         margin: 20px auto;
         width: 200px;
         height: 200px;
-        background-image: url('../../../image/superman.jpg');
+        background-image: url('/app/images/superman.jpg');
         background-size: contain;
     }
     .above {

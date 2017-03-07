@@ -1,24 +1,24 @@
-@import '../base/variable.less';
-@import '../base/mixin.less';
+@font-size: 14px;
 
-.app {
-    height: 100vh;
-    padding: 50px 25px 25px 225px;
-    background-color: #f7f8f9;
-    transition: padding-left .2s;
-    aside {
-        position: absolute;
-        top: 50px;
-        left: 25px;
-        width: 200px;
-        transition: left .2s;
-    }
-    main {
-        margin-left: 2em;
-        height: 100%;
-        padding: 20px;
-        border-radius: 10px;
-        background-color: @white;
-        overflow-y: scroll;
-    }
+body {
+    min-height: 100vh;
+    padding: 2em;
+    font-size: @font-size;
+    background: #f7f8f9;
+}
+
+#app {
+    display: flex;
+}
+
+.list-module {
+    margin-right: 2*@font-size;
+    width: 240px;
+}
+
+main {
+    width: 100%;
+    padding: @font-size;
+    border-radius: 4px;
+    background: #fff;
 }
