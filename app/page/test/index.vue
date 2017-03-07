@@ -27,8 +27,8 @@
                                 name: 'scrollTop',
                                 route: '/test/scroll-top'
                             },{
-                                name: 'ace',
-                                route: '/test/ace'
+                                name: 'brace',
+                                route: '/test/brace'
                             }
                         ]
                     }
