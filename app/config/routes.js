@@ -72,7 +72,7 @@ import ExercismTaiChi1 from '../page/exercism/tai-chi/1';
 
 import TestIndex from '../page/test/index';
 import TestscrollTop from '../page/test/scroll-top/1';
-import TestAce from '../page/test/editor/ace';
+import TestBrace from '../page/test/editor/brace';
 
 import CanvasIndex from '../page/canvas/index';
 import CanvasLine1 from '../page/canvas/line/1';
@@ -285,8 +285,8 @@ export default [
         path: '/test/scroll-top',
         component: TestscrollTop
     },{
-        path: '/test/ace',
-        component: TestAce
+        path: '/test/brace',
+        component: TestBrace
     },
 
     {
