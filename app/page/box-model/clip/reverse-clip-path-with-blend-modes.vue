@@ -25,14 +25,14 @@
 
     .first {
         background-color: #C5075C;
-        background-image: url("../../../image/Ichi.gif");
+        background-image: url("/app/images/Ichi.gif");
 
         transform: translateX(-65%) translateY(-50%);
     }
 
     .second {
         background-color: #03B897;
-        background-image: url("../../../image/001.gif");
+        background-image: url("/app/images/001.gif");
 
 
         transform: translateX(-35%) translateY(-50%);
@@ -60,11 +60,6 @@
                     <div class="triangle first"></div>
                     <div class="triangle second"></div>
                 </div>
-                <pre class="pre-code">
-                    <code>
-                        //
-                    </code>
-                </pre>
                 <a href="http://codepen.io/Zeaklous/pen/mVEwje" target="_blank">view in codePen</a>
             </li>
         </ul>

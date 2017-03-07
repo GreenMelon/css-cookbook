@@ -28,8 +28,8 @@
         <nav>xxxx</nav>
         <ul>
             <li>
-                <img src="../../../image/superman.jpg" width="200" alt="x">
-                <img src="../../../image/superman.jpg" width="200" alt="x">
+                <img src="/app/images/superman.jpg" width="200" alt="x">
+                <img src="/app/images/superman.jpg" width="200" alt="x">
             </li>
             <li>
                 <span></span>

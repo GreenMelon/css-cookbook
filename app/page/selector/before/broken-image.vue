@@ -40,7 +40,7 @@
         <nav>xxxx</nav>
         <ul>
             <li>
-                <img src="../../../image/blue-sky.jpg" alt="banner">
+                <img src="/app/images/blue-sky.jpg" alt="banner">
             </li>
             <li>
                 <img src="https://caigua.com/image/blue-sky.jpg" alt="banner">

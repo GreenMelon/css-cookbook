@@ -3,9 +3,9 @@
 </style>
 
 <template>
-    <div class="app">
+    <div id="app">
         <aside>
-            <ul class="list-module mod-modules">
+            <ul class="mod-modules list-module">
                 <li v-for="module in modules" class="item">
                     <router-link
                         :to="module.route"
