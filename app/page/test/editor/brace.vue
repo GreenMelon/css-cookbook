@@ -7,8 +7,10 @@
 <template>
     <main>
         <nav>xxxx</nav>
-        <button @click="submit" type="button">click me</button>
+        <button @click="insert" type="button">insert</button>
+        <button @click="validate" type="button">validate</button>
         <div id="brace"></div>
+        <p v-text="isValid"></p>
     </main>
 </template>
 
@@ -20,20 +22,42 @@
     module.exports = {
         data() {
             return {
+                editor: null,
+
                 code: {
                     name: 'caigua',
                     age: 24,
                     favor: ['nba', 'writting']
                 },
-                editor: null
+
+                isValid: false
             }
         },
         methods: {
-            submit() {
+            insert() {
                 let value = JSON.stringify(this.code);
                 this.editor.setValue(JSON.stringify(JSON.parse(value), null, '\t'));
 
                 // this.editor.setValue(JSON.stringify(this.code), null, '\t');
+            },
+            validate() {
+                // const isJSON = json => {
+                //     var isJson = typeof json == 'object' && Object.prototype.toString.call(json).toLowerCase() == '[object object]' && !json.length;
+                //     return isJson;
+                // };
+
+                const isJSON = json => {
+                    try {
+                        JSON.parse(json);
+                        return true;
+                    } catch(e) {
+                        console.log(e);
+                        return false;
+                    }
+                }
+
+                let code = this.editor.getValue();
+                this.isValid = isJSON(code);
             }
         },
         mounted() {
