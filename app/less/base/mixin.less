@@ -10,3 +10,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.calc(@prop; @val){
+    @{prop}: -webkit-calc(~'@{val}');
+    @{prop}: -moz-calc(~'@{val}');
+    @{prop}: -o-calc(~'@{val}');
+    @{prop}: calc(~'@{val}');
+}

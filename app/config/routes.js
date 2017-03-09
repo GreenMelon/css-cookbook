@@ -71,8 +71,9 @@ import ExercismFloatCenterFloat from '../page/exercism/float-center/float';
 import ExercismTaiChi1 from '../page/exercism/tai-chi/1';
 
 import TestIndex from '../page/test/index';
-import TestscrollTop from '../page/test/scroll-top/1';
-import TestBrace from '../page/test/editor/brace';
+import ScrollTop from '../page/test/scroll-top/1';
+import Brace from '../page/test/editor/brace';
+import Clipboard001 from '../page/test/clipboard/001';
 
 import CanvasIndex from '../page/canvas/index';
 import CanvasLine1 from '../page/canvas/line/1';
@@ -89,8 +90,7 @@ import SvgCircle1 from '../page/svg/circle/1';
 export default [
     {
         path: '/',
-        // redirect: '/index'
-        redirect: '/visual/background-clip/text'
+        redirect: '/index'
     }, {
         path: '/index',
         component: Index
@@ -283,10 +283,13 @@ export default [
         component: TestIndex
     },{
         path: '/test/scroll-top',
-        component: TestscrollTop
+        component: ScrollTop
     },{
         path: '/test/brace',
-        component: TestBrace
+        component: Brace
+    },{
+        path: '/test/clipboard/001',
+        component: Clipboard001
     },
 
     {
