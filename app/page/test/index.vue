@@ -29,6 +29,9 @@
                             },{
                                 name: 'brace',
                                 route: '/test/brace'
+                            },{
+                                name: 'clipboard',
+                                route: '/test/clipboard/001'
                             }
                         ]
                     }
