@@ -74,6 +74,7 @@ import TestIndex from '../page/test/index';
 import ScrollTop from '../page/test/scroll-top/1';
 import Brace from '../page/test/editor/brace';
 import Clipboard001 from '../page/test/clipboard/001';
+import FileReaderImgae from '../page/test/filereader/image';
 
 import CanvasIndex from '../page/canvas/index';
 import CanvasLine1 from '../page/canvas/line/1';
@@ -290,6 +291,9 @@ export default [
     },{
         path: '/test/clipboard/001',
         component: Clipboard001
+    },{
+        path: '/test/filereader/image',
+        component: FileReaderImgae
     },
 
     {

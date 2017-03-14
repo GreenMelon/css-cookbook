@@ -32,6 +32,9 @@
                             },{
                                 name: 'clipboard',
                                 route: '/test/clipboard/001'
+                            },{
+                                name: 'FileReader',
+                                route: '/test/filereader/image'
                             }
                         ]
                     }
