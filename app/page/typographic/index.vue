@@ -40,6 +40,9 @@
                             },{
                                 name: 'text-transform',
                                 route: '/typographic/text/text-transform'
+                            },{
+                                name: 'writing-mode',
+                                route: '/typographic/text/writing-mode'
                             }
                         ]
                     }

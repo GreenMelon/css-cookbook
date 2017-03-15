@@ -27,6 +27,7 @@ import TypographicFontFamily from '../page/typographic/font/font-family';
 import TypographicOverflowWrap from '../page/typographic/wrap/overflow-wrap';
 import TypographicTextShadow from '../page/typographic/text/text-shadow';
 import TextTransform from '../page/typographic/text/text-transform';
+import WritingMode from '../page/typographic/text/writing-mode';
 
 import VisualIndex from '../page/visual/index';
 import Infinity from '../page/visual/border-radius/infinity';
@@ -160,6 +161,9 @@ export default [
     },{
         path: '/typographic/text/text-transform',
         component: TextTransform
+    },{
+        path: '/typographic/text/writing-mode',
+        component: WritingMode
     },
 
     {
