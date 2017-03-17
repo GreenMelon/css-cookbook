@@ -1,3 +1,69 @@
-.flex() {
-    display: flex;
+/**
+ * 此文件来自 https://gist.github.com/jayj/4012969
+ * 删除了 -moz 和 -ms 前缀，专注于移动端
+ */
+
+.flex-display(@display: flex) {
+    display: ~"-webkit-@{display}";
+    display: @display;
+}
+
+.flex(@columns: initial) {
+    -webkit-flex: @columns;
+    flex: @columns;
+}
+
+.flex-direction(@direction: row) {
+    -webkit-flex-direction: @direction;
+    flex-direction: @direction;
+}
+
+.flex-wrap(@wrap: nowrap) {
+    -webkit-flex-wrap: @wrap;
+    flex-wrap: @wrap;
+}
+
+.flex-flow(@flow) {
+    -webkit-flex-flow: @flow;
+    flex-flow: @flow;
+}
+
+.flex-order(@order: 0) {
+    -webkit-order: @order;
+    order: @order;
+}
+
+.flex-grow(@grow: 0) {
+    -webkit-flex-grow: @grow;
+    flex-grow: @grow;
+}
+
+.flex-shrink(@shrink: 1) {
+    -webkit-flex-shrink: @shrink;
+    flex-shrink: @shrink;
+}
+
+.flex-basis(@width: auto) {
+    -webkit-flex-basis: @width;
+    flex-basis: @width;
+}
+
+.justify-content(@justify: flex-start) {
+    -webkit-justify-content: @justify;
+    justify-content: @justify;
+}
+
+.align-content(@align: stretch) {
+    -webkit-align-content: @align;
+    align-content: @align;
+}
+
+.align-items(@align: stretch) {
+    -webkit-align-items: @align;
+    align-items: @align;
+}
+
+.align-self(@align: auto) {
+    -webkit-align-self: @align;
+    align-self: @align;
 }
