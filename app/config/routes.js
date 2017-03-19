@@ -46,6 +46,7 @@ import LinearGradient1 from '../page/visual/linear-gradient/1';
 import DropShadow1 from '../page/visual/drop-shadow/1';
 import DropShadow2 from '../page/visual/drop-shadow/2';
 import BoxReflect1 from '../page/visual/box-reflect/1';
+import Cursor from '../page/visual/cursor/001';
 
 import TransformIndex from '../page/transform/index';
 import Parallelogram from '../page/transform/skew/parallelogram';
@@ -217,6 +218,9 @@ export default [
     },{
         path: '/visual/box-reflect/1',
         component: BoxReflect1
+    },{
+        path: '/visual/cursor/001',
+        component: Cursor
     },
 
     {
