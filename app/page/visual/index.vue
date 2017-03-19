@@ -104,6 +104,14 @@
                                 route: '/visual/box-reflect/1'
                             }
                         ]
+                    },{
+                        name: 'cursor',
+                        instances: [
+                            {
+                                name: '自定义鼠标样式',
+                                route: '/visual/cursor/001'
+                            }
+                        ]
                     }
                 ]
             }
