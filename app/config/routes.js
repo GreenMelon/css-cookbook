@@ -57,6 +57,9 @@ import TableLayoutIndex from '../page/table/table-layout/index';
 import FormIndex from '../page/form/index';
 import Spellcheck from '../page/form/spellcheck/1';
 
+import ImageIndex from '../page/image/index';
+import Srcset001 from '../page/image/srcset/001';
+
 import DrawIndex from '../page/draw/index';
 import DrawBorderRadius1 from '../page/draw/border-radius/1';
 import DrawRadialGradient1 from '../page/draw/radial-gradient/1';
@@ -229,6 +232,14 @@ export default [
     },{
         path: '/transform/skew/parallelogram',
         component: Parallelogram
+    },
+
+    {
+        path: '/image',
+        component: ImageIndex
+    },{
+        path: '/image/srcset/001',
+        component: Srcset001
     },
 
     {
