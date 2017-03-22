@@ -5,3 +5,7 @@ npm-debug.log
 # build
 dist/
 app/css
+
+# sublime
+*.sublime-project
+*.sublime-workspace

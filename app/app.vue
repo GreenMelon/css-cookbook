@@ -44,12 +44,13 @@
                     },{
                         name: 'table',
                         route: '/table'
-                    },
-                    // {
-                    //     name: 'form',
-                    //     route: '/form'
-                    // },
-                    {
+                    },{
+                        name: 'form',
+                        route: '/form'
+                    },{
+                        name: 'image',
+                        route: '/image'
+                    },{
                         name: 'svg',
                         route: '/svg'
                     },{
