@@ -3,8 +3,7 @@
 
 <template>
     <main>
-        <nav>剪贴板</nav>
-
+        <h1>剪贴板</h1>
     </main>
 </template>
 
