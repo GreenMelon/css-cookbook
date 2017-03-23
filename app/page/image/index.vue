@@ -29,6 +29,14 @@
                             }
                         ]
                     },{
+                        name: 'sizes',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/image/sizes/001'
+                            }
+                        ]
+                    },{
                         name: 'usemap',
                         instances: [
                             {

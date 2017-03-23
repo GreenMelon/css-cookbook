@@ -59,6 +59,7 @@ import Spellcheck from '../page/form/spellcheck/1';
 
 import ImageIndex from '../page/image/index';
 import Srcset001 from '../page/image/srcset/001';
+import Sizes001 from '../page/image/sizes/001';
 
 import DrawIndex from '../page/draw/index';
 import DrawBorderRadius1 from '../page/draw/border-radius/1';
@@ -240,6 +241,9 @@ export default [
     },{
         path: '/image/srcset/001',
         component: Srcset001
+    },{
+        path: '/image/sizes/001',
+        component: Sizes001
     },
 
     {
