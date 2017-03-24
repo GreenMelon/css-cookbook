@@ -44,6 +44,14 @@
                                 route: '/image/usemap/001'
                             }
                         ]
+                    },{
+                        name: 'image-set',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/image/image-set/001'
+                            }
+                        ]
                     }
                 ]
             }
