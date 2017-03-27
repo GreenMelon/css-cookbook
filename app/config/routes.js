@@ -13,6 +13,7 @@ import Counter1 from '../page/selector/before/counter-001';
 import PointerEvents from '../page/selector/before/pointer-events';
 import BeforeInput from '../page/selector/before/input';
 import BorderCornerShape from '../page/selector/before/border-corner-shape';
+import Empty from '../page/selector/empty/001';
 
 import FormattingModelIndex from '../page/formatting-model/index';
 import FormattingModelShape1 from '../page/formatting-model/shape/1';
@@ -127,6 +128,9 @@ export default [
     },{
         path: '/selector/before/border-corner-shape',
         component: BorderCornerShape
+    },{
+        path: '/selector/empty/001',
+        component: Empty
     },
 
     {

@@ -51,7 +51,15 @@
                                 route: '/selector/before/border-corner-shape'
                             }
                         ]
-                    }
+                    },{
+                        name: ':empty',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/selector/empty/001'
+                            }
+                        ]
+                    },
                 ]
             }
         },
