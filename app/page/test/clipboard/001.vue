@@ -27,12 +27,42 @@
     <main>
         <h1>剪贴板</h1>
         <div id="clip-zone" contenteditable="true"></div>
-        <button @click="paste()" class="btn-paste" type="button">粘贴</button>
+        <button @click="paste" class="btn-paste" type="button">粘贴</button>
     </main>
 </template>
 
 <script>
     import $ from 'jquery';
+    const addImage = img => {
+        const clipZone = document.getElementById('clip-zone');
+        clipZone.appendChild(img);
+    };
+
+    const createImage = imageData => {
+        let img = new Image();
+        img.onload = function() {
+            addImage(img);
+        };
+        img.src = imageData;
+        return img;
+    };
+
+    const pasteImage = ev => {
+        let items = ev.clipboardData.items;
+        if(items) {
+            [].slice.call(items).forEach(item => {
+                if(item && item.type.indexOf('image') !== -1) {
+                    let blob = item.getAsFile();
+                    let reader = new FileReader();
+                    reader.onload = ev => {
+                        createImage(ev.target.result);
+                    };
+                    reader.readAsDataURL(blob);
+                    ev.preventDefault();
+                }
+            });
+        }
+    };
 
     module.exports = {
         data() {
@@ -41,12 +71,12 @@
             }
         },
         methods: {
-            paste() {
+            paste(ev) {
                 //
             }
         },
-        mounted() {
-            //
+        created() {
+            document.addEventListener('paste', pasteImage, false);
         }
     };
 </script>
