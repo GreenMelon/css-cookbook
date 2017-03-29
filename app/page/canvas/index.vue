@@ -52,6 +52,14 @@
                                 route: '/canvas/circle/1'
                             }
                         ]
+                    },{
+                        name: 'drawImage',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/canvas/draw-image/001'
+                            }
+                        ]
                     }
                 ]
             }
