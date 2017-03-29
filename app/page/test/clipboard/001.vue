@@ -1,7 +1,7 @@
 <style lang="less" scoped>
     #clip-zone {
         margin-top: 30px;
-        min-height: 300px;
+        height: 300px;
         padding: 10px;
         border: 2px dashed #000;
         outline: none;
@@ -9,25 +9,12 @@
     #clip-zone:focus {
         border-color: #007dd4;
     }
-    .btn-paste {
-        margin-top: 10px;
-        width: 100px;
-        height: 30px;
-        line-height: 30px;
-        font-size: 14px;
-        text-align: center;
-        background: #007dd4;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
 </style>
 
 <template>
     <main>
         <h1>剪贴板</h1>
         <div id="clip-zone" contenteditable="true"></div>
-        <button @click="paste" class="btn-paste" type="button">粘贴</button>
     </main>
 </template>
 
@@ -35,6 +22,12 @@
     import $ from 'jquery';
     const addImage = img => {
         const clipZone = document.getElementById('clip-zone');
+
+        img.style.maxHeight = '100%';
+        img.style.maxWidth = '100%';
+        img.style.height = 'auto';
+        img.style.width = 'auto';
+
         clipZone.appendChild(img);
     };
 
@@ -47,7 +40,10 @@
         return img;
     };
 
-    const pasteImage = ev => {
+    const paste = ev => {
+        console.log('paste');
+        ev.preventDefault();
+
         let items = ev.clipboardData.items;
         if(items) {
             [].slice.call(items).forEach(item => {
@@ -58,7 +54,6 @@
                         createImage(ev.target.result);
                     };
                     reader.readAsDataURL(blob);
-                    ev.preventDefault();
                 }
             });
         }
@@ -71,12 +66,14 @@
             }
         },
         methods: {
-            paste(ev) {
-                //
-            }
+            //
         },
-        created() {
-            document.addEventListener('paste', pasteImage, false);
+        mounted() {
+            document.addEventListener('paste', paste, false);
+        },
+        destoryed() {
+            console.log('destoryed');
+            document.removeEventListener('paste', paste, false);
         }
     };
 </script>
