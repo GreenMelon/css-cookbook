@@ -5,16 +5,13 @@
         font-size: 60px;
         background-color: purple;
     }
-    button {
+    #btn-draw {
         display: inline-block;
         width: 100px;
         height: 20px;
         line-height: 20px;
         font-size: 14px;
         text-align: center;
-    }
-    canvas {
-        // display: block;
     }
 </style>
 
@@ -26,7 +23,7 @@
                 <span style="color: gold">TEXT</span>
             </div>
         </div>
-        <button @click="draw" type="button">export</button><br>
+        <button @click="draw" id="btn-draw" type="button">draw</button><br>
         <canvas id="canvas" width="1000" height="100"></canvas>
     </main>
 </template>
@@ -41,31 +38,33 @@
                 let context = canvas.getContext('2d');
 
                 let source = document.getElementById('source');
-                let offsetX = source.offsetLeft;
-                let offsetY = source.offsetTop;
                 let height = source.offsetHeight;
                 let width = source.offsetWidth;
+                let html = source.innerHTML;
+
+                let styleSheet = `<style lang="css">
+                    html, body {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    #target {
+                        height: 120px;
+                        line-height: 120px;
+                        font-size: 60px;
+                        background-color: purple;
+                    }
+                </style>`;
 
                 canvas.height = height;
                 canvas.width = width;
 
-                const docElem = document.documentElement;
-                let docHeight = docElem.scrollHeight;
-                let docWidth = docElem.scrollWidth;
-                let html = this.excludeScripts(docElem.innerHTML);
-
-                rasterizeHTML.drawHTML(html, {
-                    width: docWidth,
-                    height: docHeight
+                rasterizeHTML.drawHTML(styleSheet + html, {
+                    width: width,
+                    height: height
                 })
                 .then(res => {
-                    const image = res.image;
-                    context.drawImage(image, offsetX, offsetY, width, height, 0, 0, width, height);
+                    context.drawImage(res.image, 0, 0, width, height, 0, 0, width, height);
                 });
-            },
-            excludeScripts(str) {
-                const reg_script = /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi;
-                return str.replace(reg_script, '');
             }
         },
         mounted() {
