@@ -111,7 +111,6 @@
             },
             select(ev) {
                 const elem = ev.target;
-                debugger;
             }
         },
         mounted() {
