@@ -58,6 +58,9 @@
                             {
                                 name: '001',
                                 route: '/canvas/draw-image/001'
+                            },{
+                                name: '002',
+                                route: '/canvas/draw-image/002'
                             }
                         ]
                     }

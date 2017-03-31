@@ -89,6 +89,7 @@ import CanvasTriangle1 from '../page/canvas/triangle/1';
 import CanvasRectangle1 from '../page/canvas/rectangle/1';
 import CanvasCircle1 from '../page/canvas/circle/1';
 import drawImage001 from '../page/canvas/draw-image/001';
+import drawImage002 from '../page/canvas/draw-image/002';
 
 import SvgIndex from '../page/svg/index';
 import SvgLine1 from '../page/svg/line/1';
@@ -342,6 +343,9 @@ export default [
     },{
         path: '/canvas/draw-image/001',
         component: drawImage001
+    },{
+        path: '/canvas/draw-image/002',
+        component: drawImage002
     },
 
     {
