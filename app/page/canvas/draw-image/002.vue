@@ -21,6 +21,10 @@
         <div id="source">
             <div id="target">
                 <span style="color: gold">TEXT</span>
+                <!-- Access-Control-Allow-Origin: no -->
+                <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="baidu" style="height: 100%;">
+                <!-- Access-Control-Allow-Origin: yes -->
+                <img src="https://st0.dancf.com/www/20775/design/20170127-142439-17.jpg" alt="baidu" style="height: 100%;">
             </div>
         </div>
         <button @click="draw" id="btn-draw" type="button">draw</button><br>
@@ -65,6 +69,20 @@
                 .then(res => {
                     context.drawImage(res.image, 0, 0, width, height, 0, 0, width, height);
                 });
+            },
+            base64() {
+                // get svg data
+                // var xml = new XMLSerializer().serializeToString(svg);
+                // make it base64
+                // var svg64 = btoa(xml);
+                // var b64Start = 'data:image/svg+xml;base64,';
+
+                // prepend a "header"
+                // var image64 = b64Start + svg64;
+
+                // set it as the source of the img element
+                // img.src = image64;
+
             }
         },
         mounted() {
