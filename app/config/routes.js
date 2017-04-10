@@ -84,12 +84,9 @@ import Clipboard001 from '../page/test/clipboard/001';
 import FileReaderImgae from '../page/test/filereader/image';
 
 import CanvasIndex from '../page/canvas/index';
-import CanvasLine1 from '../page/canvas/line/1';
-import CanvasTriangle1 from '../page/canvas/triangle/1';
-import CanvasRectangle1 from '../page/canvas/rectangle/1';
-import CanvasCircle1 from '../page/canvas/circle/1';
 import drawImage001 from '../page/canvas/draw-image/001';
 import drawImage002 from '../page/canvas/draw-image/002';
+import drawImage003 from '../page/canvas/draw-image/003';
 
 import SvgIndex from '../page/svg/index';
 import SvgLine1 from '../page/svg/line/1';
@@ -329,23 +326,14 @@ export default [
         path: '/canvas',
         component: CanvasIndex
     },{
-        path: '/canvas/line/1',
-        component: CanvasLine1
-    },{
-        path: '/canvas/triangle/1',
-        component: CanvasTriangle1
-    },{
-        path: '/canvas/rectangle/1',
-        component: CanvasRectangle1
-    },{
-        path: '/canvas/circle/1',
-        component: CanvasCircle1
-    },{
         path: '/canvas/draw-image/001',
         component: drawImage001
     },{
         path: '/canvas/draw-image/002',
         component: drawImage002
+    },{
+        path: '/canvas/draw-image/003',
+        component: drawImage003
     },
 
     {
