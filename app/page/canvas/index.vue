@@ -21,38 +21,6 @@
             return {
                 categories: [
                     {
-                        name: 'line',
-                        instances: [
-                            {
-                                name: '001',
-                                route: '/canvas/line/1'
-                            }
-                        ]
-                    },{
-                        name: 'triangle',
-                        instances: [
-                            {
-                                name: '001',
-                                route: '/canvas/triangle/1'
-                            }
-                        ]
-                    },{
-                        name: 'rectangle',
-                        instances: [
-                            {
-                                name: '001',
-                                route: '/canvas/rectangle/1'
-                            }
-                        ]
-                    },{
-                        name: 'circle',
-                        instances: [
-                            {
-                                name: '001',
-                                route: '/canvas/circle/1'
-                            }
-                        ]
-                    },{
                         name: 'drawImage',
                         instances: [
                             {
@@ -61,6 +29,9 @@
                             },{
                                 name: '002',
                                 route: '/canvas/draw-image/002'
+                            },{
+                                name: '003',
+                                route: '/canvas/draw-image/003'
                             }
                         ]
                     }
