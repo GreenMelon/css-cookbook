@@ -60,5 +60,5 @@
 </template>
 
 <script>
-    module.exports = {};
+    export default {};
 </script>

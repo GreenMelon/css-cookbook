@@ -33,7 +33,7 @@
 <script>
     import rasterizeHTML from 'rasterizehtml';
 
-    module.exports = {
+    export default {
         methods: {
             draw() {
                 let canvas = document.getElementById('canvas');

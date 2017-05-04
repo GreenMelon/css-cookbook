@@ -35,7 +35,7 @@
 </template>
 
 <script>
-    module.exports = {
+    export default {
         data() {
             return {
                 url: 'http://ss.bdimg.com/static/superman/img/logo/bd_logo1_31bdc765.png'

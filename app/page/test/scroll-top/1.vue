@@ -21,7 +21,7 @@
 
 <script>
     import $ from 'jquery';
-    module.exports = {
+    export default {
         data() {
             return {}
         },

@@ -40,7 +40,7 @@
 </template>
 
 <script>
-    module.exports = {
+    export default {
         methods: {
             submit(e) {
                 console.log(e.target);
