@@ -21,7 +21,7 @@
 </template>
 
 <script>
-    module.exports = {
+    export default {
         methods: {
             draw() {
                 let canvas = document.getElementById('hexagon');

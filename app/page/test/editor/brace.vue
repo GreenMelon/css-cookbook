@@ -19,7 +19,7 @@
     import 'brace/mode/javascript';
     import 'brace/theme/monokai';
 
-    module.exports = {
+    export default {
         data() {
             return {
                 editor: null,

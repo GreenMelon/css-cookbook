@@ -11,7 +11,7 @@
 </template>
 
 <script>
-    module.exports = {
+    export default {
         data() {
             return {
                 // url: '/app/assets/slice/icon-weibo.png'
