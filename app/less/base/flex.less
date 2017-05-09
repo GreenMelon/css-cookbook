@@ -1,69 +1,150 @@
+/* ----------------------- *\
+    Flexbox LESS mixins
+\* ----------------------- */
+
+
+
 /**
- * 此文件来自 https://gist.github.com/jayj/4012969
- * 删除了 -moz 和 -ms 前缀，专注于移动端
+ * display
+ * flex | inline-flex
  */
 
 .flex-display(@display: flex) {
     display: ~"-webkit-@{display}";
+    display: ~"-ms-@{display}box";  // IE10
+    display: ~"-ms-@{display}";     // IE11
     display: @display;
 }
 
+/**
+ * flex简写
+ * <positive-number> | initial | auto | or none
+ */
+
 .flex(@columns: initial) {
     -webkit-flex: @columns;
-    flex: @columns;
+        -ms-flex: @columns;
+            flex: @columns;
 }
+
+/**
+ * 主轴的方向
+ * row | row-reverse | column | column-reverse
+ */
 
 .flex-direction(@direction: row) {
     -webkit-flex-direction: @direction;
-    flex-direction: @direction;
+        -ms-flex-direction: @direction;
+            flex-direction: @direction;
 }
+
+/**
+ * 轴线上是否换行
+ * nowrap | wrap | wrap-reverse
+ */
 
 .flex-wrap(@wrap: nowrap) {
     -webkit-flex-wrap: @wrap;
-    flex-wrap: @wrap;
+        -ms-flex-wrap: @wrap;
+            flex-wrap: @wrap;
 }
 
-.flex-flow(@flow) {
+/**
+ * Flex Direction and Wrap
+ * <flex-direction> || <flex-wrap>
+ */
+
+.flex-flow(@flow: row nowrap) {
     -webkit-flex-flow: @flow;
-    flex-flow: @flow;
+        -ms-flex-flow: @flow;
+            flex-flow: @flow;
 }
+
+/**
+ * 项目的排列顺序
+ * <integer>
+ */
 
 .flex-order(@order: 0) {
     -webkit-order: @order;
-    order: @order;
+        -ms-order: @order;
+            order: @order;
 }
+
+/**
+ * 项目的放大比例
+ * <number>
+ */
 
 .flex-grow(@grow: 0) {
     -webkit-flex-grow: @grow;
-    flex-grow: @grow;
+        -ms-flex-grow: @grow;
+            flex-grow: @grow;
 }
+
+/**
+ * 项目的缩小比例
+ * <number>
+ */
 
 .flex-shrink(@shrink: 1) {
     -webkit-flex-shrink: @shrink;
-    flex-shrink: @shrink;
+        -ms-flex-shrink: @shrink;
+            flex-shrink: @shrink;
 }
+
+/**
+ * 在分配多余空间之前,项目占据的主轴空间
+ * <width>
+ */
 
 .flex-basis(@width: auto) {
     -webkit-flex-basis: @width;
-    flex-basis: @width;
+        -ms-flex-basis: @width;
+            flex-basis: @width;
 }
+
+/**
+ * 主轴对齐方式
+ * flex-start | flex-end | center | space-between | space-around
+ */
 
 .justify-content(@justify: flex-start) {
     -webkit-justify-content: @justify;
-    justify-content: @justify;
+        -ms-justify-content: @justify;
+            justify-content: @justify;
 }
+
+/**
+ * 多根轴线的对齐方式
+ * 如果项目只有一根轴线,该属性不起作用
+ * flex-start | flex-end | center | space-between | space-around | stretch
+ */
 
 .align-content(@align: stretch) {
     -webkit-align-content: @align;
-    align-content: @align;
+        -ms-align-content: @align;
+            align-content: @align;
 }
+
+/**
+ * 交叉轴的对齐方式
+ * flex-start | flex-end | center | baseline | stretch
+ */
 
 .align-items(@align: stretch) {
     -webkit-align-items: @align;
-    align-items: @align;
+        -ms-align-items: @align;
+            align-items: @align;
 }
+
+/**
+ * 单个项目有与其他项目不一样的对齐方式
+ * auto | flex-start | flex-end | center | baseline | stretch
+ */
 
 .align-self(@align: auto) {
     -webkit-align-self: @align;
-    align-self: @align;
+        -ms-align-self: @align;
+            align-self: @align;
 }
