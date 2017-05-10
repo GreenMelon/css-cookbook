@@ -26,6 +26,7 @@ import BoxModelBorder1 from '../page/box-model/border/1';
 import TypographicIndex from '../page/typographic/index';
 import TypographicFontFamily from '../page/typographic/font/font-family';
 import TypographicOverflowWrap from '../page/typographic/wrap/overflow-wrap';
+import TypographicTextAlign from '../page/typographic/text/text-align';
 import TypographicTextShadow from '../page/typographic/text/text-shadow';
 import TextTransform from '../page/typographic/text/text-transform';
 import WritingMode from '../page/typographic/text/writing-mode';
@@ -163,6 +164,9 @@ export default [
     },{
         path: '/typographic/wrap/overflow-wrap',
         component: TypographicOverflowWrap
+    },{
+        path: '/typographic/text/text-align',
+        component: TypographicTextAlign
     },{
         path: '/typographic/text/text-shadow',
         component: TypographicTextShadow

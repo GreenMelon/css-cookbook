@@ -35,6 +35,9 @@
                         name: 'text',
                         instances: [
                             {
+                                name: 'text-align',
+                                route: '/typographic/text/text-align'
+                            },{
                                 name: 'text-shadow',
                                 route: '/typographic/text/text-shadow'
                             },{
