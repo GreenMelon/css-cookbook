@@ -18,6 +18,7 @@ import Empty from '../page/selector/empty/001';
 import FormattingModelIndex from '../page/formatting-model/index';
 import FormattingModelShape1 from '../page/formatting-model/shape/1';
 import FormattingModelShape2 from '../page/formatting-model/shape/2';
+import VerticalAlign from '../page/formatting-model/align/vertical-align';
 
 import BoxModelIndex from '../page/box-model/index';
 import BoxModelClip1 from '../page/box-model/clip/reverse-clip-path-with-blend-modes';
@@ -25,6 +26,7 @@ import BoxModelBorder1 from '../page/box-model/border/1';
 
 import TypographicIndex from '../page/typographic/index';
 import TypographicFontFamily from '../page/typographic/font/font-family';
+import TypographicFontSmoothing from '../page/typographic/font/font-smoothing';
 import TypographicOverflowWrap from '../page/typographic/wrap/overflow-wrap';
 import TypographicTextAlign from '../page/typographic/text/text-align';
 import TypographicTextShadow from '../page/typographic/text/text-shadow';
@@ -142,6 +144,9 @@ export default [
     },{
         path: '/formatting-model/shape/2',
         component: FormattingModelShape2
+    },{
+        path: '/formatting-model/align/vertical-align',
+        component: VerticalAlign
     },
 
     {
@@ -161,6 +166,9 @@ export default [
     },{
         path: '/typographic/font/font-family',
         component: TypographicFontFamily
+    },{
+        path: '/typographic/font/font-smoothing',
+        component: TypographicFontSmoothing
     },{
         path: '/typographic/wrap/overflow-wrap',
         component: TypographicOverflowWrap

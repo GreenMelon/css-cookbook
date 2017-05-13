@@ -39,7 +39,15 @@
                                 route: '/formatting-model/shape/2'
                             }
                         ]
-                    }
+                    },{
+                        name: '对齐',
+                        instances: [
+                            {
+                                name: '垂直对齐',
+                                route: '/formatting-model/align/vertical-align'
+                            }
+                        ]
+                    },
                 ]
             }
         },

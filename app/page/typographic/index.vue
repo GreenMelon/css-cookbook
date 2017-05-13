@@ -27,6 +27,9 @@
                                 name: 'font-family',
                                 route: '/typographic/font/font-family'
                             },{
+                                name: 'font-smoothing',
+                                route: '/typographic/font/font-smoothing'
+                            },{
                                 name: 'overflow-wrap',
                                 route: '/typographic/wrap/overflow-wrap'
                             }
