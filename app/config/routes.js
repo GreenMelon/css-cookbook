@@ -16,8 +16,8 @@ import BorderCornerShape from '../page/selector/before/border-corner-shape';
 import Empty from '../page/selector/empty/001';
 
 import FormattingModelIndex from '../page/formatting-model/index';
-import FormattingModelShape1 from '../page/formatting-model/shape/1';
-import FormattingModelShape2 from '../page/formatting-model/shape/2';
+import Shape1 from '../page/formatting-model/shape/1';
+import Shape2 from '../page/formatting-model/shape/2';
 import VerticalAlign from '../page/formatting-model/align/vertical-align';
 
 import BoxModelIndex from '../page/box-model/index';
@@ -140,10 +140,10 @@ export default [
         component: FormattingModelIndex
     },{
         path: '/formatting-model/shape/1',
-        component: FormattingModelShape1
+        component: Shape1
     },{
         path: '/formatting-model/shape/2',
-        component: FormattingModelShape2
+        component: Shape2
     },{
         path: '/formatting-model/align/vertical-align',
         component: VerticalAlign
