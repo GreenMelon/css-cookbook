@@ -51,6 +51,9 @@
                         name: 'image',
                         route: '/image'
                     },{
+                        name: 'pointerevents',
+                        route: '/pointerevents'
+                    },{
                         name: 'svg',
                         route: '/svg'
                     },{

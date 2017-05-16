@@ -97,6 +97,9 @@ import SvgTriangle1 from '../page/svg/triangle/1';
 import SvgRectangle1 from '../page/svg/rectangle/1';
 import SvgCircle1 from '../page/svg/circle/1';
 
+import PointerEventsIndex from '../page/pointerevents/index';
+import TouchAction001 from '../page/pointerevents/touch-action/001';
+
 export default [
     {
         path: '/',
@@ -363,6 +366,14 @@ export default [
     },{
         path: '/svg/circle/1',
         component: SvgCircle1
+    },
+
+    {
+        path: '/pointerevents',
+        component: PointerEventsIndex
+    },{
+        path: '/touch-action/001',
+        component: TouchAction001
     },
 
     {
