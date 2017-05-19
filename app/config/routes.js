@@ -14,6 +14,7 @@ import PointerEvents from '../page/selector/before/pointer-events';
 import BeforeInput from '../page/selector/before/input';
 import BorderCornerShape from '../page/selector/before/border-corner-shape';
 import Empty from '../page/selector/empty/001';
+import FocusWithin from '../page/selector/focus-within/001';
 
 import FormattingModelIndex from '../page/formatting-model/index';
 import Shape1 from '../page/formatting-model/shape/1';
@@ -112,6 +113,9 @@ export default [
     {
         path: '/selector',
         component: SelectorIndex
+    },{
+        path: '/selector/focus-within/001',
+        component: FocusWithin,
     },{
         path: '/selector/selection/1',
         component: SelectorSelection1

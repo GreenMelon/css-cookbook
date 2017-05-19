@@ -59,7 +59,15 @@
                                 route: '/selector/empty/001'
                             }
                         ]
-                    },
+                    },{
+                        name: ':focus-within',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/selector/focus-within/001'
+                            }
+                        ]
+                    }
                 ]
             }
         },
