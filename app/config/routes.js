@@ -86,6 +86,7 @@ import ScrollTop from '../page/test/scroll-top/1';
 import Brace from '../page/test/editor/brace';
 import Clipboard001 from '../page/test/clipboard/001';
 import FileReaderImgae from '../page/test/filereader/image';
+import Sync from '../page/test/sync/1';
 
 import CanvasIndex from '../page/canvas/index';
 import drawImage001 from '../page/canvas/draw-image/001';
@@ -339,6 +340,9 @@ export default [
     },{
         path: '/test/filereader/image',
         component: FileReaderImgae
+    },{
+        path: '/test/sync',
+        component: Sync
     },
 
     {
