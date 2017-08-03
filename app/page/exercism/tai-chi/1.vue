@@ -40,7 +40,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <i class="tai-chi"></i>
     </main>
 </template>

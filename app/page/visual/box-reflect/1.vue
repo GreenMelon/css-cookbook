@@ -37,7 +37,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <!-- <div class='box-reflect above'></div> -->
         <!-- <div class='box-reflect right'></div> -->
         <div class='box-reflect below'></div>

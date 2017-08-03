@@ -34,7 +34,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <div class="border-radius-inner">
             <i></i>
             <i></i>

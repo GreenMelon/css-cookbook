@@ -10,7 +10,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <p class="cursor"></p>
     </main>
 </template>

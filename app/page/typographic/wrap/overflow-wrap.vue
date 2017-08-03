@@ -16,7 +16,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <b>normal</b>

@@ -29,7 +29,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <div class="infinity"></div>
     </main>
 </template>

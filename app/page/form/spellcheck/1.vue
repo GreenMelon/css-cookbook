@@ -17,7 +17,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck">spellcheck</a>
         <table>
             <tr>

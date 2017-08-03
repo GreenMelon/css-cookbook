@@ -30,7 +30,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <button @click="submit($event)" type="button">submit</button>

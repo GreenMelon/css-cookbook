@@ -19,7 +19,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <p>CSS3 ::selection Selector.</p>

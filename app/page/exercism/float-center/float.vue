@@ -39,7 +39,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <div class="page wrapper">
             <img src="/app/images/blue-sky.jpg" class="logo">
             <div class="page-left">

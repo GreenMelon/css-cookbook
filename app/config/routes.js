@@ -23,7 +23,6 @@ import VerticalAlign from '../page/formatting-model/align/vertical-align';
 
 import BoxModelIndex from '../page/box-model/index';
 import BoxModelClip1 from '../page/box-model/clip/reverse-clip-path-with-blend-modes';
-import BoxModelBorder1 from '../page/box-model/border/1';
 
 import TypographicIndex from '../page/typographic/index';
 import TypographicFontFamily from '../page/typographic/font/font-family';
@@ -76,7 +75,6 @@ import ExercismHexagonBorder from '../page/exercism/hexagon/border';
 import ExercismHexagonTransform from '../page/exercism/hexagon/transform';
 import ExercismHexagonSvg from '../page/exercism/hexagon/svg';
 import ExercismHexagonCanvas from '../page/exercism/hexagon/canvas';
-import ExercismFlag from '../page/exercism/flag/1';
 
 import ExercismFloatCenterFloat from '../page/exercism/float-center/float';
 import ExercismTaiChi1 from '../page/exercism/tai-chi/1';
@@ -163,9 +161,6 @@ export default [
     },{
         path: '/box-model/clip/reverse-clip-path-with-blend-modes',
         component: BoxModelClip1
-    },{
-        path: '/box-model/border/1',
-        component: BoxModelBorder1
     },
 
     {
@@ -320,9 +315,6 @@ export default [
     },{
         path: '/exercism/tai-chi/1',
         component: ExercismTaiChi1
-    },{
-        path: '/exercism/flag/1',
-        component: ExercismFlag
     },
 
     {

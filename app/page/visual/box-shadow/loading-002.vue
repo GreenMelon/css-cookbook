@@ -189,7 +189,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <div class="ui-loading"></div>

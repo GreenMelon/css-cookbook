@@ -54,7 +54,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <div class="languages">

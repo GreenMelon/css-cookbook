@@ -6,7 +6,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <button @click="insert" type="button">insert</button>
         <button @click="validate" type="button">validate</button>
         <div id="brace"></div>

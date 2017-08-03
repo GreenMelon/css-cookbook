@@ -9,7 +9,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <p class="MSYH">微软雅黑 Light</p>

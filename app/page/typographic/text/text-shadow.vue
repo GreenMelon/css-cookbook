@@ -7,7 +7,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <p>text-shadow</p>

@@ -28,7 +28,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <div class="hexagon"></div>
