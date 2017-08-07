@@ -14,7 +14,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <p>hello caigua</p>
     </main>
 </template>

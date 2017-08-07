@@ -27,7 +27,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <button @click="toggleShape" type="button">Shape</button>
         <div class="wrapper clearfix">
             <div :class="{shape: isShape}" class="circle"></div>

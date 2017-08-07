@@ -25,7 +25,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <h1>:empty 选择器匹配没有子元素(包括文本节点)的每个元素</h1>
         <ul>
             <li>

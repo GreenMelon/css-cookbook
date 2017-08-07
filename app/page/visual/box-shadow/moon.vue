@@ -51,7 +51,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <div class="moon-night">
             <div class="moon"></div>
             <div class="moutain"></div>

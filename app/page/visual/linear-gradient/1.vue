@@ -36,7 +36,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <div class="envelope"></div>

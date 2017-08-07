@@ -15,7 +15,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <p class="first">如果规定了 !DOCTYPE，则 IE8 支持 outline 属性</p>

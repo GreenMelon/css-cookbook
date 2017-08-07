@@ -7589,7 +7589,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <div class="monalisa"></div>
     </main>
 </template>

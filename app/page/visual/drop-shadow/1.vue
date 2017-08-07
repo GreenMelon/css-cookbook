@@ -10,7 +10,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <div class="flag"></div>
         <ul></ul>
     </main>

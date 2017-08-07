@@ -37,7 +37,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <img src="/app/images/blue-sky.jpg" alt="banner">

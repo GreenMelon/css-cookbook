@@ -11,7 +11,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <div class="parent" id="div">
             <div class="child"></div>
         </div>

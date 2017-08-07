@@ -24,7 +24,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <div></div>
     </main>
 </template>

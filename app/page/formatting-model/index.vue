@@ -1,6 +1,5 @@
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul class="list-category mod-categories">
             <li v-for="category in categories" class="item-main">
                 <h2 v-text="category.name"></h2>

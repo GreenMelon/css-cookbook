@@ -25,7 +25,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <img src="/app/images/superman.jpg" width="200" alt="x">

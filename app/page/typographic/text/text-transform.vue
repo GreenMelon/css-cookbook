@@ -15,7 +15,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <p class="capitalize">caigua.chinn@qq.com</p>

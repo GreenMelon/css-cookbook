@@ -13,7 +13,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <button @click="changeMode('horizontal-tb')" type="button">horizontal-tb</button>
         <button @click="changeMode('vertical-lr')" type="button">vertical-lr</button>
         <button @click="changeMode('vertical-rl')" type="button">vertical-rl</button>

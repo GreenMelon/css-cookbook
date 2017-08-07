@@ -11,7 +11,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <h1>auto: 表格自动算法</h1>

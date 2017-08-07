@@ -15,7 +15,6 @@
 
 <template>
     <main>
-        <nav>xxxx</nav>
         <ul>
             <li>
                 <div class="outline"></div>
