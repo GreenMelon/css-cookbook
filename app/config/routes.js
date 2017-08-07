@@ -25,11 +25,12 @@ import BoxModelIndex from '../page/box-model/index';
 import BoxModelClip1 from '../page/box-model/clip/reverse-clip-path-with-blend-modes';
 
 import TypographicIndex from '../page/typographic/index';
-import TypographicFontFamily from '../page/typographic/font/font-family';
-import TypographicFontSmoothing from '../page/typographic/font/font-smoothing';
-import TypographicOverflowWrap from '../page/typographic/wrap/overflow-wrap';
-import TypographicTextAlign from '../page/typographic/text/text-align';
-import TypographicTextShadow from '../page/typographic/text/text-shadow';
+import FontFamily from '../page/typographic/font/font-family';
+import FontSmoothing from '../page/typographic/font/font-smoothing';
+import OverflowWrap from '../page/typographic/wrap/overflow-wrap';
+import LineClamp from '../page/typographic/wrap/line-clamp';
+import TextAlign from '../page/typographic/text/text-align';
+import TextShadow from '../page/typographic/text/text-shadow';
 import TextTransform from '../page/typographic/text/text-transform';
 import WritingMode from '../page/typographic/text/writing-mode';
 
@@ -168,19 +169,22 @@ export default [
         component: TypographicIndex
     },{
         path: '/typographic/font/font-family',
-        component: TypographicFontFamily
+        component: FontFamily
     },{
         path: '/typographic/font/font-smoothing',
-        component: TypographicFontSmoothing
+        component: FontSmoothing
     },{
         path: '/typographic/wrap/overflow-wrap',
-        component: TypographicOverflowWrap
+        component: OverflowWrap
+    },{
+        path: '/typographic/wrap/line-clamp',
+        component: LineClamp
     },{
         path: '/typographic/text/text-align',
-        component: TypographicTextAlign
+        component: TextAlign
     },{
         path: '/typographic/text/text-shadow',
-        component: TypographicTextShadow
+        component: TextShadow
     },{
         path: '/typographic/text/text-transform',
         component: TextTransform
