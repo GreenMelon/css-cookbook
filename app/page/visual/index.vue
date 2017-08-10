@@ -77,11 +77,19 @@
                             }
                         ]
                     },{
-                        name: 'linear-gradient',
+                        name: 'linear-gradient 线性渐变',
                         instances: [
                             {
                                 name: '渐变边框',
                                 route: '/visual/linear-gradient/1'
+                            }
+                        ]
+                    },{
+                        name: 'conic-gradient 圆锥渐变',
+                        instances: [
+                            {
+                                name: '圆锥渐变',
+                                route: '/visual/conic-gradient/1'
                             }
                         ]
                     },{
