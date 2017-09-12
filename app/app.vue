@@ -68,6 +68,9 @@
                     },{
                         name: 'test',
                         route: '/test'
+                    },{
+                        name: 'instances',
+                        route: '/instances'
                     }
                 ]
             }
