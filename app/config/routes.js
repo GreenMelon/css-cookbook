@@ -102,6 +102,9 @@ import SvgCircle1 from '../page/svg/circle/1';
 import PointerEventsIndex from '../page/pointerevents/index';
 import TouchAction001 from '../page/pointerevents/touch-action/001';
 
+import InstancesIndex from '../page/instances/index';
+import Menu001 from '../page/instances/menu';
+
 export default [
     {
         path: '/',
@@ -385,9 +388,16 @@ export default [
     },
 
     {
-        path: '*',
-        component: NotFound
+        path: '/instances',
+        component: InstancesIndex
+    },{
+        path: '/instances/menu/001',
+        component: Menu001
     },
 
+    {
+        path: '*',
+        component: NotFound
+    }
 
 ];

@@ -1,0 +1,26 @@
+<template>
+    <main>
+        <ul>
+            <li v-for="instance in instances">
+                <router-link :to="instance.route">{{ instance.name }}</router-link>
+            </li>
+        </ul>
+    </main>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                instances: [
+                    {
+                        name: '手风琴式导航',
+                        route: '/instances/menu/001'
+                    }
+                ]
+            }
+        },
+        methods: {},
+        created() {}
+    }
+</script>
