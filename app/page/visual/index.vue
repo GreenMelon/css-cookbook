@@ -82,6 +82,9 @@
                             {
                                 name: '渐变边框',
                                 route: '/visual/linear-gradient/1'
+                            },{
+                                name: '渐变动画',
+                                route: '/visual/linear-gradient/gradient-animation'
                             }
                         ]
                     },{
