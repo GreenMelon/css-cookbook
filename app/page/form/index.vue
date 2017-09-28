@@ -27,6 +27,14 @@
                                 route: '/form/spellcheck/1'
                             }
                         ]
+                    },{
+                        name: 'autocomplete',
+                        instances: [
+                            {
+                                name: '1',
+                                route: '/form/autocomplete/1'
+                            }
+                        ]
                     }
                 ]
             }
