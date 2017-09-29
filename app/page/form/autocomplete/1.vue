@@ -8,6 +8,10 @@
             -webkit-text-fill-color: #333;
         }
     }
+    // 方式三
+    input:-webkit-autofill {
+        transition: background 9999s ease;
+    }
 </style>
 
 <template>
