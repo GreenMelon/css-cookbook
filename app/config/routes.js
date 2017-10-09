@@ -64,6 +64,7 @@ import TableLayoutIndex from '../page/table/table-layout/index';
 import FormIndex from '../page/form/index';
 import Spellcheck from '../page/form/spellcheck/1';
 import Autocomplete from '../page/form/autocomplete/1';
+import FormCursor from '../page/form/cursor/1';
 
 import ImageIndex from '../page/image/index';
 import Srcset001 from '../page/image/srcset/001';
@@ -297,6 +298,9 @@ export default [
     },{
         path: '/form/autocomplete/1',
         component: Autocomplete
+    },{
+        path: '/form/cursor/1',
+        component: FormCursor
     },
 
     {
