@@ -35,6 +35,14 @@
                                 route: '/form/autocomplete/1'
                             }
                         ]
+                    },{
+                        name: 'cursor',
+                        instances: [
+                            {
+                                name: '1',
+                                route: '/form/cursor/1'
+                            }
+                        ]
                     }
                 ]
             }
