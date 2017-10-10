@@ -37,6 +37,9 @@
                                 name: 'text-align',
                                 route: '/typographic/text/text-align'
                             },{
+                                name: 'text-align-justify',
+                                route: '/typographic/text/text-align-justify'
+                            },{
                                 name: 'text-shadow',
                                 route: '/typographic/text/text-shadow'
                             },{
