@@ -30,6 +30,7 @@ import FontSmoothing from '../page/typographic/font/font-smoothing';
 import OverflowWrap from '../page/typographic/wrap/overflow-wrap';
 import LineClamp from '../page/typographic/wrap/line-clamp';
 import TextAlign from '../page/typographic/text/text-align';
+import TextAlignJustify from '../page/typographic/text/text-align-justify';
 import TextShadow from '../page/typographic/text/text-shadow';
 import TextTransform from '../page/typographic/text/text-transform';
 import WritingMode from '../page/typographic/text/writing-mode';
@@ -189,6 +190,9 @@ export default [
     },{
         path: '/typographic/text/text-align',
         component: TextAlign
+    },{
+        path: '/typographic/text/text-align-justify',
+        component: TextAlignJustify
     },{
         path: '/typographic/text/text-shadow',
         component: TextShadow
