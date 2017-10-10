@@ -50,6 +50,7 @@ import VisualBackgroundClip1 from '../page/visual/background-clip/1';
 import VisualBackgroundClipText from '../page/visual/background-clip/text';
 import LinearGradient1 from '../page/visual/linear-gradient/1';
 import GradientAnimation from '../page/visual/linear-gradient/gradient-animation';
+import Waveline from '../page/visual/linear-gradient/waveline';
 import ConicGradient1 from '../page/visual/conic-gradient/1';
 import DropShadow1 from '../page/visual/drop-shadow/1';
 import DropShadow2 from '../page/visual/drop-shadow/2';
@@ -249,6 +250,9 @@ export default [
     },{
         path: '/visual/linear-gradient/gradient-animation',
         component: GradientAnimation
+    },{
+        path: '/visual/linear-gradient/waveline',
+        component: Waveline
     },{
         path: '/visual/conic-gradient/1',
         component: ConicGradient1

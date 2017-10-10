@@ -85,6 +85,9 @@
                             },{
                                 name: '渐变动画',
                                 route: '/visual/linear-gradient/gradient-animation'
+                            },{
+                                name: '波浪线',
+                                route: '/visual/linear-gradient/waveline'
                             }
                         ]
                     },{
