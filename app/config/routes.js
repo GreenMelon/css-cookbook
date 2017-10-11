@@ -58,6 +58,7 @@ import BoxReflect1 from '../page/visual/box-reflect/1';
 import Cursor from '../page/visual/cursor/001';
 import FilterIndex from '../page/visual/filter/001';
 import FilterGradientShadow from '../page/visual/filter/gradient-shadow';
+import Fusion from '../page/visual/filter/fusion';
 
 import TransformIndex from '../page/transform/index';
 import Parallelogram from '../page/transform/skew/parallelogram';
@@ -276,6 +277,9 @@ export default [
     },{
         path: '/visual/filter/gradient-shadow',
         component: FilterGradientShadow
+    },{
+        path: '/visual/filter/fusion',
+        component: Fusion
     },
 
     {
