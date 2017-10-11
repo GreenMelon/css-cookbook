@@ -57,6 +57,7 @@ import DropShadow2 from '../page/visual/drop-shadow/2';
 import BoxReflect1 from '../page/visual/box-reflect/1';
 import Cursor from '../page/visual/cursor/001';
 import FilterIndex from '../page/visual/filter/001';
+import FilterGradientShadow from '../page/visual/filter/gradient-shadow';
 
 import TransformIndex from '../page/transform/index';
 import Parallelogram from '../page/transform/skew/parallelogram';
@@ -272,6 +273,9 @@ export default [
     },{
         path: '/visual/filter/001',
         component: FilterIndex
+    },{
+        path: '/visual/filter/gradient-shadow',
+        component: FilterGradientShadow
     },
 
     {
