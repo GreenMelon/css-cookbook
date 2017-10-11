@@ -129,8 +129,11 @@
                         name: 'filter 滤镜',
                         instances: [
                             {
-                                name: '001',
+                                name: '全部滤镜效果',
                                 route: '/visual/filter/001'
+                            },{
+                                name: '颜色丰富的阴影',
+                                route: '/visual/filter/gradient-shadow'
                             }
                         ]
                     }
