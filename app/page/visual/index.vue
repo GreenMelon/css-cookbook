@@ -125,6 +125,14 @@
                                 route: '/visual/cursor/001'
                             }
                         ]
+                    },{
+                        name: 'filter 滤镜',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/visual/filter/001'
+                            }
+                        ]
                     }
                 ]
             }
