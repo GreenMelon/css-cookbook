@@ -74,7 +74,7 @@
                         name: '灰度',
                         value: 'grayscale'
                     },{
-                        name: '褐色',
+                        name: '怀旧',
                         value: 'sepia'
                     },{
                         name: '色相旋转',
