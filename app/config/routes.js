@@ -112,6 +112,7 @@ import TouchAction001 from '../page/pointerevents/touch-action/001';
 
 import InstancesIndex from '../page/instances/index';
 import Menu001 from '../page/instances/menu';
+import IosBtn from '../page/instances/ios-btn';
 
 export default [
     {
@@ -423,8 +424,11 @@ export default [
         path: '/instances',
         component: InstancesIndex
     },{
-        path: '/instances/menu/001',
+        path: '/instances/menu',
         component: Menu001
+    },{
+        path: '/instances/ios-btn',
+        component: IosBtn
     },
 
     {

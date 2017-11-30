@@ -15,12 +15,13 @@
                 instances: [
                     {
                         name: '手风琴式导航',
-                        route: '/instances/menu/001'
+                        route: '/instances/menu'
+                    },{
+                        name: '仿IOS按钮',
+                        route: '/instances/ios-btn'
                     }
                 ]
             }
         },
-        methods: {},
-        created() {}
     }
 </script>
