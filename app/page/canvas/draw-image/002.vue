@@ -84,7 +84,7 @@
                                     img.height = childElem.offsetHeight;
                                     img.width = childElem.offsetWidth;
                                     img.src = url;
-                                    debugger;
+                                    // debugger;
 
                                     childElem.parentNode.replaceChild(img, childElem);
                                 }
