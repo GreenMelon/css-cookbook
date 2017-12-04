@@ -109,6 +109,7 @@ import SvgCircle1 from '../page/svg/circle/1';
 
 import VideoIndex from '../page/video/index';
 import Mse001 from '../page/video/mse/001';
+import VideoInstances001 from '../page/video/instances/001';
 
 import PointerEventsIndex from '../page/pointerevents/index';
 import TouchAction001 from '../page/pointerevents/touch-action/001';
@@ -421,6 +422,9 @@ export default [
     },{
         path: '/video/mse/001',
         component: Mse001
+    },{
+        path: '/video/instances/001',
+        component: VideoInstances001
     },
 
     {
