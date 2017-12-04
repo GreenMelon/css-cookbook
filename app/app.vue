@@ -60,6 +60,9 @@
                         name: 'canvas',
                         route: '/canvas'
                     },{
+                        name: 'video',
+                        route: '/video'
+                    },{
                         name: 'draw',
                         route: '/draw'
                     },{

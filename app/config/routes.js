@@ -107,6 +107,9 @@ import SvgTriangle1 from '../page/svg/triangle/1';
 import SvgRectangle1 from '../page/svg/rectangle/1';
 import SvgCircle1 from '../page/svg/circle/1';
 
+import VideoIndex from '../page/video/index';
+import Mse001 from '../page/video/mse/001';
+
 import PointerEventsIndex from '../page/pointerevents/index';
 import TouchAction001 from '../page/pointerevents/touch-action/001';
 
@@ -410,6 +413,14 @@ export default [
     },{
         path: '/svg/circle/1',
         component: SvgCircle1
+    },
+
+    {
+        path: '/video',
+        component: VideoIndex
+    },{
+        path: '/video/mse/001',
+        component: Mse001
     },
 
     {
