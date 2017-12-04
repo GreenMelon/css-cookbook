@@ -20,6 +20,14 @@
             return {
                 categories: [
                     {
+                        name: 'Video',
+                        instances: [
+                            {
+                                name: '简单demo',
+                                route: '/video/instances/001'
+                            }
+                        ]
+                    },{
                         name: 'Media Source Extensions',
                         instances: [
                             {
