@@ -2,121 +2,122 @@
  * routesborder
  */
 
-import NotFound from '../page/404';
-import Index from '../page/index';
+import NotFound from '../pages/404';
+import Index from '../pages/index';
 
-import SelectorIndex from '../page/selector/index';
-import SelectorSelection1 from '../page/selector/selection/1';
-import BrokenImage from '../page/selector/before/broken-image';
-import JiuGong from '../page/selector/before/jiu-gong';
-import Counter1 from '../page/selector/before/counter-001';
-import PointerEvents from '../page/selector/before/pointer-events';
-import BeforeInput from '../page/selector/before/input';
-import BorderCornerShape from '../page/selector/before/border-corner-shape';
-import Empty from '../page/selector/empty/001';
-import FocusWithin from '../page/selector/focus-within/001';
+import SelectorIndex from '../pages/selector/index';
+import SelectorSelection1 from '../pages/selector/selection/1';
+import BrokenImage from '../pages/selector/before/broken-image';
+import JiuGong from '../pages/selector/before/jiu-gong';
+import Counter1 from '../pages/selector/before/counter-001';
+import PointerEvents from '../pages/selector/before/pointer-events';
+import BeforeInput from '../pages/selector/before/input';
+import BorderCornerShape from '../pages/selector/before/border-corner-shape';
+import Empty from '../pages/selector/empty/001';
+import FocusWithin from '../pages/selector/focus-within/001';
 
-import FormattingModelIndex from '../page/formatting-model/index';
-import Shape1 from '../page/formatting-model/shape/1';
-import Shape2 from '../page/formatting-model/shape/2';
-import VerticalAlign from '../page/formatting-model/align/vertical-align';
+import FormattingModelIndex from '../pages/formatting-model/index';
+import Shape1 from '../pages/formatting-model/shape/1';
+import Shape2 from '../pages/formatting-model/shape/2';
+import VerticalAlign from '../pages/formatting-model/align/vertical-align';
 
-import BoxModelIndex from '../page/box-model/index';
-import BoxModelClip1 from '../page/box-model/clip/reverse-clip-path-with-blend-modes';
+import BoxModelIndex from '../pages/box-model/index';
+import BoxModelClip1 from '../pages/box-model/clip/reverse-clip-path-with-blend-modes';
 
-import TypographicIndex from '../page/typographic/index';
-import FontFamily from '../page/typographic/font/font-family';
-import FontSmoothing from '../page/typographic/font/font-smoothing';
-import OverflowWrap from '../page/typographic/wrap/overflow-wrap';
-import LineClamp from '../page/typographic/wrap/line-clamp';
-import TextAlign from '../page/typographic/text/text-align';
-import TextAlignJustify from '../page/typographic/text/text-align-justify';
-import TextShadow from '../page/typographic/text/text-shadow';
-import TextTransform from '../page/typographic/text/text-transform';
-import WritingMode from '../page/typographic/text/writing-mode';
+import TypographicIndex from '../pages/typographic/index';
+import FontFamily from '../pages/typographic/font/font-family';
+import FontSmoothing from '../pages/typographic/font/font-smoothing';
+import OverflowWrap from '../pages/typographic/wrap/overflow-wrap';
+import LineClamp from '../pages/typographic/wrap/line-clamp';
+import TextAlign from '../pages/typographic/text/text-align';
+import TextAlignJustify from '../pages/typographic/text/text-align-justify';
+import TextShadow from '../pages/typographic/text/text-shadow';
+import TextTransform from '../pages/typographic/text/text-transform';
+import WritingMode from '../pages/typographic/text/writing-mode';
 
-import VisualIndex from '../page/visual/index';
-import Infinity from '../page/visual/border-radius/infinity';
-import Outline1 from '../page/visual/outline/1';
-import OutlineOffset1 from '../page/visual/outline/outline-offset';
-import OutlineRadius from '../page/visual/outline/outline-radius';
-import VisualBoxShadowLoading1 from '../page/visual/box-shadow/loading-001';
-import VisualBoxShadowLoading2 from '../page/visual/box-shadow/loading-002';
-import Moon from '../page/visual/box-shadow/moon';
-import MultiBorder from '../page/visual/box-shadow/multi-border';
-import BoxShadowPpointerEvents from '../page/visual/box-shadow/pointer-events';
-import Monalisa from '../page/visual/box-shadow/monalisa';
-import VisualBackgroundClip1 from '../page/visual/background-clip/1';
-import VisualBackgroundClipText from '../page/visual/background-clip/text';
-import LinearGradient1 from '../page/visual/linear-gradient/1';
-import GradientAnimation from '../page/visual/linear-gradient/gradient-animation';
-import Waveline from '../page/visual/linear-gradient/waveline';
-import ConicGradient1 from '../page/visual/conic-gradient/1';
-import DropShadow1 from '../page/visual/drop-shadow/1';
-import DropShadow2 from '../page/visual/drop-shadow/2';
-import BoxReflect1 from '../page/visual/box-reflect/1';
-import Cursor from '../page/visual/cursor/001';
-import FilterIndex from '../page/visual/filter/001';
-import FilterGradientShadow from '../page/visual/filter/gradient-shadow';
-import Fusion from '../page/visual/filter/fusion';
+import VisualIndex from '../pages/visual/index';
+import Infinity from '../pages/visual/border-radius/infinity';
+import Outline1 from '../pages/visual/outline/1';
+import OutlineOffset1 from '../pages/visual/outline/outline-offset';
+import OutlineRadius from '../pages/visual/outline/outline-radius';
+import VisualBoxShadowLoading1 from '../pages/visual/box-shadow/loading-001';
+import VisualBoxShadowLoading2 from '../pages/visual/box-shadow/loading-002';
+import Moon from '../pages/visual/box-shadow/moon';
+import MultiBorder from '../pages/visual/box-shadow/multi-border';
+import BoxShadowPpointerEvents from '../pages/visual/box-shadow/pointer-events';
+import Monalisa from '../pages/visual/box-shadow/monalisa';
+import VisualBackgroundClip1 from '../pages/visual/background-clip/1';
+import VisualBackgroundClipText from '../pages/visual/background-clip/text';
+import LinearGradient1 from '../pages/visual/linear-gradient/1';
+import GradientAnimation from '../pages/visual/linear-gradient/gradient-animation';
+import Waveline from '../pages/visual/linear-gradient/waveline';
+import ConicGradient1 from '../pages/visual/conic-gradient/1';
+import DropShadow1 from '../pages/visual/drop-shadow/1';
+import DropShadow2 from '../pages/visual/drop-shadow/2';
+import BoxReflect1 from '../pages/visual/box-reflect/1';
+import Cursor from '../pages/visual/cursor/001';
+import FilterIndex from '../pages/visual/filter/001';
+import FilterGradientShadow from '../pages/visual/filter/gradient-shadow';
+import Fusion from '../pages/visual/filter/fusion';
 
-import TransformIndex from '../page/transform/index';
-import Parallelogram from '../page/transform/skew/parallelogram';
+import TransformIndex from '../pages/transform/index';
+import Parallelogram from '../pages/transform/skew/parallelogram';
 
-import TableIndex from '../page/table/index';
-import TableLayoutIndex from '../page/table/table-layout/index';
+import TableIndex from '../pages/table/index';
+import TableLayoutIndex from '../pages/table/table-layout/index';
 
-import FormIndex from '../page/form/index';
-import Spellcheck from '../page/form/spellcheck/1';
-import Autocomplete from '../page/form/autocomplete/1';
-import FormCursor from '../page/form/cursor/1';
+import FormIndex from '../pages/form/index';
+import Spellcheck from '../pages/form/spellcheck/1';
+import Autocomplete from '../pages/form/autocomplete/1';
+import FormCursor from '../pages/form/cursor/1';
 
-import ImageIndex from '../page/image/index';
-import Srcset001 from '../page/image/srcset/001';
-import Sizes001 from '../page/image/sizes/001';
+import ImageIndex from '../pages/image/index';
+import Srcset001 from '../pages/image/srcset/001';
+import Sizes001 from '../pages/image/sizes/001';
 
-import DrawIndex from '../page/draw/index';
-import DrawBorderRadius1 from '../page/draw/border-radius/1';
-import DrawRadialGradient1 from '../page/draw/radial-gradient/1';
-import DrawClip1 from '../page/draw/clip/1';
+import DrawIndex from '../pages/draw/index';
+import DrawBorderRadius1 from '../pages/draw/border-radius/1';
+import DrawRadialGradient1 from '../pages/draw/radial-gradient/1';
+import DrawClip1 from '../pages/draw/clip/1';
 
-import ExercismIndex from '../page/exercism/index';
-import ExercismHexagonBorder from '../page/exercism/hexagon/border';
-import ExercismHexagonTransform from '../page/exercism/hexagon/transform';
-import ExercismHexagonSvg from '../page/exercism/hexagon/svg';
-import ExercismHexagonCanvas from '../page/exercism/hexagon/canvas';
+import ExercismIndex from '../pages/exercism/index';
+import ExercismHexagonBorder from '../pages/exercism/hexagon/border';
+import ExercismHexagonTransform from '../pages/exercism/hexagon/transform';
+import ExercismHexagonSvg from '../pages/exercism/hexagon/svg';
+import ExercismHexagonCanvas from '../pages/exercism/hexagon/canvas';
 
-import ExercismFloatCenterFloat from '../page/exercism/float-center/float';
-import ExercismTaiChi1 from '../page/exercism/tai-chi/1';
+import ExercismFloatCenterFloat from '../pages/exercism/float-center/float';
+import ExercismTaiChi1 from '../pages/exercism/tai-chi/1';
 
-import TestIndex from '../page/test/index';
-import ScrollTop from '../page/test/scroll-top/1';
-import Brace from '../page/test/editor/brace';
-import Clipboard001 from '../page/test/clipboard/001';
-import FileReaderImgae from '../page/test/filereader/image';
-import Sync from '../page/test/sync/1';
+import TestIndex from '../pages/test/index';
+import ScrollTop from '../pages/test/scroll-top/1';
+import Brace from '../pages/test/editor/brace';
+import Clipboard001 from '../pages/test/clipboard/001';
+import FileReaderImgae from '../pages/test/filereader/image';
+import Sync from '../pages/test/sync/1';
 
-import CanvasIndex from '../page/canvas/index';
-import drawImage001 from '../page/canvas/draw-image/001';
-import drawImage002 from '../page/canvas/draw-image/002';
-import drawImage003 from '../page/canvas/draw-image/003';
+import CanvasIndex from '../pages/canvas/index';
+import drawImage001 from '../pages/canvas/draw-image/001';
+import drawImage002 from '../pages/canvas/draw-image/002';
+import drawImage003 from '../pages/canvas/draw-image/003';
 
-import SvgIndex from '../page/svg/index';
-import SvgLine1 from '../page/svg/line/1';
-import SvgTriangle1 from '../page/svg/triangle/1';
-import SvgRectangle1 from '../page/svg/rectangle/1';
-import SvgCircle1 from '../page/svg/circle/1';
+import SvgIndex from '../pages/svg/index';
+import SvgLine1 from '../pages/svg/line/1';
+import SvgTriangle1 from '../pages/svg/triangle/1';
+import SvgRectangle1 from '../pages/svg/rectangle/1';
+import SvgCircle1 from '../pages/svg/circle/1';
 
-import VideoIndex from '../page/video/index';
-import Mse001 from '../page/video/mse/001';
-import VideoInstances001 from '../page/video/instances/001';
+import VideoIndex from '../pages/video/index';
+import Mse001 from '../pages/video/mse/001';
+import VideoInstances001 from '../pages/video/instances/001';
+import VideoInstancesGif from '../pages/video/instances/gif';
 
-import PointerEventsIndex from '../page/pointerevents/index';
-import TouchAction001 from '../page/pointerevents/touch-action/001';
+import PointerEventsIndex from '../pages/pointerevents/index';
+import TouchAction001 from '../pages/pointerevents/touch-action/001';
 
-import InstancesIndex from '../page/instances/index';
-import Menu001 from '../page/instances/menu';
-import IosBtn from '../page/instances/ios-btn';
+import InstancesIndex from '../pages/instances/index';
+import Menu001 from '../pages/instances/menu';
+import IosBtn from '../pages/instances/ios-btn';
 
 export default [
     {
@@ -425,6 +426,9 @@ export default [
     },{
         path: '/video/instances/001',
         component: VideoInstances001
+    },{
+        path: '/video/instances/gif',
+        component: VideoInstancesGif
     },
 
     {
