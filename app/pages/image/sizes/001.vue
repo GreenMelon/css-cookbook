@@ -4,8 +4,8 @@
 <template>
     <main>
         <img
-            src="/app/page/image/img/1.png"
-            srcset="/app/page/image/img/1.png 56w, /app/page/image/img/2.png 112w, /app/page/image/img/4.png 224w"
+            src="/app/pages/image/img/1.png"
+            srcset="/app/pages/image/img/1.png 56w, /app/pages/image/img/2.png 112w, /app/pages/image/img/4.png 224w"
             sizes="(max-width: 768px) 56px, 112px"
         >
     </main>

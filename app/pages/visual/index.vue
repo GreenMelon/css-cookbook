@@ -66,6 +66,14 @@
                             }
                         ]
                     },{
+                        name: 'background-image',
+                        instances: [
+                            {
+                                name: '多重背景图',
+                                route: '/visual/background-image/1'
+                            }
+                        ]
+                    },{
                         name: 'background-clip',
                         instances: [
                             {
