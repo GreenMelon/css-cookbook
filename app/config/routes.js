@@ -46,6 +46,7 @@ import Moon from '../pages/visual/box-shadow/moon';
 import MultiBorder from '../pages/visual/box-shadow/multi-border';
 import BoxShadowPpointerEvents from '../pages/visual/box-shadow/pointer-events';
 import Monalisa from '../pages/visual/box-shadow/monalisa';
+import BackgroundImage1 from '../pages/visual/background-image/001';
 import VisualBackgroundClip1 from '../pages/visual/background-clip/1';
 import VisualBackgroundClipText from '../pages/visual/background-clip/text';
 import LinearGradient1 from '../pages/visual/linear-gradient/1';
@@ -247,6 +248,9 @@ export default [
     },{
         path: '/visual/box-shadow/monalisa',
         component: Monalisa
+    },{
+        path: '/visual/background-image/1',
+        component: BackgroundImage1
     },{
         path: '/visual/background-clip/1',
         component: VisualBackgroundClip1
