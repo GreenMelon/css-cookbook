@@ -17,6 +17,7 @@ import Empty from '../pages/selector/empty/001';
 import FocusWithin from '../pages/selector/focus-within/001';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
+import Grid01 from '../pages/formatting-model/grid/01';
 import Shape1 from '../pages/formatting-model/shape/1';
 import Shape2 from '../pages/formatting-model/shape/2';
 import VerticalAlign from '../pages/formatting-model/align/vertical-align';
@@ -164,6 +165,9 @@ export default [
     {
         path: '/formatting-model',
         component: FormattingModelIndex
+    },{
+        path: '/formatting-model/grid/01',
+        component: Grid01
     },{
         path: '/formatting-model/shape/1',
         component: Shape1
@@ -320,16 +324,16 @@ export default [
     },
 
     {
-        path: '/form',
+        path: '/form.',
         component: FormIndex
     },{
-        path: '/form/spellcheck/1',
+        path: '/form./spellcheck/1',
         component: Spellcheck
     },{
-        path: '/form/autocomplete/1',
+        path: '/form./autocomplete/1',
         component: Autocomplete
     },{
-        path: '/form/cursor/1',
+        path: '/form./cursor/1',
         component: FormCursor
     },
 
