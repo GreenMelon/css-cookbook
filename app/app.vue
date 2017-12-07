@@ -46,7 +46,7 @@
                         route: '/table'
                     },{
                         name: 'form',
-                        route: '/form'
+                        route: '/form.'
                     },{
                         name: 'image',
                         route: '/image'

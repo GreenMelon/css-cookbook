@@ -24,7 +24,7 @@
                         instances: [
                             {
                                 name: '1',
-                                route: '/form/spellcheck/1'
+                                route: '/form./spellcheck/1'
                             }
                         ]
                     },{
@@ -32,7 +32,7 @@
                         instances: [
                             {
                                 name: '1',
-                                route: '/form/autocomplete/1'
+                                route: '/form./autocomplete/1'
                             }
                         ]
                     },{
@@ -40,7 +40,7 @@
                         instances: [
                             {
                                 name: '1',
-                                route: '/form/cursor/1'
+                                route: '/form./cursor/1'
                             }
                         ]
                     }

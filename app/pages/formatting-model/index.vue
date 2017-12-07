@@ -20,11 +20,11 @@
             return {
                 categories: [
                     {
-                        name: 'position',
+                        name: 'grid',
                         instances: [
                             {
-                                name: 'clip',
-                                route: '/formatting-model/position/clip'
+                                name: '001',
+                                route: '/formatting-model/grid/01'
                             }
                         ]
                     },{
