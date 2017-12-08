@@ -1,21 +1,9 @@
 <template>
     <main>
-        <h1>404</h1>
+        <h1>你进错房间了吧？？？</h1>
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                //
-            }
-        },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
-    }
+    export default {}
 </script>

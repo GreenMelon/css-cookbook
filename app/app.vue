@@ -19,7 +19,9 @@
 </template>
 
 <script>
-    module.exports = {
+    import './components/categories';
+
+    export default {
         data() {
             return {
                 modules: [
@@ -78,11 +80,7 @@
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
+        methods: {},
+        created() {}
     }
 </script>
