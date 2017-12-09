@@ -1,6 +1,3 @@
-<style lang="less" scoped>
-</style>
-
 <template>
     <main>
         <img
@@ -12,11 +9,5 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                //
-            }
-        }
-    };
+    export default {};
 </script>

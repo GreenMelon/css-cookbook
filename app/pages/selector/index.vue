@@ -13,8 +13,8 @@
                         name: '::selection',
                         instances: [
                             {
-                                name: '001',
-                                route: '/selector/selection/1'
+                                name: '01',
+                                route: '/selector/selection/01'
                             }
                         ]
                     },{
@@ -44,27 +44,21 @@
                         name: ':empty',
                         instances: [
                             {
-                                name: '001',
-                                route: '/selector/empty/001'
+                                name: '01',
+                                route: '/selector/empty/01'
                             }
                         ]
                     },{
                         name: ':focus-within',
                         instances: [
                             {
-                                name: '001',
-                                route: '/selector/focus-within/001'
+                                name: '01',
+                                route: '/selector/focus-within/01'
                             }
                         ]
                     }
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>

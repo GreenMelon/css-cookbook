@@ -13,35 +13,29 @@
                         name: 'spellcheck',
                         instances: [
                             {
-                                name: '1',
-                                route: '/form./spellcheck/1'
+                                name: '01',
+                                route: '/form./spellcheck/01'
                             }
                         ]
                     },{
                         name: 'autocomplete',
                         instances: [
                             {
-                                name: '1',
-                                route: '/form./autocomplete/1'
+                                name: '01',
+                                route: '/form./autocomplete/01'
                             }
                         ]
                     },{
                         name: 'cursor',
                         instances: [
                             {
-                                name: '1',
-                                route: '/form./cursor/1'
+                                name: '01',
+                                route: '/form./cursor/01'
                             }
                         ]
                     }
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>

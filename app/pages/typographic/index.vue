@@ -55,11 +55,5 @@
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>

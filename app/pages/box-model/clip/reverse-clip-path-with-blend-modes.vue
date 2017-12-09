@@ -34,7 +34,6 @@
         background-color: #03B897;
         background-image: url("/app/images/001.gif");
 
-
         transform: translateX(-35%) translateY(-50%);
 
         opacity: 0.8;

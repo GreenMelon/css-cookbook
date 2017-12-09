@@ -21,11 +21,5 @@
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>

@@ -14,18 +14,12 @@
                         instances: [
                             {
                                 name: 'touch-action',
-                                route: '/touch-action/001'
+                                route: '/touch-action/01'
                             }
                         ]
                     }
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>

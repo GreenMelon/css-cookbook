@@ -27,10 +27,6 @@
         <ul>
             <li>
                 <div class="chrome"></div>
-                <pre class="pre-code">
-                    <code>
-                    </code>
-                </pre>
             </li>
         </ul>
     </main>

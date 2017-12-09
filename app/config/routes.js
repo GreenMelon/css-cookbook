@@ -6,24 +6,25 @@ import NotFound from '../pages/404';
 import Index from '../pages/index';
 
 import SelectorIndex from '../pages/selector/index';
-import SelectorSelection1 from '../pages/selector/selection/1';
+import SelectorSelection01 from '../pages/selector/selection/01';
 import BrokenImage from '../pages/selector/before/broken-image';
 import JiuGong from '../pages/selector/before/jiu-gong';
 import Counter1 from '../pages/selector/before/counter-001';
 import PointerEvents from '../pages/selector/before/pointer-events';
 import BeforeInput from '../pages/selector/before/input';
 import BorderCornerShape from '../pages/selector/before/border-corner-shape';
-import Empty from '../pages/selector/empty/001';
-import FocusWithin from '../pages/selector/focus-within/001';
+import Empty from '../pages/selector/empty/01';
+import FocusWithin from '../pages/selector/focus-within/01';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
 import Grid01 from '../pages/formatting-model/grid/01';
-import Shape1 from '../pages/formatting-model/shape/1';
-import Shape2 from '../pages/formatting-model/shape/2';
+import ShapeCircle from '../pages/formatting-model/shape/circle';
+import ShapePolygon from '../pages/formatting-model/shape/polygon';
 import VerticalAlign from '../pages/formatting-model/align/vertical-align';
 
 import BoxModelIndex from '../pages/box-model/index';
-import BoxModelClip1 from '../pages/box-model/clip/reverse-clip-path-with-blend-modes';
+import Clip01 from '../pages/box-model/clip/01';
+import BackgroundBlendModes from '../pages/box-model/clip/reverse-clip-path-with-blend-modes';
 
 import TypographicIndex from '../pages/typographic/index';
 import FontFamily from '../pages/typographic/font/font-family';
@@ -37,9 +38,10 @@ import TextTransform from '../pages/typographic/text/text-transform';
 import WritingMode from '../pages/typographic/text/writing-mode';
 
 import VisualIndex from '../pages/visual/index';
+import BorderRadius01 from '../pages/visual/border-radius/01';
 import Infinity from '../pages/visual/border-radius/infinity';
-import Outline1 from '../pages/visual/outline/1';
-import OutlineOffset1 from '../pages/visual/outline/outline-offset';
+import Outline01 from '../pages/visual/outline/01';
+import OutlineOffset from '../pages/visual/outline/outline-offset';
 import OutlineRadius from '../pages/visual/outline/outline-radius';
 import VisualBoxShadowLoading1 from '../pages/visual/box-shadow/loading-001';
 import VisualBoxShadowLoading2 from '../pages/visual/box-shadow/loading-002';
@@ -47,18 +49,19 @@ import Moon from '../pages/visual/box-shadow/moon';
 import MultiBorder from '../pages/visual/box-shadow/multi-border';
 import BoxShadowPpointerEvents from '../pages/visual/box-shadow/pointer-events';
 import Monalisa from '../pages/visual/box-shadow/monalisa';
-import BackgroundImage1 from '../pages/visual/background-image/001';
-import VisualBackgroundClip1 from '../pages/visual/background-clip/1';
+import BackgroundImage01 from '../pages/visual/background-image/01';
+import TransparentBorder from '../pages/visual/background-clip/transparent-border';
 import VisualBackgroundClipText from '../pages/visual/background-clip/text';
-import LinearGradient1 from '../pages/visual/linear-gradient/1';
+import LinearGradient01 from '../pages/visual/linear-gradient/01';
 import GradientAnimation from '../pages/visual/linear-gradient/gradient-animation';
 import Waveline from '../pages/visual/linear-gradient/waveline';
-import ConicGradient1 from '../pages/visual/conic-gradient/1';
-import DropShadow1 from '../pages/visual/drop-shadow/1';
-import DropShadow2 from '../pages/visual/drop-shadow/2';
-import BoxReflect1 from '../pages/visual/box-reflect/1';
-import Cursor from '../pages/visual/cursor/001';
-import FilterIndex from '../pages/visual/filter/001';
+import Chrome from '../pages/visual/radial-gradient/chrome';
+import ConicGradient01 from '../pages/visual/conic-gradient/01';
+import DropShadow01 from '../pages/visual/drop-shadow/01';
+import DropShadow02 from '../pages/visual/drop-shadow/02';
+import BoxReflect01 from '../pages/visual/box-reflect/01';
+import Cursor01 from '../pages/visual/cursor/01';
+import Filter01 from '../pages/visual/filter/01';
 import FilterGradientShadow from '../pages/visual/filter/gradient-shadow';
 import Fusion from '../pages/visual/filter/fusion';
 
@@ -69,18 +72,15 @@ import TableIndex from '../pages/table/index';
 import TableLayoutIndex from '../pages/table/table-layout/index';
 
 import FormIndex from '../pages/form/index';
-import Spellcheck from '../pages/form/spellcheck/1';
-import Autocomplete from '../pages/form/autocomplete/1';
-import FormCursor from '../pages/form/cursor/1';
+import Spellcheck from '../pages/form/spellcheck/01';
+import Autocomplete from '../pages/form/autocomplete/01';
+import FormCursor from '../pages/form/cursor/01';
 
 import ImageIndex from '../pages/image/index';
-import Srcset001 from '../pages/image/srcset/001';
-import Sizes001 from '../pages/image/sizes/001';
-
-import DrawIndex from '../pages/draw/index';
-import DrawBorderRadius1 from '../pages/draw/border-radius/1';
-import DrawRadialGradient1 from '../pages/draw/radial-gradient/1';
-import DrawClip1 from '../pages/draw/clip/1';
+import Srcset01 from '../pages/image/srcset/01';
+import Sizes01 from '../pages/image/sizes/01';
+import Usemap01 from '../pages/image/usemap/01';
+import ImageSet01 from '../pages/image/image-set/01';
 
 import ExercismIndex from '../pages/exercism/index';
 import ExercismHexagonBorder from '../pages/exercism/hexagon/border';
@@ -110,12 +110,12 @@ import SvgRectangle1 from '../pages/svg/rectangle/1';
 import SvgCircle1 from '../pages/svg/circle/1';
 
 import VideoIndex from '../pages/video/index';
-import Mse001 from '../pages/video/mse/001';
-import VideoInstances001 from '../pages/video/instances/001';
+import Mse01 from '../pages/video/mse/01';
+import VideoInstances01 from '../pages/video/instances/01';
 import VideoInstancesGif from '../pages/video/instances/gif';
 
 import PointerEventsIndex from '../pages/pointerevents/index';
-import TouchAction001 from '../pages/pointerevents/touch-action/001';
+import TouchAction01 from '../pages/pointerevents/touch-action/01';
 
 import InstancesIndex from '../pages/instances/index';
 import Menu001 from '../pages/instances/menu';
@@ -134,11 +134,11 @@ export default [
         path: '/selector',
         component: SelectorIndex
     },{
-        path: '/selector/focus-within/001',
+        path: '/selector/focus-within/01',
         component: FocusWithin,
     },{
-        path: '/selector/selection/1',
-        component: SelectorSelection1
+        path: '/selector/selection/01',
+        component: SelectorSelection01
     },{
         path: '/selector/before/broken-image',
         component: BrokenImage
@@ -158,7 +158,7 @@ export default [
         path: '/selector/before/border-corner-shape',
         component: BorderCornerShape
     },{
-        path: '/selector/empty/001',
+        path: '/selector/empty/01',
         component: Empty
     },
 
@@ -169,11 +169,11 @@ export default [
         path: '/formatting-model/grid/01',
         component: Grid01
     },{
-        path: '/formatting-model/shape/1',
-        component: Shape1
+        path: '/formatting-model/shape/circle',
+        component: ShapeCircle
     },{
-        path: '/formatting-model/shape/2',
-        component: Shape2
+        path: '/formatting-model/shape/polygon',
+        component: ShapePolygon
     },{
         path: '/formatting-model/align/vertical-align',
         component: VerticalAlign
@@ -183,8 +183,11 @@ export default [
         path: '/box-model',
         component: BoxModelIndex
     },{
+        path: '/box-model/clip/01',
+        component: Clip01
+    },{
         path: '/box-model/clip/reverse-clip-path-with-blend-modes',
-        component: BoxModelClip1
+        component: BackgroundBlendModes
     },
 
     {
@@ -223,14 +226,17 @@ export default [
         path: '/visual',
         component: VisualIndex
     },{
+        path: '/visual/border-radius/01',
+        component: BorderRadius01
+    },{
         path: '/visual/border-radius/infinity',
         component: Infinity
     },{
-        path: '/visual/outline/1',
-        component: Outline1
+        path: '/visual/outline/01',
+        component: Outline01
     },{
         path: '/visual/outline/outline-offset',
-        component: OutlineOffset1
+        component: OutlineOffset
     },{
         path: '/visual/outline/outline-radius',
         component: OutlineRadius
@@ -253,17 +259,17 @@ export default [
         path: '/visual/box-shadow/monalisa',
         component: Monalisa
     },{
-        path: '/visual/background-image/1',
-        component: BackgroundImage1
+        path: '/visual/background-image/01',
+        component: BackgroundImage01
     },{
-        path: '/visual/background-clip/1',
-        component: VisualBackgroundClip1
+        path: '/visual/background-clip/transparent-border',
+        component: TransparentBorder
     },{
         path: '/visual/background-clip/text',
         component: VisualBackgroundClipText
     },{
-        path: '/visual/linear-gradient/1',
-        component: LinearGradient1
+        path: '/visual/linear-gradient/01',
+        component: LinearGradient01
     },{
         path: '/visual/linear-gradient/gradient-animation',
         component: GradientAnimation
@@ -271,23 +277,26 @@ export default [
         path: '/visual/linear-gradient/waveline',
         component: Waveline
     },{
-        path: '/visual/conic-gradient/1',
-        component: ConicGradient1
+        path: '/visual/radial-gradient/chrome',
+        component: Chrome
     },{
-        path: '/visual/drop-shadow/1',
-        component: DropShadow1
+        path: '/visual/conic-gradient/01',
+        component: ConicGradient01
     },{
-        path: '/visual/drop-shadow/2',
-        component: DropShadow2
+        path: '/visual/drop-shadow/01',
+        component: DropShadow01
     },{
-        path: '/visual/box-reflect/1',
-        component: BoxReflect1
+        path: '/visual/drop-shadow/02',
+        component: DropShadow02
     },{
-        path: '/visual/cursor/001',
-        component: Cursor
+        path: '/visual/box-reflect/01',
+        component: BoxReflect01
     },{
-        path: '/visual/filter/001',
-        component: FilterIndex
+        path: '/visual/cursor/01',
+        component: Cursor01
+    },{
+        path: '/visual/filter/01',
+        component: Filter01
     },{
         path: '/visual/filter/gradient-shadow',
         component: FilterGradientShadow
@@ -308,11 +317,17 @@ export default [
         path: '/image',
         component: ImageIndex
     },{
-        path: '/image/srcset/001',
-        component: Srcset001
+        path: '/image/srcset/01',
+        component: Srcset01
     },{
-        path: '/image/sizes/001',
-        component: Sizes001
+        path: '/image/sizes/01',
+        component: Sizes01
+    },{
+        path: '/image/usemap/01',
+        component: Usemap01
+    },{
+        path: '/image/image-set/01',
+        component: ImageSet01
     },
 
     {
@@ -327,28 +342,14 @@ export default [
         path: '/form.',
         component: FormIndex
     },{
-        path: '/form./spellcheck/1',
+        path: '/form./spellcheck/01',
         component: Spellcheck
     },{
-        path: '/form./autocomplete/1',
+        path: '/form./autocomplete/01',
         component: Autocomplete
     },{
-        path: '/form./cursor/1',
+        path: '/form./cursor/01',
         component: FormCursor
-    },
-
-    {
-        path: '/draw',
-        component: DrawIndex
-    },{
-        path: '/draw/border-radius/1',
-        component: DrawBorderRadius1
-    },{
-        path: '/draw/radial-gradient/1',
-        component: DrawRadialGradient1
-    },{
-        path: '/draw/clip/1',
-        component: DrawClip1
     },
 
     {
@@ -429,11 +430,11 @@ export default [
         path: '/video',
         component: VideoIndex
     },{
-        path: '/video/mse/001',
-        component: Mse001
+        path: '/video/mse/01',
+        component: Mse01
     },{
-        path: '/video/instances/001',
-        component: VideoInstances001
+        path: '/video/instances/01',
+        component: VideoInstances01
     },{
         path: '/video/instances/gif',
         component: VideoInstancesGif
@@ -443,8 +444,8 @@ export default [
         path: '/pointerevents',
         component: PointerEventsIndex
     },{
-        path: '/touch-action/001',
-        component: TouchAction001
+        path: '/touch-action/01',
+        component: TouchAction01
     },
 
     {

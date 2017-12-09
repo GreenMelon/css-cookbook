@@ -13,6 +13,9 @@
                         name: 'border-radius',
                         instances: [
                             {
+                                name: '01',
+                                route: '/visual/border-radius/01'
+                            },{
                                 name: '无穷',
                                 route: '/visual/border-radius/infinity'
                             }
@@ -22,7 +25,7 @@
                         instances: [
                             {
                                 name: '定义',
-                                route: '/visual/outline/1'
+                                route: '/visual/outline/01'
                             },{
                                 name: '偏移',
                                 route: '/visual/outline/outline-offset'
@@ -60,7 +63,7 @@
                         instances: [
                             {
                                 name: '多重背景图',
-                                route: '/visual/background-image/1'
+                                route: '/visual/background-image/01'
                             }
                         ]
                     },{
@@ -68,7 +71,7 @@
                         instances: [
                             {
                                 name: '透明边框',
-                                route: '/visual/background-clip/1'
+                                route: '/visual/background-clip/transparent-border'
                             },{
                                 name: '文字背景特效',
                                 route: '/visual/background-clip/text'
@@ -79,7 +82,7 @@
                         instances: [
                             {
                                 name: '渐变边框',
-                                route: '/visual/linear-gradient/1'
+                                route: '/visual/linear-gradient/01'
                             },{
                                 name: '渐变动画',
                                 route: '/visual/linear-gradient/gradient-animation'
@@ -89,11 +92,19 @@
                             }
                         ]
                     },{
+                        name: 'radial-gradient 径向渐变',
+                        instances: [
+                            {
+                                name: '谷歌浏览器logo',
+                                route: '/visual/radial-gradient/chrome'
+                            },
+                        ]
+                    },{
                         name: 'conic-gradient 圆锥渐变',
                         instances: [
                             {
                                 name: '圆锥渐变',
-                                route: '/visual/conic-gradient/1'
+                                route: '/visual/conic-gradient/01'
                             }
                         ]
                     },{
@@ -101,10 +112,10 @@
                         instances: [
                             {
                                 name: '001',
-                                route: '/visual/drop-shadow/1'
+                                route: '/visual/drop-shadow/01'
                             },{
                                 name: '与 box-shadow 比较',
-                                route: '/visual/drop-shadow/2'
+                                route: '/visual/drop-shadow/02'
                             }
                         ]
                     },{
@@ -112,7 +123,7 @@
                         instances: [
                             {
                                 name: '001',
-                                route: '/visual/box-reflect/1'
+                                route: '/visual/box-reflect/01'
                             }
                         ]
                     },{
@@ -120,7 +131,7 @@
                         instances: [
                             {
                                 name: '自定义鼠标样式',
-                                route: '/visual/cursor/001'
+                                route: '/visual/cursor/01'
                             }
                         ]
                     },{
@@ -128,7 +139,7 @@
                         instances: [
                             {
                                 name: '全部滤镜效果',
-                                route: '/visual/filter/001'
+                                route: '/visual/filter/01'
                             },{
                                 name: '颜色丰富的阴影',
                                 route: '/visual/filter/gradient-shadow'
@@ -141,11 +152,5 @@
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>
