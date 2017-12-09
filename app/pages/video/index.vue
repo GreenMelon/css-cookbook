@@ -14,7 +14,7 @@
                         instances: [
                             {
                                 name: '简单demo',
-                                route: '/video/instances/001'
+                                route: '/video/instances/01'
                             },{
                                 name: '用 img 播放 mp4 文件',
                                 route: '/video/instances/gif'
@@ -25,7 +25,7 @@
                         instances: [
                             {
                                 name: '简单demo',
-                                route: '/video/mse/001'
+                                route: '/video/mse/01'
                             }
                         ]
                     }

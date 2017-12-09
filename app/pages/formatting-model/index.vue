@@ -13,7 +13,7 @@
                         name: 'grid',
                         instances: [
                             {
-                                name: '001',
+                                name: '01',
                                 route: '/formatting-model/grid/01'
                             }
                         ]
@@ -21,11 +21,11 @@
                         name: 'shape',
                         instances: [
                             {
-                                name: 'shape - circle',
-                                route: '/formatting-model/shape/1'
+                                name: 'circle',
+                                route: '/formatting-model/shape/circle'
                             },{
-                                name: 'shape - polygon',
-                                route: '/formatting-model/shape/2'
+                                name: 'polygon',
+                                route: '/formatting-model/shape/polygon'
                             }
                         ]
                     },{
@@ -40,11 +40,5 @@
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>

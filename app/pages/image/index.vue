@@ -13,43 +13,37 @@
                         name: 'srcset',
                         instances: [
                             {
-                                name: '001',
-                                route: '/image/srcset/001'
+                                name: '01',
+                                route: '/image/srcset/01'
                             }
                         ]
                     },{
                         name: 'sizes',
                         instances: [
                             {
-                                name: '001',
-                                route: '/image/sizes/001'
+                                name: '01',
+                                route: '/image/sizes/01'
                             }
                         ]
                     },{
                         name: 'usemap',
                         instances: [
                             {
-                                name: '001',
-                                route: '/image/usemap/001'
+                                name: '01',
+                                route: '/image/usemap/01'
                             }
                         ]
                     },{
                         name: 'image-set',
                         instances: [
                             {
-                                name: '001',
-                                route: '/image/image-set/001'
+                                name: '01',
+                                route: '/image/image-set/01'
                             }
                         ]
                     }
                 ]
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>

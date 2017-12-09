@@ -65,9 +65,6 @@
                         name: 'video',
                         route: '/video'
                     },{
-                        name: 'draw',
-                        route: '/draw'
-                    },{
                         name: 'exercism',
                         route: '/exercism'
                     },{

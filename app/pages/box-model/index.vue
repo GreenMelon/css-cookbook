@@ -10,31 +10,27 @@
             return {
                 categories: [
                     {
-                        name: 'clip',
-
-                        instances: [
-                            {
-                                name: 'reverse clip-path with blend-modes',
-                                route: '/box-model/clip/reverse-clip-path-with-blend-modes'
-                            }
-                        ]
-                    },{
                         name: 'border',
                         instances: [
                             {
                                 name: '透明边框',
-                                route: '/visual/background-clip/1'
+                                route: '/visual/background-clip/transparent-border'
                             }
                         ]
-                    }
+                    },{
+                        name: 'clip',
+                        instances: [
+                            {
+                                name: '背景裁切',
+                                route: '/box-model/clip/01'
+                            },{
+                                name: 'reverse clip-path with blend-modes',
+                                route: '/box-model/clip/reverse-clip-path-with-blend-modes'
+                            }
+                        ]
+                    },
                 ]
             }
-        },
-        methods: {
-            //
-        },
-        created() {
-            //
         }
     }
 </script>

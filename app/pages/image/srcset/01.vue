@@ -1,6 +1,3 @@
-<style lang="less" scoped>
-</style>
-
 <template>
     <main>
         <img
@@ -11,11 +8,5 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                // url: '/app/assets/slice/icon-weibo.png'
-            }
-        }
-    };
+    export default {};
 </script>
