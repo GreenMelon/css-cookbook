@@ -78,6 +78,10 @@
             }
         },
         methods: {},
-        created() {}
+        mounted() {
+            this.$nextTick(function () {
+                // this.$el;
+            });
+        },
     }
 </script>
