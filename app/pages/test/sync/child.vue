@@ -1,20 +1,23 @@
 <style lang="less" scoped>
     .child {
-        height: 100px;
+        padding: 20px;
         font-size: 30px;
         color: white;
-        background: gray;
+        background: #007dd4;
     }
 </style>
 
 <template>
-    <div class="child" @click="change">
-        {{ x }}
+    <div class="child">
+        <grand-child
+            :z.sync="y">
+        </grand-child>
     </div>
 </template>
 
 <script>
     import Vue from 'vue';
+    import './grand-child';
 
     const Child = Vue.extend({
         props: {
@@ -24,22 +27,24 @@
             }
         },
         data() {
-            return {
-                //
+            return {}
+        },
+        computed: {
+            y: {
+                get() {
+                    return this.x;
+                },
+                set(val) {
+                    this.$emit('update:x', val);
+                }
             }
         },
-        methods: {
-            change() {
-                console.log(this.x+1);
-                this.$emit('update', this.x + 1);
-            }
-        },
+        methods: {},
         mounted() {
-            //
         }
     });
 
-    Vue.component('Child', Child);
+    Vue.component('child', Child);
 
     export default Child;
 </script>
