@@ -99,7 +99,9 @@ module.exports = {
         alias: {
             filter: path.join(__dirname, './app/filters'),
             components: path.join(__dirname, './app/components'),
-            vue: path.join(__dirname, 'node_modules/vue/dist/vue')
+            vue: path.join(__dirname, 'node_modules/vue/dist/vue'),
+            '@': path.join(__dirname, 'app'),
+            'images': path.join(__dirname, 'app/images'),
         }
     },
     plugins: []

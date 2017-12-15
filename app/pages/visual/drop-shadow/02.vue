@@ -27,8 +27,8 @@
     <main>
         <ul>
             <li>
-                <img src="/app/images/superman.jpg" width="200" alt="x">
-                <img src="/app/images/superman.jpg" width="200" alt="x">
+                <img src="~images/superman.jpg" width="200" alt="x">
+                <img src="~images/superman.jpg" width="200" alt="x">
             </li>
             <li>
                 <span></span>

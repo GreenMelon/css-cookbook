@@ -4,7 +4,7 @@
         text-align: center;
         text-transform: uppercase;
         color: transparent;
-        background-image: url('/app/images/blue-sky.jpg');
+        background-image: url(~images/blue-sky.jpg);
         background-repeat: no-repeat;
         background-position: 50% 78%;
         -webkit-background-clip: text;

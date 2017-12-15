@@ -10,7 +10,7 @@
             overflow: hidden;
         }
         .content {
-            background: url("/app/images/blue-sky.jpg");
+            background: url(~images/blue-sky.jpg);
             background-size: cover;
         }
 

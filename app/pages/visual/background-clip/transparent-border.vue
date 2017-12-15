@@ -5,7 +5,7 @@
 
     .outer {
         padding: 10px 0;
-        background: url("/app/images/blue-sky.jpg");
+        background: url("~images/blue-sky.jpg");
         background-size: contain;
     }
 
