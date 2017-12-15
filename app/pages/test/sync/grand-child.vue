@@ -19,7 +19,13 @@
             z: {
                 type: Number,
                 default: 111
-            }
+            },
+            onClose: {
+                type: Function,
+                default() {
+                    return () => {};
+                }
+            },
         },
         data() {
             return {}
@@ -27,6 +33,7 @@
         methods: {
             change() {
                 this.$emit('update:z', this.z + 1);
+                this.onClose(1);
             }
         },
         mounted() {}

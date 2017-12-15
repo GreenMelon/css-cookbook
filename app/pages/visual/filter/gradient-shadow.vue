@@ -4,7 +4,7 @@
         width: 82px;
         height: 181px;
         margin: 100px auto;
-        background: url(../../../images/superman.png);
+        background: url(~images/superman.png);
         background-size: 100% 100%;
         &::after {
             content: "";

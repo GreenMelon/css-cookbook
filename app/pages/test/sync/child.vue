@@ -10,7 +10,8 @@
 <template>
     <div class="child">
         <grand-child
-            :z.sync="y">
+            :z.sync="y"
+            :on-close="close">
         </grand-child>
     </div>
 </template>
@@ -39,7 +40,11 @@
                 }
             }
         },
-        methods: {},
+        methods: {
+            close(val) {
+                console.log(111, val);
+            }
+        },
         mounted() {
         }
     });

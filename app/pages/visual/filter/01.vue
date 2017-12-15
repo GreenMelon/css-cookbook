@@ -55,7 +55,7 @@
     <main>
         <ul class="filter-list">
             <li v-for="filter in filters" class="filter-item">
-                <img :class="filter.value" src="../../../images/blue-sky.jpg" alt="sky">
+                <img :class="filter.value" src="~images/blue-sky.jpg" alt="sky">
                 <p>{{ filter.value + ' ' + filter.name }}</p>
             </li>
         </ul>

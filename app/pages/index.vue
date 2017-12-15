@@ -1,33 +1,33 @@
 <style scoped>
-    button {
-        font-size: 24px;
-        cursor: pointer;
+    img {
+        width: 400px;
+        height: auto;
     }
 </style>
 
 <template>
     <main>
         <h1>Index</h1>
-        <ul>
-            <li v-for="(item, index) in list">
-                {{ item }}
-                <button @click="update(index)">save</button>
-            </li>
-        </ul>
+
+        <img :src="preview1" alt="">
+        <img :src="preview2" alt="">
+        <img src="~images/blue-sky.jpg" alt="">
+
     </main>
 </template>
 
 <script>
+    import preview2 from '@/images/blue-sky.jpg';
+
     export default {
         data() {
             return {
-                list: [1, 2, 4]
+                preview1: require('../images/blue-sky.jpg'),
+                preview2: preview2,
             }
         },
         methods: {
-            update(index) {
-                this.$set(this.list, index, 0);
-            }
+
         },
         mounted() {
             console.log(111, this.$router);

@@ -25,14 +25,14 @@
 
     .first {
         background-color: #C5075C;
-        background-image: url("/app/images/Ichi.gif");
+        background-image: url(~images/Ichi.gif);
 
         transform: translateX(-65%) translateY(-50%);
     }
 
     .second {
         background-color: #03B897;
-        background-image: url("/app/images/001.gif");
+        background-image: url(~images/001.gif);
 
         transform: translateX(-35%) translateY(-50%);
 

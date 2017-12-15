@@ -5,7 +5,7 @@
         text-indent: 200px;
         color: purple;
         background-size: contain;
-        background: url('../../../images/superman.png') no-repeat left, url('../../../images/superman.jpg') no-repeat right;
+        background: url('~images/superman.png') no-repeat left, url('~images/superman.jpg') no-repeat right;
     }
 </style>
 

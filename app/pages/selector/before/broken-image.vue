@@ -39,7 +39,7 @@
     <main>
         <ul>
             <li>
-                <img src="/app/images/blue-sky.jpg" alt="banner">
+                <img src="~images/blue-sky.jpg" alt="banner">
             </li>
             <li>
                 <img src="https://caigua.com/image/blue-sky.jpg" alt="banner">
