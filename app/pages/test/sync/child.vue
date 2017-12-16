@@ -13,13 +13,17 @@
             :z.sync="X"
             :on-close="close">
         </grand-child>
-        <input type="number" v-model="Y">
+        <input
+            v-model="Y"
+            v-focus
+            type="text"
+        >
     </div>
 </template>
 
 <script>
     import Vue from 'vue';
-    import Filters from '@/utils/filters';
+    import Filters from '@/filters/index';
     import './grand-child';
 
     const Child = Vue.extend({

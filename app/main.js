@@ -2,7 +2,8 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './app.vue';
 import routes from './config/routes';
-import filters from './utils/filters';
+import filters from './filters/index';
+import directives from './directives/index';
 
 Vue.use(VueRouter);
 Vue.config.debug = true;
@@ -17,4 +18,5 @@ const app = new Vue({
     components: { App },
     router,
     filters,
+    directives,
 });
