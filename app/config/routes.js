@@ -64,6 +64,7 @@ import Cursor01 from '../pages/visual/cursor/01';
 import Filter01 from '../pages/visual/filter/01';
 import FilterGradientShadow from '../pages/visual/filter/gradient-shadow';
 import Fusion from '../pages/visual/filter/fusion';
+import MaskImage01 from '../pages/visual/mask-image/01';
 
 import TransformIndex from '../pages/transform/index';
 import Parallelogram from '../pages/transform/skew/parallelogram';
@@ -303,6 +304,9 @@ export default [
     },{
         path: '/visual/filter/fusion',
         component: Fusion
+    },{
+        path: '/visual/mask-image/01',
+        component: MaskImage01
     },
 
     {

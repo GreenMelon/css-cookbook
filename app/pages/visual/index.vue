@@ -148,6 +148,14 @@
                                 route: '/visual/filter/fusion'
                             }
                         ]
+                    },{
+                        name: 'mask-image 遮罩',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/visual/mask-image/01'
+                            }
+                        ]
                     }
                 ]
             }
