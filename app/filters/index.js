@@ -1,7 +1,7 @@
-import Subfix from './subfix';
+import subfix from './subfix';
 
 const filters = {
-    Subfix
+    subfix
 };
 
 export default filters;

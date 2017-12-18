@@ -23,7 +23,7 @@
         <h1>loash debounce</h1>
         <input type="text" v-model="b">
         <button @click="doStuff(false)" type="button">click me</button>
-        <p>{{ b | Subfix('px') }}</p>
+        <p>{{ b | subfix('px') }}</p>
     </main>
 </template>
 
@@ -39,12 +39,15 @@
                 subfixA: 'px',
             }
         },
+        computed: {},
         methods: {
             doStuff: _.debounce(function(val) {
                 console.log('debounce', val, this.b);
 
             }, 1000),
         },
-        mounted() {}
+        mounted() {
+            console.log('child', this.$refs);
+        },
     };
 </script>

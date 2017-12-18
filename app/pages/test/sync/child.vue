@@ -15,7 +15,9 @@
         </grand-child>
         <input
             v-model="Y"
-            v-focus
+            v-focus="{
+                a: '111'
+            }"
             type="text"
         >
     </div>
@@ -55,7 +57,7 @@
             },
             Y: {
                 get() {
-                    return Filters.Subfix(this.y, this.subfix);
+                    return Filters.subfix(this.y, this.subfix);
                 },
                 set(val) {
                     this.$emit('update:y', val.replace(this.subfix, ''));
