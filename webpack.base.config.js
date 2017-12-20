@@ -102,6 +102,7 @@ module.exports = {
             vue: path.join(__dirname, 'node_modules/vue/dist/vue'),
             '@': path.join(__dirname, 'app'),
             'images': path.join(__dirname, 'app/images'),
+            'assets': path.join(__dirname, 'app/assets'),
         }
     },
     plugins: []

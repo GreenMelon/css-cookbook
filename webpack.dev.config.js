@@ -6,7 +6,6 @@ const webpack = require('webpack');
 const config = require('./webpack.base.config');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const fs = require('fs');
 
 config.devtool = '#source-map';                             // source-map
 config.output.publicPath = '/dist/';                        // 资源路径
@@ -30,13 +29,5 @@ config.plugins = (config.plugins || []).concat([
         inject: 'body'
     })
 ]);
-
-// 写入环境变量
-fs.open('./app/config/env.js', 'w', function (err, fd) {
-    var buf = 'module.exports = "development";';
-    fs.write(fd, buf, 0, buf.length, 0, function(err, written, buffer){
-        return err;
-    });
-});
 
 module.exports = config;
