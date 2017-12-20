@@ -1,5 +1,5 @@
 /**
- * routesborder
+ * routes
  */
 
 import NotFound from '../pages/404';
@@ -97,7 +97,6 @@ import ScrollTop from '../pages/test/scroll-top/1';
 import Brace from '../pages/test/editor/brace';
 import Clipboard001 from '../pages/test/clipboard/001';
 import FileReaderImgae from '../pages/test/filereader/image';
-import Sync from '../pages/test/sync/parent';
 
 import CanvasIndex from '../pages/canvas/index';
 import drawImage001 from '../pages/canvas/draw-image/001';
@@ -394,9 +393,6 @@ export default [
     },{
         path: '/test/filereader/image',
         component: FileReaderImgae
-    },{
-        path: '/test/sync',
-        component: Sync
     },
 
     {

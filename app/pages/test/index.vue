@@ -24,20 +24,11 @@
                             },{
                                 name: 'FileReader',
                                 route: '/test/filereader/image'
-                            },{
-                                name: 'sync',
-                                route: '/test/sync'
-                            }
-                        ]
+                            },
+                        ],
                     }
-                ]
+                ],
             }
         },
-        methods: {
-            //
-        },
-        created() {
-            //
-        }
     }
 </script>

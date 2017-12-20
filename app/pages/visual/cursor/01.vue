@@ -4,7 +4,7 @@
         width: 400px;
         height: 300px;
         background-color: #007dd4;
-        cursor: url(../../../assets/slice/chevron.svg), pointer;
+        cursor: url(~assets/chevron.svg), pointer;
     }
 </style>
 
