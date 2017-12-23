@@ -4,21 +4,13 @@
 
 <template>
     <div id="app">
-        <aside>
-            <ul class="mod-modules list-module">
-                <li v-for="module in modules" class="item">
-                    <router-link
-                        :to="module.route"
-                        :class="{active: $route.path.startsWith(module.route)}">{{ module.name }}
-                    </router-link>
-                </li>
-            </ul>
-        </aside>
+        <modules :modules="modules"></modules>
         <router-view></router-view>
     </div>
 </template>
 
 <script>
+    import './components/modules';
     import './components/categories';
 
     export default {
