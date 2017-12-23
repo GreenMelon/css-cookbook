@@ -108,17 +108,6 @@
                             }
                         ]
                     },{
-                        name: 'drop-shadow',
-                        instances: [
-                            {
-                                name: '001',
-                                route: '/visual/drop-shadow/01'
-                            },{
-                                name: '与 box-shadow 比较',
-                                route: '/visual/drop-shadow/02'
-                            }
-                        ]
-                    },{
                         name: 'box-reflect',
                         instances: [
                             {
@@ -140,6 +129,9 @@
                             {
                                 name: '全部滤镜效果',
                                 route: '/visual/filter/01'
+                            },{
+                                name: 'PNG格式小图标的赋色',
+                                route: '/visual/filter/drop-shadow'
                             },{
                                 name: '颜色丰富的阴影',
                                 route: '/visual/filter/gradient-shadow'

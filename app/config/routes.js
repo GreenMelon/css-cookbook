@@ -57,13 +57,12 @@ import GradientAnimation from '../pages/visual/linear-gradient/gradient-animatio
 import Waveline from '../pages/visual/linear-gradient/waveline';
 import Chrome from '../pages/visual/radial-gradient/chrome';
 import ConicGradient01 from '../pages/visual/conic-gradient/01';
-import DropShadow01 from '../pages/visual/drop-shadow/01';
-import DropShadow02 from '../pages/visual/drop-shadow/02';
 import BoxReflect01 from '../pages/visual/box-reflect/01';
 import Cursor01 from '../pages/visual/cursor/01';
-import Filter01 from '../pages/visual/filter/01';
-import FilterGradientShadow from '../pages/visual/filter/gradient-shadow';
-import Fusion from '../pages/visual/filter/fusion';
+import AllEffectsFilter from '../pages/visual/filter/all-effects';
+import DropShadowFilter from '../pages/visual/filter/drop-shadow';
+import GradientShadowFilter from '../pages/visual/filter/gradient-shadow';
+import FusionFilter from '../pages/visual/filter/fusion';
 import MaskImage01 from '../pages/visual/mask-image/01';
 
 import TransformIndex from '../pages/transform/index';
@@ -283,26 +282,23 @@ export default [
         path: '/visual/conic-gradient/01',
         component: ConicGradient01
     },{
-        path: '/visual/drop-shadow/01',
-        component: DropShadow01
-    },{
-        path: '/visual/drop-shadow/02',
-        component: DropShadow02
-    },{
         path: '/visual/box-reflect/01',
         component: BoxReflect01
     },{
         path: '/visual/cursor/01',
         component: Cursor01
     },{
-        path: '/visual/filter/01',
-        component: Filter01
+        path: '/visual/filter/all-effects',
+        component: AllEffectsFilter
+    },{
+        path: '/visual/filter/drop-shadow',
+        component: DropShadowFilter
     },{
         path: '/visual/filter/gradient-shadow',
-        component: FilterGradientShadow
+        component: GradientShadowFilter
     },{
         path: '/visual/filter/fusion',
-        component: Fusion
+        component: FusionFilter
     },{
         path: '/visual/mask-image/01',
         component: MaskImage01
