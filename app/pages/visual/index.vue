@@ -78,6 +78,14 @@
                             }
                         ]
                     },{
+                        name: 'background-blend-mode',
+                        instances: [
+                            {
+                                name: '图片任意赋色技术',
+                                route: '/visual/background-blend-mode/01'
+                            }
+                        ]
+                    },{
                         name: 'linear-gradient 线性渐变',
                         instances: [
                             {
