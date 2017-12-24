@@ -51,7 +51,8 @@ import BoxShadowPpointerEvents from '../pages/visual/box-shadow/pointer-events';
 import Monalisa from '../pages/visual/box-shadow/monalisa';
 import BackgroundImage01 from '../pages/visual/background-image/01';
 import TransparentBorder from '../pages/visual/background-clip/transparent-border';
-import VisualBackgroundClipText from '../pages/visual/background-clip/text';
+import BackgroundClipText from '../pages/visual/background-clip/text';
+import BackgroundBlendMode01 from '../pages/visual/background-blend-mode/01';
 import LinearGradient01 from '../pages/visual/linear-gradient/01';
 import GradientAnimation from '../pages/visual/linear-gradient/gradient-animation';
 import Waveline from '../pages/visual/linear-gradient/waveline';
@@ -265,7 +266,10 @@ export default [
         component: TransparentBorder
     },{
         path: '/visual/background-clip/text',
-        component: VisualBackgroundClipText
+        component: BackgroundClipText
+    },{
+        path: '/visual/background-blend-mode/01',
+        component: BackgroundBlendMode01
     },{
         path: '/visual/linear-gradient/01',
         component: LinearGradient01

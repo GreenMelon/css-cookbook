@@ -69,11 +69,5 @@
                 ]
             }
         },
-        methods: {},
-        mounted() {
-            this.$nextTick(function () {
-                // this.$el;
-            });
-        },
     }
 </script>
