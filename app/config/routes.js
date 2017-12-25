@@ -98,17 +98,6 @@ import Brace from '../pages/test/editor/brace';
 import Clipboard001 from '../pages/test/clipboard/001';
 import FileReaderImgae from '../pages/test/filereader/image';
 
-import CanvasIndex from '../pages/canvas/index';
-import drawImage001 from '../pages/canvas/draw-image/001';
-import drawImage002 from '../pages/canvas/draw-image/002';
-import drawImage003 from '../pages/canvas/draw-image/003';
-
-import SvgIndex from '../pages/svg/index';
-import SvgLine1 from '../pages/svg/line/1';
-import SvgTriangle1 from '../pages/svg/triangle/1';
-import SvgRectangle1 from '../pages/svg/rectangle/1';
-import SvgCircle1 from '../pages/svg/circle/1';
-
 import VideoIndex from '../pages/video/index';
 import Mse01 from '../pages/video/mse/01';
 import VideoInstances01 from '../pages/video/instances/01';
@@ -393,37 +382,6 @@ export default [
     },{
         path: '/test/filereader/image',
         component: FileReaderImgae
-    },
-
-    {
-        path: '/canvas',
-        component: CanvasIndex
-    },{
-        path: '/canvas/draw-image/001',
-        component: drawImage001
-    },{
-        path: '/canvas/draw-image/002',
-        component: drawImage002
-    },{
-        path: '/canvas/draw-image/003',
-        component: drawImage003
-    },
-
-    {
-        path: '/svg',
-        component: SvgIndex
-    },{
-        path: '/svg/line/1',
-        component: SvgLine1
-    },{
-        path: '/svg/triangle/1',
-        component: SvgTriangle1
-    },{
-        path: '/svg/rectangle/1',
-        component: SvgRectangle1
-    },{
-        path: '/svg/circle/1',
-        component: SvgCircle1
     },
 
     {
