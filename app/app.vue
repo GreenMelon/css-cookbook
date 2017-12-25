@@ -48,12 +48,6 @@
                         name: 'pointerevents',
                         route: '/pointerevents'
                     },{
-                        name: 'svg',
-                        route: '/svg'
-                    },{
-                        name: 'canvas',
-                        route: '/canvas'
-                    },{
                         name: 'video',
                         route: '/video'
                     },{
