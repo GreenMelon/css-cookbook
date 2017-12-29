@@ -19,9 +19,6 @@
                     },{
                         name: '仿IOS按钮',
                         route: '/instances/ios-btn'
-                    },{
-                        name: '轮播',
-                        route: '/instances/transition'
                     }
                 ]
             }
