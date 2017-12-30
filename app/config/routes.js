@@ -40,6 +40,7 @@ import WritingMode from '../pages/typographic/text/writing-mode';
 import VisualIndex from '../pages/visual/index';
 import BorderRadius01 from '../pages/visual/border-radius/01';
 import Infinity from '../pages/visual/border-radius/infinity';
+import Wave from '../pages/visual/border-radius/wave';
 import Outline01 from '../pages/visual/outline/01';
 import OutlineOffset from '../pages/visual/outline/outline-offset';
 import OutlineRadius from '../pages/visual/outline/outline-radius';
@@ -220,6 +221,9 @@ export default [
     },{
         path: '/visual/border-radius/infinity',
         component: Infinity
+    },{
+        path: '/visual/border-radius/wave',
+        component: Wave
     },{
         path: '/visual/outline/01',
         component: Outline01

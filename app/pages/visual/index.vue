@@ -18,6 +18,9 @@
                             },{
                                 name: '无穷',
                                 route: '/visual/border-radius/infinity'
+                            },{
+                                name: '波浪',
+                                route: '/visual/border-radius/wave'
                             }
                         ]
                     },{
