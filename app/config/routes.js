@@ -23,6 +23,7 @@ import ShapePolygon from '../pages/formatting-model/shape/polygon';
 import VerticalAlign from '../pages/formatting-model/align/vertical-align';
 
 import BoxModelIndex from '../pages/box-model/index';
+import BorderWidth from '../pages/box-model/border/border-width';
 import Clip01 from '../pages/box-model/clip/01';
 import BackgroundBlendModes from '../pages/box-model/clip/reverse-clip-path-with-blend-modes';
 
@@ -172,6 +173,9 @@ export default [
     {
         path: '/box-model',
         component: BoxModelIndex
+    },{
+        path: '/box-model/border/border-width',
+        component: BorderWidth
     },{
         path: '/box-model/clip/01',
         component: Clip01
