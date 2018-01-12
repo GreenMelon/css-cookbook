@@ -67,6 +67,7 @@ import DropShadowFilter from '../pages/visual/filter/drop-shadow';
 import GradientShadowFilter from '../pages/visual/filter/gradient-shadow';
 import FusionFilter from '../pages/visual/filter/fusion';
 import MaskImage01 from '../pages/visual/mask-image/01';
+import Visibility01 from '../pages/visual/visibility/01';
 
 import TransformIndex from '../pages/transform/index';
 import Parallelogram from '../pages/transform/skew/parallelogram';
@@ -303,6 +304,9 @@ export default [
     },{
         path: '/visual/mask-image/01',
         component: MaskImage01
+    },{
+        path: '/visual/visibility/01',
+        component: Visibility01
     },
 
     {

@@ -159,6 +159,14 @@
                                 route: '/visual/mask-image/01'
                             }
                         ]
+                    },{
+                        name: 'visibility 可见性',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/visual/visibility/01'
+                            }
+                        ]
                     }
                 ]
             }
