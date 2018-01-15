@@ -54,12 +54,14 @@ import Monalisa from '../pages/visual/box-shadow/monalisa';
 import BackgroundImage01 from '../pages/visual/background-image/01';
 import TransparentBorder from '../pages/visual/background-clip/transparent-border';
 import BackgroundClipText from '../pages/visual/background-clip/text';
+import Chessboard01 from '../pages/visual/background-size/chessboard';
 import BackgroundBlendMode01 from '../pages/visual/background-blend-mode/01';
 import LinearGradient01 from '../pages/visual/linear-gradient/01';
 import GradientAnimation from '../pages/visual/linear-gradient/gradient-animation';
 import Waveline from '../pages/visual/linear-gradient/waveline';
 import Chrome from '../pages/visual/radial-gradient/chrome';
 import ConicGradient01 from '../pages/visual/conic-gradient/01';
+import Chessboard02 from '../pages/visual/conic-gradient/chessboard';
 import BoxReflect01 from '../pages/visual/box-reflect/01';
 import Cursor01 from '../pages/visual/cursor/01';
 import AllEffectsFilter from '../pages/visual/filter/all-effects';
@@ -266,6 +268,9 @@ export default [
         path: '/visual/background-clip/text',
         component: BackgroundClipText
     },{
+        path: '/visual/background-size/chessboard',
+        component: Chessboard01
+    },{
         path: '/visual/background-blend-mode/01',
         component: BackgroundBlendMode01
     },{
@@ -283,6 +288,9 @@ export default [
     },{
         path: '/visual/conic-gradient/01',
         component: ConicGradient01
+    },{
+        path: '/visual/conic-gradient/chessboard',
+        component: Chessboard02
     },{
         path: '/visual/box-reflect/01',
         component: BoxReflect01

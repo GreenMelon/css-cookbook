@@ -81,6 +81,14 @@
                             }
                         ]
                     },{
+                        name: 'background-size',
+                        instances: [
+                            {
+                                name: '棋盘效果',
+                                route: '/visual/background-size/chessboard'
+                            }
+                        ]
+                    },{
                         name: 'background-blend-mode',
                         instances: [
                             {
@@ -116,6 +124,9 @@
                             {
                                 name: '圆锥渐变',
                                 route: '/visual/conic-gradient/01'
+                            },{
+                                name: '棋盘效果',
+                                route: '/visual/conic-gradient/chessboard'
                             }
                         ]
                     },{
