@@ -59,6 +59,7 @@ import BackgroundBlendMode01 from '../pages/visual/background-blend-mode/01';
 import LinearGradient01 from '../pages/visual/linear-gradient/01';
 import GradientAnimation from '../pages/visual/linear-gradient/gradient-animation';
 import Waveline from '../pages/visual/linear-gradient/waveline';
+import GradientCircle02 from '../pages/visual/linear-gradient/circle';
 import Chrome from '../pages/visual/radial-gradient/chrome';
 import ConicGradient01 from '../pages/visual/conic-gradient/01';
 import Chessboard02 from '../pages/visual/conic-gradient/chessboard';
@@ -283,6 +284,9 @@ export default [
     },{
         path: '/visual/linear-gradient/waveline',
         component: Waveline
+    },{
+        path: '/visual/linear-gradient/circle',
+        component: GradientCircle02
     },{
         path: '/visual/radial-gradient/chrome',
         component: Chrome
