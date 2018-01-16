@@ -127,6 +127,9 @@
                             },{
                                 name: '棋盘效果',
                                 route: '/visual/conic-gradient/chessboard'
+                            },{
+                                name: '渐变圆环',
+                                route: '/visual/conic-gradient/circle'
                             }
                         ]
                     },{
