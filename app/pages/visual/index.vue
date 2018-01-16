@@ -108,6 +108,9 @@
                             },{
                                 name: '波浪线',
                                 route: '/visual/linear-gradient/waveline'
+                            },{
+                                name: '渐变圆环',
+                                route: '/visual/linear-gradient/circle'
                             }
                         ]
                     },{
