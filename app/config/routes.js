@@ -25,6 +25,7 @@ import VerticalAlign from '../pages/formatting-model/align/vertical-align';
 import BoxModelIndex from '../pages/box-model/index';
 import BorderWidth from '../pages/box-model/border/border-width';
 import Clip01 from '../pages/box-model/clip/01';
+import GradientCircle03 from '../pages/box-model/clip/circle';
 import BackgroundBlendModes from '../pages/box-model/clip/reverse-clip-path-with-blend-modes';
 
 import TypographicIndex from '../pages/typographic/index';
@@ -184,6 +185,9 @@ export default [
     },{
         path: '/box-model/clip/01',
         component: Clip01
+    },{
+        path: '/box-model/clip/circle',
+        component: GradientCircle03
     },{
         path: '/box-model/clip/reverse-clip-path-with-blend-modes',
         component: BackgroundBlendModes

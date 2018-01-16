@@ -27,6 +27,9 @@
                                 name: '背景裁切',
                                 route: '/box-model/clip/01'
                             },{
+                                name: '渐变圆环',
+                                route: '/box-model/clip/circle'
+                            },{
                                 name: 'reverse clip-path with blend-modes',
                                 route: '/box-model/clip/reverse-clip-path-with-blend-modes'
                             }
