@@ -156,7 +156,7 @@
                         instances: [
                             {
                                 name: '全部滤镜效果',
-                                route: '/visual/filter/01'
+                                route: '/visual/filter/all-effects'
                             },{
                                 name: 'PNG格式小图标的赋色',
                                 route: '/visual/filter/drop-shadow'
