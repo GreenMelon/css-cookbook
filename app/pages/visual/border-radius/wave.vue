@@ -11,9 +11,9 @@
         width: 200px;
         height: 200px;
         padding: 5px;
+        overflow: hidden;
         border: 5px solid rgb(118, 218, 255);
         border-radius: 50%;
-        overflow: hidden;
     }
     .wave {
         position: relative;
@@ -30,19 +30,22 @@
             left: 50%;
             width: 400px;
             height: 400px;
-            background-color: rgba(255, 255, 255, .4);
+        }
+
+        &::before {
+            z-index: 10;
             border-radius: 45%;
+            background-color: rgba(255, 255, 255, .4);
             transform: translate(-50%, -70%) rotate(0);
             animation: rotate 6s linear infinite;
-            z-index: 10;
         }
 
         &::after {
+            z-index: 20;
             border-radius: 47%;
             background-color: rgba(255, 255, 255, .9);
             transform: translate(-50%, -70%) rotate(0);
             animation: rotate 10s linear -5s infinite;
-            z-index: 20;
         }
     }
 
