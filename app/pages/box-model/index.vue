@@ -16,6 +16,9 @@
                                 name: '边框宽度可继承',
                                 route: '/box-model/border/border-width'
                             },{
+                                name: '渐变圆环',
+                                route: '/box-model/border/border-image'
+                            },{
                                 name: '透明边框',
                                 route: '/visual/background-clip/transparent-border'
                             }
