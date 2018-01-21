@@ -174,6 +174,9 @@
                             {
                                 name: '01',
                                 route: '/visual/mask-image/01'
+                            },{
+                                name: '斜线拼接',
+                                route: '/visual/mask-image/02'
                             }
                         ]
                     },{
