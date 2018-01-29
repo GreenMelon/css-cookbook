@@ -5,6 +5,9 @@
 import NotFound from '../pages/404';
 import Index from '../pages/index';
 
+import ElementIndex from '../pages/element/index';
+import DialogElement from '../pages/element/dialog';
+
 import SelectorIndex from '../pages/selector/index';
 import SelectorSelection01 from '../pages/selector/selection/01';
 import BrokenImage from '../pages/selector/before/broken-image';
@@ -124,9 +127,17 @@ export default [
     {
         path: '/',
         redirect: '/index'
-    }, {
+    },{
         path: '/index',
         component: Index
+    },
+
+    {
+        path: '/element',
+        component: ElementIndex
+    },{
+        path: '/element/dialog',
+        component: DialogElement
     },
 
     {
