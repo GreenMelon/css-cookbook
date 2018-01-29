@@ -18,6 +18,9 @@
             return {
                 modules: [
                     {
+                        name: 'element',
+                        route: '/element'
+                    },{
                         name: 'selector',
                         route: '/selector'
                     },{
