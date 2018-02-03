@@ -106,6 +106,9 @@
                                 name: '渐变边框',
                                 route: '/visual/linear-gradient/01'
                             },{
+                                name: '地砖',
+                                route: '/visual/linear-gradient/02'
+                            },{
                                 name: '渐变动画',
                                 route: '/visual/linear-gradient/gradient-animation'
                             },{

@@ -63,6 +63,7 @@ import BackgroundClipText from '../pages/visual/background-clip/text';
 import Chessboard01 from '../pages/visual/background-size/chessboard';
 import BackgroundBlendMode01 from '../pages/visual/background-blend-mode/01';
 import LinearGradient01 from '../pages/visual/linear-gradient/01';
+import LinearGradient02 from '../pages/visual/linear-gradient/02';
 import GradientAnimation from '../pages/visual/linear-gradient/gradient-animation';
 import Waveline from '../pages/visual/linear-gradient/waveline';
 import GradientCircle02 from '../pages/visual/linear-gradient/circle';
@@ -302,6 +303,9 @@ export default [
     },{
         path: '/visual/linear-gradient/01',
         component: LinearGradient01
+    },{
+        path: '/visual/linear-gradient/02',
+        component: LinearGradient02
     },{
         path: '/visual/linear-gradient/gradient-animation',
         component: GradientAnimation
