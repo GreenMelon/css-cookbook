@@ -57,6 +57,7 @@ import MultiBorder from '../pages/visual/box-shadow/multi-border';
 import BoxShadowPpointerEvents from '../pages/visual/box-shadow/pointer-events';
 import Monalisa from '../pages/visual/box-shadow/monalisa';
 import BackgroundImage01 from '../pages/visual/background-image/01';
+import BackgroundClip01 from '../pages/visual/background-clip/01';
 import TransparentBorder from '../pages/visual/background-clip/transparent-border';
 import BackgroundClipText from '../pages/visual/background-clip/text';
 import Chessboard01 from '../pages/visual/background-size/chessboard';
@@ -283,6 +284,9 @@ export default [
     },{
         path: '/visual/background-image/01',
         component: BackgroundImage01
+    },{
+        path: '/visual/background-clip/01',
+        component: BackgroundClip01
     },{
         path: '/visual/background-clip/transparent-border',
         component: TransparentBorder

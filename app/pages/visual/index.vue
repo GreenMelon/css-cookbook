@@ -73,6 +73,9 @@
                         name: 'background-clip',
                         instances: [
                             {
+                                name: '定义背景显示区域',
+                                route: '/visual/background-clip/01'
+                            },{
                                 name: '透明边框',
                                 route: '/visual/background-clip/transparent-border'
                             },{
