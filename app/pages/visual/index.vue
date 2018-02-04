@@ -73,6 +73,9 @@
                         name: 'background-clip',
                         instances: [
                             {
+                                name: '定义背景显示区域',
+                                route: '/visual/background-clip/01'
+                            },{
                                 name: '透明边框',
                                 route: '/visual/background-clip/transparent-border'
                             },{
@@ -102,6 +105,9 @@
                             {
                                 name: '渐变边框',
                                 route: '/visual/linear-gradient/01'
+                            },{
+                                name: '地砖',
+                                route: '/visual/linear-gradient/02'
                             },{
                                 name: '渐变动画',
                                 route: '/visual/linear-gradient/gradient-animation'
