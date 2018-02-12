@@ -56,6 +56,14 @@
                                 route: '/selector/focus-within/01'
                             }
                         ]
+                    },{
+                        name: ':focus-visible',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/focus-visible/01'
+                            }
+                        ]
                     }
                 ]
             }

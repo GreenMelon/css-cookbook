@@ -18,6 +18,7 @@ import BeforeInput from '../pages/selector/before/input';
 import BorderCornerShape from '../pages/selector/before/border-corner-shape';
 import Empty from '../pages/selector/empty/01';
 import FocusWithin from '../pages/selector/focus-within/01';
+import FocusVisible from '../pages/selector/focus-visible/01';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
 import Grid01 from '../pages/formatting-model/grid/01';
@@ -148,6 +149,9 @@ export default [
     },{
         path: '/selector/focus-within/01',
         component: FocusWithin,
+    },{
+        path: '/selector/focus-visible/01',
+        component: FocusVisible,
     },{
         path: '/selector/selection/01',
         component: SelectorSelection01
