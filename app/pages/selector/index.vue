@@ -64,6 +64,14 @@
                                 route: '/selector/focus-visible/01'
                             }
                         ]
+                    },{
+                        name: 'form',
+                        instances: [
+                            {
+                                name: '使用属性选择器获取用户密码',
+                                route: '/selector/form/password'
+                            }
+                        ]
                     }
                 ]
             }
