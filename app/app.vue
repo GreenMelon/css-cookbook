@@ -39,6 +39,9 @@
                         name: 'transform',
                         route: '/transform'
                     },{
+                        name: 'animation',
+                        route: '/animation'
+                    },{
                         name: 'table',
                         route: '/table'
                     },{

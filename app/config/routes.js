@@ -86,6 +86,9 @@ import Visibility01 from '../pages/visual/visibility/01';
 import TransformIndex from '../pages/transform/index';
 import Parallelogram from '../pages/transform/skew/parallelogram';
 
+import AnimationIndex from '../pages/animation/index';
+import Loading from '../pages/animation/rotate/loading';
+
 import TableIndex from '../pages/table/index';
 import TableLayoutIndex from '../pages/table/table-layout/index';
 
@@ -387,6 +390,14 @@ export default [
     },{
         path: '/image/image-set/01',
         component: ImageSet01
+    },
+
+    {
+        path: '/animation',
+        component: AnimationIndex
+    },{
+        path: '/animation/rotate/loading',
+        component: Loading
     },
 
     {
