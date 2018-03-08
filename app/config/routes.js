@@ -85,6 +85,7 @@ import Visibility01 from '../pages/visual/visibility/01';
 
 import TransformIndex from '../pages/transform/index';
 import Parallelogram from '../pages/transform/skew/parallelogram';
+import UnderlineAnimation from '../pages/transform/scaleX/underline-animation';
 
 import AnimationIndex from '../pages/animation/index';
 import Loading from '../pages/animation/rotate/loading';
@@ -373,6 +374,9 @@ export default [
     },{
         path: '/transform/skew/parallelogram',
         component: Parallelogram
+    },{
+        path: '/transform/scaleX/underline-animation',
+        component: UnderlineAnimation
     },
 
     {
