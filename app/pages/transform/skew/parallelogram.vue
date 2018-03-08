@@ -1,8 +1,8 @@
 <style lang="less" scoped>
-    div{
+    div {
+        display: inline-block;
         width: 150px;
         height: 100px;
-        margin: 20px auto;
         transform: skew(20deg);
         background: crimson;
     }
@@ -10,7 +10,9 @@
 
 <template>
     <main>
+        <span>left</span>
         <div></div>
+        <span>right</span>
     </main>
 </template>
 

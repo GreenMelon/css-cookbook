@@ -17,6 +17,14 @@
                                 route: '/transform/skew/parallelogram'
                             }
                         ]
+                    },{
+                        name: 'scaleX',
+                        instances: [
+                            {
+                                name: '下划线动画',
+                                route: '/transform/scaleX/underline-animation'
+                            }
+                        ]
                     }
                 ]
             }
