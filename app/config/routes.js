@@ -9,7 +9,8 @@ import ElementIndex from '../pages/element/index';
 import DialogElement from '../pages/element/dialog';
 
 import SelectorIndex from '../pages/selector/index';
-import SelectorSelection01 from '../pages/selector/selection/01';
+import AttrSelector01 from '../pages/selector/attr/01';
+import SelectionSelector01 from '../pages/selector/selection/01';
 import BrokenImage from '../pages/selector/before/broken-image';
 import JiuGong from '../pages/selector/before/jiu-gong';
 import Counter1 from '../pages/selector/before/counter-001';
@@ -152,6 +153,9 @@ export default [
         path: '/selector',
         component: SelectorIndex
     },{
+        path: '/selector/attr/01',
+        component: AttrSelector01
+    },{
         path: '/selector/focus-within/01',
         component: FocusWithin,
     },{
@@ -159,7 +163,7 @@ export default [
         component: FocusVisible,
     },{
         path: '/selector/selection/01',
-        component: SelectorSelection01
+        component: SelectionSelector01
     },{
         path: '/selector/before/broken-image',
         component: BrokenImage

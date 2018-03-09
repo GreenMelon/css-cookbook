@@ -10,6 +10,14 @@
             return {
                 categories: [
                     {
+                        name: '[attr]',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/attr/01'
+                            }
+                        ]
+                    },{
                         name: '::selection',
                         instances: [
                             {
