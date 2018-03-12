@@ -49,6 +49,22 @@
                             }
                         ]
                     },{
+                        name: '::first-line',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/first-line/01'
+                            }
+                        ]
+                    },{
+                        name: '::first-letter',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/first-letter/01'
+                            }
+                        ]
+                    },{
                         name: ':empty',
                         instances: [
                             {
