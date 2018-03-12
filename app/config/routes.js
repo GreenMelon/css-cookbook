@@ -17,6 +17,8 @@ import Counter1 from '../pages/selector/before/counter-001';
 import PointerEvents from '../pages/selector/before/pointer-events';
 import BeforeInput from '../pages/selector/before/input';
 import BorderCornerShape from '../pages/selector/before/border-corner-shape';
+import FirstLineSelector from '../pages/selector/first-line/01';
+import FirstLetterSelector from '../pages/selector/first-letter/01';
 import Empty from '../pages/selector/empty/01';
 import FocusWithin from '../pages/selector/focus-within/01';
 import FocusVisible from '../pages/selector/focus-visible/01';
@@ -185,6 +187,12 @@ export default [
     },{
         path: '/selector/before/border-corner-shape',
         component: BorderCornerShape
+    },{
+        path: '/selector/first-line/01',
+        component: FirstLineSelector
+    },{
+        path: '/selector/first-letter/01',
+        component: FirstLetterSelector
     },{
         path: '/selector/empty/01',
         component: Empty
