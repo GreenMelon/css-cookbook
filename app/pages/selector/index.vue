@@ -73,6 +73,14 @@
                             }
                         ]
                     },{
+                        name: ':default',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/default/01'
+                            }
+                        ]
+                    },{
                         name: ':focus-within',
                         instances: [
                             {
