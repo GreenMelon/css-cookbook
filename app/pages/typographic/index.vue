@@ -38,6 +38,9 @@
                             },{
                                 name: 'writing-mode',
                                 route: '/typographic/text/writing-mode'
+                            },{
+                                name: 'text-decoration',
+                                route: '/typographic/text/text-decoration'
                             }
                         ]
                     },{
