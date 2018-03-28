@@ -48,6 +48,7 @@ import TextAlignJustify from '../pages/typographic/text/text-align-justify';
 import TextShadow from '../pages/typographic/text/text-shadow';
 import TextTransform from '../pages/typographic/text/text-transform';
 import WritingMode from '../pages/typographic/text/writing-mode';
+import TextDecoration from '../pages/typographic/text/text-decoration';
 
 import VisualIndex from '../pages/visual/index';
 import BorderRadius01 from '../pages/visual/border-radius/01';
@@ -269,6 +270,9 @@ export default [
     },{
         path: '/typographic/text/writing-mode',
         component: WritingMode
+    },{
+        path: '/typographic/text/text-decoration',
+        component: TextDecoration
     },
 
     {

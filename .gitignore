@@ -9,3 +9,6 @@ app/css
 # sublime
 *.sublime-project
 *.sublime-workspace
+
+# vscode
+.history/
