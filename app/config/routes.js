@@ -46,6 +46,7 @@ import LineClamp from '../pages/typographic/wrap/line-clamp';
 import TextAlign from '../pages/typographic/text/text-align';
 import TextAlignJustify from '../pages/typographic/text/text-align-justify';
 import TextShadow from '../pages/typographic/text/text-shadow';
+import MosaicText from '../pages/typographic/text/text-shadow-mosaic';
 import TextTransform from '../pages/typographic/text/text-transform';
 import WritingMode from '../pages/typographic/text/writing-mode';
 import TextDecoration from '../pages/typographic/text/text-decoration';
@@ -264,6 +265,9 @@ export default [
     },{
         path: '/typographic/text/text-shadow',
         component: TextShadow
+    },{
+        path: '/typographic/text/text-shadow/mosaic',
+        component: MosaicText
     },{
         path: '/typographic/text/text-transform',
         component: TextTransform
