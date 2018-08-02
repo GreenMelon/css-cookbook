@@ -136,6 +136,7 @@ import TouchAction01 from '../pages/pointerevents/touch-action/01';
 import InstancesIndex from '../pages/instances/index';
 import Menu001 from '../pages/instances/menu';
 import IosBtn from '../pages/instances/ios-btn';
+import GetStyle from '../pages/instances/get-style';
 
 export default [
     {
@@ -521,6 +522,9 @@ export default [
     },{
         path: '/instances/ios-btn',
         component: IosBtn
+    },{
+        path: '/instances/get-style',
+        component: GetStyle
     },
 
     {
