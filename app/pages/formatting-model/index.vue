@@ -18,6 +18,14 @@
                             }
                         ]
                     },{
+                        name: 'flex',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/formatting-model/flex/01'
+                            }
+                        ]
+                    },{
                         name: 'shape',
                         instances: [
                             {
