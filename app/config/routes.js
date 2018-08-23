@@ -27,6 +27,7 @@ import Password from '../pages/selector/form/password';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
 import Grid01 from '../pages/formatting-model/grid/01';
+import Flex01 from '../pages/formatting-model/flex/01';
 import ShapeCircle from '../pages/formatting-model/shape/circle';
 import ShapePolygon from '../pages/formatting-model/shape/polygon';
 import VerticalAlign from '../pages/formatting-model/align/vertical-align';
@@ -211,6 +212,9 @@ export default [
     },{
         path: '/formatting-model/grid/01',
         component: Grid01
+    },{
+        path: '/formatting-model/flex/01',
+        component: Flex01
     },{
         path: '/formatting-model/shape/circle',
         component: ShapeCircle
