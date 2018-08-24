@@ -23,6 +23,8 @@ import FirstLetterSelector from '../pages/selector/first-letter/01';
 import Empty from '../pages/selector/empty/01';
 import FocusWithin from '../pages/selector/focus-within/01';
 import FocusVisible from '../pages/selector/focus-visible/01';
+import ReadOnly from '../pages/selector/read-only/01';
+import ReadWrite from '../pages/selector/read-write/01';
 import Password from '../pages/selector/form/password';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
@@ -168,6 +170,12 @@ export default [
     },{
         path: '/selector/focus-visible/01',
         component: FocusVisible,
+    },{
+        path: '/selector/read-only/01',
+        component: ReadOnly,
+    },{
+        path: '/selector/read-write/01',
+        component: ReadWrite,
     },{
         path: '/selector/selection/01',
         component: SelectionSelector01
