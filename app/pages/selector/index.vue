@@ -97,6 +97,22 @@
                             }
                         ]
                     },{
+                        name: ':read-only',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/read-only/01'
+                            }
+                        ]
+                    },{
+                        name: ':read-write',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/read-write/01'
+                            }
+                        ]
+                    },{
                         name: 'form',
                         instances: [
                             {
