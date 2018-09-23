@@ -44,6 +44,7 @@ import BackgroundBlendModes from '../pages/box-model/clip/reverse-clip-path-with
 import TypographicIndex from '../pages/typographic/index';
 import FontFamily from '../pages/typographic/font/font-family';
 import FontSmoothing from '../pages/typographic/font/font-smoothing';
+import FlashLight from '../pages/typographic/font-effect/flash-light';
 import OverflowWrap from '../pages/typographic/wrap/overflow-wrap';
 import LineClamp from '../pages/typographic/wrap/line-clamp';
 import TextAlign from '../pages/typographic/text/text-align';
@@ -263,6 +264,9 @@ export default [
     },{
         path: '/typographic/font/font-smoothing',
         component: FontSmoothing
+    },{
+        path: '/typographic/font-effect/flash-light',
+        component: FlashLight
     },{
         path: '/typographic/wrap/overflow-wrap',
         component: OverflowWrap
