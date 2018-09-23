@@ -86,6 +86,7 @@ import GradientCircle01 from '../pages/visual/conic-gradient/circle';
 import BoxReflect01 from '../pages/visual/box-reflect/01';
 import Cursor01 from '../pages/visual/cursor/01';
 import AllEffectsFilter from '../pages/visual/filter/all-effects';
+import SvgFilter from '../pages/visual/filter/svg-filter';
 import DropShadowFilter from '../pages/visual/filter/drop-shadow';
 import GradientShadowFilter from '../pages/visual/filter/gradient-shadow';
 import FusionFilter from '../pages/visual/filter/fusion';
@@ -389,6 +390,9 @@ export default [
     },{
         path: '/visual/filter/all-effects',
         component: AllEffectsFilter
+    },{
+        path: '/visual/filter/svg-filter',
+        component: SvgFilter
     },{
         path: '/visual/filter/drop-shadow',
         component: DropShadowFilter
