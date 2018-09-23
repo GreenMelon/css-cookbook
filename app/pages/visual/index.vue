@@ -164,6 +164,9 @@
                                 name: '全部滤镜效果',
                                 route: '/visual/filter/all-effects'
                             },{
+                                name: 'SVG 滤镜',
+                                route: '/visual/filter/svg-filter'
+                            },{
                                 name: 'PNG格式小图标的赋色',
                                 route: '/visual/filter/drop-shadow'
                             },{

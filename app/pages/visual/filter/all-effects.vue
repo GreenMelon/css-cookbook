@@ -54,7 +54,11 @@
 <template>
     <main>
         <ul class="filter-list">
-            <li v-for="filter in filters" class="filter-item">
+            <li
+                v-for="(filter, index) in filters"
+                :key="index"
+                class="filter-item"
+            >
                 <img :class="filter.value" src="~images/blue-sky.jpg" alt="sky">
                 <p>{{ filter.value + ' ' + filter.name }}</p>
             </li>
