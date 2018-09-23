@@ -21,6 +21,14 @@
                             }
                         ]
                     },{
+                        name: '文字特效',
+                        instances: [
+                            {
+                                name: 'flash-light',
+                                route: '/typographic/font-effect/flash-light'
+                            }
+                        ]
+                    },{
                         name: 'text',
                         instances: [
                             {
