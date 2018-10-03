@@ -142,6 +142,7 @@ import InstancesIndex from '../pages/instances/index';
 import Menu001 from '../pages/instances/menu';
 import IosBtn from '../pages/instances/ios-btn';
 import GetStyle from '../pages/instances/get-style';
+import Glitch from '../pages/instances/glitch';
 
 export default [
     {
@@ -545,6 +546,9 @@ export default [
     },{
         path: '/instances/get-style',
         component: GetStyle
+    },{
+        path: '/instances/glitch',
+        component: Glitch
     },
 
     {
