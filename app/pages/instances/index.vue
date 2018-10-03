@@ -25,6 +25,9 @@
                     },{
                         name: 'JS 中获取 CSS 值',
                         route: '/instances/get-style'
+                    },{
+                        name: '文字抖动特效',
+                        route: '/instances/glitch'
                     }
                 ]
             }
