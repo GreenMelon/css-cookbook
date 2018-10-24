@@ -26,6 +26,7 @@ import FocusVisible from '../pages/selector/focus-visible/01';
 import ReadOnly from '../pages/selector/read-only/01';
 import ReadWrite from '../pages/selector/read-write/01';
 import Password from '../pages/selector/form/password';
+import Indeterminate01 from '../pages/selector/indeterminate/01';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
 import Grid01 from '../pages/formatting-model/grid/01';
@@ -215,6 +216,9 @@ export default [
     },{
         path: '/selector/empty/01',
         component: Empty
+    },{
+        path: '/selector/indeterminate/01',
+        component: Indeterminate01
     },
 
     {

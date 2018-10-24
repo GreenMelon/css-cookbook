@@ -120,6 +120,14 @@
                                 route: '/selector/form/password'
                             }
                         ]
+                    },{
+                        name: 'indeterminate',
+                        instances: [
+                            {
+                                name: '表单控件状态',
+                                route: '/selector/indeterminate/01'
+                            }
+                        ]
                     }
                 ]
             }
