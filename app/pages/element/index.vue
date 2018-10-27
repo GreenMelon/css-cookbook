@@ -15,6 +15,9 @@
                             {
                                 name: 'dialog',
                                 route: '/element/dialog'
+                            },{
+                                name: 'progress',
+                                route: '/element/progress'
                             }
                         ]
                     }
