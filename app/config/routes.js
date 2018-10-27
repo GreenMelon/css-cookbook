@@ -6,7 +6,8 @@ import NotFound from '../pages/404';
 import Index from '../pages/index';
 
 import ElementIndex from '../pages/element/index';
-import DialogElement from '../pages/element/dialog';
+import Dialog from '../pages/element/dialog';
+import Progress from '../pages/element/progress';
 
 import SelectorIndex from '../pages/selector/index';
 import AttrSelector01 from '../pages/selector/attr/01';
@@ -159,7 +160,10 @@ export default [
         component: ElementIndex
     },{
         path: '/element/dialog',
-        component: DialogElement
+        component: Dialog
+    },{
+        path: '/element/progress',
+        component: Progress
     },
 
     {
