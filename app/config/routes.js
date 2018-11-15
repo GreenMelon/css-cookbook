@@ -6,6 +6,7 @@ import NotFound from '../pages/404';
 import Index from '../pages/index';
 
 import ElementIndex from '../pages/element/index';
+import A from '../pages/element/a';
 import Dialog from '../pages/element/dialog';
 import Progress from '../pages/element/progress';
 
@@ -158,6 +159,9 @@ export default [
     {
         path: '/element',
         component: ElementIndex
+    },{
+        path: '/element/a',
+        component: A
     },{
         path: '/element/dialog',
         component: Dialog

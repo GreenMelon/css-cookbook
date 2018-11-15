@@ -18,6 +18,9 @@
                             },{
                                 name: 'progress',
                                 route: '/element/progress'
+                            },{
+                                name: 'a',
+                                route: '/element/a'
                             }
                         ]
                     }
