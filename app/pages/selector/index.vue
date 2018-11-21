@@ -29,6 +29,9 @@
                         name: '::before',
                         instances: [
                             {
+                                name: 'attr',
+                                route: '/selector/before/attr'
+                            },{
                                 name: 'broken-image',
                                 route: '/selector/before/broken-image'
                             },{
