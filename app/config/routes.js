@@ -13,6 +13,7 @@ import Progress from '../pages/element/progress';
 import SelectorIndex from '../pages/selector/index';
 import AttrSelector01 from '../pages/selector/attr/01';
 import SelectionSelector01 from '../pages/selector/selection/01';
+import BeforeAttr from '../pages/selector/before/attr';
 import BrokenImage from '../pages/selector/before/broken-image';
 import JiuGong from '../pages/selector/before/jiu-gong';
 import Counter1 from '../pages/selector/before/counter-001';
@@ -191,6 +192,9 @@ export default [
     },{
         path: '/selector/selection/01',
         component: SelectionSelector01
+    },{
+        path: '/selector/before/attr',
+        component: BeforeAttr
     },{
         path: '/selector/before/broken-image',
         component: BrokenImage
