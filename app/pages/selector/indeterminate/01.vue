@@ -1,10 +1,14 @@
 <style lang="less" scoped>
-    input:indeterminate + label {
-        color: red;
+    label {
+        display: inline-block;
+        padding: 4px;
+        font-size: 36px;
+        border-radius: 4px;
+        background: green;
+        cursor: pointer;
     }
-
-    progress:indeterminate {
-        border: 1px solid orange;
+    :indeterminate + label {
+        background: crimson;
     }
 </style>
 
@@ -12,19 +16,13 @@
     <main>
         <div>
             <h1>复选框</h1>
-            <p>
-                <input id="checkboxId" type="checkbox" indeterminate="true">
-                <label for="checkboxId">Checkbox</label>
-            </p>
-        </div>
-
-        <div>
-            <h1>进度条</h1>
-            <p>
-                <progress /><br>
-                <progress value="15"/><br>
-                <progress value="10" max="20"/>
-            </p>
+            <br>
+            <input
+                type="checkbox"
+                id="indeterminate-choice"
+                class="indeterminate-choice"
+            >
+            <label for="indeterminate-choice">I agree with the Terms &amp; Conditions</label>
         </div>
     </main>
 </template>
