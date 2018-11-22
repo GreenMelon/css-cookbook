@@ -30,6 +30,7 @@ import ReadOnly from '../pages/selector/read-only/01';
 import ReadWrite from '../pages/selector/read-write/01';
 import Password from '../pages/selector/form/password';
 import Indeterminate01 from '../pages/selector/indeterminate/01';
+import PlaceholderShown01 from '../pages/selector/placeholder-shown/01';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
 import Grid01 from '../pages/formatting-model/grid/01';
@@ -231,6 +232,9 @@ export default [
     },{
         path: '/selector/indeterminate/01',
         component: Indeterminate01
+    },{
+        path: '/selector/placeholder-shown/01',
+        component: PlaceholderShown01
     },
 
     {

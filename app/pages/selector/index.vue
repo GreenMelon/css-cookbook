@@ -131,7 +131,15 @@
                                 route: '/selector/indeterminate/01'
                             }
                         ]
-                    }
+                    },{
+                        name: 'placeholder-shown',
+                        instances: [
+                            {
+                                name: '显示占位符',
+                                route: '/selector/placeholder-shown/01'
+                            }
+                        ]
+                    },
                 ]
             }
         },
