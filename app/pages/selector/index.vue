@@ -139,6 +139,14 @@
                                 route: '/selector/placeholder-shown/01'
                             }
                         ]
+                    },{
+                        name: 'matches',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/matches/01'
+                            }
+                        ]
                     },
                 ]
             }
