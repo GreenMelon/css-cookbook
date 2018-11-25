@@ -1,5 +1,5 @@
 <style lang="less" scoped>
-    #x::after{
+    .x::after{
         content: "\A";
         white-space: pre;
     }
@@ -7,7 +7,7 @@
 
 <template>
     <main>
-        <span id="x">x</span>
+        <span class="x">x</span>
         <span>y</span>
     </main>
 </template>

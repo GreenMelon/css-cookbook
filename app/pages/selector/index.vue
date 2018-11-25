@@ -52,6 +52,14 @@
                             }
                         ]
                     },{
+                        name: '::after',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/after/01'
+                            }
+                        ]
+                    },{
                         name: '::first-line',
                         instances: [
                             {
