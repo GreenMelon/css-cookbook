@@ -20,6 +20,7 @@ import Counter1 from '../pages/selector/before/counter-001';
 import PointerEvents from '../pages/selector/before/pointer-events';
 import BeforeInput from '../pages/selector/before/input';
 import BorderCornerShape from '../pages/selector/before/border-corner-shape';
+import After01 from '../pages/selector/after/01';
 import DefaultSelector01 from '../pages/selector/default/01';
 import FirstLineSelector from '../pages/selector/first-line/01';
 import FirstLetterSelector from '../pages/selector/first-letter/01';
@@ -218,6 +219,9 @@ export default [
     },{
         path: '/selector/before/border-corner-shape',
         component: BorderCornerShape
+    },{
+        path: '/selector/after/01',
+        component: After01
     },{
         path: '/selector/default/01',
         component: DefaultSelector01
