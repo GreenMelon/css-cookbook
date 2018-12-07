@@ -21,6 +21,9 @@
                             },{
                                 name: 'a',
                                 route: '/element/a'
+                            },{
+                                name: 'li',
+                                route: '/element/li'
                             }
                         ]
                     }

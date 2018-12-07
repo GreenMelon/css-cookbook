@@ -9,6 +9,7 @@ import ElementIndex from '../pages/element/index';
 import A from '../pages/element/a';
 import Dialog from '../pages/element/dialog';
 import Progress from '../pages/element/progress';
+import Li from '../pages/element/li';
 
 import SelectorIndex from '../pages/selector/index';
 import AttrSelector01 from '../pages/selector/attr/01';
@@ -172,6 +173,9 @@ export default [
     },{
         path: '/element/progress',
         component: Progress
+    },{
+        path: '/element/li',
+        component: Li
     },
 
     {

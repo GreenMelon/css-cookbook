@@ -1,7 +1,11 @@
 <template>
     <aside>
         <ul class="mod-modules list-module">
-            <li v-for="module in modules" class="item">
+            <li
+                v-for="(module, index) in modules"
+                :key="index"
+                class="item"
+            >
                 <router-link
                     :to="module.route"
                     :class="{active: $route.path.startsWith(module.route)}">{{ module.name }}
@@ -33,3 +37,10 @@
     export default Modules;
 
 </script>
+
+<style lang="less" scoped>
+li {
+    list-style: none;
+}
+
+</style>
