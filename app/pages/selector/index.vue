@@ -155,7 +155,15 @@
                                 route: '/selector/matches/01'
                             }
                         ]
-                    },
+                    },{
+                        name: ':blank',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/blank/01'
+                            }
+                        ]
+                    }
                 ]
             }
         },
