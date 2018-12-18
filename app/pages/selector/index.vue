@@ -163,6 +163,14 @@
                                 route: '/selector/blank/01'
                             }
                         ]
+                    },{
+                        name: ':user-invalid',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/user-invalid/01'
+                            }
+                        ]
                     }
                 ]
             }
