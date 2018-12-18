@@ -35,6 +35,7 @@ import Indeterminate01 from '../pages/selector/indeterminate/01';
 import PlaceholderShown01 from '../pages/selector/placeholder-shown/01';
 import Matches01 from '../pages/selector/matches/01';
 import Blank01 from '../pages/selector/blank/01';
+import UserInvalid01 from '../pages/selector/user-invalid/01';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
 import Grid01 from '../pages/formatting-model/grid/01';
@@ -251,6 +252,9 @@ export default [
     },{
         path: '/selector/blank/01',
         component: Blank01
+    },{
+        path: '/selector/user-invalid/01',
+        component: UserInvalid01
     },
 
     {
