@@ -7,6 +7,7 @@ import _ from 'lodash';
 
 const Lodash = {
     debounce: _.debounce,
+    chunk: _.chunk,
 };
 
 window._ = Lodash;
