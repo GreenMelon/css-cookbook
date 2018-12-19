@@ -62,6 +62,14 @@
                             }
                         ]
                     },{
+                        name: 'background-color',
+                        instances: [
+                            {
+                                name: '色卡',
+                                route: '/visual/background-color/01'
+                            }
+                        ],
+                    },{
                         name: 'background-image',
                         instances: [
                             {
