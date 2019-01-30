@@ -1,9 +1,17 @@
 <template>
     <ul class="list-category mod-categories">
-        <li v-for="category in categories" class="item-main">
+        <li
+            v-for="category in categories"
+            :key="category.name"
+            class="item-main"
+        >
             <h2 v-text="category.name"></h2>
             <ul class="list-instance">
-                <li v-for="instance in category.instances" class="item-sub">
+                <li
+                    v-for="instance in category.instances"
+                    :key="instance.name"
+                    class="item-sub"
+                >
                     <router-link
                         :to="instance.route"
                         v-text="instance.name">
