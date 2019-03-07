@@ -65,6 +65,33 @@
         background: red;
         transform: skew(20deg);
     }
+
+    .heart {
+        position: relative;
+        top: 40px;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transform: rotate(-45deg);
+    }
+    .heart::before,
+    .heart::after {
+        content: "";
+        position: absolute;
+        background: inherit;
+    }
+    .heart::before {
+        width: 100px;
+        height: 50px;
+        top: -49px;
+        border-radius: 50px 50px 0 0;
+    }
+    .heart::after {
+        width: 50px;
+        height: 100px;
+        right: -49px;
+        border-radius: 0 50px 50px 0;
+    }
 </style>
 
 <template>
@@ -187,6 +214,10 @@
                         }
                     </code>
                 </pre>
+            </li>
+
+            <li>
+                <div class="heart"></div>
             </li>
         </ul>
     </main>
