@@ -33,6 +33,14 @@
                                 route: '/form./cursor/01'
                             }
                         ]
+                    },{
+                        name: 'cancel-button',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/form./cancel-button/01'
+                            }
+                        ]
                     }
                 ]
             }

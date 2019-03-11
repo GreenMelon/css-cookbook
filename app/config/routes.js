@@ -119,6 +119,7 @@ import FormIndex from '../pages/form/index';
 import Spellcheck from '../pages/form/spellcheck/01';
 import Autocomplete from '../pages/form/autocomplete/01';
 import FormCursor from '../pages/form/cursor/01';
+import CancelButton from '../pages/form/cancel-button/01';
 
 import ImageIndex from '../pages/image/index';
 import Srcset01 from '../pages/image/srcset/01';
@@ -514,6 +515,9 @@ export default [
     },{
         path: '/form./cursor/01',
         component: FormCursor
+    },{
+        path: '/form./cancel-button/01',
+        component: CancelButton
     },
 
     {
