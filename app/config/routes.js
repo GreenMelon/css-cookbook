@@ -149,6 +149,7 @@ import VideoInstancesGif from '../pages/video/instances/gif';
 
 import PointerEventsIndex from '../pages/pointerevents/index';
 import TouchAction01 from '../pages/pointerevents/touch-action/01';
+import PointerEvents01 from '../pages/pointerevents/pointer-events/01';
 
 import InstancesIndex from '../pages/instances/index';
 import Menu001 from '../pages/instances/menu';
@@ -577,6 +578,9 @@ export default [
     {
         path: '/pointerevents',
         component: PointerEventsIndex
+    },{
+        path: '/pointer-events/01',
+        component: PointerEvents01
     },{
         path: '/touch-action/01',
         component: TouchAction01
