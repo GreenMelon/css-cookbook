@@ -10,6 +10,14 @@
             return {
                 categories: [
                     {
+                        name: 'pointer-events',
+                        instances: [
+                            {
+                                name: 'pointer-events',
+                                route: '/pointer-events/01'
+                            }
+                        ]
+                    },{
                         name: 'touch-action',
                         instances: [
                             {
