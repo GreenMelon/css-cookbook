@@ -41,6 +41,9 @@
                                 name: 'text-shadow',
                                 route: '/typographic/text/text-shadow'
                             },{
+                                name: 'text-stroke',
+                                route: '/typographic/text/text-stroke'
+                            },{
                                 name: 'text-shadow mosaic',
                                 route: '/typographic/text/text-shadow/mosaic'
                             },{
