@@ -6,6 +6,9 @@ npm-debug.log
 dist/
 app/css
 
+# env
+.DS_Store
+
 # sublime
 *.sublime-project
 *.sublime-workspace
