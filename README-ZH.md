@@ -48,12 +48,10 @@
 │       ├── element               # 元素
 │       ├── form                  # 表单
 │       ├── formatting-model      # 格式化模型
-│       ├── image                 # 图片
 │       ├── pointerevents         # 鼠标事件
 │       ├── selector              # 选择器
 │       ├── table                 # 表格
 │       ├── transform             # 变换
 │       ├── typographic           # 文字排版
 │       ├── visual                # 视觉效果
-│
 ```
