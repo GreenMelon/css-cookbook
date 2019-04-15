@@ -5,6 +5,7 @@ npm-debug.log
 # build
 dist/
 app/css
+package-lock.json
 
 # env
 .DS_Store
