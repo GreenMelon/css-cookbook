@@ -6,10 +6,18 @@ import NotFound from '../pages/404';
 import Index from '../pages/index';
 
 import ElementIndex from '../pages/element/index';
-import A from '../pages/element/a';
-import Dialog from '../pages/element/dialog';
-import Progress from '../pages/element/progress';
-import Li from '../pages/element/li';
+import A from '../pages/element/a/1';
+import Dialog from '../pages/element/dialog/1';
+import Video01 from '../pages/element/video/01';
+import VideoGif from '../pages/element/video/gif';
+import VideoMse from '../pages/element/video/mse';
+import Srcset from '../pages/element/image/srcset';
+import Sizes from '../pages/element/image/sizes';
+import Usemap from '../pages/element/image/usemap';
+import ImageSet from '../pages/element/image/image-set';
+
+import Li from '../pages/element/li/1';
+import Progress from '../pages/element/progress/1';
 
 import SelectorIndex from '../pages/selector/index';
 import AttrSelector01 from '../pages/selector/attr/01';
@@ -68,6 +76,7 @@ import TextDecoration from '../pages/typographic/text/text-decoration';
 import TextOutline from '../pages/typographic/text-effect/text-outline';
 import ImageText from '../pages/typographic/text-effect/image-text';
 import FlashLight from '../pages/typographic/text-effect/flash-light';
+import Glitch from '../pages/typographic/text-effect/glitch';
 
 import VisualIndex from '../pages/visual/index';
 import BorderRadius01 from '../pages/visual/border-radius/01';
@@ -125,41 +134,17 @@ import Autocomplete from '../pages/form/autocomplete/01';
 import FormCursor from '../pages/form/cursor/01';
 import CancelButton from '../pages/form/cancel-button/01';
 
-import ImageIndex from '../pages/image/index';
-import Srcset01 from '../pages/image/srcset/01';
-import Sizes01 from '../pages/image/sizes/01';
-import Usemap01 from '../pages/image/usemap/01';
-import ImageSet01 from '../pages/image/image-set/01';
-
-import ExercismIndex from '../pages/exercism/index';
-import ExercismHexagonBorder from '../pages/exercism/hexagon/border';
-import ExercismHexagonTransform from '../pages/exercism/hexagon/transform';
-import ExercismHexagonSvg from '../pages/exercism/hexagon/svg';
-import ExercismHexagonCanvas from '../pages/exercism/hexagon/canvas';
-
-import ExercismFloatCenterFloat from '../pages/exercism/float-center/float';
-import ExercismTaiChi1 from '../pages/exercism/tai-chi/1';
-
-import TestIndex from '../pages/test/index';
-import ScrollTop from '../pages/test/scroll-top/1';
-import Brace from '../pages/test/editor/brace';
-import Clipboard001 from '../pages/test/clipboard/001';
-import FileReaderImgae from '../pages/test/filereader/image';
-
-import VideoIndex from '../pages/video/index';
-import Mse01 from '../pages/video/mse/01';
-import VideoInstances01 from '../pages/video/instances/01';
-import VideoInstancesGif from '../pages/video/instances/gif';
-
 import PointerEventsIndex from '../pages/pointerevents/index';
 import TouchAction01 from '../pages/pointerevents/touch-action/01';
 import PointerEvents01 from '../pages/pointerevents/pointer-events/01';
 
 import InstancesIndex from '../pages/instances/index';
-import Menu001 from '../pages/instances/menu';
-import IosBtn from '../pages/instances/ios-btn';
-import GetStyle from '../pages/instances/get-style';
-import Glitch from '../pages/instances/glitch';
+import FloatCenter from '../pages/instances/creative/float-center';
+import Hexagon from '../pages/instances/creative/hexagon';
+import TaiChi from '../pages/instances/creative/tai-chi';
+import Accordion from '../pages/instances/other/accordion';
+import IosBtn from '../pages/instances/other/ios-btn';
+import GetStyle from '../pages/instances/other/get-style';
 
 export default [
     {
@@ -174,17 +159,38 @@ export default [
         path: '/element',
         component: ElementIndex
     },{
-        path: '/element/a',
+        path: '/element/a/1',
         component: A
     },{
-        path: '/element/dialog',
+        path: '/element/dialog/1',
         component: Dialog
     },{
-        path: '/element/progress',
-        component: Progress
+        path: '/element/video/01',
+        component: Video01
     },{
-        path: '/element/li',
+        path: '/element/video/gif',
+        component: VideoGif
+    },{
+        path: '/element/video/mse',
+        component: VideoMse
+    },{
+        path: '/element/image/srcset',
+        component: Srcset
+    },{
+        path: '/element/image/sizes',
+        component: Sizes
+    },{
+        path: '/element/image/usemap',
+        component: Usemap
+    },{
+        path: '/element/image/image-set',
+        component: ImageSet
+    },{
+        path: '/element/li/1',
         component: Li
+    },{
+        path: '/element/progress/1',
+        component: Progress
     },
 
     {
@@ -355,6 +361,9 @@ export default [
     },{
         path: '/typographic/text-effect/flash-light',
         component: FlashLight
+    },{
+        path: '/typographic/text-effect/glitch',
+        component: Glitch
     },
 
     {
@@ -488,23 +497,6 @@ export default [
     },
 
     {
-        path: '/image',
-        component: ImageIndex
-    },{
-        path: '/image/srcset/01',
-        component: Srcset01
-    },{
-        path: '/image/sizes/01',
-        component: Sizes01
-    },{
-        path: '/image/usemap/01',
-        component: Usemap01
-    },{
-        path: '/image/image-set/01',
-        component: ImageSet01
-    },
-
-    {
         path: '/animation',
         component: AnimationIndex
     },{
@@ -538,60 +530,6 @@ export default [
     },
 
     {
-        path: '/exercism',
-        component: ExercismIndex
-    },{
-        path: '/exercism/hexagon/border',
-        component: ExercismHexagonBorder
-    },{
-        path: '/exercism/hexagon/transform',
-        component: ExercismHexagonTransform
-    },{
-        path: '/exercism/hexagon/svg',
-        component: ExercismHexagonSvg
-    },{
-        path: '/exercism/hexagon/canvas',
-        component: ExercismHexagonCanvas
-    },{
-        path: '/exercism/float-center/float',
-        component: ExercismFloatCenterFloat
-    },{
-        path: '/exercism/tai-chi/1',
-        component: ExercismTaiChi1
-    },
-
-    {
-        path: '/test',
-        component: TestIndex
-    },{
-        path: '/test/scroll-top',
-        component: ScrollTop
-    },{
-        path: '/test/brace',
-        component: Brace
-    },{
-        path: '/test/clipboard/001',
-        component: Clipboard001
-    },{
-        path: '/test/filereader/image',
-        component: FileReaderImgae
-    },
-
-    {
-        path: '/video',
-        component: VideoIndex
-    },{
-        path: '/video/mse/01',
-        component: Mse01
-    },{
-        path: '/video/instances/01',
-        component: VideoInstances01
-    },{
-        path: '/video/instances/gif',
-        component: VideoInstancesGif
-    },
-
-    {
         path: '/pointerevents',
         component: PointerEventsIndex
     },{
@@ -606,17 +544,25 @@ export default [
         path: '/instances',
         component: InstancesIndex
     },{
-        path: '/instances/menu',
-        component: Menu001
+        path: '/instances/creative/float-center',
+        component: FloatCenter
     },{
-        path: '/instances/ios-btn',
+        path: '/instances/creative/hexagon',
+        component: Hexagon
+    },{
+        path: '/instances/creative/tai-chi',
+        component: TaiChi
+    },
+
+    {
+        path: '/instances/other/accordion',
+        component: Accordion
+    },{
+        path: '/instances/other/ios-btn',
         component: IosBtn
     },{
-        path: '/instances/get-style',
+        path: '/instances/other/get-style',
         component: GetStyle
-    },{
-        path: '/instances/glitch',
-        component: Glitch
     },
 
     {

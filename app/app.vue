@@ -18,54 +18,42 @@
             return {
                 modules: [
                     {
+                        name: 'animation',
+                        route: '/animation'
+                    },{
+                        name: 'box model',
+                        route: '/box-model'
+                    },{
                         name: 'element',
                         route: '/element'
                     },{
-                        name: 'selector',
-                        route: '/selector'
+                        name: 'form',
+                        route: '/form.'
                     },{
                         name: 'formatting model',
                         route: '/formatting-model'
                     },{
-                        name: 'box model',
-                        route: '/box-model'
+                        name: 'instances',
+                        route: '/instances'
+                    },{
+                        name: 'pointerevents',
+                        route: '/pointerevents'
+                    },{
+                        name: 'selector',
+                        route: '/selector'
+                    },{
+                        name: 'table',
+                        route: '/table'
+                    },{
+                        name: 'transform',
+                        route: '/transform'
                     },{
                         name: 'typographic',
                         route: '/typographic'
                     },{
                         name: 'visual',
                         route: '/visual'
-                    },{
-                        name: 'transform',
-                        route: '/transform'
-                    },{
-                        name: 'animation',
-                        route: '/animation'
-                    },{
-                        name: 'table',
-                        route: '/table'
-                    },{
-                        name: 'form',
-                        route: '/form.'
-                    },{
-                        name: 'image',
-                        route: '/image'
-                    },{
-                        name: 'pointerevents',
-                        route: '/pointerevents'
-                    },{
-                        name: 'video',
-                        route: '/video'
-                    },{
-                        name: 'exercism',
-                        route: '/exercism'
-                    },{
-                        name: 'test',
-                        route: '/test'
-                    },{
-                        name: 'instances',
-                        route: '/instances'
-                    }
+                    },
                 ]
             }
         },

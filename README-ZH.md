@@ -13,7 +13,7 @@
 ### 启动
 > npm run dev
 
-> open localhost:8181 in browser 本地打开 localhost:8181
+> 本地打开 localhost:8181
 
 ## 项目结构
 

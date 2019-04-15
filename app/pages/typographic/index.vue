@@ -64,6 +64,9 @@
                             },{
                                 name: 'flash-light',
                                 route: '/typographic/text-effect/flash-light'
+                            },{
+                                name: '文字抖动特效',
+                                route: '/typographic/text-effect/glitch'
                             }
                         ]
                     },{
