@@ -48,12 +48,10 @@
 │       ├── element
 │       ├── form
 │       ├── formatting-model
-│       ├── image
 │       ├── pointerevents
 │       ├── selector
 │       ├── table
 │       ├── transform
 │       ├── typographic
-│       ├── visual
-│
+│       └── visual
 ```
