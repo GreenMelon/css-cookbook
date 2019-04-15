@@ -21,14 +21,6 @@
                             }
                         ]
                     },{
-                        name: '文字特效',
-                        instances: [
-                            {
-                                name: 'flash-light',
-                                route: '/typographic/font-effect/flash-light'
-                            }
-                        ]
-                    },{
                         name: 'text',
                         instances: [
                             {
@@ -40,6 +32,9 @@
                             },{
                                 name: 'text-shadow',
                                 route: '/typographic/text/text-shadow'
+                            },{
+                                name: 'text-fill-color',
+                                route: '/typographic/text/text-fill-color'
                             },{
                                 name: 'text-stroke',
                                 route: '/typographic/text/text-stroke'
@@ -55,6 +50,17 @@
                             },{
                                 name: 'text-decoration',
                                 route: '/typographic/text/text-decoration'
+                            }
+                        ]
+                    },{
+                        name: 'text-effect',
+                        instances: [
+                            {
+                                name: 'text-outline',
+                                route: '/typographic/text-effect/text-outline'
+                            },{
+                                name: 'flash-light',
+                                route: '/typographic/text-effect/flash-light'
                             }
                         ]
                     },{
