@@ -44,3 +44,13 @@
     export default Categories;
 
 </script>
+
+<style lang="less">
+.list-category,
+.list-category li,
+.list-instance,
+.list-instance li {
+    font-size: 20px;
+    list-style: none;
+}
+</style>
