@@ -1,48 +1,59 @@
-# Install 安装与启动
+# CSS-COOKBOOK
 
-## Clone 克隆仓库
+[中文说明](./README-ZH.md)
+
+## Install
+
+### Clone
 > git clone git@github.com:GreenMelon/css-cookbook.git
 
-## Node Modules 安装依赖
+### Node Modules
 > npm install
 
-## Run 启动
+### Run
 > npm run dev
 
-> open localhost:8181 in browser 本地打开 localhost:8181
+> open localhost:8181 in browser
 
-# Directory 项目结构
+## Directory
 
 ```
 ├── app
-│   ├── assets                    # 图标资源
-│   ├── components                # 组件
-│   ├── config                    # 配置信息
-│       └── routes.js             # 路由地址
+│   ├── assets
+│   ├── components
+│   ├── config
+│       └── routes.js
 │
-│   ├── data                      # 静态数据文件
-│   ├── directives                # 指令
-│   ├── filters                   # 过滤器
-│   ├── images                    # 图片资源
-│   ├── less                      # 样式表
-│   ├── pages                     # 所有页面模块
-│       ├── components            # 组件模块
-│       └── ...
-│
-│   ├── utils                     # 工具函数
+│   ├── data
+│   ├── images
+│   ├── less
+│   ├── pages
 │   ├── ...
-│   ├── app.vue                   # 路由挂载元素
-│   └── main.js                   # 主入口
+│   ├── app.vue
+│   └── main.js
 │
-├── node_modules                  # 依赖包
+├── node_modules
 │
-├── webpack.base.config.js        # webpack基础配置
-└── webpack.dev.config.js         # webpack开发环境配置
+├── webpack.base.config.js
+└── webpack.dev.config.js
 ```
 
-# 技术栈
-- vue
-- vue-router
+## Modules
 
-# 其他库
-- jquery
+```
+├── app
+│   ├── pages
+│       ├── animation
+│       ├── box-model
+│       ├── element
+│       ├── form
+│       ├── formatting-model
+│       ├── image
+│       ├── pointerevents
+│       ├── selector
+│       ├── table
+│       ├── transform
+│       ├── typographic
+│       ├── visual
+│
+```
