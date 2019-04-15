@@ -59,6 +59,9 @@
                                 name: 'text-outline',
                                 route: '/typographic/text-effect/text-outline'
                             },{
+                                name: 'image-text',
+                                route: '/typographic/text-effect/image-text'
+                            },{
                                 name: 'flash-light',
                                 route: '/typographic/text-effect/flash-light'
                             }

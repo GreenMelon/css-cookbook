@@ -66,6 +66,7 @@ import TextTransform from '../pages/typographic/text/text-transform';
 import WritingMode from '../pages/typographic/text/writing-mode';
 import TextDecoration from '../pages/typographic/text/text-decoration';
 import TextOutline from '../pages/typographic/text-effect/text-outline';
+import ImageText from '../pages/typographic/text-effect/image-text';
 import FlashLight from '../pages/typographic/text-effect/flash-light';
 
 import VisualIndex from '../pages/visual/index';
@@ -348,6 +349,9 @@ export default [
     },{
         path: '/typographic/text-effect/text-outline',
         component: TextOutline
+    },{
+        path: '/typographic/text-effect/image-text',
+        component: ImageText
     },{
         path: '/typographic/text-effect/flash-light',
         component: FlashLight
