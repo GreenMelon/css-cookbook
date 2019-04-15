@@ -1,7 +1,7 @@
 <style lang="less" scoped>
     p {
         font-size: 128px;
-        background: -webkit-gradient(linear, left top, left bottom, from(#ff0052),to(#8e2b88));
+        background: linear-gradient(90deg, #d64971 0%, #962086 27%, #3338d4 57%, #60ccf7 100%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
                 background-clip: text;
