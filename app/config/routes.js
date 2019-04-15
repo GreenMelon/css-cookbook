@@ -54,17 +54,19 @@ import BackgroundBlendModes from '../pages/box-model/clip/reverse-clip-path-with
 import TypographicIndex from '../pages/typographic/index';
 import FontFamily from '../pages/typographic/font/font-family';
 import FontSmoothing from '../pages/typographic/font/font-smoothing';
-import FlashLight from '../pages/typographic/font-effect/flash-light';
 import OverflowWrap from '../pages/typographic/wrap/overflow-wrap';
 import LineClamp from '../pages/typographic/wrap/line-clamp';
 import TextAlign from '../pages/typographic/text/text-align';
 import TextAlignJustify from '../pages/typographic/text/text-align-justify';
 import TextShadow from '../pages/typographic/text/text-shadow';
+import TextFillColor from '../pages/typographic/text/text-fill-color';
 import TextStroke from '../pages/typographic/text/text-stroke';
 import MosaicText from '../pages/typographic/text/text-shadow-mosaic';
 import TextTransform from '../pages/typographic/text/text-transform';
 import WritingMode from '../pages/typographic/text/writing-mode';
 import TextDecoration from '../pages/typographic/text/text-decoration';
+import TextOutline from '../pages/typographic/text-effect/text-outline';
+import FlashLight from '../pages/typographic/text-effect/flash-light';
 
 import VisualIndex from '../pages/visual/index';
 import BorderRadius01 from '../pages/visual/border-radius/01';
@@ -311,9 +313,6 @@ export default [
         path: '/typographic/font/font-smoothing',
         component: FontSmoothing
     },{
-        path: '/typographic/font-effect/flash-light',
-        component: FlashLight
-    },{
         path: '/typographic/wrap/overflow-wrap',
         component: OverflowWrap
     },{
@@ -329,6 +328,9 @@ export default [
         path: '/typographic/text/text-shadow',
         component: TextShadow
     },{
+        path: '/typographic/text/text-fill-color',
+        component: TextFillColor
+    },{
         path: '/typographic/text/text-stroke',
         component: TextStroke
     },{
@@ -343,6 +345,12 @@ export default [
     },{
         path: '/typographic/text/text-decoration',
         component: TextDecoration
+    },{
+        path: '/typographic/text-effect/text-outline',
+        component: TextOutline
+    },{
+        path: '/typographic/text-effect/flash-light',
+        component: FlashLight
     },
 
     {
