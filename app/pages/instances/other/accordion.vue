@@ -24,13 +24,15 @@
     <main>
         <ul class="main-list">
             <li
-                v-for="mainMenu in mainMenus"
+                v-for="(mainMenu, mainIndex) in mainMenus"
+                :key="mainIndex"
                 class="main-item"
             >
                 <h1 class="main-item-name">{{ mainMenu.name }}</h1>
                 <ul class="sub-list" style="height: 0px">
                     <li
-                        v-for="subMenu in mainMenu.subMenus"
+                        v-for="(subMenu, subIndex) in mainMenu.subMenus"
+                        :key="subIndex"
                         class="sub-item">{{ subMenu.name }}
                     </li>
                 </ul>

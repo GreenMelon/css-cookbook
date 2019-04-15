@@ -1,13 +1,6 @@
 <template>
     <main>
-        <ul>
-            <li
-                v-for="(instance, index) in instances"
-                :key="index"
-            >
-                <router-link :to="instance.route">{{ instance.name }}</router-link>
-            </li>
-        </ul>
+        <categories :categories="categories"></categories>
     </main>
 </template>
 
@@ -15,19 +8,35 @@
     export default {
         data() {
             return {
-                instances: [
+                categories: [
                     {
-                        name: '手风琴式导航',
-                        route: '/instances/menu'
+                        name: 'creative',
+                        instances: [
+                            {
+                                name: '两列排版的文章',
+                                route: '/instances/creative/float-center'
+                            },{
+                                name: '六边形',
+                                route: '/instances/creative/hexagon'
+                            },{
+                                name: '太极',
+                                route: '/instances/creative/tai-chi'
+                            }
+                        ]
                     },{
-                        name: '仿IOS按钮',
-                        route: '/instances/ios-btn'
-                    },{
-                        name: 'JS 中获取 CSS 值',
-                        route: '/instances/get-style'
-                    },{
-                        name: '文字抖动特效',
-                        route: '/instances/glitch'
+                        name: 'other',
+                        instances: [
+                            {
+                                name: '手风琴式导航',
+                                route: '/instances/other/accordion'
+                            },{
+                                name: '仿IOS按钮',
+                                route: '/instances/other/ios-btn'
+                            },{
+                                name: 'JS 中获取 CSS 值',
+                                route: '/instances/other/get-style'
+                            }
+                        ]
                     }
                 ]
             }
