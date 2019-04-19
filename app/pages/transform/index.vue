@@ -10,6 +10,22 @@
             return {
                 categories: [
                     {
+                        name: 'rotate',
+                        instances: [
+                            {
+                                name: '饼图',
+                                route: '/transform/rotate/pie'
+                            }
+                        ]
+                    },{
+                        name: 'rotateY',
+                        instances: [
+                            {
+                                name: '旋转扑克',
+                                route: '/transform/rotateY/poker'
+                            }
+                        ]
+                    },{
                         name: 'skew',
                         instances: [
                             {

@@ -121,6 +121,8 @@ import MaskImage02 from '../pages/visual/mask-image/02';
 import Visibility01 from '../pages/visual/visibility/01';
 
 import TransformIndex from '../pages/transform/index';
+import RotatePoker from '../pages/transform/rotateY/poker';
+import Pie from '../pages/transform/rotate/pie';
 import Parallelogram from '../pages/transform/skew/parallelogram';
 import UnderlineAnimation from '../pages/transform/scaleX/underline-animation';
 
@@ -497,6 +499,12 @@ export default [
     {
         path: '/transform',
         component: TransformIndex
+    },{
+        path: '/transform/rotate/pie',
+        component: Pie
+    },{
+        path: '/transform/rotateY/poker',
+        component: RotatePoker
     },{
         path: '/transform/skew/parallelogram',
         component: Parallelogram
