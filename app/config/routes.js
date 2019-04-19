@@ -145,6 +145,7 @@ import FloatCenter from '../pages/instances/creative/float-center';
 import Hexagon from '../pages/instances/creative/hexagon';
 import TaiChi from '../pages/instances/creative/tai-chi';
 import Accordion from '../pages/instances/other/accordion';
+import SuspendBar from '../pages/instances/other/suspend-bar';
 import IosBtn from '../pages/instances/other/ios-btn';
 import GetStyle from '../pages/instances/other/get-style';
 
@@ -565,6 +566,9 @@ export default [
     {
         path: '/instances/other/accordion',
         component: Accordion
+    },{
+        path: '/instances/other/suspend-bar',
+        component: SuspendBar
     },{
         path: '/instances/other/ios-btn',
         component: IosBtn
