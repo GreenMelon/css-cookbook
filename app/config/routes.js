@@ -46,11 +46,12 @@ import Blank01 from '../pages/selector/blank/01';
 import UserInvalid01 from '../pages/selector/user-invalid/01';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
-import Grid01 from '../pages/formatting-model/grid/01';
+import ColumnCount from '../pages/formatting-model/column/column-count';
+import VerticalAlign from '../pages/formatting-model/align/vertical-align';
 import Flex01 from '../pages/formatting-model/flex/01';
+import Grid01 from '../pages/formatting-model/grid/01';
 import ShapeCircle from '../pages/formatting-model/shape/circle';
 import ShapePolygon from '../pages/formatting-model/shape/polygon';
-import VerticalAlign from '../pages/formatting-model/align/vertical-align';
 
 import BoxModelIndex from '../pages/box-model/index';
 import BorderWidth from '../pages/box-model/border/border-width';
@@ -275,20 +276,23 @@ export default [
         path: '/formatting-model',
         component: FormattingModelIndex
     },{
-        path: '/formatting-model/grid/01',
-        component: Grid01
+        path: '/formatting-model/column/column-count',
+        component: ColumnCount
+    },{
+        path: '/formatting-model/align/vertical-align',
+        component: VerticalAlign
     },{
         path: '/formatting-model/flex/01',
         component: Flex01
+    },{
+        path: '/formatting-model/grid/01',
+        component: Grid01
     },{
         path: '/formatting-model/shape/circle',
         component: ShapeCircle
     },{
         path: '/formatting-model/shape/polygon',
         component: ShapePolygon
-    },{
-        path: '/formatting-model/align/vertical-align',
-        component: VerticalAlign
     },
 
     {
