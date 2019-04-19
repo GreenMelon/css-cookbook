@@ -67,6 +67,9 @@
                             },{
                                 name: '文字抖动特效',
                                 route: '/typographic/text-effect/glitch'
+                            },{
+                                name: '模糊文本',
+                                route: '/typographic/text-effect/blurry-text'
                             }
                         ]
                     },{

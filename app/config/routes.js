@@ -77,6 +77,7 @@ import TextOutline from '../pages/typographic/text-effect/text-outline';
 import ImageText from '../pages/typographic/text-effect/image-text';
 import FlashLight from '../pages/typographic/text-effect/flash-light';
 import Glitch from '../pages/typographic/text-effect/glitch';
+import BlurryText from '../pages/typographic/text-effect/blurry-text';
 
 import VisualIndex from '../pages/visual/index';
 import BorderRadius01 from '../pages/visual/border-radius/01';
@@ -364,6 +365,9 @@ export default [
     },{
         path: '/typographic/text-effect/glitch',
         component: Glitch
+    },{
+        path: '/typographic/text-effect/blurry-text',
+        component: BlurryText
     },
 
     {
