@@ -17,3 +17,61 @@
     @{prop}: -o-calc(~'@{val}');
     @{prop}: calc(~'@{val}');
 }
+
+.custom-scrollbar-01() {
+    /* 整体滚动条 */
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+    /* 轨道 */
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    &::-moz-scrollbar-track {
+        background-color: transparent;
+    }
+    /* 轨道内滚动条 */
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    /* 右下角 */
+    &::-webkit-scrollbar-corner {
+        display: none;
+    }
+    :window-inactive {
+        display: block;
+    }
+}
+
+.custom-scrollbar-02() {
+    &::-webkit-scrollbar {
+        width: 15px;
+        height: 15px;
+    }
+
+    &::-webkit-scrollbar-button:start:decrement,
+    &::-webkit-scrollbar-button:end:increment {
+        display: block;
+        height: 1px;
+        background-color: #EFF7FF;
+    }
+
+    &::-webkit-scrollbar-button:horizontal:start:decrement,
+    &::-webkit-scrollbar-button:horizontal:end:increment {
+        display: block;
+        height: 1px;
+        background-color: #EFF7FF;
+    }
+
+    &::-webkit-scrollbar-track-piece {
+        background-color: #EFF7FF;
+    }
+
+    &::-webkit-scrollbar-thumb:vertical,
+    &::-webkit-scrollbar-thumb:horizontal {
+        border: 1px solid #639ACE;
+        border-radius: 6px;
+        background-color: #FFF;
+    }
+}
