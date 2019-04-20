@@ -37,6 +37,9 @@
                         name: 'input',
                         instances: [
                             {
+                                name: 'checkbox',
+                                route: '/form./input/checkbox'
+                            },{
                                 name: 'number',
                                 route: '/form./input/number'
                             },{

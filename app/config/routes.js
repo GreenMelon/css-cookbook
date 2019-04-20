@@ -136,6 +136,7 @@ import FormIndex from '../pages/form/index';
 import Autocomplete from '../pages/form/autocomplete/01';
 import CancelButton from '../pages/form/cancel-button/01';
 import FormCursor from '../pages/form/cursor/01';
+import Checkbox from '../pages/form/input/checkbox';
 import NumberInput from '../pages/form/input/number';
 import FileInput from '../pages/form/input/file';
 import Spellcheck from '../pages/form/spellcheck/01';
@@ -543,6 +544,9 @@ export default [
     },{
         path: '/form./cursor/01',
         component: FormCursor
+    },{
+        path: '/form./input/checkbox',
+        component: Checkbox
     },{
         path: '/form./input/number',
         component: NumberInput
