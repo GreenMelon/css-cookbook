@@ -33,6 +33,9 @@
                                 name: 'text-shadow',
                                 route: '/typographic/text/text-shadow'
                             },{
+                                name: '发光文字',
+                                route: '/typographic/text/text-shadow-llluminate'
+                            },{
                                 name: 'text-fill-color',
                                 route: '/typographic/text/text-fill-color'
                             },{

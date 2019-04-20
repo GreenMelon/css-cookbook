@@ -70,6 +70,7 @@ import LineClamp from '../pages/typographic/wrap/line-clamp';
 import TextAlign from '../pages/typographic/text/text-align';
 import TextAlignJustify from '../pages/typographic/text/text-align-justify';
 import TextShadow from '../pages/typographic/text/text-shadow';
+import TextShadowLlluminate from '../pages/typographic/text/text-shadow-llluminate';
 import TextFillColor from '../pages/typographic/text/text-fill-color';
 import TextStroke from '../pages/typographic/text/text-stroke';
 import TextTransform from '../pages/typographic/text/text-transform';
@@ -355,6 +356,9 @@ export default [
     },{
         path: '/typographic/text/text-shadow',
         component: TextShadow
+    },{
+        path: '/typographic/text/text-shadow-llluminate',
+        component: TextShadowLlluminate
     },{
         path: '/typographic/text/text-fill-color',
         component: TextFillColor
