@@ -49,6 +49,9 @@
                             },{
                                 name: '内凹圆角',
                                 route: '/selector/before/border-corner-shape'
+                            },{
+                                name: '自适应布局表格',
+                                route: '/selector/before/scalable-table'
                             }
                         ]
                     },{

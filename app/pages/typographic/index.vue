@@ -33,14 +33,14 @@
                                 name: 'text-shadow',
                                 route: '/typographic/text/text-shadow'
                             },{
+                                name: '发光文字',
+                                route: '/typographic/text/text-shadow-llluminate'
+                            },{
                                 name: 'text-fill-color',
                                 route: '/typographic/text/text-fill-color'
                             },{
                                 name: 'text-stroke',
                                 route: '/typographic/text/text-stroke'
-                            },{
-                                name: 'text-shadow mosaic',
-                                route: '/typographic/text/text-shadow/mosaic'
                             },{
                                 name: 'text-transform',
                                 route: '/typographic/text/text-transform'

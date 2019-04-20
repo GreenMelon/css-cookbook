@@ -29,6 +29,7 @@ import Counter1 from '../pages/selector/before/counter-001';
 import PointerEvents from '../pages/selector/before/pointer-events';
 import BeforeInput from '../pages/selector/before/input';
 import BorderCornerShape from '../pages/selector/before/border-corner-shape';
+import ScalableTable from '../pages/selector/before/scalable-table';
 import After01 from '../pages/selector/after/01';
 import DefaultSelector01 from '../pages/selector/default/01';
 import FirstLineSelector from '../pages/selector/first-line/01';
@@ -56,6 +57,7 @@ import ShapePolygon from '../pages/formatting-model/shape/polygon';
 import BoxModelIndex from '../pages/box-model/index';
 import BorderWidth from '../pages/box-model/border/border-width';
 import BorderImage from '../pages/box-model/border/border-image';
+import PaddingLeft from '../pages/box-model/padding/left';
 import Clip01 from '../pages/box-model/clip/01';
 import GradientCircle03 from '../pages/box-model/clip/circle';
 import BackgroundBlendModes from '../pages/box-model/clip/reverse-clip-path-with-blend-modes';
@@ -68,9 +70,9 @@ import LineClamp from '../pages/typographic/wrap/line-clamp';
 import TextAlign from '../pages/typographic/text/text-align';
 import TextAlignJustify from '../pages/typographic/text/text-align-justify';
 import TextShadow from '../pages/typographic/text/text-shadow';
+import TextShadowLlluminate from '../pages/typographic/text/text-shadow-llluminate';
 import TextFillColor from '../pages/typographic/text/text-fill-color';
 import TextStroke from '../pages/typographic/text/text-stroke';
-import MosaicText from '../pages/typographic/text/text-shadow-mosaic';
 import TextTransform from '../pages/typographic/text/text-transform';
 import WritingMode from '../pages/typographic/text/writing-mode';
 import TextDecoration from '../pages/typographic/text/text-decoration';
@@ -105,6 +107,7 @@ import LinearGradient02 from '../pages/visual/linear-gradient/02';
 import GradientAnimation from '../pages/visual/linear-gradient/gradient-animation';
 import Waveline from '../pages/visual/linear-gradient/waveline';
 import GradientCircle02 from '../pages/visual/linear-gradient/circle';
+import FlashImageEffect from '../pages/visual/linear-gradient/flash-image-effect';
 import Chrome from '../pages/visual/radial-gradient/chrome';
 import ConicGradient01 from '../pages/visual/conic-gradient/01';
 import Chessboard02 from '../pages/visual/conic-gradient/chessboard';
@@ -115,6 +118,7 @@ import AllEffectsFilter from '../pages/visual/filter/all-effects';
 import SvgFilter from '../pages/visual/filter/svg-filter';
 import DropShadowFilter from '../pages/visual/filter/drop-shadow';
 import GradientShadowFilter from '../pages/visual/filter/gradient-shadow';
+import FrostedGlass from '../pages/visual/filter/frosted-glass';
 import FusionFilter from '../pages/visual/filter/fusion';
 import MaskImage01 from '../pages/visual/mask-image/01';
 import MaskImage02 from '../pages/visual/mask-image/02';
@@ -149,6 +153,7 @@ import InstancesIndex from '../pages/instances/index';
 import FloatCenter from '../pages/instances/creative/float-center';
 import Hexagon from '../pages/instances/creative/hexagon';
 import TaiChi from '../pages/instances/creative/tai-chi';
+import AnimatedWeatherIcons from '../pages/instances/creative/animated-weather-icons';
 import Accordion from '../pages/instances/other/accordion';
 import SuspendBar from '../pages/instances/other/suspend-bar';
 import IosBtn from '../pages/instances/other/ios-btn';
@@ -247,6 +252,9 @@ export default [
         path: '/selector/before/border-corner-shape',
         component: BorderCornerShape
     },{
+        path: '/selector/before/scalable-table',
+        component: ScalableTable
+    },{
         path: '/selector/after/01',
         component: After01
     },{
@@ -311,6 +319,9 @@ export default [
         path: '/box-model/border/border-image',
         component: BorderImage
     },{
+        path: '/box-model/padding/left',
+        component: PaddingLeft
+    },{
         path: '/box-model/clip/01',
         component: Clip01
     },{
@@ -346,14 +357,14 @@ export default [
         path: '/typographic/text/text-shadow',
         component: TextShadow
     },{
+        path: '/typographic/text/text-shadow-llluminate',
+        component: TextShadowLlluminate
+    },{
         path: '/typographic/text/text-fill-color',
         component: TextFillColor
     },{
         path: '/typographic/text/text-stroke',
         component: TextStroke
-    },{
-        path: '/typographic/text/text-shadow/mosaic',
-        component: MosaicText
     },{
         path: '/typographic/text/text-transform',
         component: TextTransform
@@ -456,6 +467,9 @@ export default [
         path: '/visual/linear-gradient/circle',
         component: GradientCircle02
     },{
+        path: '/visual/linear-gradient/flash-image-effect',
+        component: FlashImageEffect
+    },{
         path: '/visual/radial-gradient/chrome',
         component: Chrome
     },{
@@ -485,6 +499,9 @@ export default [
     },{
         path: '/visual/filter/gradient-shadow',
         component: GradientShadowFilter
+    },{
+        path: '/visual/filter/frosted-glass',
+        component: FrostedGlass
     },{
         path: '/visual/filter/fusion',
         component: FusionFilter
@@ -581,6 +598,9 @@ export default [
     },{
         path: '/instances/creative/tai-chi',
         component: TaiChi
+    },{
+        path: '/instances/creative/animated-weather-icons',
+        component: AnimatedWeatherIcons
     },
 
     {
