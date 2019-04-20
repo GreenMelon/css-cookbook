@@ -133,10 +133,11 @@ import TableIndex from '../pages/table/index';
 import TableLayoutIndex from '../pages/table/table-layout/index';
 
 import FormIndex from '../pages/form/index';
-import Spellcheck from '../pages/form/spellcheck/01';
 import Autocomplete from '../pages/form/autocomplete/01';
-import FormCursor from '../pages/form/cursor/01';
 import CancelButton from '../pages/form/cancel-button/01';
+import FormCursor from '../pages/form/cursor/01';
+import FileInput from '../pages/form/file/01';
+import Spellcheck from '../pages/form/spellcheck/01';
 
 import PointerEventsIndex from '../pages/pointerevents/index';
 import TouchAction01 from '../pages/pointerevents/touch-action/01';
@@ -533,17 +534,20 @@ export default [
         path: '/form.',
         component: FormIndex
     },{
-        path: '/form./spellcheck/01',
-        component: Spellcheck
-    },{
         path: '/form./autocomplete/01',
         component: Autocomplete
+    },{
+        path: '/form./cancel-button/01',
+        component: CancelButton
     },{
         path: '/form./cursor/01',
         component: FormCursor
     },{
-        path: '/form./cancel-button/01',
-        component: CancelButton
+        path: '/form./file/01',
+        component: FileInput
+    },{
+        path: '/form./spellcheck/01',
+        component: Spellcheck
     },
 
     {
