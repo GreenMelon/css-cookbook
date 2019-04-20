@@ -24,6 +24,14 @@
                             }
                         ]
                     },{
+                        name: 'padding',
+                        instances: [
+                            {
+                                name: 'padding-left 百分比',
+                                route: '/box-model/padding/left'
+                            }
+                        ]
+                    },{
                         name: 'clip',
                         instances: [
                             {
