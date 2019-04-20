@@ -150,6 +150,7 @@ import InstancesIndex from '../pages/instances/index';
 import FloatCenter from '../pages/instances/creative/float-center';
 import Hexagon from '../pages/instances/creative/hexagon';
 import TaiChi from '../pages/instances/creative/tai-chi';
+import AnimatedWeatherIcons from '../pages/instances/creative/animated-weather-icons';
 import Accordion from '../pages/instances/other/accordion';
 import SuspendBar from '../pages/instances/other/suspend-bar';
 import IosBtn from '../pages/instances/other/ios-btn';
@@ -585,6 +586,9 @@ export default [
     },{
         path: '/instances/creative/tai-chi',
         component: TaiChi
+    },{
+        path: '/instances/creative/animated-weather-icons',
+        component: AnimatedWeatherIcons
     },
 
     {

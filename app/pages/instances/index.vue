@@ -21,6 +21,9 @@
                             },{
                                 name: '太极',
                                 route: '/instances/creative/tai-chi'
+                            },{
+                                name: 'animated-weather-icons',
+                                route: '/instances/creative/animated-weather-icons'
                             }
                         ]
                     },{
