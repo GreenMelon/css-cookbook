@@ -117,6 +117,7 @@ import AllEffectsFilter from '../pages/visual/filter/all-effects';
 import SvgFilter from '../pages/visual/filter/svg-filter';
 import DropShadowFilter from '../pages/visual/filter/drop-shadow';
 import GradientShadowFilter from '../pages/visual/filter/gradient-shadow';
+import FrostedGlass from '../pages/visual/filter/frosted-glass';
 import FusionFilter from '../pages/visual/filter/fusion';
 import MaskImage01 from '../pages/visual/mask-image/01';
 import MaskImage02 from '../pages/visual/mask-image/02';
@@ -494,6 +495,9 @@ export default [
     },{
         path: '/visual/filter/gradient-shadow',
         component: GradientShadowFilter
+    },{
+        path: '/visual/filter/frosted-glass',
+        component: FrostedGlass
     },{
         path: '/visual/filter/fusion',
         component: FusionFilter

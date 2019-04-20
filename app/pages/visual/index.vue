@@ -184,6 +184,9 @@
                                 name: '颜色丰富的阴影',
                                 route: '/visual/filter/gradient-shadow'
                             },{
+                                name: '毛玻璃',
+                                route: '/visual/filter/frosted-glass'
+                            },{
                                 name: '融合动画',
                                 route: '/visual/filter/fusion'
                             }
