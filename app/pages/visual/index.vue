@@ -125,6 +125,9 @@
                             },{
                                 name: '渐变圆环',
                                 route: '/visual/linear-gradient/circle'
+                            },{
+                                name: '图片闪光划过效果',
+                                route: '/visual/linear-gradient/flash-image-effect'
                             }
                         ]
                     },{

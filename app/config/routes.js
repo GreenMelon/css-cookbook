@@ -106,6 +106,7 @@ import LinearGradient02 from '../pages/visual/linear-gradient/02';
 import GradientAnimation from '../pages/visual/linear-gradient/gradient-animation';
 import Waveline from '../pages/visual/linear-gradient/waveline';
 import GradientCircle02 from '../pages/visual/linear-gradient/circle';
+import FlashImageEffect from '../pages/visual/linear-gradient/flash-image-effect';
 import Chrome from '../pages/visual/radial-gradient/chrome';
 import ConicGradient01 from '../pages/visual/conic-gradient/01';
 import Chessboard02 from '../pages/visual/conic-gradient/chessboard';
@@ -460,6 +461,9 @@ export default [
     },{
         path: '/visual/linear-gradient/circle',
         component: GradientCircle02
+    },{
+        path: '/visual/linear-gradient/flash-image-effect',
+        component: FlashImageEffect
     },{
         path: '/visual/radial-gradient/chrome',
         component: Chrome
