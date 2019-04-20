@@ -39,9 +39,6 @@
                                 name: 'text-stroke',
                                 route: '/typographic/text/text-stroke'
                             },{
-                                name: 'text-shadow mosaic',
-                                route: '/typographic/text/text-shadow/mosaic'
-                            },{
                                 name: 'text-transform',
                                 route: '/typographic/text/text-transform'
                             },{
