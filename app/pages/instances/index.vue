@@ -30,6 +30,9 @@
                                 name: '手风琴式导航',
                                 route: '/instances/other/accordion'
                             },{
+                                name: '悬挂条导航',
+                                route: '/instances/other/suspend-bar'
+                            },{
                                 name: '仿IOS按钮',
                                 route: '/instances/other/ios-btn'
                             },{

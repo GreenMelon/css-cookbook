@@ -46,11 +46,12 @@ import Blank01 from '../pages/selector/blank/01';
 import UserInvalid01 from '../pages/selector/user-invalid/01';
 
 import FormattingModelIndex from '../pages/formatting-model/index';
-import Grid01 from '../pages/formatting-model/grid/01';
+import ColumnCount from '../pages/formatting-model/column/column-count';
+import VerticalAlign from '../pages/formatting-model/align/vertical-align';
 import Flex01 from '../pages/formatting-model/flex/01';
+import Grid01 from '../pages/formatting-model/grid/01';
 import ShapeCircle from '../pages/formatting-model/shape/circle';
 import ShapePolygon from '../pages/formatting-model/shape/polygon';
-import VerticalAlign from '../pages/formatting-model/align/vertical-align';
 
 import BoxModelIndex from '../pages/box-model/index';
 import BorderWidth from '../pages/box-model/border/border-width';
@@ -77,6 +78,7 @@ import TextOutline from '../pages/typographic/text-effect/text-outline';
 import ImageText from '../pages/typographic/text-effect/image-text';
 import FlashLight from '../pages/typographic/text-effect/flash-light';
 import Glitch from '../pages/typographic/text-effect/glitch';
+import BlurryText from '../pages/typographic/text-effect/blurry-text';
 
 import VisualIndex from '../pages/visual/index';
 import BorderRadius01 from '../pages/visual/border-radius/01';
@@ -119,6 +121,8 @@ import MaskImage02 from '../pages/visual/mask-image/02';
 import Visibility01 from '../pages/visual/visibility/01';
 
 import TransformIndex from '../pages/transform/index';
+import RotatePoker from '../pages/transform/rotateY/poker';
+import Pie from '../pages/transform/rotate/pie';
 import Parallelogram from '../pages/transform/skew/parallelogram';
 import UnderlineAnimation from '../pages/transform/scaleX/underline-animation';
 
@@ -129,10 +133,13 @@ import TableIndex from '../pages/table/index';
 import TableLayoutIndex from '../pages/table/table-layout/index';
 
 import FormIndex from '../pages/form/index';
-import Spellcheck from '../pages/form/spellcheck/01';
 import Autocomplete from '../pages/form/autocomplete/01';
-import FormCursor from '../pages/form/cursor/01';
 import CancelButton from '../pages/form/cancel-button/01';
+import FormCursor from '../pages/form/cursor/01';
+import Checkbox from '../pages/form/input/checkbox';
+import NumberInput from '../pages/form/input/number';
+import FileInput from '../pages/form/input/file';
+import Spellcheck from '../pages/form/spellcheck/01';
 
 import PointerEventsIndex from '../pages/pointerevents/index';
 import TouchAction01 from '../pages/pointerevents/touch-action/01';
@@ -143,6 +150,7 @@ import FloatCenter from '../pages/instances/creative/float-center';
 import Hexagon from '../pages/instances/creative/hexagon';
 import TaiChi from '../pages/instances/creative/tai-chi';
 import Accordion from '../pages/instances/other/accordion';
+import SuspendBar from '../pages/instances/other/suspend-bar';
 import IosBtn from '../pages/instances/other/ios-btn';
 import GetStyle from '../pages/instances/other/get-style';
 
@@ -274,20 +282,23 @@ export default [
         path: '/formatting-model',
         component: FormattingModelIndex
     },{
-        path: '/formatting-model/grid/01',
-        component: Grid01
+        path: '/formatting-model/column/column-count',
+        component: ColumnCount
+    },{
+        path: '/formatting-model/align/vertical-align',
+        component: VerticalAlign
     },{
         path: '/formatting-model/flex/01',
         component: Flex01
+    },{
+        path: '/formatting-model/grid/01',
+        component: Grid01
     },{
         path: '/formatting-model/shape/circle',
         component: ShapeCircle
     },{
         path: '/formatting-model/shape/polygon',
         component: ShapePolygon
-    },{
-        path: '/formatting-model/align/vertical-align',
-        component: VerticalAlign
     },
 
     {
@@ -364,6 +375,9 @@ export default [
     },{
         path: '/typographic/text-effect/glitch',
         component: Glitch
+    },{
+        path: '/typographic/text-effect/blurry-text',
+        component: BlurryText
     },
 
     {
@@ -489,6 +503,12 @@ export default [
         path: '/transform',
         component: TransformIndex
     },{
+        path: '/transform/rotate/pie',
+        component: Pie
+    },{
+        path: '/transform/rotateY/poker',
+        component: RotatePoker
+    },{
         path: '/transform/skew/parallelogram',
         component: Parallelogram
     },{
@@ -516,17 +536,26 @@ export default [
         path: '/form.',
         component: FormIndex
     },{
-        path: '/form./spellcheck/01',
-        component: Spellcheck
-    },{
         path: '/form./autocomplete/01',
         component: Autocomplete
+    },{
+        path: '/form./cancel-button/01',
+        component: CancelButton
     },{
         path: '/form./cursor/01',
         component: FormCursor
     },{
-        path: '/form./cancel-button/01',
-        component: CancelButton
+        path: '/form./input/checkbox',
+        component: Checkbox
+    },{
+        path: '/form./input/number',
+        component: NumberInput
+    },{
+        path: '/form./input/file',
+        component: FileInput
+    },{
+        path: '/form./spellcheck/01',
+        component: Spellcheck
     },
 
     {
@@ -557,6 +586,9 @@ export default [
     {
         path: '/instances/other/accordion',
         component: Accordion
+    },{
+        path: '/instances/other/suspend-bar',
+        component: SuspendBar
     },{
         path: '/instances/other/ios-btn',
         component: IosBtn

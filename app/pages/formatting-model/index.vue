@@ -10,11 +10,19 @@
             return {
                 categories: [
                     {
-                        name: 'grid',
+                        name: 'align',
                         instances: [
                             {
-                                name: '01',
-                                route: '/formatting-model/grid/01'
+                                name: '垂直对齐',
+                                route: '/formatting-model/align/vertical-align'
+                            }
+                        ]
+                    },{
+                        name: 'column',
+                        instances: [
+                            {
+                                name: 'column-count',
+                                route: '/formatting-model/column/column-count'
                             }
                         ]
                     },{
@@ -26,6 +34,14 @@
                             }
                         ]
                     },{
+                        name: 'grid',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/formatting-model/grid/01'
+                            }
+                        ]
+                    },{
                         name: 'shape',
                         instances: [
                             {
@@ -34,14 +50,6 @@
                             },{
                                 name: 'polygon',
                                 route: '/formatting-model/shape/polygon'
-                            }
-                        ]
-                    },{
-                        name: '对齐',
-                        instances: [
-                            {
-                                name: '垂直对齐',
-                                route: '/formatting-model/align/vertical-align'
                             }
                         ]
                     },
