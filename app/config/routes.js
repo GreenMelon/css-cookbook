@@ -136,7 +136,8 @@ import FormIndex from '../pages/form/index';
 import Autocomplete from '../pages/form/autocomplete/01';
 import CancelButton from '../pages/form/cancel-button/01';
 import FormCursor from '../pages/form/cursor/01';
-import FileInput from '../pages/form/file/01';
+import NumberInput from '../pages/form/input/number';
+import FileInput from '../pages/form/input/file';
 import Spellcheck from '../pages/form/spellcheck/01';
 
 import PointerEventsIndex from '../pages/pointerevents/index';
@@ -543,7 +544,10 @@ export default [
         path: '/form./cursor/01',
         component: FormCursor
     },{
-        path: '/form./file/01',
+        path: '/form./input/number',
+        component: NumberInput
+    },{
+        path: '/form./input/file',
         component: FileInput
     },{
         path: '/form./spellcheck/01',

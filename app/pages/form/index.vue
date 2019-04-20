@@ -34,11 +34,14 @@
                             }
                         ]
                     },{
-                        name: 'input[type=file]',
+                        name: 'input',
                         instances: [
                             {
-                                name: '01',
-                                route: '/form./file/01'
+                                name: 'number',
+                                route: '/form./input/number'
+                            },{
+                                name: 'file',
+                                route: '/form./input/file'
                             }
                         ]
                     },{
