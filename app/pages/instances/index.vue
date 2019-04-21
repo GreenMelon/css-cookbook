@@ -24,6 +24,9 @@
                             },{
                                 name: 'animated-weather-icons',
                                 route: '/instances/creative/animated-weather-icons'
+                            },{
+                                name: 'animated-book',
+                                route: '/instances/creative/animated-book'
                             }
                         ]
                     },{
@@ -35,6 +38,9 @@
                             },{
                                 name: '悬挂条导航',
                                 route: '/instances/other/suspend-bar'
+                            },{
+                                name: '弹出提示框',
+                                route: '/instances/other/callout'
                             },{
                                 name: '仿IOS按钮',
                                 route: '/instances/other/ios-btn'

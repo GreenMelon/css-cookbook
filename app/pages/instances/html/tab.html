@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Georgia, 'Times New Roman', 'Microsoft YaHei', '微软雅黑';
+            font-size: 180%;
+        }
+        ul,li {
+            list-style: none;
+        }
+        .wrapper {
+            margin: 50px auto;
+            max-width: 800px;
+            background-color: #FED;
+        }
+        .nav {
+            font-size: 0;
+            text-align: center;
+            background-color: indianred;
+        }
+        .nav-item {
+            position: relative;
+            display: inline-block;
+            box-sizing: border-box;
+            width: 20%;
+            height: 50px;
+            line-height: 50px;
+            font-size: 24px;
+        }
+        .nav-item + .nav-item::before {
+            content: '|';
+            position: absolute;
+            left: -4px;
+            font: inherit;
+        }
+        .nav-item:hover {
+            color: #FFF;
+            background-color: firebrick;
+        }
+        .nav-item:hover::before {
+            color: transparent;
+        }
+        .nav-item:hover + .nav-item::before {
+            color: transparent;
+        }
+        .nav-active {
+            color: #FFF;
+            background-color: firebrick;
+        }
+        .nav-active::before {
+            color: transparent;
+        }
+        .nav-active + .nav-item::before {
+            color: transparent;
+        }
+        .content {
+            min-height: 200px;
+        }
+        .content-item {
+            display: none;
+            padding: 30px;
+        }
+        .content-active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <ul class="nav">
+            <li class="nav-item nav-active">Lakers</li>
+            <li class="nav-item">Warriors</li>
+            <li class="nav-item">Magic</li>
+            <li class="nav-item">Pacers</li>
+            <li class="nav-item">Spurs</li>
+        </ul>
+        <ul class="content">
+            <li class="content-item content-active">Kobe Bryant</li>
+            <li class="content-item">Stephen Curry</li>
+            <li class="content-item">Tracy Macgrady</li>
+            <li class="content-item">Paul George</li>
+            <li class="content-item">Tim Duncan</li>
+        </ul>
+    </div>
+
+    <script src="../../../../node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            /**
+             * 菜单栏绑定鼠标悬停事件
+             */
+            $('.nav-item').hover(function () {
+                $(this).addClass('nav-active').siblings().removeClass('nav-active');
+                const index = $(this).index();
+                $('.content-item:eq('+ index +')').show().siblings().hide();
+                /**
+                 * 下面这行语句是为了自动切换效果
+                 * 记录下当前的激活项的索引
+                 */
+                activeIndex = index;
+            });
+
+            /**
+             * 鼠标不悬停时,自动切换效果
+             */
+            let activeIndex = 0;
+            const length = $('.nav-item').length;
+            const autoTab = function () {
+                activeIndex = (activeIndex+1) % length;
+
+                $('.nav-item:eq('+ activeIndex +')')
+                    .addClass('nav-active')
+                    .siblings()
+                    .removeClass('nav-active');
+
+                $('.content-item:eq('+ activeIndex +')')
+                    .show()
+                    .siblings().hide();
+            };
+
+            const period = 1000;
+            let activeChange = setInterval(autoTab, period);
+            $('.wrapper').hover(function () {
+                clearInterval(activeChange);
+            }, function () {
+                activeChange = setInterval(autoTab, period);
+            });
+        });
+    </script>
+</body>
+</html>
