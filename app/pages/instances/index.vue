@@ -36,6 +36,9 @@
                                 name: '悬挂条导航',
                                 route: '/instances/other/suspend-bar'
                             },{
+                                name: '弹出提示框',
+                                route: '/instances/other/callout'
+                            },{
                                 name: '仿IOS按钮',
                                 route: '/instances/other/ios-btn'
                             },{

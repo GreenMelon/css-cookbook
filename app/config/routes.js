@@ -156,6 +156,7 @@ import TaiChi from '../pages/instances/creative/tai-chi';
 import AnimatedWeatherIcons from '../pages/instances/creative/animated-weather-icons';
 import Accordion from '../pages/instances/other/accordion';
 import SuspendBar from '../pages/instances/other/suspend-bar';
+import Callout from '../pages/instances/other/callout';
 import IosBtn from '../pages/instances/other/ios-btn';
 import GetStyle from '../pages/instances/other/get-style';
 
@@ -609,6 +610,9 @@ export default [
     },{
         path: '/instances/other/suspend-bar',
         component: SuspendBar
+    },{
+        path: '/instances/other/callout',
+        component: Callout
     },{
         path: '/instances/other/ios-btn',
         component: IosBtn
