@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rem 自适应布局</title>
+    <style>
+        .wrapper {
+            width: 100%;
+            height: 100%;
+            background-color: purple;
+        }
+        .page {
+            width: 5rem;
+            height: 10rem;
+            font-size: .3rem;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="page">监听浏览器缩放事件，改变 html 元素的 font-size 的值，rem 会跟随 font-size 而变化</div>
+    </div>
+          
+    <script>
+        window.onload = function () {
+            // 根元素
+            const docElem = document.documentElement;
+            // 当浏览器不支持 orientationChange 事件的时候我们绑定了 resize 事件
+            const resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+
+            const recalc = function () {
+                // 设置根元素字体大小
+                docElem.style.fontSize = 20 * (docElem.clientWidth / 320) + 'px';
+            };
+
+            // 绑定浏览器缩放与加载时间
+            window.addEventListener(resizeEvt, recalc, false);
+            document.addEventListener('DOMContentLoaded', recalc, false);    
+        };  
+    </script>
+</body>
+</html>

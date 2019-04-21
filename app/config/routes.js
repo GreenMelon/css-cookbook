@@ -154,6 +154,7 @@ import FloatCenter from '../pages/instances/creative/float-center';
 import Hexagon from '../pages/instances/creative/hexagon';
 import TaiChi from '../pages/instances/creative/tai-chi';
 import AnimatedWeatherIcons from '../pages/instances/creative/animated-weather-icons';
+import AnimatedBook from '../pages/instances/creative/animated-book';
 import Accordion from '../pages/instances/other/accordion';
 import SuspendBar from '../pages/instances/other/suspend-bar';
 import Callout from '../pages/instances/other/callout';
@@ -602,6 +603,9 @@ export default [
     },{
         path: '/instances/creative/animated-weather-icons',
         component: AnimatedWeatherIcons
+    },{
+        path: '/instances/creative/animated-book',
+        component: AnimatedBook
     },
 
     {

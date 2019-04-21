@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手风琴</title>
+    <!-- <link rel="stylesheet" href="./accordion.css"> -->
+    <style>
+        /*--------------------------------------------------*\
+            RESET
+        \*--------------------------------------------------*/
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-family: Georgia, serif;
+            font-size: 62.5%;
+        }
+
+        ul,
+        li {
+            list-style-type: none;
+        }
+
+        /*--------------------------------------------------*\
+            ACCORDION
+        \*--------------------------------------------------*/
+        body {
+            background-color: #000000;
+            background-repeat: repeat;
+        }
+
+        .container {
+            overflow: hidden;
+            padding: 100px 0;
+        }
+
+        .list {
+            margin: 0 auto;
+            width: 1000px;
+            height: 320px;
+            overflow: hidden;
+            font-size: 0;
+        }
+
+        .list:hover .item {
+            width: 6%;
+        }
+
+        .list .item:hover {
+            width: 50rem;
+        }
+
+        .item {
+            position: relative;
+            float: left;
+            display: block;
+            width: 14.28%;
+            font-size: 1.6rem;
+            box-shadow: 0 0 2.5rem 1rem rgba(0, 0, 0, 0.5);
+            transition: width 0.5s;
+        }
+
+        .item .img {
+            display: inline-block;
+            border-left: 0.1rem solid #ffffff;
+        }
+
+        .item .text {
+            position: absolute;
+            bottom: .2rem;
+            left: .1rem;
+            width: 50rem;
+            height: 3.2rem;
+            line-height: 3.2rem;
+            text-transform: uppercase;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .item .text .link {
+            display: block;
+            padding-left: .5rem;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+		<ul class="list">
+			<li class="item">
+                <img class="img" src="https://st-gdx.dancf.com/gaodingx/38188728/design/20190421-163149-b784.jpg" alt="Leborn James">
+                <span class="text">
+                    <a class="link" href="/">Leborn James</a>
+                </span>
+			</li>
+            <li class="item">
+                <img class="img" src="https://st-gdx.dancf.com/gaodingx/38188728/design/20190421-163136-6a91.jpg" alt="Dwyane Wade">
+                <span class="text">
+                    <a class="link" href="/">Dwyane Wade</a>
+                </span>
+			</li>
+			<li class="item">
+                <img class="img" src="https://st-gdx.dancf.com/gaodingx/38188728/design/20190421-163118-762e.jpg" alt="Rajon Rondo">
+                <span class="text">
+                    <a class="link" href="/">Rajon Rondo</a>
+                </span>
+			</li>
+			<li class="item">
+                <img class="img" src="https://st-gdx.dancf.com/gaodingx/38188728/design/20190421-163117-4372.jpg" alt="NBA ChamPionShip">
+                <span class="text">
+                    <a class="link" href="/">NBA ChamPionShip</a>
+                </span>
+			</li>
+			<li class="item">
+                <img class="img" src="https://st-gdx.dancf.com/gaodingx/38188728/design/20190421-163136-ec9c.jpg" alt="Dirk Nowitzki">
+                <span class="text">
+                    <a class="link" href="/">Dirk Nowitzki</a>
+                </span>
+			</li>
+			<li class="item">
+                <img class="img" src="https://st-gdx.dancf.com/gaodingx/38188728/design/20190421-163118-fb8d.jpg" alt="Tracy McGrady">
+                <span class="text">
+                    <a class="link" href="/">Tracy McGrady</a>
+                </span>
+			</li>
+			<li class="item">
+                <img class="img" src="https://st-gdx.dancf.com/gaodingx/38188728/design/20190421-163136-3422.jpg" alt="Kobe Bryant">
+                <span class="text">
+                    <a class="link" href="/">Kobe Bryant</a>
+                </span>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

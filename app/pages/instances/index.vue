@@ -24,6 +24,9 @@
                             },{
                                 name: 'animated-weather-icons',
                                 route: '/instances/creative/animated-weather-icons'
+                            },{
+                                name: 'animated-book',
+                                route: '/instances/creative/animated-book'
                             }
                         ]
                     },{
