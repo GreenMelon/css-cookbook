@@ -27,6 +27,9 @@
                             },{
                                 name: 'animated-book',
                                 route: '/instances/creative/animated-book'
+                            },{
+                                name: 'heart-beat',
+                                route: '/instances/creative/heart-beat'
                             }
                         ]
                     },{

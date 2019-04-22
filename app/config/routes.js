@@ -155,6 +155,7 @@ import Hexagon from '../pages/instances/creative/hexagon';
 import TaiChi from '../pages/instances/creative/tai-chi';
 import AnimatedWeatherIcons from '../pages/instances/creative/animated-weather-icons';
 import AnimatedBook from '../pages/instances/creative/animated-book';
+import HeartBeat from '../pages/instances/creative/heart-beat';
 import Accordion from '../pages/instances/other/accordion';
 import SuspendBar from '../pages/instances/other/suspend-bar';
 import Callout from '../pages/instances/other/callout';
@@ -606,6 +607,9 @@ export default [
     },{
         path: '/instances/creative/animated-book',
         component: AnimatedBook
+    },{
+        path: '/instances/creative/heart-beat',
+        component: HeartBeat
     },
 
     {
