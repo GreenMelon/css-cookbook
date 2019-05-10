@@ -33,6 +33,17 @@
                             }
                         ]
                     },{
+                        name: 'loader',
+                        instances: [
+                            {
+                                name: '圆点渐变色',
+                                route: '/instances/loader/01'
+                            },{
+                                name: '旋转彩虹',
+                                route: '/instances/loader/02'
+                            }
+                        ]
+                    },{
                         name: 'other',
                         instances: [
                             {
