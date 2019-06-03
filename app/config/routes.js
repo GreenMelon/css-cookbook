@@ -95,6 +95,7 @@ import Moon from '../pages/visual/box-shadow/moon';
 import MultiBorder from '../pages/visual/box-shadow/multi-border';
 import BoxShadowPpointerEvents from '../pages/visual/box-shadow/pointer-events';
 import Monalisa from '../pages/visual/box-shadow/monalisa';
+import Emphasize from '../pages/visual/box-shadow/emphasize';
 import BackgroundColor01 from '../pages/visual/background-color/01';
 import BackgroundImage01 from '../pages/visual/background-image/01';
 import BackgroundClip01 from '../pages/visual/background-clip/01';
@@ -435,6 +436,9 @@ export default [
     },{
         path: '/visual/box-shadow/monalisa',
         component: Monalisa
+    },{
+        path: '/visual/box-shadow/emphasize',
+        component: Emphasize
     },{
         path: '/visual/background-color/01',
         component: BackgroundColor01

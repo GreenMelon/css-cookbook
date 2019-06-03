@@ -59,7 +59,10 @@
                             },{
                                 name: '蒙娜丽莎',
                                 route: '/visual/box-shadow/monalisa'
-                            }
+                            },{
+                                name: '高亮显示',
+                                route: '/visual/box-shadow/emphasize'
+                            },
                         ]
                     },{
                         name: 'background-color',
