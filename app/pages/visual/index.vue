@@ -65,6 +65,14 @@
                             },
                         ]
                     },{
+                        name: 'background',
+                        instances: [
+                            {
+                                name: '滚动阴影',
+                                route: '/visual/background/01'
+                            }
+                        ],
+                    },{
                         name: 'background-color',
                         instances: [
                             {
