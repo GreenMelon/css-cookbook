@@ -96,6 +96,7 @@ const MultiBorder = () => import('../pages/visual/box-shadow/multi-border');
 const BoxShadowPpointerEvents = () => import('../pages/visual/box-shadow/pointer-events');
 const Monalisa = () => import('../pages/visual/box-shadow/monalisa');
 const Emphasize = () => import('../pages/visual/box-shadow/emphasize');
+const Background01 = () => import('../pages/visual/background/01');
 const BackgroundColor01 = () => import('../pages/visual/background-color/01');
 const BackgroundImage01 = () => import('../pages/visual/background-image/01');
 const BackgroundClip01 = () => import('../pages/visual/background-clip/01');
@@ -439,6 +440,9 @@ export default [
     },{
         path: '/visual/box-shadow/emphasize',
         component: Emphasize
+    },{
+        path: '/visual/background/01',
+        component: Background01
     },{
         path: '/visual/background-color/01',
         component: BackgroundColor01
