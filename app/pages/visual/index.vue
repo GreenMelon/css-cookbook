@@ -111,6 +111,14 @@
                             }
                         ]
                     },{
+                        name: 'background-attachment',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/visual/background-attachment/01'
+                            }
+                        ]
+                    },{
                         name: 'background-blend-mode',
                         instances: [
                             {

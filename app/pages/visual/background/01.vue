@@ -7,9 +7,9 @@
         linear-gradient(white 30%, rgba(218, 195, 195, 0)),
         linear-gradient(rgba(51, 51, 51, 0.08), rgba(51, 51, 51, 0));
     background-size: 100% 32px, 100% 16px;
+    background-attachment: local, scroll;
     background-color: #fff;
     background-repeat: no-repeat;
-    background-attachment: local, scroll;
 }
 
 .child {
