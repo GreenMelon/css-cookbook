@@ -14,7 +14,7 @@
                         instances: [
                             {
                                 name: '1',
-                                route: '/element/a/1'
+                                route: '/element/a/01'
                             }
                         ]
                     },{
@@ -22,7 +22,7 @@
                         instances: [
                             {
                                 name: '1',
-                                route: '/element/dialog/1'
+                                route: '/element/dialog/01'
                             }
                         ]
                     },{
@@ -61,7 +61,7 @@
                         instances: [
                             {
                                 name: '1',
-                                route: '/element/li/1'
+                                route: '/element/li/01'
                             }
                         ]
                     },{
@@ -69,7 +69,7 @@
                         instances: [
                             {
                                 name: '1',
-                                route: '/element/progress/1'
+                                route: '/element/progress/01'
                             }
                         ]
                     }

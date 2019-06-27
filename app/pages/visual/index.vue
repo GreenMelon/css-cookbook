@@ -41,12 +41,12 @@
                         name: 'box-shadow',
                         instances: [
                             // {
-                            //     name: 'loading-001',
-                            //     route: '/visual/box-shadow/loading-001'
+                            //     name: 'loading.01',
+                            //     route: '/visual/box-shadow/loading.01'
                             // },
                             {
-                                name: 'loading-002',
-                                route: '/visual/box-shadow/loading-002'
+                                name: 'loading.02',
+                                route: '/visual/box-shadow/loading.02'
                             },{
                                 name: '明月几时有',
                                 route: '/visual/box-shadow/moon'
