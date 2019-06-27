@@ -6,8 +6,8 @@ const NotFound = () => import('../pages/404');
 const Index = () => import('../pages/index');
 
 const ElementIndex = () => import('../pages/element/index');
-const A = () => import('../pages/element/a/1');
-const Dialog = () => import('../pages/element/dialog/1');
+const A = () => import('../pages/element/a/01');
+const Dialog = () => import('../pages/element/dialog/01');
 const Video01 = () => import('../pages/element/video/01');
 const VideoGif = () => import('../pages/element/video/gif');
 const VideoMse = () => import('../pages/element/video/mse');
@@ -16,8 +16,8 @@ const Sizes = () => import('../pages/element/image/sizes');
 const Usemap = () => import('../pages/element/image/usemap');
 const ImageSet = () => import('../pages/element/image/image-set');
 
-const Li = () => import('../pages/element/li/1');
-const Progress = () => import('../pages/element/progress/1');
+const Li = () => import('../pages/element/li/01');
+const Progress = () => import('../pages/element/progress/01');
 
 const SelectorIndex = () => import('../pages/selector/index');
 const AttrSelector01 = () => import('../pages/selector/attr/01');
@@ -89,8 +89,8 @@ const Wave = () => import('../pages/visual/border-radius/wave');
 const Outline01 = () => import('../pages/visual/outline/01');
 const OutlineOffset = () => import('../pages/visual/outline/outline-offset');
 const OutlineRadius = () => import('../pages/visual/outline/outline-radius');
-const VisualBoxShadowLoading1 = () => import('../pages/visual/box-shadow/loading-001');
-const VisualBoxShadowLoading2 = () => import('../pages/visual/box-shadow/loading-002');
+const VisualBoxShadowLoading1 = () => import('../pages/visual/box-shadow/loading.01');
+const VisualBoxShadowLoading2 = () => import('../pages/visual/box-shadow/loading.02');
 const Moon = () => import('../pages/visual/box-shadow/moon');
 const MultiBorder = () => import('../pages/visual/box-shadow/multi-border');
 const BoxShadowPpointerEvents = () => import('../pages/visual/box-shadow/pointer-events');
@@ -180,10 +180,10 @@ export default [
         path: '/element',
         component: ElementIndex
     },{
-        path: '/element/a/1',
+        path: '/element/a/01',
         component: A
     },{
-        path: '/element/dialog/1',
+        path: '/element/dialog/01',
         component: Dialog
     },{
         path: '/element/video/01',
@@ -207,10 +207,10 @@ export default [
         path: '/element/image/image-set',
         component: ImageSet
     },{
-        path: '/element/li/1',
+        path: '/element/li/01',
         component: Li
     },{
-        path: '/element/progress/1',
+        path: '/element/progress/01',
         component: Progress
     },
 
@@ -421,10 +421,10 @@ export default [
         path: '/visual/outline/outline-radius',
         component: OutlineRadius
     },{
-        path: '/visual/box-shadow/loading-001',
+        path: '/visual/box-shadow/loading.01',
         component: VisualBoxShadowLoading1
     },{
-        path: '/visual/box-shadow/loading-002',
+        path: '/visual/box-shadow/loading.02',
         component: VisualBoxShadowLoading2
     },{
         path: '/visual/box-shadow/moon',
