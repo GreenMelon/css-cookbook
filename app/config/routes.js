@@ -20,6 +20,7 @@ const Li = () => import('../pages/element/li/01');
 const Progress = () => import('../pages/element/progress/01');
 
 const SelectorIndex = () => import('../pages/selector/index');
+const Specificity = () => import('../pages/selector/specificity');
 const AttrSelector01 = () => import('../pages/selector/attr/01');
 const SelectionSelector01 = () => import('../pages/selector/selection/01');
 const BeforeAttr = () => import('../pages/selector/before/attr');
@@ -217,6 +218,9 @@ export default [
     {
         path: '/selector',
         component: SelectorIndex
+    },{
+        path: '/selector/specificity',
+        component: Specificity
     },{
         path: '/selector/attr/01',
         component: AttrSelector01

@@ -10,6 +10,14 @@
             return {
                 categories: [
                     {
+                        name: 'specificity',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/selector/specificity'
+                            }
+                        ]
+                    },{
                         name: '[attr]',
                         instances: [
                             {
