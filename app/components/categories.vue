@@ -13,9 +13,24 @@
                     class="item-sub"
                 >
                     <router-link
+                        v-if="instance.route"
                         :to="instance.route"
                         v-text="instance.name">
                     </router-link>
+                    <div v-else>
+                        <h3 v-text="instance.name"></h3>
+                        <ul class="list-subInstance">
+                            <li
+                                v-for="subInstance in instance.instances"
+                                :key="subInstance.name"
+                            >
+                                <router-link
+                                    :to="subInstance.route"
+                                    v-text="subInstance.name">
+                                </router-link>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </li>
