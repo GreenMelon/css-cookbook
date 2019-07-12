@@ -13,14 +13,32 @@
                         name: 'border',
                         instances: [
                             {
-                                name: '边框宽度可继承',
-                                route: '/box-model/border/border-width'
+                                name: 'border-width',
+                                instances: [
+                                    {
+                                        name: '边框宽度可继承',
+                                        route: '/box-model/border/border-width/01'
+                                    }
+                                ]
                             },{
-                                name: '渐变圆环',
-                                route: '/box-model/border/border-image'
+                                name: 'border-image',
+                                instances: [
+                                    {
+                                        name: '01',
+                                        route: '/box-model/border/border-image/01'
+                                    },{
+                                        name: '02',
+                                        route: '/box-model/border/border-image/02'
+                                    }
+                                ],
                             },{
-                                name: '透明边框',
-                                route: '/visual/background-clip/transparent-border'
+                                name: 'border-color',
+                                instances: [
+                                    {
+                                        name: '透明边框',
+                                        route: '/visual/background-clip/transparent-border'
+                                    }
+                                ],
                             }
                         ]
                     },{

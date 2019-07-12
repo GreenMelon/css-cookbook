@@ -56,8 +56,9 @@ const ShapeCircle = () => import('../pages/formatting-model/shape/circle');
 const ShapePolygon = () => import('../pages/formatting-model/shape/polygon');
 
 const BoxModelIndex = () => import('../pages/box-model/index');
-const BorderWidth = () => import('../pages/box-model/border/border-width');
-const BorderImage = () => import('../pages/box-model/border/border-image');
+const BorderWidth01 = () => import('../pages/box-model/border/border-width/01');
+const BorderImage01 = () => import('../pages/box-model/border/border-image/01');
+const BorderImage02 = () => import('../pages/box-model/border/border-image/02');
 const PaddingLeft = () => import('../pages/box-model/padding/left');
 const Clip01 = () => import('../pages/box-model/clip/01');
 const GradientCircle03 = () => import('../pages/box-model/clip/circle');
@@ -325,11 +326,14 @@ export default [
         path: '/box-model',
         component: BoxModelIndex
     },{
-        path: '/box-model/border/border-width',
-        component: BorderWidth
+        path: '/box-model/border/border-width/01',
+        component: BorderWidth01
     },{
-        path: '/box-model/border/border-image',
-        component: BorderImage
+        path: '/box-model/border/border-image/01',
+        component: BorderImage01
+    },{
+        path: '/box-model/border/border-image/02',
+        component: BorderImage02
     },{
         path: '/box-model/padding/left',
         component: PaddingLeft
