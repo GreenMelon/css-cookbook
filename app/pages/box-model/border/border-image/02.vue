@@ -7,7 +7,7 @@
     border-width: 26px;
     border-image-source: url("~images/border.png");
     background-color: orange;
-    outline: 1px dashed #007DD4;
+    outline: 1px dashed green;
 }
 
 .setting {
@@ -32,11 +32,13 @@ input {
 
 <template>
     <main>
+        <!-- border-image: source slice / width / outset repeat -->
         <div
             class="demo"
             :style="{
-                'border-image-width': `${option.width}px`,
-                'border-image-slice': `${option.slice}`,
+                'border-image-slice': getAttribute('slice', ''),
+                'border-image-width': getAttribute('width', 'px'),
+                'border-image-outset': getAttribute('outset', 'px'),
                 'border-image-repeat': `${option.repeat}`,
             }"
         >
@@ -44,6 +46,57 @@ input {
         </div>
 
         <div class="setting">
+            <p>
+                <span>boborder-image-slice:</span>
+                <ul>
+                    <li
+                        v-for="(dir, index) in directions"
+                        :key="index"
+                    >
+                        <input
+                            v-model="option.slice[dir]"
+                            :min="boborderImageSliceOptions.min"
+                            :max="boborderImageSliceOptions.max"
+                            type="range"
+                        >
+                    </li>
+                </ul>
+            </p>
+
+            <p>
+                <span>boborder-image-width:</span>
+                <ul>
+                    <li
+                        v-for="(dir, index) in directions"
+                        :key="index"
+                    >
+                        <input
+                            v-model="option.width[dir]"
+                            :min="boborderImageWidthOptions.min"
+                            :max="boborderImageWidthOptions.max"
+                            type="range"
+                        >
+                    </li>
+                </ul>
+            </p>
+
+            <p>
+                <span>boborder-image-outset:</span>
+                <ul>
+                    <li
+                        v-for="(dir, index) in directions"
+                        :key="index"
+                    >
+                        <input
+                            v-model="option.outset[dir]"
+                            :min="boborderImageOutsetOptions.min"
+                            :max="boborderImageOutsetOptions.max"
+                            type="range"
+                        >
+                    </li>
+                </ul>
+            </p>
+
             <p>
                 <span>boborder-image-repeat:</span>
                 <ul>
@@ -62,16 +115,6 @@ input {
                     </li>
                 </ul>
             </p>
-            <p>
-                <span>boborder-image-repeat:</span>
-                <br>
-                <input
-                    v-model="option.width"
-                    :min="boborderImageWidthOptions.min"
-                    :max="boborderImageWidthOptions.max"
-                    type="range"
-                >
-            </p>
         </div>
     </main>
 </template>
@@ -81,13 +124,43 @@ input {
         data() {
             return {
                 option: {
-                    width: 26,
-                    slice: 26,
-                    top: 0,
-                    right: 0,
-                    bottom: 0,
-                    left: 0,
+                    width: {
+                        top: 26,
+                        right: 26,
+                        bottom: 26,
+                        left: 26,
+                    },
+                    outset: {
+                        top: 0,
+                        right: 0,
+                        bottom: 0,
+                        left: 0,
+                    },
+                    slice: {
+                        top: 26,
+                        right: 26,
+                        bottom: 26,
+                        left: 26,
+                    },
                     repeat: 'stretch',
+                },
+                directions: [
+                    'top',
+                    'right',
+                    'bottom',
+                    'left',
+                ],
+                boborderImageSliceOptions: {
+                    min: 0,
+                    max: 100,
+                },
+                boborderImageWidthOptions: {
+                    min: 0,
+                    max: 100,
+                },
+                boborderImageOutsetOptions: {
+                    min: 0,
+                    max: 26,
                 },
                 boborderImageRepeatOptions: [
                     'stretch',
@@ -107,11 +180,22 @@ input {
                     'space round',
                     'space repeat',
                 ],
-                boborderImageWidthOptions: {
-                    min: 0,
-                    max: 100,
-                },
             };
+        },
+
+        computed: {},
+
+        methods: {
+            getAttribute(attr, unit) {
+                const  {
+                    top,
+                    right,
+                    bottom,
+                    left,
+                } = this.option[attr];
+
+                return `${top}${unit} ${right}${unit} ${bottom}${unit} ${left}${unit}`;
+            },
         },
     }
 </script>
