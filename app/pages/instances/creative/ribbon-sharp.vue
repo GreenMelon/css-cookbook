@@ -1,5 +1,5 @@
 <style lang="less" scoped>
-.ribbon {
+.ribbon-sharp {
     position: absolute;
     .left,
     .right {
@@ -10,7 +10,7 @@
 
 <template>
     <div
-        class="ribbon"
+        class="ribbon-sharp"
         :style="{
             width: `${times * size}px`,
             height: `${size}px`,
@@ -39,7 +39,7 @@
 
 <script>
     export default {
-        name: 'ribbon',
+        name: 'ribbon-sharp',
 
         props: {
             size: {
