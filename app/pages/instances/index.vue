@@ -30,6 +30,9 @@
                             },{
                                 name: 'heart-beat',
                                 route: '/instances/creative/heart-beat'
+                            },{
+                                name: 'ribbon-logo',
+                                route: '/instances/creative/ribbon-logo'
                             }
                         ]
                     },{
