@@ -12,7 +12,7 @@
     transform: scale(2);
 }
 .G {
-    .ribbon {
+    .ribbon-sharp {
         &:nth-child(2) {
             top: 54px;
             left: -54px;
@@ -35,7 +35,7 @@
     }
 }
 .D {
-    .ribbon {
+    .ribbon-sharp {
         &:nth-child(1) {
             top: 42px;
             left: -24px;
@@ -63,53 +63,53 @@
     <main>
         <div class="gaoding">
             <div class="G">
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="4"
                     color="#e91a8c"
                 />
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="8"
                     :z-index="1"
                     color="#7f00ff"
                 />
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="4"
                     color="#411ad6"
                 />
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="4"
                     :z-index="1"
                     color="#ff7f00"
                 />
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="2"
                     color="#5ceaa2"
                 />
             </div>
             <div class="D">
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="6"
                     :z-index="1"
                     color="gold"
                 />
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="4"
                     color="crimson"
                 />
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="8"
                     :z-index="1"
                     color="orange"
                 />
-                <ribbon
+                <ribbon-sharp
                     :size="12"
                     :times="4"
                     color="pink"
@@ -120,11 +120,11 @@
 </template>
 
 <script>
-    import ribbon from './ribbon';
+    import RibbonSharp from './ribbon-sharp';
 
     export default {
         components: {
-            ribbon,
+            RibbonSharp,
         },
     };
 </script>
