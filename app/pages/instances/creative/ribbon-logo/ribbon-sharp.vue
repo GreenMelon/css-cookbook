@@ -1,6 +1,9 @@
-<style lang="less" scoped>
+<style lang="less">
 .ribbon-sharp {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     .left,
     .right {
         position: absolute;
@@ -44,7 +47,7 @@
         props: {
             size: {
                 type: Number,
-                default: 0,
+                default: 12,
             },
             times: {
                 type: Number,

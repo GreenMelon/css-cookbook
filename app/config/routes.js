@@ -161,7 +161,7 @@ const TaiChi = () => import('../pages/instances/creative/tai-chi');
 const AnimatedWeatherIcons = () => import('../pages/instances/creative/animated-weather-icons');
 const AnimatedBook = () => import('../pages/instances/creative/animated-book');
 const HeartBeat = () => import('../pages/instances/creative/heart-beat');
-const RibbonLogo = () => import('../pages/instances/creative/ribbon-logo');
+const RibbonLogo = () => import('../pages/instances/creative/ribbon-logo/index');
 const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
 const Accordion = () => import('../pages/instances/other/accordion');
