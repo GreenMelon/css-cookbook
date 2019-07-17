@@ -1,30 +1,39 @@
 <style lang="less" scoped>
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
 </style>
 
 <template>
     <main>
-        <ribbon-g
-            :size="size"
-            :width-times="widthTimes"
-            :height-times="heightTimes"
-        />
-        <ribbon-u
-            :size="size"
-            :width-times="widthTimes"
-            :height-times="heightTimes"
-        />
-        <ribbon-a
-            :size="size"
-            :width-times="widthTimes"
-            :height-times="heightTimes"
-        />
+        <div class="row">
+            <ribbon-a
+                :size="size"
+                :width-times="widthTimes"
+                :height-times="heightTimes"
+            />
+            <ribbon-g
+                :size="size"
+                :width-times="widthTimes"
+                :height-times="heightTimes"
+            />
+        </div>
+        <div class="row">
+            <ribbon-u
+                :size="size"
+                :width-times="widthTimes"
+                :height-times="heightTimes"
+            />
+        </div>
     </main>
 </template>
 
 <script>
-    import RibbonG from './ribbon-g';
-    import RibbonU from './ribbon-u';
-    import RibbonA from './ribbon-a';
+    import RibbonG from './alphabet/g';
+    import RibbonU from './alphabet/u';
+    import RibbonA from './alphabet/a';
 
     export default {
         components: {
