@@ -48,8 +48,8 @@
 </template>
 
 <script>
-    import RibbonAlphabet from './ribbon-alphabet';
-    import RibbonSquare from './ribbon-square';
+    import RibbonAlphabet from '../ribbon-alphabet';
+    import RibbonSquare from '../ribbon-square';
 
     export default {
         name: 'ribbon-a',

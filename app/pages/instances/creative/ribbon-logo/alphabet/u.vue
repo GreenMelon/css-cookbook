@@ -51,8 +51,8 @@
 </template>
 
 <script>
-    import RibbonAlphabet from './ribbon-alphabet';
-    import RibbonSharp from './ribbon-sharp';
+    import RibbonAlphabet from '../ribbon-alphabet';
+    import RibbonSharp from '../ribbon-sharp';
 
     export default {
         name: 'ribbon-u',
