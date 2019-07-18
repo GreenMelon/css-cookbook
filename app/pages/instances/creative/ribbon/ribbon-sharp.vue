@@ -16,6 +16,7 @@
         :style="{
             zIndex: zIndex,
             width: `${(1 + times + 1) * size}px`,
+            color: color,
         }"
     >
         <em

@@ -55,7 +55,7 @@
                 transform: 'translate(0, -50%)',
                 marginTop: `-${size / 2}px`,
             }"
-            color="#5ceaa2"
+            color="#41b883"
         />
     </RibbonAlphabet>
 </template>
