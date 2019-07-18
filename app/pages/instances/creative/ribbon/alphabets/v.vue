@@ -10,22 +10,24 @@
     >
         <RibbonSquare
             :size="size"
-            :times="1.5 * heightTimes"
+            :times="heightTimes"
             :style="{
-                top: `-${size}px`,
-                left: 0,
-                transformOrigin: '0 100%',
-                transform: `rotate(90deg) skewY(-${degree}deg)`,
+                top: '100%',
+                left: '50%',
+                marginTop: `-${size / 2}px`,
+                transformOrigin: '0% 50%',
+                transform: `rotate(-90deg) skewY(-${degree}deg)`,
             }"
             color="#e91a8c"
         />
         <RibbonSquare
             :size="size"
-            :times="1.5 * heightTimes"
+            :times="heightTimes"
             :style="{
-                top: `-${size}px`,
-                right: 0,
-                transformOrigin: '100% 100%',
+                top: '100%',
+                left: '50%',
+                marginTop: `-${size / 2}px`,
+                transformOrigin: '0% 50%',
                 transform: `rotate(-90deg) skewY(${degree}deg)`,
             }"
             color="#7f00ff"
