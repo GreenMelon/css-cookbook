@@ -8,6 +8,7 @@
     <div
         class="ribbon-square"
         :style="{
+            zIndex: zIndex,
             width: `${size * (1 + times + 1)}px`,
             height: `${size}px`,
             backgroundColor: color,

@@ -32,7 +32,7 @@
         <RibbonSharp
             :size="size"
             :times="widthTimes"
-            color="#e91a8c"
+            color="#ff7f00"
         />
         <RibbonSharp
             :size="size"
@@ -44,7 +44,7 @@
                 transformOrigin: '0% 0%',
                 transform: 'rotate(90deg)',
             }"
-            color="#ff7f00"
+            color="#e91a8c"
         />
         <RibbonSharp
             :size="size"
@@ -53,7 +53,7 @@
                 top: '50%',
                 transform: 'rotate(180deg)',
             }"
-            color="#7f00ff"
+            color="#411ad6"
         />
         <RibbonSharp
             :size="size"
@@ -65,7 +65,7 @@
                 transformOrigin: '100% 0%',
                 transform: 'rotate(-90deg)',
             }"
-            color="#411ad6"
+            color="#7f00ff"
         />
     </RibbonAlphabet>
 </template>

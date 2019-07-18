@@ -1,19 +1,4 @@
 <style lang="less">
-.ribbon-alphabet-q2 {
-    .ribbon-sharp {
-        &:first-child {
-            .right {
-                transform: rotate(90deg);
-            }
-        }
-        &:nth-child(4) {
-            .left {
-                transform: rotate(-90deg);
-            }
-        }
-
-    }
-}
 </style>
 
 <template>
@@ -21,11 +6,11 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-q2"
+        class="ribbon-alphabet-q3"
     >
         <RibbonSharp
             :size="size"
-            :times="heightTimes - 1"
+            :times="heightTimes"
             :z-index="1"
             :style="{
                 top: '0',
@@ -54,7 +39,7 @@
         />
         <RibbonSharp
             :size="size"
-            :times="widthTimes - 1"
+            :times="widthTimes"
             :style="{
                 bottom: '0',
                 transform: 'rotate(180deg)',
@@ -64,9 +49,11 @@
         <RibbonSquare
             :size="size"
             :times="widthTimes / 4"
+            :z-index="1"
             :style="{
                 right: `${size / 2}px`,
                 bottom: '0',
+                outline: `${size / 4}px solid #FFF`,
                 transformOrigin: '100% 50%',
                 transform: 'rotate(45deg)',
             }"

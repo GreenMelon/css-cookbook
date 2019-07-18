@@ -1,5 +1,5 @@
 <style lang="less">
-.ribbon-alphabet-q {
+.ribbon-alphabet-q1 {
     .ribbon-sharp {
         &:first-child {
             .right {
@@ -21,7 +21,7 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-q"
+        class="ribbon-alphabet-q1"
     >
         <RibbonSharp
             :size="size"
