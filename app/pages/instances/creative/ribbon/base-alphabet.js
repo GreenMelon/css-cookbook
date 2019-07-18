@@ -9,19 +9,12 @@ const baseAlphabet = {
         RibbonSquare,
     },
 
-    props: {
-        size: {
-            type: Number,
-            default: 12,
-        },
-        widthTimes: {
-            type: Number,
-            default: 1,
-        },
-        heightTimes: {
-            type: Number,
-            default: 1,
-        },
+    data() {
+        return {
+            size: 12,
+            widthTimes: 4,
+            heightTimes: 8,
+        };
     },
 
     computed: {

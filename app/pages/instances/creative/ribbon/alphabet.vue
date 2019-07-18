@@ -9,72 +9,24 @@
 <template>
     <main>
         <div class="row">
-            <AlphabetA
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
-            <AlphabetG
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
+            <AlphabetA />
+            <AlphabetG />
         </div>
         <div class="row">
-            <AlphabetK
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
-            <AlphabetM
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
-            <AlphabetN
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
+            <AlphabetK />
+            <AlphabetM />
+            <AlphabetN />
         </div>
         <div class="row">
-            <AlphabetP
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
-            <AlphabetQ1
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
-            <AlphabetQ2
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
-            <AlphabetR
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
+            <AlphabetP />
+            <AlphabetQ1 />
+            <AlphabetQ2 />
+            <AlphabetR />
         </div>
         <div class="row">
-            <AlphabetU
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
-            <AlphabetV
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
-            <AlphabetW
-                :size="size"
-                :width-times="widthTimes"
-                :height-times="heightTimes"
-            />
+            <AlphabetU />
+            <AlphabetV />
+            <AlphabetW />
         </div>
     </main>
 </template>
@@ -107,14 +59,6 @@
             AlphabetU,
             AlphabetV,
             AlphabetW,
-        },
-
-        data() {
-            return {
-                size: 12,
-                widthTimes: 4,
-                heightTimes: 8,
-            };
         },
     };
 </script>
