@@ -32,8 +32,10 @@
             :size="size"
             :times="heightTimes"
             :style="{
-                transform: 'translate(-50%, -50%) rotate(90deg)',
-                marginLeft: `-${halfWidth - halfSize}px`,
+                top: `-${size}px`,
+                left: '0%',
+                transformOrigin: '0 100%',
+                transform: 'rotate(90deg)',
             }"
             color="#e91a8c"
         />

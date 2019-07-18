@@ -25,7 +25,7 @@
             :style="{
                 top: '50%',
                 left: '50%',
-                transform: `translate(-50%, -50%) rotate(90deg) skewY(${degree}deg)`,
+                transform: `translate(-50%, -50%) rotate(90deg) skewY(-${degree}deg)`,
             }"
             color="#ff7f00"
         />
