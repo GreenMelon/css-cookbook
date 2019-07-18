@@ -6,17 +6,16 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-m"
+        class="ribbon-alphabet-w2"
     >
         <RibbonSquare
             :size="size"
             :times="heightTimes"
             :style="{
-                top: '0',
-                left: '25%',
-                marginTop: `-${size / 2}px`,
-                transformOrigin: '0% 50%',
-                transform: `rotate(90deg) skewY(${degree1}deg)`,
+                top: `-${size}px`,
+                left: '0%',
+                transformOrigin: '0% 100%',
+                transform: `rotate(90deg)`,
             }"
             color="#e91a8c"
         />
@@ -25,10 +24,9 @@
             :times="heightTimes"
             :style="{
                 top: '0',
-                left: '25%',
-                marginTop: `-${size / 2}px`,
+                left: '50%',
                 transformOrigin: '0% 50%',
-                transform: `rotate(90deg) skewY(-${degree2}deg)`,
+                transform: `translateY(-50%) rotate(90deg) skewY(${degree}deg)`,
             }"
             color="#ff7f00"
         />
@@ -37,10 +35,9 @@
             :times="heightTimes"
             :style="{
                 top: '0',
-                left: '75%',
-                marginTop: `-${size / 2}px`,
+                left: '50%',
                 transformOrigin: '0% 50%',
-                transform: `rotate(90deg) skewY(${degree2}deg)`,
+                transform: `translateY(-50%) rotate(90deg) skewY(-${degree}deg)`,
             }"
             color="#7f00ff"
         />
@@ -48,11 +45,10 @@
             :size="size"
             :times="heightTimes"
             :style="{
-                top: '0',
-                left: '75%',
-                marginTop: `-${size / 2}px`,
-                transformOrigin: '0% 50%',
-                transform: `rotate(90deg) skewY(-${degree1}deg)`,
+                top: `-${size}px`,
+                right: '0%',
+                transformOrigin: '100% 100%',
+                transform: `rotate(-90deg)`,
             }"
             color="#411ad6"
         />
@@ -67,14 +63,8 @@
         mixins: [baseAlphabet],
 
         computed: {
-            degree1() {
-                const width = (1 + this.widthTimes + 1) / 4 - 0.5;
-                const height = (1 + this.heightTimes + 1);
-
-                return Math.atan(width / height) * 360 / (Math.PI * 2);
-            },
-            degree2() {
-                const width = (1 + this.widthTimes + 1) / 4;
+            degree() {
+                const width = (1 + this.widthTimes + 1) / 2 - 0.5;
                 const height = (1 + this.heightTimes + 1);
 
                 return Math.atan(width / height) * 360 / (Math.PI * 2);

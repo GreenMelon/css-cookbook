@@ -1,17 +1,14 @@
 <style lang="less">
-.ribbon-alphabet-q2 {
+.ribbon-alphabet-d1 {
     .ribbon-sharp {
-        &:first-child {
-            .right {
-                transform: rotate(90deg);
-            }
-        }
-        &:nth-child(4) {
+        &:nth-child(3) {
             .left {
-                transform: rotate(-90deg);
+                border-left-color: currentColor !important;
+            }
+            .right {
+                border-right-color: currentColor !important;
             }
         }
-
     }
 }
 </style>
@@ -21,11 +18,11 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-q2"
+        class="ribbon-alphabet-d1"
     >
         <RibbonSharp
             :size="size"
-            :times="heightTimes - 1"
+            :times="heightTimes"
             :z-index="1"
             :style="{
                 top: '0',
@@ -54,23 +51,12 @@
         />
         <RibbonSharp
             :size="size"
-            :times="widthTimes - 1"
+            :times="widthTimes"
             :style="{
                 bottom: '0',
                 transform: 'rotate(180deg)',
             }"
             color="#411ad6"
-        />
-        <RibbonSquare
-            :size="size"
-            :times="widthTimes / 4"
-            :style="{
-                right: `${size / 2}px`,
-                bottom: '0',
-                transformOrigin: '100% 50%',
-                transform: 'rotate(45deg)',
-            }"
-            color="#41b883"
         />
     </RibbonAlphabet>
 </template>
@@ -81,14 +67,5 @@
 
     export default Vue.extend({
         mixins: [baseAlphabet],
-
-        computed: {
-            degree() {
-                const width = this.widthTimes / 2 - 0.25;
-                const height = this.heightTimes / 2;
-
-                return Math.atan(width / height) * 360 / (Math.PI * 2);
-            },
-        },
     });
 </script>

@@ -6,7 +6,7 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-w"
+        class="ribbon-alphabet-w1"
     >
         <RibbonSquare
             :size="size"
