@@ -1,12 +1,11 @@
 <style lang="less">
 .ribbon-sharp {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 0;
     .left,
+    .center,
     .right {
-        position: absolute;
+        display: inline-block;
     }
 }
 </style>
@@ -15,10 +14,8 @@
     <div
         class="ribbon-sharp"
         :style="{
-            width: `${times * size}px`,
-            height: `${size}px`,
-            backgroundColor: color,
             zIndex: zIndex,
+            width: `${(1 + times + 1) * size}px`,
         }"
     >
         <em
@@ -27,6 +24,14 @@
                 left: `-${size}px`,
                 borderLeft: `${size}px solid transparent`,
                 borderBottom: `${size}px solid ${color}`,
+            }"
+        />
+        <em
+            class="center"
+            :style="{
+                width: `${times * size}px`,
+                height: `${size}px`,
+                backgroundColor: color,
             }"
         />
         <em

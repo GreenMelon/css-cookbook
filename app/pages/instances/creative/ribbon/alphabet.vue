@@ -38,6 +38,13 @@
             />
         </div>
         <div class="row">
+            <AlphabetP
+                :size="size"
+                :width-times="widthTimes"
+                :height-times="heightTimes"
+            /> 
+        </div>
+        <div class="row">
             <AlphabetU
                 :size="size"
                 :width-times="widthTimes"
@@ -63,6 +70,7 @@
     import AlphabetK from './alphabets/k';
     import AlphabetM from './alphabets/m';
     import AlphabetN from './alphabets/n';
+    import AlphabetP from './alphabets/p';
     import AlphabetU from './alphabets/u';
     import AlphabetV from './alphabets/v';
     import AlphabetW from './alphabets/w';
@@ -74,6 +82,7 @@
             AlphabetK,
             AlphabetM,
             AlphabetN,
+            AlphabetP,
             AlphabetU,
             AlphabetV,
             AlphabetW,

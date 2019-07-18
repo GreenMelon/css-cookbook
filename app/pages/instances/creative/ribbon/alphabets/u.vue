@@ -13,8 +13,10 @@
             :times="heightTimes"
             :z-index="1"
             :style="{
-                marginLeft: `-${halfWidth - halfSize}px`,
-                transform: 'translate(-50%, -50%) rotate(-90deg)',
+                top: '0',
+                right: `${halfWidth * 2}px`,
+                transformOrigin: '100% 0%',
+                transform: 'rotate(-90deg)',
             }"
             color="#e91a8c"
         />
@@ -22,20 +24,22 @@
             :size="size"
             :times="widthTimes"
             :style="{
-                marginTop: `${halfHeight - halfSize}px`,
-                transform: 'translate(-50%, -50%) rotate(180deg)',
+                bottom: '0',
+                transform: 'rotate(180deg)',
             }"
-            color="#7f00ff"
+            color="#ff7f00"
         />
         <RibbonSharp
             :size="size"
             :times="heightTimes"
             :z-index="1"
             :style="{
-                marginLeft: `${halfWidth - halfSize}px`,
-                transform: 'translate(-50%, -50%) rotate(90deg)',
+                top: '0',
+                left: `${halfWidth * 2}px`,
+                transformOrigin: '0% 0%',
+                transform: 'rotate(90deg)',
             }"
-            color="#411ad6"
+            color="#7f00ff"
         />
     </RibbonAlphabet>
 </template>
