@@ -36,7 +36,7 @@
         />
         <RibbonSharp
             :size="size"
-            :times="widthTimes"
+            :times="heightTimes / 2"
             :z-index="1"
             :style="{
                 top: '0',
