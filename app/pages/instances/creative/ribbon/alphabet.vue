@@ -43,11 +43,11 @@
 </template>
 
 <script>
-    import AlphabetA from './alphabet/a';
-    import AlphabetG from './alphabet/g';
-    import AlphabetK from './alphabet/k';
-    import AlphabetU from './alphabet/u';
-    import AlphabetV from './alphabet/v';
+    import AlphabetA from './alphabets/a';
+    import AlphabetG from './alphabets/g';
+    import AlphabetK from './alphabets/k';
+    import AlphabetU from './alphabets/u';
+    import AlphabetV from './alphabets/v';
 
     export default {
         components: {
