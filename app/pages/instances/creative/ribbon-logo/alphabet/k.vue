@@ -1,17 +1,25 @@
 <style lang="less">
-.ribbon-alphabet-u {
-    .ribbon-sharp {
-        &:first-child {
-            transform: translate(-50%, -50%) rotate(-90deg);
+    .ribbon-alphabet-k {
+        .ribbon-sharp {
+            &:first-child {
+                transform: translate(-50%, -50%) rotate(-90deg);
+            }
         }
-        &:nth-child(2) {
-            transform: translate(-50%, -50%) rotate(180deg);
-        }
-        &:nth-child(3) {
-            transform: translate(-50%, -50%) rotate(90deg);
+        .ribbon-square {
+            &:nth-child(2) {
+                top: 50%;
+                left: 12px;
+                transform: translate(0, -100%) rotate(-45deg);
+                transform-origin: 0 100%;
+            }
+            &:nth-child(3) {
+                top: 50%;
+                left: 12px;
+                transform: rotate(45deg);
+                transform-origin: 0 0;
+            }
         }
     }
-}
 </style>
 
 <template>
@@ -19,7 +27,7 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-u"
+        class="ribbon-alphabet-k"
     >
         <ribbon-sharp
             :size="size"
@@ -30,22 +38,15 @@
                 marginLeft: `-${halfWidth - halfSize}px`,
             }"
         />
-        <ribbon-sharp
+        <ribbon-square
             :size="size"
-            :times="widthTimes"
-            color="#7f00ff"
-            :style="{
-                marginTop: `${halfHeight - halfSize}px`,
-            }"
+            :times="7.07"
+            color="#ff7f00"
         />
-        <ribbon-sharp
+        <ribbon-square
             :size="size"
             :times="heightTimes"
-            :z-index="1"
-            color="#411ad6"
-            :style="{
-                marginLeft: `${halfWidth - halfSize}px`,
-            }"
+            color="#7f00ff"
         />
     </RibbonAlphabet>
 </template>

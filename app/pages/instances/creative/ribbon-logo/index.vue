@@ -9,19 +9,26 @@
 <template>
     <main>
         <div class="row">
-            <ribbon-a
+            <RibbonA
                 :size="size"
                 :width-times="widthTimes"
                 :height-times="heightTimes"
             />
-            <ribbon-g
+            <RibbonG
                 :size="size"
                 :width-times="widthTimes"
                 :height-times="heightTimes"
             />
         </div>
         <div class="row">
-            <ribbon-u
+            <RibbonK
+                :size="size"
+                :width-times="widthTimes"
+                :height-times="heightTimes"
+            />
+        </div>
+        <div class="row">
+            <RibbonU
                 :size="size"
                 :width-times="widthTimes"
                 :height-times="heightTimes"
@@ -31,15 +38,17 @@
 </template>
 
 <script>
-    import RibbonG from './alphabet/g';
-    import RibbonU from './alphabet/u';
     import RibbonA from './alphabet/a';
+    import RibbonG from './alphabet/g';
+    import RibbonK from './alphabet/k';
+    import RibbonU from './alphabet/u';
 
     export default {
         components: {
-            RibbonG,
-            RibbonU,
             RibbonA,
+            RibbonG,
+            RibbonK,
+            RibbonU,
         },
 
         data() {
