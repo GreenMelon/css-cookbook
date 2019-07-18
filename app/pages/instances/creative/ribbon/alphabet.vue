@@ -42,7 +42,22 @@
                 :size="size"
                 :width-times="widthTimes"
                 :height-times="heightTimes"
-            /> 
+            />
+            <AlphabetQ1
+                :size="size"
+                :width-times="widthTimes"
+                :height-times="heightTimes"
+            />
+            <AlphabetQ2
+                :size="size"
+                :width-times="widthTimes"
+                :height-times="heightTimes"
+            />
+            <AlphabetR
+                :size="size"
+                :width-times="widthTimes"
+                :height-times="heightTimes"
+            />
         </div>
         <div class="row">
             <AlphabetU
@@ -71,6 +86,9 @@
     import AlphabetM from './alphabets/m';
     import AlphabetN from './alphabets/n';
     import AlphabetP from './alphabets/p';
+    import AlphabetQ1 from './alphabets/q1';
+    import AlphabetQ2 from './alphabets/q2';
+    import AlphabetR from './alphabets/r';
     import AlphabetU from './alphabets/u';
     import AlphabetV from './alphabets/v';
     import AlphabetW from './alphabets/w';
@@ -83,6 +101,9 @@
             AlphabetM,
             AlphabetN,
             AlphabetP,
+            AlphabetQ1,
+            AlphabetQ2,
+            AlphabetR,
             AlphabetU,
             AlphabetV,
             AlphabetW,
