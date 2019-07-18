@@ -1,17 +1,4 @@
 <style lang="less">
-.ribbon-alphabet-u {
-    .ribbon-sharp {
-        &:first-child {
-            transform: translate(-50%, -50%) rotate(-90deg);
-        }
-        &:nth-child(2) {
-            transform: translate(-50%, -50%) rotate(180deg);
-        }
-        &:nth-child(3) {
-            transform: translate(-50%, -50%) rotate(90deg);
-        }
-    }
-}
 </style>
 
 <template>
@@ -21,31 +8,34 @@
         :height-times="heightTimes"
         class="ribbon-alphabet-u"
     >
-        <ribbon-sharp
+        <RibbonSharp
             :size="size"
             :times="heightTimes"
             :z-index="1"
-            color="#e91a8c"
             :style="{
                 marginLeft: `-${halfWidth - halfSize}px`,
+                transform: 'translate(-50%, -50%) rotate(-90deg)',
             }"
+            color="#e91a8c"
         />
-        <ribbon-sharp
+        <RibbonSharp
             :size="size"
             :times="widthTimes"
-            color="#7f00ff"
             :style="{
                 marginTop: `${halfHeight - halfSize}px`,
+                transform: 'translate(-50%, -50%) rotate(180deg)',
             }"
+            color="#7f00ff"
         />
-        <ribbon-sharp
+        <RibbonSharp
             :size="size"
             :times="heightTimes"
             :z-index="1"
-            color="#411ad6"
             :style="{
                 marginLeft: `${halfWidth - halfSize}px`,
+                transform: 'translate(-50%, -50%) rotate(90deg)',
             }"
+            color="#411ad6"
         />
     </RibbonAlphabet>
 </template>
