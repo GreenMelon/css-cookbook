@@ -26,7 +26,7 @@
             :style="{
                 top: `-${size / 2}px`,
                 left: '50%',
-                transformOrigin: '0',
+                transformOrigin: '0% 50%',
                 transform: `rotate(90deg) skewY(${degree}deg)`,
             }"
             color="#e91a8c"
@@ -35,7 +35,7 @@
             :size="size"
             :times="middleTimes"
             :style="{
-                 top: '50%',
+                top: '50%',
                 left: '50%',
                 transform: `translate(-50%, -50%) skewX(-${degree}deg)`,
             }"
@@ -47,7 +47,7 @@
             :style="{
                 top: `-${size / 2}px`,
                 left: '50%',
-                transformOrigin: '0',
+                transformOrigin: '0% 50%',
                 transform: `rotate(90deg) skewY(-${degree}deg)`,
             }"
             color="#7f00ff"
