@@ -1,5 +1,5 @@
 <style lang="less">
-.ribbon-alphabet-r {
+.ribbon-alphabet-r1 {
     .ribbon-sharp {
         &:last-child {
             .left {
@@ -15,7 +15,7 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-r"
+        class="ribbon-alphabet-r1"
     >
         <RibbonSquare
             :size="size"
@@ -27,7 +27,7 @@
                 transformOrigin: '0% 100%',
                 transform: `rotate(90deg) skewY(-${degree}deg)`,
             }"
-            color="#41b883"
+            color="#411ad6"
         />
         <RibbonSharp
             :size="size"
@@ -44,7 +44,7 @@
                 transformOrigin: '0% 0%',
                 transform: 'rotate(90deg)',
             }"
-            color="#e91a8c"
+            color="#41b883"
         />
         <RibbonSharp
             :size="size"
@@ -53,7 +53,7 @@
                 top: '50%',
                 transform: 'rotate(180deg)',
             }"
-            color="#411ad6"
+            color="#e91a8c"
         />
         <RibbonSharp
             :size="size"

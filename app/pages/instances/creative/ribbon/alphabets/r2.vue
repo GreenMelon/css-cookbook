@@ -1,4 +1,13 @@
 <style lang="less">
+.ribbon-alphabet-r2 {
+    .ribbon-sharp {
+        &:nth-child(4) {
+            .left {
+                border-left-color: currentColor !important;
+            }
+        }
+    }
+}
 </style>
 
 <template>
@@ -6,8 +15,19 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-p"
+        class="ribbon-alphabet-r2"
     >
+        <RibbonSquare
+            :size="size"
+            :times="(heightTimes / 2) - 1"
+            :style="{
+                top: '50%',
+                left: '50%',
+                transformOrigin: '0% 50%',
+                transform: `translate(0%, -50%) rotate(90deg) skewY(-${degree}deg)`,
+            }"
+            color="#411ad6"
+        />
         <RibbonSharp
             :size="size"
             :times="widthTimes"
@@ -44,7 +64,7 @@
                 transformOrigin: '0% 0%',
                 transform: 'rotate(90deg)',
             }"
-            color="#411ad6"
+            color="#41b883"
         />
     </RibbonAlphabet>
 </template>
@@ -55,5 +75,14 @@
 
     export default Vue.extend({
         mixins: [baseAlphabet],
+
+        computed: {
+            degree() {
+                const width = (1 + this.widthTimes + 1) / 2 - 0.5;
+                const height = (1 + this.heightTimes + 1) / 2;
+
+                return Math.atan(width / height) * 360 / (Math.PI * 2);
+            },
+        },
     });
 </script>

@@ -6,7 +6,7 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-p"
+        class="ribbon-alphabet-f2"
     >
         <RibbonSharp
             :size="size"
@@ -34,17 +34,6 @@
                 transform: 'rotate(-90deg)',
             }"
             color="#7f00ff"
-        />
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes / 2 - 0.5"
-            :style="{
-                top: '0',
-                left: '100%',
-                transformOrigin: '0% 0%',
-                transform: 'rotate(90deg)',
-            }"
-            color="#411ad6"
         />
     </RibbonAlphabet>
 </template>

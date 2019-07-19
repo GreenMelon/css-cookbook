@@ -3,7 +3,7 @@
     position: relative;
     display: inline-block;
     overflow: hidden;
-    // outline: 1px dashed #000;
+    outline: 1px dashed #000;
 }
 </style>
 
