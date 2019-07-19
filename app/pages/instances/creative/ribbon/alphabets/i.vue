@@ -12,6 +12,11 @@
             :size="size"
             :times="widthTimes"
             :z-index="1"
+            :style="{
+                top: '0',
+                left: '50%',
+                transform: 'translate(-50%, 0)',
+            }"
             color="#e91a8c"
         />
         <RibbonSharp
@@ -30,7 +35,8 @@
             :z-index="1"
             :style="{
                 bottom: '0',
-                transform: 'rotate(180deg)',
+                left: '50%',
+                transform: 'translate(-50%, 0) rotate(180deg)',
             }"
             color="#7f00ff"
         />
