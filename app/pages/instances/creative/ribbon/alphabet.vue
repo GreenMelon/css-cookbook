@@ -10,34 +10,37 @@
     <main>
         <div class="row">
             <AlphabetA />
+            <AlphabetB />
             <AlphabetC />
-            <AlphabetD1 />
+            <!-- <AlphabetD1 /> -->
             <AlphabetD2 />
             <AlphabetE1 />
-            <AlphabetE2 />
-            <AlphabetE3 />
-            <AlphabetE4 />
-            <AlphabetF1 />
+            <!-- <AlphabetE2 /> -->
+            <!-- <AlphabetE3 /> -->
+            <!-- <AlphabetE4 /> -->
+            <!-- <AlphabetF1 /> -->
             <AlphabetF2 />
             <AlphabetG />
         </div>
         <div class="row">
             <AlphabetH />
             <AlphabetI />
+            <AlphabetJ />
             <AlphabetK />
             <AlphabetL />
             <AlphabetM1 />
-            <AlphabetM2 />
-            <AlphabetM3 />
+            <!-- <AlphabetM2 /> -->
+            <!-- <AlphabetM3 /> -->
             <AlphabetN />
         </div>
         <div class="row">
             <AlphabetO />
             <AlphabetP />
-            <AlphabetQ1 />
-            <AlphabetQ2 />
+            <!-- <AlphabetQ1 /> -->
+            <!-- <AlphabetQ2 /> -->
             <AlphabetQ3 />
-            <AlphabetR1 />
+            <RibbonAlphabet />
+            <!-- <AlphabetR1 /> -->
             <AlphabetR2 />
             <AlphabetS />
             <AlphabetT /> 
@@ -46,16 +49,24 @@
             <AlphabetU />
             <AlphabetV />
             <AlphabetW1 />
-            <AlphabetW2 />
-            <AlphabetW3 />
+            <!-- <AlphabetW2 /> -->
+            <!-- <AlphabetW3 /> -->
+            <RibbonAlphabet />
             <AlphabetX />
-            <AlphabetZ1 />
+            <!-- <AlphabetY1 /> -->
+            <!-- <AlphabetY2 /> -->
+            <AlphabetY3 />
+            <!-- <AlphabetZ1 /> -->
+            <!-- <AlphabetZ2 /> -->
+            <AlphabetZ3 />
         </div>
     </main>
 </template>
 
 <script>
+    import RibbonAlphabet from './ribbon-alphabet';
     import AlphabetA from './alphabets/a';
+    import AlphabetB from './alphabets/b';
     import AlphabetC from './alphabets/c';
     import AlphabetD1 from './alphabets/d1';
     import AlphabetD2 from './alphabets/d2';
@@ -68,6 +79,7 @@
     import AlphabetG from './alphabets/g';
     import AlphabetH from './alphabets/h';
     import AlphabetI from './alphabets/i';
+    import AlphabetJ from './alphabets/j';
     import AlphabetK from './alphabets/k';
     import AlphabetL from './alphabets/l';
     import AlphabetM1 from './alphabets/m1';
@@ -89,11 +101,18 @@
     import AlphabetW2 from './alphabets/w2';
     import AlphabetW3 from './alphabets/w3';
     import AlphabetX from './alphabets/x';
+    import AlphabetY1 from './alphabets/y1';
+    import AlphabetY2 from './alphabets/y2';
+    import AlphabetY3 from './alphabets/y3';
     import AlphabetZ1 from './alphabets/z1';
+    import AlphabetZ2 from './alphabets/z2';
+    import AlphabetZ3 from './alphabets/z3';
 
     export default {
         components: {
+            RibbonAlphabet,
             AlphabetA,
+            AlphabetB,
             AlphabetC,
             AlphabetD1,
             AlphabetD2,
@@ -106,6 +125,7 @@
             AlphabetG,
             AlphabetH,
             AlphabetI,
+            AlphabetJ,
             AlphabetK,
             AlphabetL,
             AlphabetM1,
@@ -127,7 +147,12 @@
             AlphabetW2,
             AlphabetW3,
             AlphabetX,
+            AlphabetY1,
+            AlphabetY2,
+            AlphabetY3,
             AlphabetZ1,
+            AlphabetZ2,
+            AlphabetZ3,
         },
     };
 </script>

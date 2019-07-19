@@ -26,7 +26,7 @@
                 transformOrigin: '0% 50%',
                 transform: `translate(0%, -50%) rotate(90deg) skewY(-${degree}deg)`,
             }"
-            color="#411ad6"
+            color="#7f00ff"
         />
         <RibbonSharp
             :size="size"
@@ -64,7 +64,7 @@
                 transformOrigin: '0% 0%',
                 transform: 'rotate(90deg)',
             }"
-            color="#41b883"
+            color="#411ad6"
         />
     </RibbonAlphabet>
 </template>

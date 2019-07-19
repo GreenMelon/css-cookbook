@@ -3,7 +3,7 @@
     position: relative;
     display: inline-block;
     overflow: hidden;
-    outline: 1px dashed #000;
+    // outline: 1px dashed #000;
 }
 </style>
 
@@ -30,11 +30,11 @@
             },
             widthTimes: {
                 type: Number,
-                default: 1,
+                default: 4,
             },
             heightTimes: {
                 type: Number,
-                default: 1,
+                default: 8,
             },
         },
     };

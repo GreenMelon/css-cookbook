@@ -6,44 +6,20 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-s"
+        class="ribbon-alphabet-z3"
     >
         <RibbonSharp
             :size="size"
             :times="widthTimes"
             color="#e91a8c"
         />
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes / 2 - 0.5"
-            :z-index="1"
-            :style="{
-                top: '0',
-                right: `${halfWidth * 2}px`,
-                transformOrigin: '100% 0%',
-                transform: 'rotate(-90deg)',
-            }"
-            color="#ff7f00"
-        />
         <RibbonSquare
             :size="size"
-            :times="widthTimes - 2"
+            :times="heightTimes - 2"
             :style="{
                 top: '50%',
                 left: '50%',
-                transform: 'translate(-50%, -50%)',
-            }"
-            color="#7f00ff"
-        />
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes / 2 - 0.5"
-            :z-index="1"
-            :style="{
-                right: `${size}px`,
-                bottom: '0',
-                transformOrigin: '100% 100%',
-                transform: 'rotate(90deg)',
+                transform: `translate(-50%, -50%) rotate(-90deg) skewY(${degree}deg)`,
             }"
             color="#ff7f00"
         />
@@ -52,9 +28,10 @@
             :times="widthTimes"
             :style="{
                 bottom: '0',
+                left: '0',
                 transform: 'rotate(180deg)',
             }"
-            color="#e91a8c"
+            color="#7f00ff"
         />
     </RibbonAlphabet>
 </template>
@@ -65,5 +42,14 @@
 
     export default Vue.extend({
         mixins: [baseAlphabet],
+
+        computed: {
+            degree() {
+                const width = 1 + this.widthTimes;
+                const height = this.heightTimes;
+
+                return Math.atan(width / height) * 360 / (Math.PI * 2);
+            },
+        },
     });
 </script>
