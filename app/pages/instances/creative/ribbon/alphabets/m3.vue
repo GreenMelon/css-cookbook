@@ -32,7 +32,7 @@
         />
         <RibbonSquare
             :size="size"
-            :times="heightTimes"
+            :times="heightTimes / 2"
             :style="{
                 top: '50%',
                 left: '50%',

@@ -6,27 +6,36 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-x"
+        class="ribbon-alphabet-z2"
     >
         <RibbonSquare
             :size="size"
-            :times="heightTimes"
+            :times="widthTimes"
             :style="{
-                top: '50%',
-                left: '50%',
-                transform: `translate(-50%, -50%) rotate(90deg) skewY(-${degree}deg)`,
+                top: '0',
+                left: '0',
             }"
-            color="#7f00ff"
+            color="#e91a8c"
         />
         <RibbonSquare
             :size="size"
-            :times="heightTimes"
+            :times="widthTimes"
             :style="{
-                top: '50%',
-                left: '50%',
-                transform: `translate(-50%, -50%) rotate(90deg) skewY(${degree}deg)`,
+                top: `50%`,
+                left: '0',
+                marginTop: `-${size / 2}px`,
+                transform: `skewY(-${degree}deg)`,
             }"
-            color="#e91a8c"
+            color="#ff7f00"
+        />
+        <RibbonSquare
+            :size="size"
+            :times="widthTimes"
+            :style="{
+                bottom: '0',
+                left: '0',
+            }"
+            color="#7f00ff"
         />
     </RibbonAlphabet>
 </template>
@@ -40,8 +49,8 @@
 
         computed: {
             degree() {
-                const width = 1 + this.widthTimes;
-                const height = 1 + this.heightTimes + 1;
+                const width = 1 + this.heightTimes;
+                const height = 1 + this.widthTimes + 1;
 
                 return Math.atan(width / height) * 360 / (Math.PI * 2);
             },
