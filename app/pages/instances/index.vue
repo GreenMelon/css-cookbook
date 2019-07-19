@@ -33,6 +33,9 @@
                             },{
                                 name: 'ribbon alphabet',
                                 route: '/instances/creative/ribbon/alphabet'
+                            },{
+                                name: 'ribbon name',
+                                route: '/instances/creative/ribbon/name'
                             }
                         ]
                     },{
