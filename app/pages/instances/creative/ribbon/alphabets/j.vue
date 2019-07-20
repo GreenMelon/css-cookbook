@@ -18,7 +18,7 @@
                 transformOrigin: '0% 0%',
                 transform: 'rotate(90deg)',
             }"
-            color="#7f00ff"
+            color="#e91a8c"
         />
         <RibbonSharp
             :size="size"
@@ -39,7 +39,7 @@
                 transformOrigin: '0% 100%',
                 transform: 'rotate(-90deg)',
             }"
-            color="#e91a8c"
+            color="#7f00ff"
         />
     </RibbonAlphabet>
 </template>

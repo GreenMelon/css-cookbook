@@ -1,19 +1,4 @@
 <style lang="less">
-.ribbon-alphabet-q2 {
-    .ribbon-sharp {
-        &:first-child {
-            .right {
-                transform: rotate(90deg);
-            }
-        }
-        &:nth-child(4) {
-            .left {
-                transform: rotate(-90deg);
-            }
-        }
-
-    }
-}
 </style>
 
 <template>
@@ -21,20 +6,8 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-q2"
+        class="ribbon-alphabet-q"
     >
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes - 1"
-            :z-index="1"
-            :style="{
-                top: '0',
-                left: '100%',
-                transformOrigin: '0% 0%',
-                transform: 'rotate(90deg)',
-            }"
-            color="#e91a8c"
-        />
         <RibbonSharp
             :size="size"
             :times="widthTimes"
@@ -54,23 +27,37 @@
         />
         <RibbonSharp
             :size="size"
-            :times="widthTimes - 1"
+            :times="widthTimes"
             :style="{
                 bottom: '0',
                 transform: 'rotate(180deg)',
             }"
             color="#411ad6"
         />
+        <RibbonSharp
+            :size="size"
+            :times="heightTimes"
+            :z-index="1"
+            :style="{
+                top: '0',
+                left: '100%',
+                transformOrigin: '0% 0%',
+                transform: 'rotate(90deg)',
+            }"
+            color="#e91a8c"
+        />
         <RibbonSquare
             :size="size"
             :times="widthTimes / 4"
+            :z-index="1"
             :style="{
                 right: `${size / 2}px`,
                 bottom: '0',
+                outline: `${size / 4}px solid #FFF`,
                 transformOrigin: '100% 50%',
                 transform: 'rotate(45deg)',
             }"
-            color="#41b883"
+            color="#ff7f00"
         />
     </RibbonAlphabet>
 </template>

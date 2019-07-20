@@ -6,16 +6,25 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-v"
+        class="ribbon-alphabet-a2"
     >
+        <RibbonSquare
+            :size="size"
+            :times="heightTimes / 2"
+            :style="{
+                left: '50%',
+                transformOrigin: '0% 50%',
+                transform: `translateY(-50%) rotate(90deg) skewY(${degree}deg)`,
+            }"
+            color="#7f00ff"
+        />
         <RibbonSharp
             :size="size"
             :times="heightTimes / 2 - 0.5"
-            :z-index="1"
             :style="{
-                top: '0',
-                right: '100%',
-                transformOrigin: '100% 0%',
+                top: '100%',
+                left: '0',
+                transformOrigin: '0% 0%',
                 transform: 'rotate(-90deg)',
             }"
             color="#7f00ff"
@@ -24,35 +33,32 @@
             :size="size"
             :times="heightTimes / 2"
             :style="{
-                top: '100%',
                 left: '50%',
                 transformOrigin: '0% 50%',
-                transform: `translateY(-50%) rotate(-90deg) skewY(-${degree}deg)`,
+                transform: `translateY(-50%) rotate(90deg) skewY(-${degree}deg)`,
             }"
-            color="#7f00ff"
+            color="#e91a8c"
         />
         <RibbonSharp
             :size="size"
             :times="heightTimes / 2 - 0.5"
-            :z-index="1"
             :style="{
-                top: '0',
-                left: '100%',
-                transformOrigin: '0% 0%',
+                top: '100%',
+                right: '0%',
+                transformOrigin: '100% 0%',
                 transform: 'rotate(90deg)',
             }"
             color="#e91a8c"
         />
         <RibbonSquare
             :size="size"
-            :times="heightTimes / 2"
+            :times="widthTimes - 1"
             :style="{
-                top: '100%',
-                left: '50%',
-                transformOrigin: '0% 50%',
-                transform: `translateY(-50%) rotate(-90deg) skewY(${degree}deg)`,
+                top: '50%',
+                left: '0',
+                transform: 'translate(0, -50%)',
             }"
-            color="#e91a8c"
+            color="#ff7f00"
         />
     </RibbonAlphabet>
 </template>

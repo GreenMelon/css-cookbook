@@ -1,16 +1,4 @@
 <style lang="less">
-.ribbon-alphabet-d1 {
-    .ribbon-sharp {
-        &:nth-child(3) {
-            .left {
-                border-left-color: currentColor !important;
-            }
-            .right {
-                border-right-color: currentColor !important;
-            }
-        }
-    }
-}
 </style>
 
 <template>
@@ -20,17 +8,17 @@
         :height-times="heightTimes"
         class="ribbon-alphabet-d1"
     >
-        <RibbonSharp
+        <RibbonSquare
             :size="size"
-            :times="heightTimes"
+            :times="heightTimes - 4"
             :z-index="1"
             :style="{
-                top: '0',
-                left: '100%',
-                transformOrigin: '0% 0%',
-                transform: 'rotate(90deg)',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%) rotate(-90deg)',
+                marginLeft: `-${size * ((1 + widthTimes) / 2)}px`,
             }"
-            color="#e91a8c"
+            color="#7f00ff"
         />
         <RibbonSharp
             :size="size"
@@ -43,11 +31,11 @@
             :z-index="1"
             :style="{
                 top: '0',
-                right: `${halfWidth * 2}px`,
-                transformOrigin: '100% 0%',
-                transform: 'rotate(-90deg)',
+                left: '100%',
+                transformOrigin: '0% 0%',
+                transform: 'rotate(90deg)',
             }"
-            color="#7f00ff"
+            color="#e91a8c"
         />
         <RibbonSharp
             :size="size"

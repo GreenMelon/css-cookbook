@@ -11,7 +11,7 @@
         <RibbonSharp
             :size="size"
             :times="widthTimes"
-            color="#e91a8c"
+            color="#ff7f00"
         />
         <RibbonSharp
             :size="size"
@@ -32,11 +32,11 @@
                 bottom: '0',
                 transform: 'rotate(180deg)',
             }"
-            color="#e91a8c"
+            color="#411ad6"
         />
         <RibbonSharp
             :size="size"
-            :times="heightTimes / 2"
+            :times="heightTimes / 2 - 0.5"
             :z-index="1"
             :style="{
                 right: `${size}px`,
@@ -44,18 +44,17 @@
                 transformOrigin: '100% 100%',
                 transform: 'rotate(90deg)',
             }"
-            color="#411ad6"
+            color="#e91a8c"
         />
         <RibbonSharp
             :size="size"
             :times="widthTimes / 2"
             :style="{
                 top: '50%',
-                right: '0%',
+                right: '0',
                 transform: 'translate(0, -50%)',
-                marginTop: `-${size / 2}px`,
             }"
-            color="#ff7f00"
+            color="#e91a8c"
         />
     </RibbonAlphabet>
 </template>

@@ -1,13 +1,4 @@
 <style lang="less">
-.ribbon-alphabet-r1 {
-    .ribbon-sharp {
-        &:last-child {
-            .left {
-                border-left-color: currentColor !important;
-            }
-        }
-    }
-}
 </style>
 
 <template>
@@ -15,19 +6,30 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-r1"
+        class="ribbon-alphabet-d4"
     >
-        <RibbonSquare
+        <RibbonSharp
             :size="size"
-            :times="heightTimes / 2"
+            :times="heightTimes - 5"
+            :z-index="1"
             :style="{
-                marginTop: `-${size / 2}px`,
-                top: `50%`,
-                left: '50%',
-                transformOrigin: '0% 100%',
-                transform: `rotate(90deg) skewY(-${degree}deg)`,
+                top: '50%',
+                left: `50%`,
+                transform: 'translate(-50%, -50%) rotate(90deg)',
+                marginLeft: `-${size * ((1 + widthTimes) / 2)}px`,
             }"
-            color="#411ad6"
+            color="#7f00ff"
+        />
+        <RibbonSharp
+            :size="size"
+            :times="1"
+            :style="{
+                top: '0',
+                right: `${halfWidth * 2}px`,
+                transformOrigin: '100% 0%',
+                transform: 'rotate(-90deg)',
+            }"
+            color="#ff7f00"
         />
         <RibbonSharp
             :size="size"
@@ -36,7 +38,7 @@
         />
         <RibbonSharp
             :size="size"
-            :times="heightTimes / 2"
+            :times="heightTimes"
             :z-index="1"
             :style="{
                 top: '0',
@@ -44,28 +46,27 @@
                 transformOrigin: '0% 0%',
                 transform: 'rotate(90deg)',
             }"
-            color="#41b883"
+            color="#e91a8c"
         />
         <RibbonSharp
             :size="size"
             :times="widthTimes"
             :style="{
-                top: '50%',
+                bottom: '0',
                 transform: 'rotate(180deg)',
             }"
-            color="#e91a8c"
+            color="#411ad6"
         />
         <RibbonSharp
             :size="size"
-            :times="heightTimes"
-            :z-index="1"
+            :times="1"
             :style="{
-                top: '0',
-                right: `${halfWidth * 2}px`,
-                transformOrigin: '100% 0%',
+                top: '100%',
+                left: '0',
+                transformOrigin: '0% 0%',
                 transform: 'rotate(-90deg)',
             }"
-            color="#7f00ff"
+            color="#411ad6"
         />
     </RibbonAlphabet>
 </template>
@@ -76,14 +77,5 @@
 
     export default Vue.extend({
         mixins: [baseAlphabet],
-
-        computed: {
-            degree() {
-                const width = this.widthTimes / 2 - 0.25;
-                const height = this.heightTimes / 2;
-
-                return Math.atan(width / height) * 360 / (Math.PI * 2);
-            },
-        },
     });
 </script>

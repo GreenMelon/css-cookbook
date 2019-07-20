@@ -1,4 +1,16 @@
 <style lang="less">
+.ribbon-alphabet-a1 {
+    .ribbon-square {
+        &:nth-child(3)::after {
+            content: "";
+            position: absolute;
+            top: -100%;
+            width: 100%;
+            height: 100%;
+            background: #FFF;
+        }
+    }
+}
 </style>
 
 <template>
@@ -6,27 +18,26 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-w3"
+        class="ribbon-alphabet-a1"
     >
         <RibbonSquare
             :size="size"
             :times="heightTimes"
             :style="{
-                top: `-${size}px`,
-                left: '0%',
-                transformOrigin: '0% 100%',
-                transform: `rotate(90deg)`,
+                top: `-${size / 2}px`,
+                left: '50%',
+                transformOrigin: '0% 50%',
+                transform: `rotate(90deg) skewY(${degree}deg)`,
             }"
-            color="#e91a8c"
+            color="#7f00ff"
         />
         <RibbonSquare
             :size="size"
-            :times="heightTimes / 2"
+            :times="middleTimes"
             :style="{
                 top: '50%',
                 left: '50%',
-                transformOrigin: '0% 50%',
-                transform: `translateY(-50%) rotate(90deg) skewY(${degree}deg)`,
+                transform: `translate(-50%, -50%) skewX(-${degree}deg)`,
             }"
             color="#ff7f00"
         />
@@ -34,23 +45,12 @@
             :size="size"
             :times="heightTimes"
             :style="{
-                top: '50%',
+                top: `-${size / 2}px`,
                 left: '50%',
                 transformOrigin: '0% 50%',
-                transform: `translateY(-50%) rotate(90deg) skewY(-${degree}deg)`,
+                transform: `rotate(90deg) skewY(-${degree}deg)`,
             }"
-            color="#7f00ff"
-        />
-        <RibbonSquare
-            :size="size"
-            :times="heightTimes"
-            :style="{
-                top: `-${size}px`,
-                right: '0%',
-                transformOrigin: '100% 100%',
-                transform: `rotate(-90deg)`,
-            }"
-            color="#411ad6"
+            color="#e91a8c"
         />
     </RibbonAlphabet>
 </template>
@@ -64,10 +64,14 @@
 
         computed: {
             degree() {
-                const width = (1 + this.widthTimes + 1) / 2;
-                const height = (1 + this.heightTimes + 1) / 2 + 1;
+                const width = (1 + this.widthTimes + 1) / 2 - 0.5;
+                const height = (1 + this.heightTimes + 1);
 
                 return Math.atan(width / height) * 360 / (Math.PI * 2);
+            },
+
+            middleTimes() {
+                return (this.widthTimes / 2) - 0.5;
             },
         },
     });

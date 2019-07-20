@@ -6,32 +6,31 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-z3"
+        class="ribbon-alphabet-v1"
     >
-        <RibbonSharp
+        <RibbonSquare
             :size="size"
-            :times="widthTimes"
-            color="#e91a8c"
+            :times="heightTimes"
+            :style="{
+                top: '100%',
+                left: '50%',
+                marginTop: `-${size / 2}px`,
+                transformOrigin: '0% 50%',
+                transform: `rotate(-90deg) skewY(-${degree}deg)`,
+            }"
+            color="#7f00ff"
         />
         <RibbonSquare
             :size="size"
-            :times="heightTimes - 2"
+            :times="heightTimes"
             :style="{
-                top: '50%',
+                top: '100%',
                 left: '50%',
-                transform: `translate(-50%, -50%) rotate(-90deg) skewY(${degree}deg)`,
+                marginTop: `-${size / 2}px`,
+                transformOrigin: '0% 50%',
+                transform: `rotate(-90deg) skewY(${degree}deg)`,
             }"
-            color="#ff7f00"
-        />
-        <RibbonSharp
-            :size="size"
-            :times="widthTimes"
-            :style="{
-                bottom: '0',
-                left: '0',
-                transform: 'rotate(180deg)',
-            }"
-            color="#7f00ff"
+            color="#e91a8c"
         />
     </RibbonAlphabet>
 </template>
@@ -45,8 +44,8 @@
 
         computed: {
             degree() {
-                const width = 1 + this.widthTimes;
-                const height = this.heightTimes;
+                const width = (1 + this.widthTimes + 1) / 2 - 0.5;
+                const height = (1 + this.heightTimes + 1);
 
                 return Math.atan(width / height) * 360 / (Math.PI * 2);
             },

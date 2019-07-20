@@ -6,8 +6,19 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-y3"
+        class="ribbon-alphabet-m"
     >
+        <RibbonSquare
+            :size="size"
+            :times="heightTimes"
+            :style="{
+                top: `-${size}px`,
+                left: '0%',
+                transformOrigin: '0% 100%',
+                transform: `rotate(90deg)`,
+            }"
+            color="#7f00ff"
+        />
         <RibbonSquare
             :size="size"
             :times="heightTimes / 2"
@@ -17,7 +28,7 @@
                 transformOrigin: '0% 50%',
                 transform: `translateY(-50%) rotate(-90deg) skewY(-${degree}deg)`,
             }"
-            color="#ff7f00"
+            color="#411ad6"
         />
         <RibbonSquare
             :size="size"
@@ -28,16 +39,16 @@
                 transformOrigin: '0% 50%',
                 transform: `translateY(-50%) rotate(-90deg) skewY(${degree}deg)`,
             }"
-            color="#7f00ff"
+            color="#ff7f00"
         />
         <RibbonSquare
             :size="size"
             :times="heightTimes"
             :style="{
-                top: '50%',
-                left: '50%',
-                transformOrigin: '0% 50%',
-                transform: 'translateY(-50%) rotate(90deg)',
+                top: `-${size}px`,
+                right: '0%',
+                transformOrigin: '100% 100%',
+                transform: `rotate(-90deg)`,
             }"
             color="#e91a8c"
         />
