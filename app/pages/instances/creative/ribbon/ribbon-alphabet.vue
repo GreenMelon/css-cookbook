@@ -11,6 +11,7 @@
     <div
         class="ribbon-alphabet"
         :style="{
+            margin: `${size}px`,
             width: `${size * (1 + widthTimes + 1)}px`,
             height: `${size * (1 + heightTimes + 1)}px`,
         }"

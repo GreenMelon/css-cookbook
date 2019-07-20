@@ -6,53 +6,40 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-v"
+        class="ribbon-alphabet-y"
     >
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes / 2 - 0.5"
-            :z-index="1"
-            :style="{
-                top: '0',
-                right: '100%',
-                transformOrigin: '100% 0%',
-                transform: 'rotate(-90deg)',
-            }"
-            color="#7f00ff"
-        />
         <RibbonSquare
             :size="size"
             :times="heightTimes / 2"
             :style="{
-                top: '100%',
+                top: '50%',
                 left: '50%',
                 transformOrigin: '0% 50%',
                 transform: `translateY(-50%) rotate(-90deg) skewY(-${degree}deg)`,
             }"
             color="#7f00ff"
         />
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes / 2 - 0.5"
-            :z-index="1"
-            :style="{
-                top: '0',
-                left: '100%',
-                transformOrigin: '0% 0%',
-                transform: 'rotate(90deg)',
-            }"
-            color="#e91a8c"
-        />
         <RibbonSquare
             :size="size"
             :times="heightTimes / 2"
             :style="{
-                top: '100%',
+                top: '50%',
                 left: '50%',
                 transformOrigin: '0% 50%',
                 transform: `translateY(-50%) rotate(-90deg) skewY(${degree}deg)`,
             }"
             color="#e91a8c"
+        />
+        <RibbonSquare
+            :size="size"
+            :times="heightTimes"
+            :style="{
+                top: '50%',
+                left: '50%',
+                transformOrigin: '0% 50%',
+                transform: 'translateY(-50%) rotate(90deg)',
+            }"
+            color="#ff7f00"
         />
     </RibbonAlphabet>
 </template>
@@ -66,8 +53,8 @@
 
         computed: {
             degree() {
-                const width = (this.widthTimes + 1) / 2;
-                const height = (this.heightTimes + 1) / 2;
+                const width = (1 + this.widthTimes + 1) / 2 - 0.5;
+                const height = (1 + this.heightTimes + 1) / 2;
 
                 return Math.atan(width / height) * 360 / (Math.PI * 2);
             },

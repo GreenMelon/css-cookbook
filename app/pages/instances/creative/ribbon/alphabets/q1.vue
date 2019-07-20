@@ -1,17 +1,16 @@
 <style lang="less">
 .ribbon-alphabet-q1 {
     .ribbon-sharp {
-        &:first-child {
-            .right {
-                transform: rotate(90deg);
-            }
-        }
-        &:nth-child(4) {
+        &:nth-child(3) {
             .left {
                 transform: rotate(-90deg);
             }
         }
-
+        &:nth-child(4) {
+            .right {
+                transform: rotate(90deg);
+            }
+        }
     }
 }
 </style>
@@ -23,18 +22,6 @@
         :height-times="heightTimes"
         class="ribbon-alphabet-q1"
     >
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes * (3 / 4)"
-            :z-index="1"
-            :style="{
-                top: '0',
-                left: '100%',
-                transformOrigin: '0% 0%',
-                transform: 'rotate(90deg)',
-            }"
-            color="#e91a8c"
-        />
         <RibbonSharp
             :size="size"
             :times="widthTimes"
@@ -61,6 +48,18 @@
             }"
             color="#411ad6"
         />
+        <RibbonSharp
+            :size="size"
+            :times="heightTimes * (3 / 4)"
+            :z-index="1"
+            :style="{
+                top: '0',
+                left: '100%',
+                transformOrigin: '0% 0%',
+                transform: 'rotate(90deg)',
+            }"
+            color="#e91a8c"
+        />
         <RibbonSquare
             :size="size"
             :times="heightTimes / 2"
@@ -71,7 +70,7 @@
                 transformOrigin: '0% 100%',
                 transform: `rotate(90deg) skewY(-${degree}deg)`,
             }"
-            color="#41b883"
+            color="#ff7f00"
         />
     </RibbonAlphabet>
 </template>
