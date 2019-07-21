@@ -1,4 +1,18 @@
 <style lang="less">
+.ribbon-alphabet-w {
+    .ribbon-sharp {
+        &:first-child {
+            .left {
+                border-left-color: #FFF !important;
+            }
+        }
+        &:last-child {
+            .right {
+                border-right-color: #FFF !important;
+            }
+        }
+    }
+}
 </style>
 
 <template>
@@ -8,14 +22,15 @@
         :height-times="heightTimes"
         class="ribbon-alphabet-w"
     >
-        <RibbonSquare
+        <RibbonSharp
             :size="size"
             :times="heightTimes"
+            :z-index="1"
             :style="{
-                top: `-${size}px`,
-                left: '0%',
-                transformOrigin: '0% 100%',
-                transform: `rotate(90deg)`,
+                top: '0',
+                right: `${halfWidth * 2}px`,
+                transformOrigin: '100% 0%',
+                transform: 'rotate(-90deg)',
             }"
             color="#7f00ff"
         />
@@ -41,14 +56,15 @@
             }"
             color="#ff7f00"
         />
-        <RibbonSquare
+        <RibbonSharp
             :size="size"
             :times="heightTimes"
+            :z-index="1"
             :style="{
-                top: `-${size}px`,
-                right: '0%',
-                transformOrigin: '100% 100%',
-                transform: `rotate(-90deg)`,
+                top: '0',
+                left: `${halfWidth * 2}px`,
+                transformOrigin: '0% 0%',
+                transform: 'rotate(90deg)',
             }"
             color="#e91a8c"
         />
