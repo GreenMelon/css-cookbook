@@ -26,11 +26,5 @@
                 preview2: preview2,
             }
         },
-        methods: {
-
-        },
-        mounted() {
-            console.log(111, this.$router);
-        },
     }
 </script>

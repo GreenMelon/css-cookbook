@@ -7,25 +7,16 @@
 
 <template>
     <main>
+        <input
+            v-model="value"
+            type="text"
+        >
         <div class="alphabet-name">
-            <AlphabetC />
-            <AlphabetA />
-            <AlphabetI />
-            <AlphabetG />
-            <AlphabetU />
-            <AlphabetA />
-        </div>
-        <div class="alphabet-name">
-            <AlphabetL />
-            <AlphabetO />
-            <AlphabetV />
-            <AlphabetE />
-        </div>
-        <div class="alphabet-name">
-            <AlphabetM />
-            <AlphabetO />
-            <AlphabetO />
-            <AlphabetN />
+            <component
+                v-for="(item, i) in name"
+                :key="i"
+                :is="`Alphabet${item}`"
+            />
         </div>
     </main>
 </template>
@@ -120,6 +111,22 @@
             AlphabetZ,
             AlphabetZ1,
             AlphabetZ2,
+        },
+
+        data() {
+            return {
+                value: 'caigua',
+            };
+        },
+
+        computed: {
+            name() {
+                const regexp = /[A-Z]\d?/g;
+                const val = this.value.toUpperCase();
+                const r = val.match(regexp);
+
+                return r || [];
+            }
         },
     };
 </script>
