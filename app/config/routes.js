@@ -24,6 +24,7 @@ const Specificity = () => import('../pages/selector/specificity');
 const AttrSelector01 = () => import('../pages/selector/attr/01');
 const SelectionSelector01 = () => import('../pages/selector/selection/01');
 const BeforeAttr = () => import('../pages/selector/before/attr');
+const Quotes = () => import('../pages/selector/before/quotes');
 const BrokenImage = () => import('../pages/selector/before/broken-image');
 const JiuGong = () => import('../pages/selector/before/jiu-gong');
 const Counter1 = () => import('../pages/selector/before/counter-001');
@@ -245,6 +246,9 @@ export default [
     },{
         path: '/selector/before/attr',
         component: BeforeAttr
+    },{
+        path: '/selector/before/quotes',
+        component: Quotes
     },{
         path: '/selector/before/broken-image',
         component: BrokenImage
