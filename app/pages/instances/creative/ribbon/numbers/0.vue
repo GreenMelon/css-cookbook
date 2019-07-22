@@ -6,11 +6,16 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-b"
+        class="ribbon-alphabet-0"
     >
         <RibbonSharp
             :size="size"
-            :times="heightTimes"
+            :times="widthTimes"
+            color="#ff7f00"
+        />
+        <RibbonSharp
+            :size="size"
+            :times="heightTimes / 2 - 0.5"
             :z-index="1"
             :style="{
                 top: '0',
@@ -22,29 +27,25 @@
         />
         <RibbonSharp
             :size="size"
-            :times="widthTimes"
-            color="#ff7f00"
-        />
-        <RibbonSharp
-            :size="size"
             :times="heightTimes / 2 - 0.5"
-            :style="{
-                top: '0',
-                left: '100%',
-                transformOrigin: '0% 0%',
-                transform: 'rotate(90deg)',
-            }"
-            color="#e91a8c"
-        />
-        <RibbonSharp
-            :size="size"
-            :times="widthTimes"
+            :z-index="1"
             :style="{
                 top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)',
+                right: '100%',
+                transformOrigin: '100% 0%',
+                transform: 'rotate(-90deg)',
+                marginTop: `-${size / 2}px`,
             }"
-            color="#411ad6"
+            color="#7f00ff"
+        />
+        <RibbonSharp
+            :size="size"
+            :times="widthTimes"
+            :style="{
+                bottom: '0',
+                transform: 'rotate(180deg)',
+            }"
+            color="#ff7f00"
         />
         <RibbonSharp
             :size="size"
@@ -60,12 +61,15 @@
         />
         <RibbonSharp
             :size="size"
-            :times="widthTimes"
+            :times="heightTimes / 2 - 0.5"
+            :z-index="1"
             :style="{
-                bottom: '0',
-                transform: 'rotate(180deg)',
+                top: '0',
+                left: '100%',
+                transformOrigin: '0% 0%',
+                transform: 'rotate(90deg)',
             }"
-            color="#ff7f00"
+            color="#e91a8c"
         />
     </RibbonAlphabet>
 </template>
