@@ -63,6 +63,18 @@
             <!-- <AlphabetZ1 /> -->
             <!-- <AlphabetZ2 /> -->
         </div>
+        <div class="row">
+            <Alphabet0 />
+            <Alphabet1 />
+            <Alphabet2 />
+            <Alphabet3 />
+            <Alphabet4 />
+            <Alphabet5 />
+            <Alphabet6 />
+            <Alphabet7 />
+            <Alphabet8 />
+            <Alphabet9 />
+        </div>
     </main>
 </template>
 
@@ -113,6 +125,16 @@
     import AlphabetZ from './alphabets/z';
     import AlphabetZ1 from './alphabets/z1';
     import AlphabetZ2 from './alphabets/z2';
+    import Alphabet0 from './numbers/0';
+    import Alphabet1 from './numbers/1';
+    import Alphabet2 from './numbers/2';
+    import Alphabet3 from './numbers/3';
+    import Alphabet4 from './numbers/4';
+    import Alphabet5 from './numbers/5';
+    import Alphabet6 from './numbers/6';
+    import Alphabet7 from './numbers/7';
+    import Alphabet8 from './numbers/8';
+    import Alphabet9 from './numbers/9';
 
     export default {
         components: {
@@ -162,6 +184,16 @@
             AlphabetZ,
             AlphabetZ1,
             AlphabetZ2,
+            Alphabet0,
+            Alphabet1,
+            Alphabet2,
+            Alphabet3,
+            Alphabet4,
+            Alphabet5,
+            Alphabet6,
+            Alphabet7,
+            Alphabet8,
+            Alphabet9,
         },
     };
 </script>

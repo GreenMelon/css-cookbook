@@ -54,7 +54,7 @@
                 right: '0',
                 transform: 'translate(0, -50%)',
             }"
-            color="#e91a8c"
+            color="#411ad6"
         />
     </RibbonAlphabet>
 </template>

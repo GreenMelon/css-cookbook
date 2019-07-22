@@ -6,20 +6,8 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-b"
-    >
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes"
-            :z-index="1"
-            :style="{
-                top: '0',
-                right: '100%',
-                transformOrigin: '100% 0%',
-                transform: 'rotate(-90deg)',
-            }"
-            color="#7f00ff"
-        />
+        class="ribbon-alphabet-9"
+    >   
         <RibbonSharp
             :size="size"
             :times="widthTimes"
@@ -28,6 +16,29 @@
         <RibbonSharp
             :size="size"
             :times="heightTimes / 2 - 0.5"
+            :z-index="1"
+            :style="{
+                top: '0',
+                right: `${halfWidth * 2}px`,
+                transformOrigin: '100% 0%',
+                transform: 'rotate(-90deg)',
+            }"
+            color="#7f00ff"
+        />
+        <RibbonSquare
+            :size="size"
+            :times="widthTimes - 2"
+            :style="{
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+            }"
+            color="#411ad6"
+        />
+        <RibbonSharp
+            :size="size"
+            :times="heightTimes / 2 - 0.5"
+            :z-index="1"
             :style="{
                 top: '0',
                 left: '100%',
@@ -35,16 +46,6 @@
                 transform: 'rotate(90deg)',
             }"
             color="#e91a8c"
-        />
-        <RibbonSharp
-            :size="size"
-            :times="widthTimes"
-            :style="{
-                top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)',
-            }"
-            color="#411ad6"
         />
         <RibbonSharp
             :size="size"

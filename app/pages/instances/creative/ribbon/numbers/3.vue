@@ -6,20 +6,8 @@
         :size="size"
         :width-times="widthTimes"
         :height-times="heightTimes"
-        class="ribbon-alphabet-b"
+        class="ribbon-alphabet-3"
     >
-        <RibbonSharp
-            :size="size"
-            :times="heightTimes"
-            :z-index="1"
-            :style="{
-                top: '0',
-                right: '100%',
-                transformOrigin: '100% 0%',
-                transform: 'rotate(-90deg)',
-            }"
-            color="#7f00ff"
-        />
         <RibbonSharp
             :size="size"
             :times="widthTimes"
@@ -28,6 +16,7 @@
         <RibbonSharp
             :size="size"
             :times="heightTimes / 2 - 0.5"
+            :z-index="1"
             :style="{
                 top: '0',
                 left: '100%',
