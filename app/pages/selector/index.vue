@@ -40,6 +40,9 @@
                                 name: 'attr',
                                 route: '/selector/before/attr'
                             },{
+                                name: 'quotes',
+                                route: '/selector/before/quotes'
+                            },{
                                 name: 'broken-image',
                                 route: '/selector/before/broken-image'
                             },{
