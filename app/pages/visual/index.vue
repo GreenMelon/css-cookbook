@@ -206,6 +206,9 @@
                                 name: '毛玻璃',
                                 route: '/visual/filter/frosted-glass'
                             },{
+                                name: '透明度',
+                                route: '/visual/filter/alpha'
+                            },{
                                 name: '融合动画',
                                 route: '/visual/filter/fusion'
                             }
