@@ -165,6 +165,7 @@ const AnimatedBook = () => import('../pages/instances/creative/animated-book');
 const HeartBeat = () => import('../pages/instances/creative/heart-beat');
 const RibbonAlphabet = () => import('../pages/instances/creative/ribbon/alphabet');
 const RibbonName = () => import('../pages/instances/creative/ribbon/name');
+const RibbonCard = () => import('../pages/instances/creative/ribbon/card');
 const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
 const Accordion = () => import('../pages/instances/other/accordion');
@@ -648,6 +649,9 @@ export default [
     },{
         path: '/instances/creative/ribbon/name',
         component: RibbonName
+    },{
+        path: '/instances/creative/ribbon/card',
+        component: RibbonCard
     },{
         path: '/instances/loader/01',
         component: Loader01
