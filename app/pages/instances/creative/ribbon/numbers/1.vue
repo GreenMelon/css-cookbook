@@ -18,7 +18,7 @@
                 transformOrigin: '50% 50%',
                 transform: 'translate(-50%, -50%) rotate(-90deg)',
             }"
-            color="#e91a8c"
+            color="#7f00ff"
         />
     </RibbonAlphabet>
 </template>

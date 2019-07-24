@@ -22,7 +22,7 @@
                 left: '50%',
                 transform: 'translate(-50%, -50%) rotate(90deg)',
             }"
-            color="#ff7f00"
+            color="#7f00ff"
         />
     </RibbonAlphabet>
 </template>
