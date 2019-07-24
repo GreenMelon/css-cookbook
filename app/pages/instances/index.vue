@@ -36,6 +36,9 @@
                             },{
                                 name: 'ribbon name',
                                 route: '/instances/creative/ribbon/name'
+                            },{
+                                name: 'ribbon card',
+                                route: '/instances/creative/ribbon/card'
                             }
                         ]
                     },{
