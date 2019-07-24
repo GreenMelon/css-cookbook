@@ -28,7 +28,7 @@
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
             }"
-            color="#ff7f00"
+            color="#411ad6"
         />
         <RibbonSharp
             :size="size"

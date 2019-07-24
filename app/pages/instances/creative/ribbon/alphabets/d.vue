@@ -44,7 +44,7 @@
                 bottom: '0',
                 transform: 'rotate(180deg)',
             }"
-            color="#411ad6"
+            color="#ff7f00"
         />
     </RibbonAlphabet>
 </template>

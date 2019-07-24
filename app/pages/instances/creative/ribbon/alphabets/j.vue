@@ -27,7 +27,7 @@
                 bottom: '0',
                 transform: 'rotate(180deg)',
             }"
-            color="#ff7f00"
+            color="#411ad6"
         />
         <RibbonSharp
             :size="size"

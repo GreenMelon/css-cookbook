@@ -65,7 +65,7 @@
                 left: '50%',
                 transform: 'translate(-50%, -50%) rotate(180deg)',
             }"
-            color="#411ad6"
+            color="#ff7f00"
         />
     </RibbonAlphabet>
 </template>

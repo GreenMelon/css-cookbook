@@ -32,7 +32,7 @@
                 bottom: '0',
                 transform: 'rotate(180deg)',
             }"
-            color="#411ad6"
+            color="#e91a8c"
         />
     </RibbonAlphabet>
 </template>
