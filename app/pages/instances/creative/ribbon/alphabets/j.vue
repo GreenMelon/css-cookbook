@@ -31,13 +31,14 @@
         />
         <RibbonSharp
             :size="size"
-            :times="heightTimes / 4"
+            :times="heightTimes / 2 - 0.5"
             :z-index="1"
             :style="{
-                bottom: '0',
-                left: `${size}px`,
-                transformOrigin: '0% 100%',
+                top: '50%',
+                right: '100%',
+                transformOrigin: '100% 0%',
                 transform: 'rotate(-90deg)',
+                marginTop: `-${size / 2}px`,
             }"
             color="#7f00ff"
         />
