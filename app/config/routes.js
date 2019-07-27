@@ -173,6 +173,7 @@ const SuspendBar = () => import('../pages/instances/other/suspend-bar');
 const Callout = () => import('../pages/instances/other/callout');
 const IosBtn = () => import('../pages/instances/other/ios-btn');
 const GetStyle = () => import('../pages/instances/other/get-style');
+const AntLine = () => import('../pages/instances/other/ant-line');
 
 export default [
     {
@@ -673,6 +674,9 @@ export default [
     },{
         path: '/instances/other/get-style',
         component: GetStyle
+    },{
+        path: '/instances/other/ant-line',
+        component: AntLine
     },
 
     {
