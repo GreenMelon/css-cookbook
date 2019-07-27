@@ -1,4 +1,15 @@
-<style lang="less">
+<style lang="less" scoped>
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    textarea {
+        width: 400px;
+        height: 100px;
+        padding: 16px;
+    }
+}
 .alphabet-name {
     display: flex;
     justify-content: center;
@@ -7,17 +18,23 @@
 
 <template>
     <main>
-        <input
-            v-model="value"
-            type="text"
-        >
-        <div class="alphabet-name">
-            <component
-                v-for="(item, i) in name"
-                :key="i"
-                :is="`Alphabet${item}`"
-            />
-        </div>
+        <form>
+            <textarea v-model="content">
+            </textarea>
+        </form>
+
+        <template v-for="(word, index) in words">
+            <div
+                :key="index"
+                class="alphabet-name"
+            >
+                <component
+                    v-for="(item, subIndex) in word"
+                    :key="`${index}-${subIndex}`"
+                    :is="`Alphabet${item}`"
+                />
+            </div>
+        </template>
     </main>
 </template>
 
@@ -136,22 +153,23 @@
 
         data() {
             return {
-                value: 'caigua',
+                content: 'love\na1nd\npeace',
             };
         },
 
         computed: {
-            name() {
+            words() {
+                const res = this.content.toUpperCase().split('\n');
                 const regexp = /([A-Z]\d?)|(-\d)/g;
-                const val = this.value.toUpperCase();
-                let r = val.match(regexp) || [];
 
-                r.forEach(i => {
-                    i.replace('-', '');
+                res.forEach((group, index) => {
+                    let r = group.match(regexp) || [];
+                    r = r.map(i => i.replace('-', ''));
+                    res[index] = r;
                 });
 
-                return r;
-            }
+                return res;
+            },
         },
     };
 </script>
