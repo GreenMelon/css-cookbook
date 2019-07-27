@@ -70,6 +70,9 @@
                             },{
                                 name: 'JS 中获取 CSS 值',
                                 route: '/instances/other/get-style'
+                            },{
+                                name: '蚂蚁线',
+                                route: '/instances/other/ant-line'
                             }
                         ]
                     }
