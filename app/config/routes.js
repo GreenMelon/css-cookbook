@@ -139,6 +139,7 @@ const UnderlineAnimation = () => import('../pages/transform/scaleX/underline-ani
 
 const AnimationIndex = () => import('../pages/animation/index');
 const Loading = () => import('../pages/animation/rotate/loading');
+const RotateAnimation = () => import('../pages/animation/rotate/01');
 
 const TableIndex = () => import('../pages/table/index');
 const TableLayoutIndex = () => import('../pages/table/table-layout/index');
@@ -577,6 +578,9 @@ export default [
     },{
         path: '/animation/rotate/loading',
         component: Loading
+    },{
+        path: '/animation/rotate/01',
+        component: RotateAnimation
     },
 
     {

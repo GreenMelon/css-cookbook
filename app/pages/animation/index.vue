@@ -15,6 +15,9 @@
                             {
                                 name: 'loading',
                                 route: '/animation/rotate/loading'
+                            },{
+                                name: '01',
+                                route: '/animation/rotate/01'
                             }
                         ]
                     }
