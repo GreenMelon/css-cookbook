@@ -170,6 +170,7 @@ const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
 const Accordion = () => import('../pages/instances/other/accordion');
 const SuspendBar = () => import('../pages/instances/other/suspend-bar');
+const LavalampMenu = () => import('../pages/instances/other/lavalamp-menu');
 const Callout = () => import('../pages/instances/other/callout');
 const IosBtn = () => import('../pages/instances/other/ios-btn');
 const GetStyle = () => import('../pages/instances/other/get-style');
@@ -665,6 +666,9 @@ export default [
     },{
         path: '/instances/other/suspend-bar',
         component: SuspendBar
+    },{
+        path: '/instances/other/lavalamp-menu',
+        component: LavalampMenu
     },{
         path: '/instances/other/callout',
         component: Callout
