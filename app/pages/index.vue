@@ -1,6 +1,6 @@
 <style scoped>
     img {
-        width: 400px;
+        width: 200px;
         height: auto;
     }
 </style>

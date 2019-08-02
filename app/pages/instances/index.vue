@@ -62,6 +62,9 @@
                                 name: '悬挂条导航',
                                 route: '/instances/other/suspend-bar'
                             },{
+                                name: 'lavalamp-menu',
+                                route: '/instances/other/lavalamp-menu'
+                            },{
                                 name: '弹出提示框',
                                 route: '/instances/other/callout'
                             },{

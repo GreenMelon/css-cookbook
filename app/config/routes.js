@@ -139,6 +139,7 @@ const UnderlineAnimation = () => import('../pages/transform/scaleX/underline-ani
 
 const AnimationIndex = () => import('../pages/animation/index');
 const Loading = () => import('../pages/animation/rotate/loading');
+const RotateAnimation = () => import('../pages/animation/rotate/01');
 
 const TableIndex = () => import('../pages/table/index');
 const TableLayoutIndex = () => import('../pages/table/table-layout/index');
@@ -170,6 +171,7 @@ const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
 const Accordion = () => import('../pages/instances/other/accordion');
 const SuspendBar = () => import('../pages/instances/other/suspend-bar');
+const LavalampMenu = () => import('../pages/instances/other/lavalamp-menu');
 const Callout = () => import('../pages/instances/other/callout');
 const IosBtn = () => import('../pages/instances/other/ios-btn');
 const GetStyle = () => import('../pages/instances/other/get-style');
@@ -576,6 +578,9 @@ export default [
     },{
         path: '/animation/rotate/loading',
         component: Loading
+    },{
+        path: '/animation/rotate/01',
+        component: RotateAnimation
     },
 
     {
@@ -665,6 +670,9 @@ export default [
     },{
         path: '/instances/other/suspend-bar',
         component: SuspendBar
+    },{
+        path: '/instances/other/lavalamp-menu',
+        component: LavalampMenu
     },{
         path: '/instances/other/callout',
         component: Callout
