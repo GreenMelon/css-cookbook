@@ -35,6 +35,9 @@
                             },{
                                 name: '圆角',
                                 route: '/visual/outline/outline-radius'
+                            },{
+                                name: '样式',
+                                route: '/visual/outline/outline-style'
                             }
                         ]
                     },{

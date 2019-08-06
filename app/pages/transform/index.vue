@@ -41,6 +41,14 @@
                                 route: '/transform/scaleX/underline-animation'
                             }
                         ]
+                    },{
+                        name: 'translate3d',
+                        instances: [
+                            {
+                                name: '小球动画',
+                                route: '/transform/translate3d/01'
+                            }
+                        ]
                     }
                 ]
             }

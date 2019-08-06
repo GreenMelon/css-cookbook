@@ -92,6 +92,7 @@ const Wave = () => import('../pages/visual/border-radius/wave');
 const Outline01 = () => import('../pages/visual/outline/01');
 const OutlineOffset = () => import('../pages/visual/outline/outline-offset');
 const OutlineRadius = () => import('../pages/visual/outline/outline-radius');
+const OutlineStyle = () => import('../pages/visual/outline/outline-style');
 const VisualBoxShadowLoading1 = () => import('../pages/visual/box-shadow/loading.01');
 const VisualBoxShadowLoading2 = () => import('../pages/visual/box-shadow/loading.02');
 const Moon = () => import('../pages/visual/box-shadow/moon');
@@ -136,6 +137,7 @@ const RotatePoker = () => import('../pages/transform/rotateY/poker');
 const Pie = () => import('../pages/transform/rotate/pie');
 const Parallelogram = () => import('../pages/transform/skew/parallelogram');
 const UnderlineAnimation = () => import('../pages/transform/scaleX/underline-animation');
+const Translate3d01 = () => import('../pages/transform/translate3d/01');
 
 const AnimationIndex = () => import('../pages/animation/index');
 const Loading = () => import('../pages/animation/rotate/loading');
@@ -440,6 +442,9 @@ export default [
         path: '/visual/outline/outline-radius',
         component: OutlineRadius
     },{
+        path: '/visual/outline/outline-style',
+        component: OutlineStyle
+    },{
         path: '/visual/box-shadow/loading.01',
         component: VisualBoxShadowLoading1
     },{
@@ -570,6 +575,9 @@ export default [
     },{
         path: '/transform/scaleX/underline-animation',
         component: UnderlineAnimation
+    },{
+        path: '/transform/translate3d/01',
+        component: Translate3d01
     },
 
     {
