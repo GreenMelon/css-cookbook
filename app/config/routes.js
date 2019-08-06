@@ -92,6 +92,7 @@ const Wave = () => import('../pages/visual/border-radius/wave');
 const Outline01 = () => import('../pages/visual/outline/01');
 const OutlineOffset = () => import('../pages/visual/outline/outline-offset');
 const OutlineRadius = () => import('../pages/visual/outline/outline-radius');
+const OutlineStyle = () => import('../pages/visual/outline/outline-style');
 const VisualBoxShadowLoading1 = () => import('../pages/visual/box-shadow/loading.01');
 const VisualBoxShadowLoading2 = () => import('../pages/visual/box-shadow/loading.02');
 const Moon = () => import('../pages/visual/box-shadow/moon');
@@ -440,6 +441,9 @@ export default [
     },{
         path: '/visual/outline/outline-radius',
         component: OutlineRadius
+    },{
+        path: '/visual/outline/outline-style',
+        component: OutlineStyle
     },{
         path: '/visual/box-shadow/loading.01',
         component: VisualBoxShadowLoading1
