@@ -26,6 +26,14 @@
                             }
                         ]
                     },{
+                        name: 'rotateZ',
+                        instances: [
+                            {
+                                name: 'Hamburger Menu',
+                                route: '/transform/rotateZ/hamburger-menu'
+                            }
+                        ]
+                    },{
                         name: 'skew',
                         instances: [
                             {
