@@ -134,6 +134,7 @@ const Visibility01 = () => import('../pages/visual/visibility/01');
 
 const TransformIndex = () => import('../pages/transform/index');
 const RotatePoker = () => import('../pages/transform/rotateY/poker');
+const HamburgerMenu = () => import('../pages/transform/rotateZ/hamburger-menu');
 const Pie = () => import('../pages/transform/rotate/pie');
 const Parallelogram = () => import('../pages/transform/skew/parallelogram');
 const UnderlineAnimation = () => import('../pages/transform/scaleX/underline-animation');
@@ -569,6 +570,9 @@ export default [
     },{
         path: '/transform/rotateY/poker',
         component: RotatePoker
+    },{
+        path: '/transform/rotateZ/hamburger-menu',
+        component: HamburgerMenu
     },{
         path: '/transform/skew/parallelogram',
         component: Parallelogram
