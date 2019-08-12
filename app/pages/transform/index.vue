@@ -18,6 +18,14 @@
                             }
                         ]
                     },{
+                        name: 'rotateX',
+                        instances: [
+                            {
+                                name: '3d-button',
+                                route: '/transform/rotateX/3d-button'
+                            }
+                        ]
+                    },{
                         name: 'rotateY',
                         instances: [
                             {

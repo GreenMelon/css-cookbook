@@ -133,6 +133,7 @@ const MaskImage02 = () => import('../pages/visual/mask-image/02');
 const Visibility01 = () => import('../pages/visual/visibility/01');
 
 const TransformIndex = () => import('../pages/transform/index');
+const Transform3DButton = () => import('../pages/transform/rotateX/3d-button');
 const RotatePoker = () => import('../pages/transform/rotateY/poker');
 const HamburgerMenu = () => import('../pages/transform/rotateZ/hamburger-menu');
 const Pie = () => import('../pages/transform/rotate/pie');
@@ -567,6 +568,9 @@ export default [
     },{
         path: '/transform/rotate/pie',
         component: Pie
+    },{
+        path: '/transform/rotateX/3d-button',
+        component: Transform3DButton,
     },{
         path: '/transform/rotateY/poker',
         component: RotatePoker
