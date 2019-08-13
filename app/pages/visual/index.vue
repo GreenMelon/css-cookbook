@@ -65,7 +65,10 @@
                             },{
                                 name: '高亮显示',
                                 route: '/visual/box-shadow/emphasize'
-                            },
+                            },{
+                                name: '电灯泡',
+                                route: '/visual/box-shadow/bulb'
+                            }
                         ]
                     },{
                         name: 'background',
