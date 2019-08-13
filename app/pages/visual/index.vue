@@ -95,6 +95,14 @@
                             }
                         ]
                     },{
+                        name: 'background-repeat',
+                        instances: [
+                            {
+                                name: '定义背景显示区域',
+                                route: '/visual/background-repeat/01'
+                            }
+                        ]
+                    },{
                         name: 'background-clip',
                         instances: [
                             {

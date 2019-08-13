@@ -105,6 +105,7 @@ const Background01 = () => import('../pages/visual/background/01');
 const BackgroundColor01 = () => import('../pages/visual/background-color/01');
 const BackgroundImage01 = () => import('../pages/visual/background-image/01');
 const BackgroundClip01 = () => import('../pages/visual/background-clip/01');
+const BackgroundRepeat01 = () => import('../pages/visual/background-repeat/01');
 const TransparentBorder = () => import('../pages/visual/background-clip/transparent-border');
 const BackgroundClipText = () => import('../pages/visual/background-clip/text');
 const Chessboard01 = () => import('../pages/visual/background-size/chessboard');
@@ -483,6 +484,9 @@ export default [
     },{
         path: '/visual/background-clip/01',
         component: BackgroundClip01
+    },{
+        path: '/visual/background-repeat/01',
+        component: BackgroundRepeat01
     },{
         path: '/visual/background-clip/transparent-border',
         component: TransparentBorder
