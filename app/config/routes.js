@@ -175,6 +175,7 @@ const RibbonName = () => import('../pages/instances/creative/ribbon/name');
 const RibbonCard = () => import('../pages/instances/creative/ribbon/card');
 const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
+const Color = () => import('../pages/instances/other/color');
 const Accordion = () => import('../pages/instances/other/accordion');
 const SuspendBar = () => import('../pages/instances/other/suspend-bar');
 const LavalampMenu = () => import('../pages/instances/other/lavalamp-menu');
@@ -688,6 +689,9 @@ export default [
     },{
         path: '/instances/loader/02',
         component: Loader02
+    },{
+        path: '/instances/other/color',
+        component: Color
     },{
         path: '/instances/other/accordion',
         component: Accordion
