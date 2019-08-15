@@ -164,6 +164,14 @@
                             }
                         ]
                     },{
+                        name: 'repeating-linear-gradient 重复线性渐变',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/visual/repeating-linear-gradient/01'
+                            }
+                        ]
+                    },{
                         name: 'radial-gradient 径向渐变',
                         instances: [
                             {

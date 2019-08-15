@@ -117,6 +117,7 @@ const GradientAnimation = () => import('../pages/visual/linear-gradient/gradient
 const Waveline = () => import('../pages/visual/linear-gradient/waveline');
 const GradientCircle02 = () => import('../pages/visual/linear-gradient/circle');
 const FlashImageEffect = () => import('../pages/visual/linear-gradient/flash-image-effect');
+const RepeatingLinearGradient01 = () => import('../pages/visual/repeating-linear-gradient/01');
 const Chrome = () => import('../pages/visual/radial-gradient/chrome');
 const ConicGradient01 = () => import('../pages/visual/conic-gradient/01');
 const Chessboard02 = () => import('../pages/visual/conic-gradient/chessboard');
@@ -521,6 +522,9 @@ export default [
     },{
         path: '/visual/linear-gradient/flash-image-effect',
         component: FlashImageEffect
+    },{
+        path: '/visual/repeating-linear-gradient/01',
+        component: RepeatingLinearGradient01
     },{
         path: '/visual/radial-gradient/chrome',
         component: Chrome
