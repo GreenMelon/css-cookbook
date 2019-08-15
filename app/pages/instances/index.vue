@@ -56,6 +56,9 @@
                         name: 'other',
                         instances: [
                             {
+                                name: 'color',
+                                route: '/instances/other/color'
+                            },{
                                 name: '手风琴式导航',
                                 route: '/instances/other/accordion'
                             },{
