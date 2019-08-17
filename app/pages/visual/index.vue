@@ -150,8 +150,11 @@
                                 name: '地砖',
                                 route: '/visual/linear-gradient/02'
                             },{
-                                name: '渐变动画',
-                                route: '/visual/linear-gradient/gradient-animation'
+                                name: '渐变动画 01',
+                                route: '/visual/linear-gradient/animation-01'
+                            },{
+                                name: '渐变动画 02',
+                                route: '/visual/linear-gradient/animation-02'
                             },{
                                 name: '波浪线',
                                 route: '/visual/linear-gradient/waveline'
@@ -161,6 +164,14 @@
                             },{
                                 name: '图片闪光划过效果',
                                 route: '/visual/linear-gradient/flash-image-effect'
+                            }
+                        ]
+                    },{
+                        name: 'repeating-linear-gradient 重复线性渐变',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/visual/repeating-linear-gradient/01'
                             }
                         ]
                     },{
