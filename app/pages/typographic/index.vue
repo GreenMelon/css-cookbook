@@ -79,8 +79,11 @@
                                 name: 'overflow-wrap',
                                 route: '/typographic/wrap/overflow-wrap'
                             },{
-                                name: 'line-clamp',
-                                route: '/typographic/wrap/line-clamp'
+                                name: 'line-clamp 01',
+                                route: '/typographic/wrap/line-clamp-01'
+                            },{
+                                name: 'line-clamp 02',
+                                route: '/typographic/wrap/line-clamp-02'
                             }
                         ]
                     }
