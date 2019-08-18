@@ -69,7 +69,8 @@ const TypographicIndex = () => import('../pages/typographic/index');
 const FontFamily = () => import('../pages/typographic/font/font-family');
 const FontSmoothing = () => import('../pages/typographic/font/font-smoothing');
 const OverflowWrap = () => import('../pages/typographic/wrap/overflow-wrap');
-const LineClamp = () => import('../pages/typographic/wrap/line-clamp');
+const LineClamp01 = () => import('../pages/typographic/wrap/line-clamp-01');
+const LineClamp02 = () => import('../pages/typographic/wrap/line-clamp-02');
 const TextAlign = () => import('../pages/typographic/text/text-align');
 const TextAlignJustify = () => import('../pages/typographic/text/text-align-justify');
 const TextShadow = () => import('../pages/typographic/text/text-shadow');
@@ -381,8 +382,11 @@ export default [
         path: '/typographic/wrap/overflow-wrap',
         component: OverflowWrap
     },{
-        path: '/typographic/wrap/line-clamp',
-        component: LineClamp
+        path: '/typographic/wrap/line-clamp-01',
+        component: LineClamp01
+    },{
+        path: '/typographic/wrap/line-clamp-02',
+        component: LineClamp02
     },{
         path: '/typographic/text/text-align',
         component: TextAlign
