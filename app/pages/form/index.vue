@@ -37,8 +37,11 @@
                         name: 'input',
                         instances: [
                             {
-                                name: 'checkbox',
-                                route: '/form./input/checkbox'
+                                name: 'checkbox 01',
+                                route: '/form./input/checkbox-01'
+                            },{
+                                name: 'checkbox 02',
+                                route: '/form./input/checkbox-02'
                             },{
                                 name: 'number',
                                 route: '/form./input/number'
