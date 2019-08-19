@@ -157,7 +157,8 @@ const FormIndex = () => import('../pages/form/index');
 const Autocomplete = () => import('../pages/form/autocomplete/01');
 const CancelButton = () => import('../pages/form/cancel-button/01');
 const FormCursor = () => import('../pages/form/cursor/01');
-const Checkbox = () => import('../pages/form/input/checkbox');
+const Checkbox01 = () => import('../pages/form/input/checkbox-01');
+const Checkbox02 = () => import('../pages/form/input/checkbox-02');
 const NumberInput = () => import('../pages/form/input/number');
 const FileInput = () => import('../pages/form/input/file');
 const Spellcheck = () => import('../pages/form/spellcheck/01');
@@ -641,8 +642,11 @@ export default [
         path: '/form./cursor/01',
         component: FormCursor
     },{
-        path: '/form./input/checkbox',
-        component: Checkbox
+        path: '/form./input/checkbox-01',
+        component: Checkbox01
+    },{
+        path: '/form./input/checkbox-02',
+        component: Checkbox02
     },{
         path: '/form./input/number',
         component: NumberInput
