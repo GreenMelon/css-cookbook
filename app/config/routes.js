@@ -169,6 +169,13 @@ const TouchAction01 = () => import('../pages/pointerevents/touch-action/01');
 const PointerEvents01 = () => import('../pages/pointerevents/pointer-events/01');
 
 const InstancesIndex = () => import('../pages/instances/index');
+const CssDoodle01 = () => import('../pages/instances/css-doodle/01');
+const CssDoodle02 = () => import('../pages/instances/css-doodle/02');
+const CssDoodle03 = () => import('../pages/instances/css-doodle/03');
+const CssDoodle04 = () => import('../pages/instances/css-doodle/04');
+const CssDoodle05 = () => import('../pages/instances/css-doodle/05');
+const CssDoodle06 = () => import('../pages/instances/css-doodle/06');
+const CssDoodle07 = () => import('../pages/instances/css-doodle/07');
 const FloatCenter = () => import('../pages/instances/creative/float-center');
 const Hexagon = () => import('../pages/instances/creative/hexagon');
 const TaiChi = () => import('../pages/instances/creative/tai-chi');
@@ -676,6 +683,27 @@ export default [
     {
         path: '/instances',
         component: InstancesIndex
+    },{
+        path: '/instances/css-doodle/01',
+        component: CssDoodle01
+    },{
+        path: '/instances/css-doodle/02',
+        component: CssDoodle02
+    },{
+        path: '/instances/css-doodle/03',
+        component: CssDoodle03
+    },{
+        path: '/instances/css-doodle/04',
+        component: CssDoodle04
+    },{
+        path: '/instances/css-doodle/05',
+        component: CssDoodle05
+    },{
+        path: '/instances/css-doodle/06',
+        component: CssDoodle06
+    },{
+        path: '/instances/css-doodle/07',
+        component: CssDoodle07
     },{
         path: '/instances/creative/float-center',
         component: FloatCenter
