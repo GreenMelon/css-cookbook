@@ -10,6 +10,32 @@
             return {
                 categories: [
                     {
+                        name: 'css-doodle',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/instances/css-doodle/01'
+                            },{
+                                name: '02',
+                                route: '/instances/css-doodle/02'
+                            },{
+                                name: '03',
+                                route: '/instances/css-doodle/03'
+                            },{
+                                name: '04',
+                                route: '/instances/css-doodle/04'
+                            },{
+                                name: '05',
+                                route: '/instances/css-doodle/05'
+                            },{
+                                name: '06',
+                                route: '/instances/css-doodle/06'
+                            },{
+                                name: '07',
+                                route: '/instances/css-doodle/07'
+                            }
+                        ]
+                    },{
                         name: 'creative',
                         instances: [
                             {
