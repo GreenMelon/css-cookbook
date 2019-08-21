@@ -150,6 +150,9 @@
                                 name: '地砖',
                                 route: '/visual/linear-gradient/02'
                             },{
+                                name: '03',
+                                route: '/visual/linear-gradient/03'
+                            },{
                                 name: '渐变动画 01',
                                 route: '/visual/linear-gradient/animation-01'
                             },{
