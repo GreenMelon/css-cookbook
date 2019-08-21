@@ -114,6 +114,7 @@ const backgroundAttachment01 = () => import('../pages/visual/background-attachme
 const BackgroundBlendMode01 = () => import('../pages/visual/background-blend-mode/01');
 const LinearGradient01 = () => import('../pages/visual/linear-gradient/01');
 const LinearGradient02 = () => import('../pages/visual/linear-gradient/02');
+const LinearGradient03 = () => import('../pages/visual/linear-gradient/03');
 const LinearGradientAnimation01 = () => import('../pages/visual/linear-gradient/animation-01');
 const LinearGradientAnimation02 = () => import('../pages/visual/linear-gradient/animation-02');
 const Waveline = () => import('../pages/visual/linear-gradient/waveline');
@@ -516,6 +517,9 @@ export default [
     },{
         path: '/visual/linear-gradient/02',
         component: LinearGradient02
+    },{
+        path: '/visual/linear-gradient/03',
+        component: LinearGradient03
     },{
         path: '/visual/linear-gradient/animation-01',
         component: LinearGradientAnimation01
