@@ -74,6 +74,20 @@ module.exports = {
                     }
                 ]
             },{
+                test: /\.scss$/,
+                use: [
+                    {
+                        loader: 'style-loader'
+                    },{
+                        loader: 'css-loader'
+                    },{
+                        loader: 'sass-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    }
+                ]
+            },{
                 /**
                  * url-loader
                  * 它会将小于8kb的图片、iconfont字体都转为base64, 超过8kb的才会生成具体文件
