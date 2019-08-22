@@ -65,6 +65,9 @@
                             },{
                                 name: 'ribbon card',
                                 route: '/instances/creative/ribbon/card'
+                            },{
+                                name: 'text-animation',
+                                route: '/instances/creative/text-animation'
                             }
                         ]
                     },{

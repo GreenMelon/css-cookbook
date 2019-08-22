@@ -185,6 +185,7 @@ const HeartBeat = () => import('../pages/instances/creative/heart-beat');
 const RibbonAlphabet = () => import('../pages/instances/creative/ribbon/alphabet');
 const RibbonName = () => import('../pages/instances/creative/ribbon/name');
 const RibbonCard = () => import('../pages/instances/creative/ribbon/card');
+const TextAnimation = () => import('../pages/instances/creative/text-animation');
 const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
 const Color = () => import('../pages/instances/other/color');
@@ -731,6 +732,9 @@ export default [
     },{
         path: '/instances/creative/ribbon/card',
         component: RibbonCard
+    },{
+        path: '/instances/creative/text-animation',
+        component: TextAnimation
     },{
         path: '/instances/loader/01',
         component: Loader01
