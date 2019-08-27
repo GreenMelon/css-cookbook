@@ -43,6 +43,9 @@
                                 name: 'checkbox 02',
                                 route: '/form./input/checkbox-02'
                             },{
+                                name: 'checkbox 03',
+                                route: '/form./input/checkbox-03'
+                            },{
                                 name: 'number',
                                 route: '/form./input/number'
                             },{
