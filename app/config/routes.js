@@ -160,6 +160,7 @@ const CancelButton = () => import('../pages/form/cancel-button/01');
 const FormCursor = () => import('../pages/form/cursor/01');
 const Checkbox01 = () => import('../pages/form/input/checkbox-01');
 const Checkbox02 = () => import('../pages/form/input/checkbox-02');
+const Checkbox03 = () => import('../pages/form/input/checkbox-03');
 const NumberInput = () => import('../pages/form/input/number');
 const FileInput = () => import('../pages/form/input/file');
 const Spellcheck = () => import('../pages/form/spellcheck/01');
@@ -193,7 +194,6 @@ const Accordion = () => import('../pages/instances/other/accordion');
 const SuspendBar = () => import('../pages/instances/other/suspend-bar');
 const LavalampMenu = () => import('../pages/instances/other/lavalamp-menu');
 const Callout = () => import('../pages/instances/other/callout');
-const IosBtn = () => import('../pages/instances/other/ios-btn');
 const GetStyle = () => import('../pages/instances/other/get-style');
 const AntLine = () => import('../pages/instances/other/ant-line');
 
@@ -660,6 +660,9 @@ export default [
         path: '/form./input/checkbox-02',
         component: Checkbox02
     },{
+        path: '/form./input/checkbox-03',
+        component: Checkbox03
+    },{
         path: '/form./input/number',
         component: NumberInput
     },{
@@ -756,9 +759,6 @@ export default [
     },{
         path: '/instances/other/callout',
         component: Callout
-    },{
-        path: '/instances/other/ios-btn',
-        component: IosBtn
     },{
         path: '/instances/other/get-style',
         component: GetStyle

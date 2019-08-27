@@ -100,9 +100,6 @@
                                 name: '弹出提示框',
                                 route: '/instances/other/callout'
                             },{
-                                name: '仿IOS按钮',
-                                route: '/instances/other/ios-btn'
-                            },{
                                 name: 'JS 中获取 CSS 值',
                                 route: '/instances/other/get-style'
                             },{
