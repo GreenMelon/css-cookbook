@@ -95,6 +95,14 @@
                             }
                         ]
                     },{
+                        name: 'background-position',
+                        instances: [
+                            {
+                                name: '咖啡动画',
+                                route: '/visual/background-position/01'
+                            }
+                        ]
+                    },{
                         name: 'background-repeat',
                         instances: [
                             {

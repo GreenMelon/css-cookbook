@@ -105,6 +105,7 @@ const Bulb = () => import('../pages/visual/box-shadow/bulb');
 const Background01 = () => import('../pages/visual/background/01');
 const BackgroundColor01 = () => import('../pages/visual/background-color/01');
 const BackgroundImage01 = () => import('../pages/visual/background-image/01');
+const BackgroundPosition01 = () => import('../pages/visual/background-position/01');
 const BackgroundClip01 = () => import('../pages/visual/background-clip/01');
 const BackgroundRepeat01 = () => import('../pages/visual/background-repeat/01');
 const TransparentBorder = () => import('../pages/visual/background-clip/transparent-border');
@@ -498,6 +499,9 @@ export default [
     },{
         path: '/visual/background-image/01',
         component: BackgroundImage01
+    },{
+        path: '/visual/background-position/01',
+        component: BackgroundPosition01
     },{
         path: '/visual/background-clip/01',
         component: BackgroundClip01
