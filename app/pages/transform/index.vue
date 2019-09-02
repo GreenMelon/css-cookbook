@@ -30,7 +30,10 @@
                         instances: [
                             {
                                 name: '旋转扑克',
-                                route: '/transform/rotateY/poker'
+                                route: '/transform/rotateY/01'
+                            },{
+                                name: '02',
+                                route: '/transform/rotateY/02'
                             }
                         ]
                     },{

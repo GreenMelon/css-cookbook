@@ -143,7 +143,8 @@ const Visibility01 = () => import('../pages/visual/visibility/01');
 
 const TransformIndex = () => import('../pages/transform/index');
 const Transform3DButton = () => import('../pages/transform/rotateX/3d-button');
-const RotatePoker = () => import('../pages/transform/rotateY/poker');
+const RotateY01 = () => import('../pages/transform/rotateY/01');
+const RotateY02 = () => import('../pages/transform/rotateY/02');
 const HamburgerMenu = () => import('../pages/transform/rotateZ/hamburger-menu');
 const Pie = () => import('../pages/transform/rotate/pie');
 const Parallelogram = () => import('../pages/transform/skew/parallelogram');
@@ -618,8 +619,11 @@ export default [
         path: '/transform/rotateX/3d-button',
         component: Transform3DButton,
     },{
-        path: '/transform/rotateY/poker',
-        component: RotatePoker
+        path: '/transform/rotateY/01',
+        component: RotateY01
+    },{
+        path: '/transform/rotateY/02',
+        component: RotateY02
     },{
         path: '/transform/rotateZ/hamburger-menu',
         component: HamburgerMenu
