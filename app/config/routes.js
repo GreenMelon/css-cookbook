@@ -79,7 +79,8 @@ const TextFillColor = () => import('../pages/typographic/text/text-fill-color');
 const TextStroke = () => import('../pages/typographic/text/text-stroke');
 const TextTransform = () => import('../pages/typographic/text/text-transform');
 const WritingMode = () => import('../pages/typographic/text/writing-mode');
-const TextDecoration = () => import('../pages/typographic/text/text-decoration');
+const TextDecoration01 = () => import('../pages/typographic/text/text-decoration/01');
+const TextDecoration02 = () => import('../pages/typographic/text/text-decoration/02');
 const TextOutline = () => import('../pages/typographic/text-effect/text-outline');
 const ImageText = () => import('../pages/typographic/text-effect/image-text');
 const FlashLight = () => import('../pages/typographic/text-effect/flash-light');
@@ -424,8 +425,11 @@ export default [
         path: '/typographic/text/writing-mode',
         component: WritingMode
     },{
-        path: '/typographic/text/text-decoration',
-        component: TextDecoration
+        path: '/typographic/text/text-decoration/01',
+        component: TextDecoration01
+    },{
+        path: '/typographic/text/text-decoration/02',
+        component: TextDecoration02
     },{
         path: '/typographic/text-effect/text-outline',
         component: TextOutline

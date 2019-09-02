@@ -47,9 +47,17 @@
                             },{
                                 name: 'writing-mode',
                                 route: '/typographic/text/writing-mode'
+                            }
+                        ]
+                    },{
+                        name: 'text-decoration',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/typographic/text/text-decoration/01'
                             },{
-                                name: 'text-decoration',
-                                route: '/typographic/text/text-decoration'
+                                name: '02',
+                                route: '/typographic/text/text-decoration/02'
                             }
                         ]
                     },{
