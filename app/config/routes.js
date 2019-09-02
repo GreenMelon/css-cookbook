@@ -79,7 +79,8 @@ const TextFillColor = () => import('../pages/typographic/text/text-fill-color');
 const TextStroke = () => import('../pages/typographic/text/text-stroke');
 const TextTransform = () => import('../pages/typographic/text/text-transform');
 const WritingMode = () => import('../pages/typographic/text/writing-mode');
-const TextDecoration = () => import('../pages/typographic/text/text-decoration');
+const TextDecoration01 = () => import('../pages/typographic/text/text-decoration/01');
+const TextDecoration02 = () => import('../pages/typographic/text/text-decoration/02');
 const TextOutline = () => import('../pages/typographic/text-effect/text-outline');
 const ImageText = () => import('../pages/typographic/text-effect/image-text');
 const FlashLight = () => import('../pages/typographic/text-effect/flash-light');
@@ -122,7 +123,8 @@ const Waveline = () => import('../pages/visual/linear-gradient/waveline');
 const GradientCircle02 = () => import('../pages/visual/linear-gradient/circle');
 const FlashImageEffect = () => import('../pages/visual/linear-gradient/flash-image-effect');
 const RepeatingLinearGradient01 = () => import('../pages/visual/repeating-linear-gradient/01');
-const Chrome = () => import('../pages/visual/radial-gradient/chrome');
+const RadialGradient01 = () => import('../pages/visual/radial-gradient/01');
+const RadialGradient02 = () => import('../pages/visual/radial-gradient/02');
 const ConicGradient01 = () => import('../pages/visual/conic-gradient/01');
 const Chessboard02 = () => import('../pages/visual/conic-gradient/chessboard');
 const GradientCircle01 = () => import('../pages/visual/conic-gradient/circle');
@@ -423,8 +425,11 @@ export default [
         path: '/typographic/text/writing-mode',
         component: WritingMode
     },{
-        path: '/typographic/text/text-decoration',
-        component: TextDecoration
+        path: '/typographic/text/text-decoration/01',
+        component: TextDecoration01
+    },{
+        path: '/typographic/text/text-decoration/02',
+        component: TextDecoration02
     },{
         path: '/typographic/text-effect/text-outline',
         component: TextOutline
@@ -551,8 +556,11 @@ export default [
         path: '/visual/repeating-linear-gradient/01',
         component: RepeatingLinearGradient01
     },{
-        path: '/visual/radial-gradient/chrome',
-        component: Chrome
+        path: '/visual/radial-gradient/01',
+        component: RadialGradient01
+    },{
+        path: '/visual/radial-gradient/02',
+        component: RadialGradient02
     },{
         path: '/visual/conic-gradient/01',
         component: ConicGradient01

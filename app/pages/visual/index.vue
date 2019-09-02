@@ -190,7 +190,10 @@
                         instances: [
                             {
                                 name: '谷歌浏览器logo',
-                                route: '/visual/radial-gradient/chrome'
+                                route: '/visual/radial-gradient/01'
+                            },{
+                                name: '圆点背景',
+                                route: '/visual/radial-gradient/02'
                             },
                         ]
                     },{
