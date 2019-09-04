@@ -46,7 +46,10 @@ const categories = Vue.extend({
         },
 
         getBaseRoute(c) {
-            return `${this.baseRoute}/${c.name}`;
+            if (c.name) {
+                return `${this.baseRoute}/${c.name}`;
+            }
+            return this.baseRoute;
         },
 
         getRoute(c) {
