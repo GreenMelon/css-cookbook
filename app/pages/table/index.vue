@@ -2,7 +2,7 @@
     <main>
         <categories
             :base-route="baseRoute"
-            :categories="items"
+            :categories="categories"
         />
     </main>
 </template>
@@ -12,7 +12,7 @@ export default {
     data() {
         return {
             baseRoute: '/table',
-            items: [
+            categories: [
                 {
                     name: 'table-layout',
                     children: [
