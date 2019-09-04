@@ -98,11 +98,11 @@ td {
                         city: 'los angeles',
                         name: 'lakers',
                         player: 'kobe',
-                    },{
+                    }, {
                         city: 'golden state',
                         name: 'warriors',
                         player: 'curry',
-                    },{
+                    }, {
                         city: 'san antonio',
                         name: 'spurs',
                         player: 'duncan',

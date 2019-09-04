@@ -1,33 +1,35 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="items"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'pointer-events',
-                        instances: [
-                            {
-                                name: 'pointer-events',
-                                route: '/pointer-events/01'
-                            }
-                        ]
-                    },{
-                        name: 'touch-action',
-                        instances: [
-                            {
-                                name: 'touch-action',
-                                route: '/touch-action/01'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: 'pointerevents',
+            items: [
+                {
+                    name: 'pointer-events',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'touch-action',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }
+            ]
+        }
+    },
+}
 </script>

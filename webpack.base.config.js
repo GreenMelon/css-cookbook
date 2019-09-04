@@ -39,7 +39,7 @@ module.exports = {
             {
                 test: /\.vue$/,
                 loader: 'vue-loader'
-            },{
+            }, {
                 // babel-loader: 语法解析
                 test: /\.js$/,
                 // exclude 可以过滤掉特定文件
@@ -49,7 +49,7 @@ module.exports = {
                     presets: ['es2015', 'stage-2'],
                     plugins: ['transform-runtime']
                 }
-            },{
+            }, {
                 test: /\.css$/,
                 use: [
                     'style-loader',
@@ -59,35 +59,35 @@ module.exports = {
                 use: ExtractTextPlugin.extract({
                     use: 'css-loader'
                 })
-            },{
+            }, {
                 test: /\.less$/,
                 use: [
                     {
                         loader: 'style-loader'
-                    },{
+                    }, {
                         loader: 'css-loader'
-                    },{
+                    }, {
                         loader: 'less-loader',
                         options: {
                             sourceMap: true
                         }
                     }
                 ]
-            },{
+            }, {
                 test: /\.scss$/,
                 use: [
                     {
                         loader: 'style-loader'
-                    },{
+                    }, {
                         loader: 'css-loader'
-                    },{
+                    }, {
                         loader: 'sass-loader',
                         options: {
                             sourceMap: true
                         }
                     }
                 ]
-            },{
+            }, {
                 /**
                  * url-loader
                  * 它会将小于8kb的图片、iconfont字体都转为base64, 超过8kb的才会生成具体文件
@@ -97,7 +97,7 @@ module.exports = {
                 options: {
                     limit: 8192
                 }
-            },{
+            }, {
                 test: /\.(html|tpl)$/,
                 loader: 'html-loader'
             }

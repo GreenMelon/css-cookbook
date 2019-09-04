@@ -1,102 +1,89 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="items"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'font',
-                        instances: [
-                            {
-                                name: 'font-family',
-                                route: '/typographic/font/font-family'
-                            },{
-                                name: 'font-smoothing',
-                                route: '/typographic/font/font-smoothing'
-                            }
-                        ]
-                    },{
-                        name: 'text',
-                        instances: [
-                            {
-                                name: 'text-align',
-                                route: '/typographic/text/text-align'
-                            },{
-                                name: 'text-align-justify',
-                                route: '/typographic/text/text-align-justify'
-                            },{
-                                name: 'text-shadow',
-                                route: '/typographic/text/text-shadow'
-                            },{
-                                name: '发光文字',
-                                route: '/typographic/text/text-shadow-llluminate'
-                            },{
-                                name: 'text-fill-color',
-                                route: '/typographic/text/text-fill-color'
-                            },{
-                                name: 'text-stroke',
-                                route: '/typographic/text/text-stroke'
-                            },{
-                                name: 'text-transform',
-                                route: '/typographic/text/text-transform'
-                            },{
-                                name: 'writing-mode',
-                                route: '/typographic/text/writing-mode'
-                            }
-                        ]
-                    },{
-                        name: 'text-decoration',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/typographic/text/text-decoration/01'
-                            },{
-                                name: '02',
-                                route: '/typographic/text/text-decoration/02'
-                            }
-                        ]
-                    },{
-                        name: 'text-effect',
-                        instances: [
-                            {
-                                name: 'text-outline',
-                                route: '/typographic/text-effect/text-outline'
-                            },{
-                                name: 'image-text',
-                                route: '/typographic/text-effect/image-text'
-                            },{
-                                name: 'flash-light',
-                                route: '/typographic/text-effect/flash-light'
-                            },{
-                                name: '文字抖动特效',
-                                route: '/typographic/text-effect/glitch'
-                            },{
-                                name: '模糊文本',
-                                route: '/typographic/text-effect/blurry-text'
-                            }
-                        ]
-                    },{
-                        name: 'wrap',
-                        instances: [
-                            {
-                                name: 'overflow-wrap',
-                                route: '/typographic/wrap/overflow-wrap'
-                            },{
-                                name: 'line-clamp 01',
-                                route: '/typographic/wrap/line-clamp-01'
-                            },{
-                                name: 'line-clamp 02',
-                                route: '/typographic/wrap/line-clamp-02'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/typographic',
+            items: [
+                {
+                    name: 'font',
+                    children: [
+                        {
+                            route: 'font-family',
+                        }, {
+                            route: 'font-smoothing',
+                        },
+                    ],
+                }, {
+                    name: 'text',
+                    children: [
+                        {
+                            route: 'text-align',
+                        }, {
+                            route: 'text-align-justify',
+                        }, {
+                            route: 'text-shadow',
+                        }, {
+                            alias: '发光文字',
+                            route: 'text-shadow-llluminate'
+                        }, {
+                            route: 'text-fill-color',
+                        }, {
+                            route: 'text-stroke',
+                        }, {
+                            route: 'text-transform',
+                        }, {
+                            route: 'writing-mode',
+                        },
+                    ],
+                }, {
+                    name: 'text-decoration',
+                    children: [
+                        {
+                            route: '01',
+                        }, {
+                            route: '02',
+                        },
+                    ],
+                }, {
+                    name: 'text-effect',
+                    children: [
+                        {
+                            route: 'text-outline',
+                        }, {
+                            route: 'image-text',
+                        }, {
+                            route: 'flash-light',
+                        }, {
+                            alias: '文字抖动特效',
+                            route: 'glitch',
+                        }, {
+                            alias: '模糊文本',
+                            route: 'blurry-text',
+                        },
+                    ],
+                }, {
+                    name: 'wrap',
+                    children: [
+                        {
+                            route: 'overflow-wrap',
+                        }, {
+                            route: 'line-clamp-01',
+                        }, {
+                            route: 'line-clamp-02',
+                        },
+                    ],
+                }
+            ]
+        }
+    },
+}
 </script>

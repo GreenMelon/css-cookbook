@@ -1,71 +1,64 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="items"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'border',
-                        instances: [
-                            {
-                                name: 'border-width',
-                                instances: [
-                                    {
-                                        name: '边框宽度可继承',
-                                        route: '/box-model/border/border-width/01'
-                                    }
-                                ]
-                            },{
-                                name: 'border-image',
-                                instances: [
-                                    {
-                                        name: '01',
-                                        route: '/box-model/border/border-image/01'
-                                    },{
-                                        name: '02',
-                                        route: '/box-model/border/border-image/02'
-                                    }
-                                ],
-                            },{
-                                name: 'border-color',
-                                instances: [
-                                    {
-                                        name: '透明边框',
-                                        route: '/visual/background-clip/transparent-border'
-                                    }
-                                ],
-                            }
-                        ]
-                    },{
-                        name: 'padding',
-                        instances: [
-                            {
-                                name: 'padding-left 百分比',
-                                route: '/box-model/padding/left'
-                            }
-                        ]
-                    },{
-                        name: 'clip',
-                        instances: [
-                            {
-                                name: '背景裁切',
-                                route: '/box-model/clip/01'
-                            },{
-                                name: '渐变圆环',
-                                route: '/box-model/clip/circle'
-                            },{
-                                name: 'reverse clip-path with blend-modes',
-                                route: '/box-model/clip/reverse-clip-path-with-blend-modes'
-                            }
-                        ]
-                    },
-                ]
-            }
+export default {
+    data() {
+        return {
+            baseRoute: '/box-model',
+            items: [
+                {
+                    name: 'border',
+                    children: [
+                        {
+                            name: 'border-width',
+                            children: [
+                                {
+                                    alias: '边框宽度可继承',
+                                    route: '01',
+                                },
+                            ],
+                        }, {
+                            name: 'border-image',
+                            children: [
+                                {
+                                    route: '01',
+                                }, {
+                                    route: '02',
+                                },
+                            ],
+                        }
+                    ]
+                }, {
+                    name: 'padding',
+                    children: [
+                        {
+                            alias: 'padding-left 百分比',
+                            route: 'left',
+                        },
+                    ],
+                }, {
+                    name: 'clip',
+                    children: [
+                        {
+                            alias: '背景裁切',
+                            route: '01',
+                        }, {
+                            alias: '渐变圆环',
+                            route: 'circle',
+                        }, {
+                            route: 'reverse-clip-path-with-blend-modes',
+                        },
+                    ],
+                },
+            ],
         }
-    }
+    },
+}
 </script>

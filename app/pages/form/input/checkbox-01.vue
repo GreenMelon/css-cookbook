@@ -77,13 +77,13 @@ input[type=radio] {
                     {
                         type: 'checkbox',
                         value: 1,
-                    },{
+                    }, {
                         type: 'checkbox',
                         value: 2,
-                    },{
+                    }, {
                         type: 'radio',
                         value: 1,
-                    },{
+                    }, {
                         type: 'radio',
                         value: 2,
                     }

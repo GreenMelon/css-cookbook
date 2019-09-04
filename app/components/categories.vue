@@ -1,71 +1,71 @@
 <template>
-    <ul class="list-category mod-categories">
+    <ul class="mod-categories">
         <li
-            v-for="category in categories"
-            :key="category.name"
-            class="item-main"
+            v-for="(category, index) in categories"
+            :key="index"
         >
-            <h2 v-text="category.name"></h2>
-            <ul class="list-instance">
-                <li
-                    v-for="instance in category.instances"
-                    :key="instance.name"
-                    class="item-sub"
-                >
-                    <router-link
-                        v-if="instance.route"
-                        :to="instance.route"
-                        v-text="instance.name">
-                    </router-link>
-                    <div v-else>
-                        <h3 v-text="instance.name"></h3>
-                        <ul class="list-subInstance">
-                            <li
-                                v-for="subInstance in instance.instances"
-                                :key="subInstance.name"
-                            >
-                                <router-link
-                                    :to="subInstance.route"
-                                    v-text="subInstance.name">
-                                </router-link>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
+            <h1
+                v-if="isParent(category)"
+                v-text="category.alias || category.name"
+            />
+
+            <categories
+                v-if="isParent(category)"
+                :base-route="getBaseRoute(category)"
+                :categories="category.children"
+            />
+
+            <router-link
+                v-if="!isParent(category)"
+                :to="getRoute(category)"
+                v-text="getRouteName(category)"
+            />
         </li>
     </ul>
 </template>
 
 <script>
-    import Vue from 'vue';
+import Vue from 'vue';
 
-    const Categories = Vue.extend({
-        props: {
-            categories: {
-                type: Array,
-                default: [],
-            }
+const categories = Vue.extend({
+    props: {
+        baseRoute: {
+            type: String,
+            default: '',
         },
-        data() {
-            return {}
+
+        categories: {
+            type: Array,
+            default: [],
         },
-        methods: {},
-        mounted() {},
-    });
+    },
 
-    Vue.component('categories', Categories);
+    methods: {
+        isParent(c) {
+            return c.children;
+        },
 
-    export default Categories;
+        getBaseRoute(c) {
+            return `${this.baseRoute}/${c.name}`;
+        },
 
+        getRoute(c) {
+            return `${this.baseRoute}/${c.route}`;
+        },
+
+        getRouteName(c) {
+            return c.alias || c.route;
+        },
+    },
+});
+
+Vue.component('categories', categories);
+
+export default categories;
 </script>
 
 <style lang="less">
-.list-category,
-.list-category li,
-.list-instance,
-.list-instance li {
-    font-size: 20px;
-    list-style: none;
+.mod-categories {
+    margin-left: 50px;
 }
 </style>

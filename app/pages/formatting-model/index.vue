@@ -1,60 +1,59 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="items"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'align',
-                        instances: [
-                            {
-                                name: '垂直对齐',
-                                route: '/formatting-model/align/vertical-align'
-                            }
-                        ]
-                    },{
-                        name: 'column',
-                        instances: [
-                            {
-                                name: 'column-count',
-                                route: '/formatting-model/column/column-count'
-                            }
-                        ]
-                    },{
-                        name: 'flex',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/formatting-model/flex/01'
-                            }
-                        ]
-                    },{
-                        name: 'grid',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/formatting-model/grid/01'
-                            }
-                        ]
-                    },{
-                        name: 'shape',
-                        instances: [
-                            {
-                                name: 'circle',
-                                route: '/formatting-model/shape/circle'
-                            },{
-                                name: 'polygon',
-                                route: '/formatting-model/shape/polygon'
-                            }
-                        ]
-                    },
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/formatting-model',
+            items: [
+                {
+                    name: 'align',
+                    children: [
+                        {
+                            alias: '垂直对齐',
+                            route: 'vertical-align',
+                        },
+                    ],
+                }, {
+                    name: 'column',
+                    children: [
+                        {
+                            route: 'column-count',
+                        },
+                    ],
+                }, {
+                    name: 'flex',
+                    children: [
+                        {
+                            route: '01'
+                        },
+                    ],
+                }, {
+                    name: 'grid',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'shape',
+                    children: [
+                        {
+                            route: 'circle',
+                        }, {
+                            route: 'polygon',
+                        },
+                    ],
+                },
+            ],
+        }
+    },
+}
 </script>
