@@ -2,7 +2,7 @@
     <main>
         <categories
             :base-route="baseRoute"
-            :categories="items"
+            :categories="categories"
         />
     </main>
 </template>
@@ -12,7 +12,7 @@ export default {
     data() {
         return {
             baseRoute: 'pointerevents',
-            items: [
+            categories: [
                 {
                     name: 'pointer-events',
                     children: [
