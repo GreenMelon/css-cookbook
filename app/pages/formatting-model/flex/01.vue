@@ -48,23 +48,23 @@
                         className: 'flex-start',
                         color: 'tomato',
                         items: [1, 2, 3, 4, 5],
-                    },{
+                    }, {
                         className: 'flex-end',
                         color: 'gold',
                         items: [1, 2, 3, 4, 5],
-                    },{
+                    }, {
                         className: 'center',
                         color: 'deepskyblue',
                         items: [1, 2, 3, 4, 5],
-                    },{
+                    }, {
                         className: 'space-between',
                         color: 'lightgreen',
                         items: [1, 2, 3, 4, 5],
-                    },{
+                    }, {
                         className: 'space-around',
                         color: 'hotpink',
                         items: [1, 2, 3, 4, 5],
-                    },{
+                    }, {
                         className: 'space-evenly',
                         color: 'crimson',
                         items: [1, 2, 3, 4, 5],

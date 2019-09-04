@@ -20,7 +20,7 @@ const Li = () => import('../pages/element/li/01');
 const Progress = () => import('../pages/element/progress/01');
 
 const SelectorIndex = () => import('../pages/selector/index');
-const Specificity = () => import('../pages/selector/specificity');
+const Specificity01 = () => import('../pages/selector/specificity/01');
 const AttrSelector01 = () => import('../pages/selector/attr/01');
 const SelectionSelector01 = () => import('../pages/selector/selection/01');
 const BeforeAttr = () => import('../pages/selector/before/attr');
@@ -79,8 +79,8 @@ const TextFillColor = () => import('../pages/typographic/text/text-fill-color');
 const TextStroke = () => import('../pages/typographic/text/text-stroke');
 const TextTransform = () => import('../pages/typographic/text/text-transform');
 const WritingMode = () => import('../pages/typographic/text/writing-mode');
-const TextDecoration01 = () => import('../pages/typographic/text/text-decoration/01');
-const TextDecoration02 = () => import('../pages/typographic/text/text-decoration/02');
+const TextDecoration01 = () => import('../pages/typographic/text-decoration/01');
+const TextDecoration02 = () => import('../pages/typographic/text-decoration/02');
 const TextOutline = () => import('../pages/typographic/text-effect/text-outline');
 const ImageText = () => import('../pages/typographic/text-effect/image-text');
 const FlashLight = () => import('../pages/typographic/text-effect/flash-light');
@@ -156,7 +156,7 @@ const Loading = () => import('../pages/animation/rotate/loading');
 const RotateAnimation = () => import('../pages/animation/rotate/01');
 
 const TableIndex = () => import('../pages/table/index');
-const TableLayoutIndex = () => import('../pages/table/table-layout/index');
+const TableLayout01 = () => import('../pages/table/table-layout/01');
 
 const FormIndex = () => import('../pages/form/index');
 const Autocomplete = () => import('../pages/form/autocomplete/01');
@@ -205,7 +205,7 @@ export default [
     {
         path: '/',
         redirect: '/index'
-    },{
+    }, {
         path: '/index',
         component: Index
     },
@@ -213,37 +213,37 @@ export default [
     {
         path: '/element',
         component: ElementIndex
-    },{
+    }, {
         path: '/element/a/01',
         component: A
-    },{
+    }, {
         path: '/element/dialog/01',
         component: Dialog
-    },{
+    }, {
         path: '/element/video/01',
         component: Video01
-    },{
+    }, {
         path: '/element/video/gif',
         component: VideoGif
-    },{
+    }, {
         path: '/element/video/mse',
         component: VideoMse
-    },{
+    }, {
         path: '/element/image/srcset',
         component: Srcset
-    },{
+    }, {
         path: '/element/image/sizes',
         component: Sizes
-    },{
+    }, {
         path: '/element/image/usemap',
         component: Usemap
-    },{
+    }, {
         path: '/element/image/image-set',
         component: ImageSet
-    },{
+    }, {
         path: '/element/li/01',
         component: Li
-    },{
+    }, {
         path: '/element/progress/01',
         component: Progress
     },
@@ -251,85 +251,85 @@ export default [
     {
         path: '/selector',
         component: SelectorIndex
-    },{
-        path: '/selector/specificity',
-        component: Specificity
-    },{
+    }, {
+        path: '/selector/specificity/01',
+        component: Specificity01
+    }, {
         path: '/selector/attr/01',
         component: AttrSelector01
-    },{
+    }, {
         path: '/selector/focus-within/01',
         component: FocusWithin,
-    },{
+    }, {
         path: '/selector/focus-visible/01',
         component: FocusVisible,
-    },{
+    }, {
         path: '/selector/read-only/01',
         component: ReadOnly,
-    },{
+    }, {
         path: '/selector/read-write/01',
         component: ReadWrite,
-    },{
+    }, {
         path: '/selector/selection/01',
         component: SelectionSelector01
-    },{
+    }, {
         path: '/selector/before/attr',
         component: BeforeAttr
-    },{
+    }, {
         path: '/selector/before/quotes',
         component: Quotes
-    },{
+    }, {
         path: '/selector/before/broken-image',
         component: BrokenImage
-    },{
+    }, {
         path: '/selector/before/jiu-gong',
         component: JiuGong
-    },{
+    }, {
         path: '/selector/before/counter',
         component: Counter1
-    },{
+    }, {
         path: '/selector/before/pointer-events',
         component: PointerEvents
-    },{
+    }, {
         path: '/selector/before/input',
         component: BeforeInput
-    },{
+    }, {
         path: '/selector/form/password',
         component: Password
-    },{
+    }, {
         path: '/selector/before/border-corner-shape',
         component: BorderCornerShape
-    },{
+    }, {
         path: '/selector/before/scalable-table',
         component: ScalableTable
-    },{
+    }, {
         path: '/selector/after/01',
         component: After01
-    },{
+    }, {
         path: '/selector/default/01',
         component: DefaultSelector01
-    },{
+    }, {
         path: '/selector/first-line/01',
         component: FirstLineSelector
-    },{
+    }, {
         path: '/selector/first-letter/01',
         component: FirstLetterSelector
-    },{
+    }, {
         path: '/selector/empty/01',
         component: Empty
-    },{
+    }, {
         path: '/selector/indeterminate/01',
         component: Indeterminate01
-    },{
+    }, {
         path: '/selector/placeholder-shown/01',
         component: PlaceholderShown01
-    },{
+    }, {
         path: '/selector/matches/01',
         component: Matches01
-    },{
+    }, {
         path: '/selector/blank/01',
         component: Blank01
-    },{
+    }, {
         path: '/selector/user-invalid/01',
         component: UserInvalid01
     },
@@ -337,22 +337,22 @@ export default [
     {
         path: '/formatting-model',
         component: FormattingModelIndex
-    },{
+    }, {
         path: '/formatting-model/column/column-count',
         component: ColumnCount
-    },{
+    }, {
         path: '/formatting-model/align/vertical-align',
         component: VerticalAlign
-    },{
+    }, {
         path: '/formatting-model/flex/01',
         component: Flex01
-    },{
+    }, {
         path: '/formatting-model/grid/01',
         component: Grid01
-    },{
+    }, {
         path: '/formatting-model/shape/circle',
         component: ShapeCircle
-    },{
+    }, {
         path: '/formatting-model/shape/polygon',
         component: ShapePolygon
     },
@@ -360,25 +360,25 @@ export default [
     {
         path: '/box-model',
         component: BoxModelIndex
-    },{
+    }, {
         path: '/box-model/border/border-width/01',
         component: BorderWidth01
-    },{
+    }, {
         path: '/box-model/border/border-image/01',
         component: BorderImage01
-    },{
+    }, {
         path: '/box-model/border/border-image/02',
         component: BorderImage02
-    },{
+    }, {
         path: '/box-model/padding/left',
         component: PaddingLeft
-    },{
+    }, {
         path: '/box-model/clip/01',
         component: Clip01
-    },{
+    }, {
         path: '/box-model/clip/circle',
         component: GradientCircle03
-    },{
+    }, {
         path: '/box-model/clip/reverse-clip-path-with-blend-modes',
         component: BackgroundBlendModes
     },
@@ -386,64 +386,64 @@ export default [
     {
         path: '/typographic',
         component: TypographicIndex
-    },{
+    }, {
         path: '/typographic/font/font-family',
         component: FontFamily
-    },{
+    }, {
         path: '/typographic/font/font-smoothing',
         component: FontSmoothing
-    },{
+    }, {
         path: '/typographic/wrap/overflow-wrap',
         component: OverflowWrap
-    },{
+    }, {
         path: '/typographic/wrap/line-clamp-01',
         component: LineClamp01
-    },{
+    }, {
         path: '/typographic/wrap/line-clamp-02',
         component: LineClamp02
-    },{
+    }, {
         path: '/typographic/text/text-align',
         component: TextAlign
-    },{
+    }, {
         path: '/typographic/text/text-align-justify',
         component: TextAlignJustify
-    },{
+    }, {
         path: '/typographic/text/text-shadow',
         component: TextShadow
-    },{
+    }, {
         path: '/typographic/text/text-shadow-llluminate',
         component: TextShadowLlluminate
-    },{
+    }, {
         path: '/typographic/text/text-fill-color',
         component: TextFillColor
-    },{
+    }, {
         path: '/typographic/text/text-stroke',
         component: TextStroke
-    },{
+    }, {
         path: '/typographic/text/text-transform',
         component: TextTransform
-    },{
+    }, {
         path: '/typographic/text/writing-mode',
         component: WritingMode
-    },{
-        path: '/typographic/text/text-decoration/01',
+    }, {
+        path: '/typographic/text-decoration/01',
         component: TextDecoration01
-    },{
-        path: '/typographic/text/text-decoration/02',
+    }, {
+        path: '/typographic/text-decoration/02',
         component: TextDecoration02
-    },{
+    }, {
         path: '/typographic/text-effect/text-outline',
         component: TextOutline
-    },{
+    }, {
         path: '/typographic/text-effect/image-text',
         component: ImageText
-    },{
+    }, {
         path: '/typographic/text-effect/flash-light',
         component: FlashLight
-    },{
+    }, {
         path: '/typographic/text-effect/glitch',
         component: Glitch
-    },{
+    }, {
         path: '/typographic/text-effect/blurry-text',
         component: BlurryText
     },
@@ -451,160 +451,160 @@ export default [
     {
         path: '/visual',
         component: VisualIndex
-    },{
+    }, {
         path: '/visual/border-radius/01',
         component: BorderRadius01
-    },{
+    }, {
         path: '/visual/border-radius/infinity',
         component: Infinity
-    },{
+    }, {
         path: '/visual/border-radius/wave',
         component: Wave
-    },{
+    }, {
         path: '/visual/outline/01',
         component: Outline01
-    },{
+    }, {
         path: '/visual/outline/outline-offset',
         component: OutlineOffset
-    },{
+    }, {
         path: '/visual/outline/outline-radius',
         component: OutlineRadius
-    },{
+    }, {
         path: '/visual/outline/outline-style',
         component: OutlineStyle
-    },{
+    }, {
         path: '/visual/box-shadow/loading.01',
         component: VisualBoxShadowLoading1
-    },{
+    }, {
         path: '/visual/box-shadow/loading.02',
         component: VisualBoxShadowLoading2
-    },{
+    }, {
         path: '/visual/box-shadow/moon',
         component: Moon
-    },{
+    }, {
         path: '/visual/box-shadow/multi-border',
         component: MultiBorder
-    },{
+    }, {
         path: '/visual/box-shadow/pointer-events',
         component: BoxShadowPpointerEvents
-    },{
+    }, {
         path: '/visual/box-shadow/monalisa',
         component: Monalisa
-    },{
+    }, {
         path: '/visual/box-shadow/emphasize',
         component: Emphasize
-    },{
+    }, {
         path: '/visual/box-shadow/bulb',
         component: Bulb
-    },{
+    }, {
         path: '/visual/background/01',
         component: Background01
-    },{
+    }, {
         path: '/visual/background-color/01',
         component: BackgroundColor01
-    },{
+    }, {
         path: '/visual/background-image/01',
         component: BackgroundImage01
-    },{
+    }, {
         path: '/visual/background-position/01',
         component: BackgroundPosition01
-    },{
+    }, {
         path: '/visual/background-clip/01',
         component: BackgroundClip01
-    },{
+    }, {
         path: '/visual/background-repeat/01',
         component: BackgroundRepeat01
-    },{
+    }, {
         path: '/visual/background-clip/transparent-border',
         component: TransparentBorder
-    },{
+    }, {
         path: '/visual/background-clip/text',
         component: BackgroundClipText
-    },{
+    }, {
         path: '/visual/background-size/chessboard',
         component: Chessboard01
-    },{
+    }, {
         path: '/visual/background-attachment/01',
         component: backgroundAttachment01
-    },{
+    }, {
         path: '/visual/background-blend-mode/01',
         component: BackgroundBlendMode01
-    },{
+    }, {
         path: '/visual/linear-gradient/01',
         component: LinearGradient01
-    },{
+    }, {
         path: '/visual/linear-gradient/02',
         component: LinearGradient02
-    },{
+    }, {
         path: '/visual/linear-gradient/03',
         component: LinearGradient03
-    },{
+    }, {
         path: '/visual/linear-gradient/animation-01',
         component: LinearGradientAnimation01
-    },{
+    }, {
         path: '/visual/linear-gradient/animation-02',
         component: LinearGradientAnimation02
-    },{
+    }, {
         path: '/visual/linear-gradient/waveline',
         component: Waveline
-    },{
+    }, {
         path: '/visual/linear-gradient/circle',
         component: GradientCircle02
-    },{
+    }, {
         path: '/visual/linear-gradient/flash-image-effect',
         component: FlashImageEffect
-    },{
+    }, {
         path: '/visual/repeating-linear-gradient/01',
         component: RepeatingLinearGradient01
-    },{
+    }, {
         path: '/visual/radial-gradient/01',
         component: RadialGradient01
-    },{
+    }, {
         path: '/visual/radial-gradient/02',
         component: RadialGradient02
-    },{
+    }, {
         path: '/visual/conic-gradient/01',
         component: ConicGradient01
-    },{
+    }, {
         path: '/visual/conic-gradient/chessboard',
         component: Chessboard02
-    },{
+    }, {
         path: '/visual/conic-gradient/circle',
         component: GradientCircle01
-    },{
+    }, {
         path: '/visual/box-reflect/01',
         component: BoxReflect01
-    },{
+    }, {
         path: '/visual/cursor/01',
         component: Cursor01
-    },{
+    }, {
         path: '/visual/filter/all-effects',
         component: AllEffectsFilter
-    },{
+    }, {
         path: '/visual/filter/svg-filter',
         component: SvgFilter
-    },{
+    }, {
         path: '/visual/filter/drop-shadow',
         component: DropShadowFilter
-    },{
+    }, {
         path: '/visual/filter/gradient-shadow',
         component: GradientShadowFilter
-    },{
+    }, {
         path: '/visual/filter/frosted-glass',
         component: FrostedGlass
-    },{
+    }, {
         path: '/visual/filter/alpha',
         component: Alpha
-    },{
+    }, {
         path: '/visual/filter/fusion',
         component: FusionFilter
-    },{
+    }, {
         path: '/visual/mask-image/01',
         component: MaskImage01
-    },{
+    }, {
         path: '/visual/mask-image/02',
         component: MaskImage02
-    },{
+    }, {
         path: '/visual/visibility/01',
         component: Visibility01
     },
@@ -612,28 +612,28 @@ export default [
     {
         path: '/transform',
         component: TransformIndex
-    },{
+    }, {
         path: '/transform/rotate/pie',
         component: Pie
-    },{
+    }, {
         path: '/transform/rotateX/3d-button',
         component: Transform3DButton,
-    },{
+    }, {
         path: '/transform/rotateY/01',
         component: RotateY01
-    },{
+    }, {
         path: '/transform/rotateY/02',
         component: RotateY02
-    },{
+    }, {
         path: '/transform/rotateZ/hamburger-menu',
         component: HamburgerMenu
-    },{
+    }, {
         path: '/transform/skew/parallelogram',
         component: Parallelogram
-    },{
+    }, {
         path: '/transform/scaleX/underline-animation',
         component: UnderlineAnimation
-    },{
+    }, {
         path: '/transform/translate3d/01',
         component: Translate3d01
     },
@@ -641,10 +641,10 @@ export default [
     {
         path: '/animation',
         component: AnimationIndex
-    },{
+    }, {
         path: '/animation/rotate/loading',
         component: Loading
-    },{
+    }, {
         path: '/animation/rotate/01',
         component: RotateAnimation
     },
@@ -652,39 +652,39 @@ export default [
     {
         path: '/table',
         component: TableIndex
-    },{
-        path: '/table/table-layout',
-        component: TableLayoutIndex
+    }, {
+        path: '/table/table-layout/01',
+        component: TableLayout01
     },
 
     {
         path: '/form.',
         component: FormIndex
-    },{
+    }, {
         path: '/form./autocomplete/01',
         component: Autocomplete
-    },{
+    }, {
         path: '/form./cancel-button/01',
         component: CancelButton
-    },{
+    }, {
         path: '/form./cursor/01',
         component: FormCursor
-    },{
+    }, {
         path: '/form./input/checkbox-01',
         component: Checkbox01
-    },{
+    }, {
         path: '/form./input/checkbox-02',
         component: Checkbox02
-    },{
+    }, {
         path: '/form./input/checkbox-03',
         component: Checkbox03
-    },{
+    }, {
         path: '/form./input/number',
         component: NumberInput
-    },{
+    }, {
         path: '/form./input/file',
         component: FileInput
-    },{
+    }, {
         path: '/form./spellcheck/01',
         component: Spellcheck
     },
@@ -692,93 +692,93 @@ export default [
     {
         path: '/pointerevents',
         component: PointerEventsIndex
-    },{
-        path: '/pointer-events/01',
+    }, {
+        path: '/pointerevents/pointer-events/01',
         component: PointerEvents01
-    },{
-        path: '/touch-action/01',
+    }, {
+        path: '/pointerevents/touch-action/01',
         component: TouchAction01
     },
 
     {
         path: '/instances',
         component: InstancesIndex
-    },{
+    }, {
         path: '/instances/css-doodle/01',
         component: CssDoodle01
-    },{
+    }, {
         path: '/instances/css-doodle/02',
         component: CssDoodle02
-    },{
+    }, {
         path: '/instances/css-doodle/03',
         component: CssDoodle03
-    },{
+    }, {
         path: '/instances/css-doodle/04',
         component: CssDoodle04
-    },{
+    }, {
         path: '/instances/css-doodle/05',
         component: CssDoodle05
-    },{
+    }, {
         path: '/instances/css-doodle/06',
         component: CssDoodle06
-    },{
+    }, {
         path: '/instances/css-doodle/07',
         component: CssDoodle07
-    },{
+    }, {
         path: '/instances/creative/float-center',
         component: FloatCenter
-    },{
+    }, {
         path: '/instances/creative/hexagon',
         component: Hexagon
-    },{
+    }, {
         path: '/instances/creative/tai-chi',
         component: TaiChi
-    },{
+    }, {
         path: '/instances/creative/animated-weather-icons',
         component: AnimatedWeatherIcons
-    },{
+    }, {
         path: '/instances/creative/animated-book',
         component: AnimatedBook
-    },{
+    }, {
         path: '/instances/creative/heart-beat',
         component: HeartBeat
-    },{
+    }, {
         path: '/instances/creative/ribbon/alphabet',
         component: RibbonAlphabet
-    },{
+    }, {
         path: '/instances/creative/ribbon/name',
         component: RibbonName
-    },{
+    }, {
         path: '/instances/creative/ribbon/card',
         component: RibbonCard
-    },{
+    }, {
         path: '/instances/creative/text-animation',
         component: TextAnimation
-    },{
+    }, {
         path: '/instances/loader/01',
         component: Loader01
-    },{
+    }, {
         path: '/instances/loader/02',
         component: Loader02
-    },{
+    }, {
         path: '/instances/other/color',
         component: Color
-    },{
+    }, {
         path: '/instances/other/accordion',
         component: Accordion
-    },{
+    }, {
         path: '/instances/other/suspend-bar',
         component: SuspendBar
-    },{
+    }, {
         path: '/instances/other/lavalamp-menu',
         component: LavalampMenu
-    },{
+    }, {
         path: '/instances/other/callout',
         component: Callout
-    },{
+    }, {
         path: '/instances/other/get-style',
         component: GetStyle
-    },{
+    }, {
         path: '/instances/other/ant-line',
         component: AntLine
     },

@@ -74,34 +74,34 @@
                     {
                         name: '原图',
                         value: 'normal'
-                    },{
+                    }, {
                         name: '灰度',
                         value: 'grayscale'
-                    },{
+                    }, {
                         name: '怀旧',
                         value: 'sepia'
-                    },{
+                    }, {
                         name: '色相旋转',
                         value: 'hue-rotate'
-                    },{
+                    }, {
                         name: '饱和度',
                         value: 'saturate'
-                    },{
+                    }, {
                         name: '亮度',
                         value: 'brightness'
-                    },{
+                    }, {
                         name: '反色',
                         value: 'invert'
-                    },{
+                    }, {
                         name: '透明度',
                         value: 'opacity'
-                    },{
+                    }, {
                         name: '对比度',
                         value: 'contrast'
-                    },{
+                    }, {
                         name: '模糊',
                         value: 'blur'
-                    },{
+                    }, {
                         name: '阴影',
                         value: 'drop-shadow'
                     }

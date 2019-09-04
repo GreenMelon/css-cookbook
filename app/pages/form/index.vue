@@ -1,69 +1,64 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="items"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'autocomplete',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/form./autocomplete/01'
-                            }
-                        ]
-                    },{
-                        name: 'cancel-button',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/form./cancel-button/01'
-                            }
-                        ]
-                    },{
-                        name: 'cursor',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/form./cursor/01'
-                            }
-                        ]
-                    },{
-                        name: 'input',
-                        instances: [
-                            {
-                                name: 'checkbox 01',
-                                route: '/form./input/checkbox-01'
-                            },{
-                                name: 'checkbox 02',
-                                route: '/form./input/checkbox-02'
-                            },{
-                                name: 'checkbox 03',
-                                route: '/form./input/checkbox-03'
-                            },{
-                                name: 'number',
-                                route: '/form./input/number'
-                            },{
-                                name: 'file',
-                                route: '/form./input/file'
-                            }
-                        ]
-                    },{
-                        name: 'spellcheck',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/form./spellcheck/01'
-                            }
-                        ]
-                    },
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/form.',
+            items: [
+                {
+                    name: 'autocomplete',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'cancel-button',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'cursor',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'input',
+                    children: [
+                        {
+                            route: 'checkbox-01',
+                        }, {
+                            route: 'checkbox-02',
+                        }, {
+                            route: 'checkbox-03',
+                        }, {
+                            route: 'number',
+                        }, {
+                            route: 'file',
+                        },
+                    ],
+                }, {
+                    name: 'spellcheck',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                },
+            ],
+        }
+    },
+}
 </script>

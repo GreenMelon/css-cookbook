@@ -1,193 +1,192 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="items"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'specificity',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/specificity'
-                            }
-                        ]
-                    },{
-                        name: '[attr]',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/attr/01'
-                            }
-                        ]
-                    },{
-                        name: '::selection',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/selection/01'
-                            }
-                        ]
-                    },{
-                        name: '::before',
-                        instances: [
-                            {
-                                name: 'attr',
-                                route: '/selector/before/attr'
-                            },{
-                                name: 'quotes',
-                                route: '/selector/before/quotes'
-                            },{
-                                name: 'broken-image',
-                                route: '/selector/before/broken-image'
-                            },{
-                                name: '九宫格',
-                                route: '/selector/before/jiu-gong'
-                            },{
-                                name: '计数器',
-                                route: '/selector/before/counter'
-                            },{
-                                name: '扩大点击区域',
-                                route: '/selector/before/pointer-events'
-                            },{
-                                name: 'input',
-                                route: '/selector/before/input'
-                            },{
-                                name: '内凹圆角',
-                                route: '/selector/before/border-corner-shape'
-                            },{
-                                name: '自适应布局表格',
-                                route: '/selector/before/scalable-table'
-                            }
-                        ]
-                    },{
-                        name: '::after',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/after/01'
-                            }
-                        ]
-                    },{
-                        name: '::first-line',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/first-line/01'
-                            }
-                        ]
-                    },{
-                        name: '::first-letter',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/first-letter/01'
-                            }
-                        ]
-                    },{
-                        name: ':empty',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/empty/01'
-                            }
-                        ]
-                    },{
-                        name: ':default',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/default/01'
-                            }
-                        ]
-                    },{
-                        name: ':focus-within',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/focus-within/01'
-                            }
-                        ]
-                    },{
-                        name: ':focus-visible',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/focus-visible/01'
-                            }
-                        ]
-                    },{
-                        name: ':read-only',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/read-only/01'
-                            }
-                        ]
-                    },{
-                        name: ':read-write',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/read-write/01'
-                            }
-                        ]
-                    },{
-                        name: 'form',
-                        instances: [
-                            {
-                                name: '使用属性选择器获取用户密码',
-                                route: '/selector/form/password'
-                            }
-                        ]
-                    },{
-                        name: 'indeterminate',
-                        instances: [
-                            {
-                                name: '表单控件状态',
-                                route: '/selector/indeterminate/01'
-                            }
-                        ]
-                    },{
-                        name: 'placeholder-shown',
-                        instances: [
-                            {
-                                name: '显示占位符',
-                                route: '/selector/placeholder-shown/01'
-                            }
-                        ]
-                    },{
-                        name: 'matches',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/matches/01'
-                            }
-                        ]
-                    },{
-                        name: ':blank',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/blank/01'
-                            }
-                        ]
-                    },{
-                        name: ':user-invalid',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/selector/user-invalid/01'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/selector',
+            items: [
+                {
+                    name: 'specificity',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'attr',
+                    alias: '[attr]',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'selection',
+                    alias: '::selection',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'before',
+                    alias: '::before',
+                    children: [
+                        {
+                            route: 'attr',
+                        }, {
+                            route: 'quotes',
+                        }, {
+                            route: 'broken-image',
+                        }, {
+                            alias: '九宫格',
+                            route: 'jiu-gong',
+                        }, {
+                            alias: '计数器',
+                            route: 'counter',
+                        }, {
+                            alias: '扩大点击区域',
+                            route: 'pointer-events',
+                        }, {
+                            route: 'input',
+                        }, {
+                            alias: '内凹圆角',
+                            route: 'border-corner-shape',
+                        }, {
+                            alias: '自适应布局表格',
+                            route: 'scalable-table',
+                        },
+                    ],
+                }, {
+                    name: 'after',
+                    alias: '::after',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'first-line',
+                    alias: '::first-line',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'first-letter',
+                    alias: '::first-letter',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'empty',
+                    alias: ':empty',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'default',
+                    alias: ':default',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'focus-within',
+                    alias: ':focus-within',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'focus-visible',
+                    alias: ':focus-visible',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'read-only',
+                    alias: ':read-only',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'read-write',
+                    alias: ':read-write',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'form',
+                    children: [
+                        {
+                            alias: '使用属性选择器获取用户密码',
+                            route: 'password',
+                        },
+                    ],
+                }, {
+                    name: 'indeterminate',
+                    children: [
+                        {
+                            alias: '表单控件状态',
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'placeholder-shown',
+                    children: [
+                        {
+                            alias: '显示占位符',
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'matches',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'blank',
+                    alias: ':blank',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'user-invalid',
+                    alias: ':user-invalid',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                },
+            ],
+        }
+    },
+}
 </script>

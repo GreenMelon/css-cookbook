@@ -1,115 +1,106 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="items"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'css-doodle',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/instances/css-doodle/01'
-                            },{
-                                name: '02',
-                                route: '/instances/css-doodle/02'
-                            },{
-                                name: '03',
-                                route: '/instances/css-doodle/03'
-                            },{
-                                name: '04',
-                                route: '/instances/css-doodle/04'
-                            },{
-                                name: '05',
-                                route: '/instances/css-doodle/05'
-                            },{
-                                name: '06',
-                                route: '/instances/css-doodle/06'
-                            },{
-                                name: '07',
-                                route: '/instances/css-doodle/07'
-                            }
-                        ]
-                    },{
-                        name: 'creative',
-                        instances: [
-                            {
-                                name: '两列排版的文章',
-                                route: '/instances/creative/float-center'
-                            },{
-                                name: '六边形',
-                                route: '/instances/creative/hexagon'
-                            },{
-                                name: '太极',
-                                route: '/instances/creative/tai-chi'
-                            },{
-                                name: 'animated-weather-icons',
-                                route: '/instances/creative/animated-weather-icons'
-                            },{
-                                name: 'animated-book',
-                                route: '/instances/creative/animated-book'
-                            },{
-                                name: 'heart-beat',
-                                route: '/instances/creative/heart-beat'
-                            },{
-                                name: 'ribbon alphabet',
-                                route: '/instances/creative/ribbon/alphabet'
-                            },{
-                                name: 'ribbon name',
-                                route: '/instances/creative/ribbon/name'
-                            },{
-                                name: 'ribbon card',
-                                route: '/instances/creative/ribbon/card'
-                            },{
-                                name: 'text-animation',
-                                route: '/instances/creative/text-animation'
-                            }
-                        ]
-                    },{
-                        name: 'loader',
-                        instances: [
-                            {
-                                name: '圆点渐变色',
-                                route: '/instances/loader/01'
-                            },{
-                                name: '旋转彩虹',
-                                route: '/instances/loader/02'
-                            }
-                        ]
-                    },{
-                        name: 'other',
-                        instances: [
-                            {
-                                name: 'color',
-                                route: '/instances/other/color'
-                            },{
-                                name: '手风琴式导航',
-                                route: '/instances/other/accordion'
-                            },{
-                                name: '悬挂条导航',
-                                route: '/instances/other/suspend-bar'
-                            },{
-                                name: 'lavalamp-menu',
-                                route: '/instances/other/lavalamp-menu'
-                            },{
-                                name: '弹出提示框',
-                                route: '/instances/other/callout'
-                            },{
-                                name: 'JS 中获取 CSS 值',
-                                route: '/instances/other/get-style'
-                            },{
-                                name: '蚂蚁线',
-                                route: '/instances/other/ant-line'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/instances',
+            items: [
+                {
+                    name: 'css-doodle',
+                    children: [
+                        {
+                            route: '01'
+                        }, {
+                            route: '02'
+                        }, {
+                            route: '03'
+                        }, {
+                            route: '04'
+                        }, {
+                            route: '05'
+                        }, {
+                            route: '06'
+                        }, {
+                            route: '07'
+                        }
+                    ],
+                }, {
+                    name: 'creative',
+                    children: [
+                        {
+                            alias: '两列排版的文章',
+                            route: 'float-center',
+                        }, {
+                            alias: '六边形',
+                            route: 'hexagon',
+                        }, {
+                            alias: '太极',
+                            route: 'tai-chi',
+                        }, {
+                            route: 'animated-weather-icons',
+                        }, {
+                            route: 'animated-book',
+                        }, {
+                            route: 'heart-beat',
+                        }, {
+                            alias: 'ribbon alphabet',
+                            route: 'ribbon/alphabet',
+                        }, {
+                            alias: 'ribbon name',
+                            route: 'ribbon/name',
+                        }, {
+                            alias: 'ribbon card',
+                            route: 'ribbon/card',
+                        }, {
+                            route: 'text-animation',
+                        },
+                    ],
+                }, {
+                    name: 'loader',
+                    children: [
+                        {
+                            alias: '圆点渐变色',
+                            route: '01',
+                        }, {
+                            alias: '旋转彩虹',
+                            route: '02',
+                        },
+                    ],
+                }, {
+                    name: 'other',
+                    children: [
+                        {
+                            route: 'color',
+                        }, {
+                            aliasname: '手风琴式导航',
+                            route: 'accordion',
+                        }, {
+                            alias: '悬挂条导航',
+                            route: 'suspend-bar',
+                        }, {
+                            route: 'lavalamp-menu',
+                        }, {
+                            alias: '弹出提示框',
+                            route: 'callout',
+                        }, {
+                            alias: 'JS 中获取 CSS 值',
+                            route: 'get-style',
+                        }, {
+                            alias: '蚂蚁线',
+                            route: 'ant-line',
+                        },
+                    ],
+                }
+            ],
+        }
+    },
+}
 </script>
