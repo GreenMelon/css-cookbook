@@ -48,8 +48,10 @@ export default {
                     name: 'text-decoration',
                     children: [
                         {
+                            alias: 'pseudo underlines',
                             route: '01',
                         }, {
+                            alias: '可配置项',
                             route: '02',
                         },
                     ],
