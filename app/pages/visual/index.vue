@@ -164,9 +164,6 @@ export default {
                             alias: '渐变动画 02',
                             route: 'animation-02',
                         }, {
-                            alias: '波浪线',
-                            route: 'waveline',
-                        }, {
                             alias: '渐变圆环',
                             route: 'circle',
                         }, {

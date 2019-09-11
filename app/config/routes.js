@@ -119,7 +119,6 @@ const LinearGradient02 = () => import('../pages/visual/linear-gradient/02');
 const LinearGradient03 = () => import('../pages/visual/linear-gradient/03');
 const LinearGradientAnimation01 = () => import('../pages/visual/linear-gradient/animation-01');
 const LinearGradientAnimation02 = () => import('../pages/visual/linear-gradient/animation-02');
-const Waveline = () => import('../pages/visual/linear-gradient/waveline');
 const GradientCircle02 = () => import('../pages/visual/linear-gradient/circle');
 const FlashImageEffect = () => import('../pages/visual/linear-gradient/flash-image-effect');
 const RepeatingLinearGradient01 = () => import('../pages/visual/repeating-linear-gradient/01');
@@ -544,9 +543,6 @@ export default [
     }, {
         path: '/visual/linear-gradient/animation-02',
         component: LinearGradientAnimation02
-    }, {
-        path: '/visual/linear-gradient/waveline',
-        component: Waveline
     }, {
         path: '/visual/linear-gradient/circle',
         component: GradientCircle02
