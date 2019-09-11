@@ -1,4 +1,6 @@
 <style lang="less" scoped>
+@color: #007dd4;
+
 main {
     display: flex;
     justify-content: center;
@@ -19,7 +21,7 @@ p::before {
 /* option 1st */
 .border-bottom {
     display: inline-block;
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid @color;
 }
 .border-bottom.close {
     line-height: 0.8;
@@ -29,21 +31,42 @@ p::before {
 .box-shadow {
     box-shadow:
         0 -2px 0 2px white,
-        0 0 0 2px purple
+        0 0 0 2px @color
     ;
 }
 
 /* option 3rd */
 .background-image {
-    background-image: linear-gradient(to bottom, red 33%, transparent 33%);
+    background-image: linear-gradient(to bottom, @color 33%, transparent 33%);
     background-position: 0 1.35em;
     background-repeat: repeat-x;
 }
 .background-image.close {
-    background-image: linear-gradient(to bottom, red 33%, transparent 33%);
+    background-image: linear-gradient(to bottom, @color 33%, transparent 33%);
     background-position: 0 1.1em;
     background-repeat: repeat-x;
     background-size: 2px 6px;
+}
+
+.waveline(@color, @h) {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: @h;
+        background:
+            linear-gradient(135deg, transparent, transparent 45%, @color, transparent 55%, transparent 100%),
+            linear-gradient(45deg, transparent, transparent 45%, @color, transparent 55%, transparent 100%);
+        background-size: @h * 2 @h * 2;
+    }
+}
+
+.linear-gradient {
+    .waveline(@color, 5px);
 }
 </style>
 
@@ -60,6 +83,10 @@ p::before {
         <p class="box-shadow close"></p>
 
         <p class="background-image close"></p>
+
+        <p></p>
+        <p class="linear-gradient"></p>
+        <p></p>
     </main>
 </template>
 
