@@ -108,9 +108,10 @@ const BackgroundColor01 = () => import('../pages/visual/background-color/01');
 const BackgroundImage01 = () => import('../pages/visual/background-image/01');
 const BackgroundPosition01 = () => import('../pages/visual/background-position/01');
 const BackgroundClip01 = () => import('../pages/visual/background-clip/01');
+const BackgroundClip02 = () => import('../pages/visual/background-clip/02');
+const BackgroundClip03 = () => import('../pages/visual/background-clip/03');
+const BackgroundClip04 = () => import('../pages/visual/background-clip/04');
 const BackgroundRepeat01 = () => import('../pages/visual/background-repeat/01');
-const TransparentBorder = () => import('../pages/visual/background-clip/transparent-border');
-const BackgroundClipText = () => import('../pages/visual/background-clip/text');
 const Chessboard01 = () => import('../pages/visual/background-size/chessboard');
 const backgroundAttachment01 = () => import('../pages/visual/background-attachment/01');
 const BackgroundBlendMode01 = () => import('../pages/visual/background-blend-mode/01');
@@ -511,14 +512,17 @@ export default [
         path: '/visual/background-clip/01',
         component: BackgroundClip01
     }, {
+        path: '/visual/background-clip/02',
+        component: BackgroundClip02
+    }, {
+        path: '/visual/background-clip/03',
+        component: BackgroundClip03
+    }, {
+        path: '/visual/background-clip/04',
+        component: BackgroundClip04
+    }, {
         path: '/visual/background-repeat/01',
         component: BackgroundRepeat01
-    }, {
-        path: '/visual/background-clip/transparent-border',
-        component: TransparentBorder
-    }, {
-        path: '/visual/background-clip/text',
-        component: BackgroundClipText
     }, {
         path: '/visual/background-size/chessboard',
         component: Chessboard01
