@@ -116,10 +116,13 @@ export default {
                             route: '01',
                         }, {
                             alias: '透明边框',
-                            route: 'transparent-border',
+                            route: '02',
+                        }, {
+                            alias: '嵌套的渐变背景',
+                            route: '03',
                         }, {
                             alias: '文字背景特效',
-                            route: 'text',
+                            route: '04',
                         },
                     ],
                 }, {
