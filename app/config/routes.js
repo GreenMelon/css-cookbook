@@ -52,7 +52,7 @@ const FormattingModelIndex = () => import('../pages/formatting-model/index');
 const ColumnCount = () => import('../pages/formatting-model/column/column-count');
 const VerticalAlign = () => import('../pages/formatting-model/align/vertical-align');
 const Flex01 = () => import('../pages/formatting-model/flex/01');
-const Grid01 = () => import('../pages/formatting-model/grid/01');
+const FormattingModelGrid01 = () => import('../pages/formatting-model/grid/01');
 const ShapeCircle = () => import('../pages/formatting-model/shape/circle');
 const ShapePolygon = () => import('../pages/formatting-model/shape/polygon');
 
@@ -201,6 +201,9 @@ const Callout = () => import('../pages/instances/other/callout');
 const GetStyle = () => import('../pages/instances/other/get-style');
 const AntLine = () => import('../pages/instances/other/ant-line');
 
+const Grid = () => import('../pages/grid/index');
+const Grid01 = () => import('../pages/grid/01');
+
 export default [
     {
         path: '/',
@@ -348,7 +351,7 @@ export default [
         component: Flex01
     }, {
         path: '/formatting-model/grid/01',
-        component: Grid01
+        component: FormattingModelGrid01
     }, {
         path: '/formatting-model/shape/circle',
         component: ShapeCircle
@@ -781,6 +784,14 @@ export default [
     }, {
         path: '/instances/other/ant-line',
         component: AntLine
+    },
+
+    {
+        path: '/grid',
+        component: Grid
+    }, {
+        path: '/grid/01',
+        component: Grid01
     },
 
     {
