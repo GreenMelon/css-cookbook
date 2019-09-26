@@ -141,6 +141,13 @@ export default {
                         },
                     ],
                 }, {
+                    name: 'mix-blend-mode',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
                     name: 'background-blend-mode',
                     children: [
                         {

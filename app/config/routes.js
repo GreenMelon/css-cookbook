@@ -114,6 +114,7 @@ const BackgroundClip04 = () => import('../pages/visual/background-clip/04');
 const BackgroundRepeat01 = () => import('../pages/visual/background-repeat/01');
 const Chessboard01 = () => import('../pages/visual/background-size/chessboard');
 const backgroundAttachment01 = () => import('../pages/visual/background-attachment/01');
+const MixBlendMode01 = () => import('../pages/visual/mix-blend-mode/01');
 const BackgroundBlendMode01 = () => import('../pages/visual/background-blend-mode/01');
 const LinearGradient01 = () => import('../pages/visual/linear-gradient/01');
 const LinearGradient02 = () => import('../pages/visual/linear-gradient/02');
@@ -532,6 +533,9 @@ export default [
     }, {
         path: '/visual/background-attachment/01',
         component: backgroundAttachment01
+    }, {
+        path: '/visual/mix-blend-mode/01',
+        component: MixBlendMode01
     }, {
         path: '/visual/background-blend-mode/01',
         component: BackgroundBlendMode01
