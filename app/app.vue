@@ -53,6 +53,9 @@
                     }, {
                         name: 'visual',
                         route: '/visual'
+                    }, {
+                        name: 'grid',
+                        route: '/grid'
                     },
                 ]
             }

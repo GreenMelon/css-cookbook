@@ -52,7 +52,7 @@ const FormattingModelIndex = () => import('../pages/formatting-model/index');
 const ColumnCount = () => import('../pages/formatting-model/column/column-count');
 const VerticalAlign = () => import('../pages/formatting-model/align/vertical-align');
 const Flex01 = () => import('../pages/formatting-model/flex/01');
-const Grid01 = () => import('../pages/formatting-model/grid/01');
+const FormattingModelGrid01 = () => import('../pages/formatting-model/grid/01');
 const ShapeCircle = () => import('../pages/formatting-model/shape/circle');
 const ShapePolygon = () => import('../pages/formatting-model/shape/polygon');
 
@@ -114,6 +114,7 @@ const BackgroundClip04 = () => import('../pages/visual/background-clip/04');
 const BackgroundRepeat01 = () => import('../pages/visual/background-repeat/01');
 const Chessboard01 = () => import('../pages/visual/background-size/chessboard');
 const backgroundAttachment01 = () => import('../pages/visual/background-attachment/01');
+const MixBlendMode01 = () => import('../pages/visual/mix-blend-mode/01');
 const BackgroundBlendMode01 = () => import('../pages/visual/background-blend-mode/01');
 const LinearGradient01 = () => import('../pages/visual/linear-gradient/01');
 const LinearGradient02 = () => import('../pages/visual/linear-gradient/02');
@@ -200,6 +201,9 @@ const LavalampMenu = () => import('../pages/instances/other/lavalamp-menu');
 const Callout = () => import('../pages/instances/other/callout');
 const GetStyle = () => import('../pages/instances/other/get-style');
 const AntLine = () => import('../pages/instances/other/ant-line');
+
+const Grid = () => import('../pages/grid/index');
+const Grid01 = () => import('../pages/grid/01');
 
 export default [
     {
@@ -348,7 +352,7 @@ export default [
         component: Flex01
     }, {
         path: '/formatting-model/grid/01',
-        component: Grid01
+        component: FormattingModelGrid01
     }, {
         path: '/formatting-model/shape/circle',
         component: ShapeCircle
@@ -529,6 +533,9 @@ export default [
     }, {
         path: '/visual/background-attachment/01',
         component: backgroundAttachment01
+    }, {
+        path: '/visual/mix-blend-mode/01',
+        component: MixBlendMode01
     }, {
         path: '/visual/background-blend-mode/01',
         component: BackgroundBlendMode01
@@ -781,6 +788,14 @@ export default [
     }, {
         path: '/instances/other/ant-line',
         component: AntLine
+    },
+
+    {
+        path: '/grid',
+        component: Grid
+    }, {
+        path: '/grid/01',
+        component: Grid01
     },
 
     {
