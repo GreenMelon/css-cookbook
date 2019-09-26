@@ -1,3 +1,5 @@
+import { types } from 'util';
+
 /**
  * routes
  */
@@ -195,13 +197,15 @@ const RibbonCard = () => import('../pages/instances/creative/ribbon/card');
 const TextAnimation = () => import('../pages/instances/creative/text-animation');
 const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
-const Color = () => import('../pages/instances/other/color');
-const Accordion = () => import('../pages/instances/other/accordion');
-const SuspendBar = () => import('../pages/instances/other/suspend-bar');
-const LavalampMenu = () => import('../pages/instances/other/lavalamp-menu');
-const Callout = () => import('../pages/instances/other/callout');
-const GetStyle = () => import('../pages/instances/other/get-style');
-const AntLine = () => import('../pages/instances/other/ant-line');
+const Color = () => import('../pages/instances/color');
+const Accordion = () => import('../pages/instances/accordion');
+const SuspendBar = () => import('../pages/instances/suspend-bar');
+const LavalampMenu = () => import('../pages/instances/lavalamp-menu');
+const Callout = () => import('../pages/instances/callout');
+const GetStyle = () => import('../pages/instances/get-style');
+const AntLine = () => import('../pages/instances/ant-line');
+const Typing01 = () => import('../pages/instances/typing-01');
+const Typing02 = () => import('../pages/instances/typing-02');
 
 const Grid = () => import('../pages/grid/index');
 const Grid01 = () => import('../pages/grid/01');
@@ -772,26 +776,32 @@ export default [
         path: '/instances/loader/02',
         component: Loader02
     }, {
-        path: '/instances/other/color',
+        path: '/instances/color',
         component: Color
     }, {
-        path: '/instances/other/accordion',
+        path: '/instances/accordion',
         component: Accordion
     }, {
-        path: '/instances/other/suspend-bar',
+        path: '/instances/suspend-bar',
         component: SuspendBar
     }, {
-        path: '/instances/other/lavalamp-menu',
+        path: '/instances/lavalamp-menu',
         component: LavalampMenu
     }, {
-        path: '/instances/other/callout',
+        path: '/instances/callout',
         component: Callout
     }, {
-        path: '/instances/other/get-style',
+        path: '/instances/get-style',
         component: GetStyle
     }, {
-        path: '/instances/other/ant-line',
+        path: '/instances/ant-line',
         component: AntLine
+    }, {
+        path: '/instances/typing-01',
+        component: Typing01
+    }, {
+        path: '/instances/typing-02',
+        component: Typing02
     },
 
     {
