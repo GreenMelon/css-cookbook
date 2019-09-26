@@ -7,6 +7,7 @@ main {
     display: inline-block;
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 </style>
 
@@ -19,6 +20,7 @@ main {
             :style="{
                 backgroundColor: `var(--${color})`,
             }"
+            @click="copyColor"
         ></div>
     </main>
 </template>
@@ -49,6 +51,23 @@ main {
                     'blueGrey'
                 ],
             };
+        },
+
+        methods: {
+            copyColor(event) {
+                const element = event.target;
+                const style = getComputedStyle(element);
+                const { backgroundColor } = style;
+
+                const input = document.createElement('input');
+                input.value = backgroundColor;
+                document.body.appendChild(input);
+                input.select();
+
+                document.execCommand('copy', false. null);
+
+                document.body.removeChild(input);
+            },
         },
     };
 </script>

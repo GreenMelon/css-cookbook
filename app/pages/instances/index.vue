@@ -75,30 +75,25 @@ export default {
                         },
                     ],
                 }, {
-                    name: 'other',
-                    children: [
-                        {
-                            route: 'color',
-                        }, {
-                            aliasname: '手风琴式导航',
-                            route: 'accordion',
-                        }, {
-                            alias: '悬挂条导航',
-                            route: 'suspend-bar',
-                        }, {
-                            route: 'lavalamp-menu',
-                        }, {
-                            alias: '弹出提示框',
-                            route: 'callout',
-                        }, {
-                            alias: 'JS 中获取 CSS 值',
-                            route: 'get-style',
-                        }, {
-                            alias: '蚂蚁线',
-                            route: 'ant-line',
-                        },
-                    ],
-                }
+                    route: 'color',
+                }, {
+                    alias: '手风琴式导航',
+                    route: 'accordion',
+                }, {
+                    alias: '悬挂条导航',
+                    route: 'suspend-bar',
+                }, {
+                    route: 'lavalamp-menu',
+                }, {
+                    alias: '弹出提示框',
+                    route: 'callout',
+                }, {
+                    alias: 'JS 中获取 CSS 值',
+                    route: 'get-style',
+                }, {
+                    alias: '蚂蚁线',
+                    route: 'ant-line',
+                },
             ],
         }
     },
