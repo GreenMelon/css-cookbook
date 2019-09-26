@@ -26,6 +26,8 @@ export default {
                     children: [
                         {
                             route: '3d-button',
+                        }, {
+                            route: 'swing',
                         },
                     ],
                 }, {
