@@ -144,6 +144,7 @@ const Visibility01 = () => import('../pages/visual/visibility/01');
 
 const TransformIndex = () => import('../pages/transform/index');
 const Transform3DButton = () => import('../pages/transform/rotateX/3d-button');
+const RotateXSwing = () => import('../pages/transform/rotateX/swing');
 const RotateY01 = () => import('../pages/transform/rotateY/01');
 const RotateY02 = () => import('../pages/transform/rotateY/02');
 const HamburgerMenu = () => import('../pages/transform/rotateZ/hamburger-menu');
@@ -625,6 +626,9 @@ export default [
     }, {
         path: '/transform/rotateX/3d-button',
         component: Transform3DButton,
+    }, {
+        path: '/transform/rotateX/swing',
+        component: RotateXSwing,
     }, {
         path: '/transform/rotateY/01',
         component: RotateY01
