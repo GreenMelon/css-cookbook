@@ -93,6 +93,12 @@ export default {
                 }, {
                     alias: '蚂蚁线',
                     route: 'ant-line',
+                }, {
+                    alias: '打字效果 01',
+                    route: 'typing-01',
+                }, {
+                    alias: '打字效果 02',
+                    route: 'typing-02',
                 },
             ],
         }

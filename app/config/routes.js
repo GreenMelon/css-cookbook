@@ -1,3 +1,5 @@
+import { types } from 'util';
+
 /**
  * routes
  */
@@ -202,6 +204,8 @@ const LavalampMenu = () => import('../pages/instances/lavalamp-menu');
 const Callout = () => import('../pages/instances/callout');
 const GetStyle = () => import('../pages/instances/get-style');
 const AntLine = () => import('../pages/instances/ant-line');
+const Typing01 = () => import('../pages/instances/typing-01');
+const Typing02 = () => import('../pages/instances/typing-02');
 
 const Grid = () => import('../pages/grid/index');
 const Grid01 = () => import('../pages/grid/01');
@@ -792,6 +796,12 @@ export default [
     }, {
         path: '/instances/ant-line',
         component: AntLine
+    }, {
+        path: '/instances/typing-01',
+        component: Typing01
+    }, {
+        path: '/instances/typing-02',
+        component: Typing02
     },
 
     {
