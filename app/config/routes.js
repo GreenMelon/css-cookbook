@@ -154,6 +154,7 @@ const Pie = () => import('../pages/transform/rotate/pie');
 const Parallelogram = () => import('../pages/transform/skew/parallelogram');
 const UnderlineAnimation = () => import('../pages/transform/scaleX/underline-animation');
 const Translate3d01 = () => import('../pages/transform/translate3d/01');
+const Perspective01 = () => import('../pages/transform/perspective/01');
 
 const AnimationIndex = () => import('../pages/animation/index');
 const Loading = () => import('../pages/animation/rotate/loading');
@@ -651,6 +652,9 @@ export default [
     }, {
         path: '/transform/translate3d/01',
         component: Translate3d01
+    }, {
+        path: '/transform/perspective/01',
+        component: Perspective01
     },
 
     {
