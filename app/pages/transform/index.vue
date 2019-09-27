@@ -71,6 +71,14 @@ export default {
                             route: '01',
                         },
                     ],
+                }, {
+                    name: 'perspective',
+                    children: [
+                        {
+                            alias: 'Sticker Effect',
+                            route: '01',
+                        },
+                    ],
                 },
             ],
         }
