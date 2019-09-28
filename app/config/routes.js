@@ -62,6 +62,7 @@ const BoxModelIndex = () => import('../pages/box-model/index');
 const BorderWidth01 = () => import('../pages/box-model/border/border-width/01');
 const BorderImage01 = () => import('../pages/box-model/border/border-image/01');
 const BorderImage02 = () => import('../pages/box-model/border/border-image/02');
+const BorderImage03 = () => import('../pages/box-model/border/border-image/03');
 const PaddingLeft = () => import('../pages/box-model/padding/left');
 const Clip01 = () => import('../pages/box-model/clip/01');
 const GradientCircle03 = () => import('../pages/box-model/clip/circle');
@@ -207,6 +208,7 @@ const GetStyle = () => import('../pages/instances/get-style');
 const AntLine = () => import('../pages/instances/ant-line');
 const Typing01 = () => import('../pages/instances/typing-01');
 const Typing02 = () => import('../pages/instances/typing-02');
+const Fading = () => import('../pages/instances/fading');
 
 const Grid = () => import('../pages/grid/index');
 const Grid01 = () => import('../pages/grid/01');
@@ -379,6 +381,9 @@ export default [
     }, {
         path: '/box-model/border/border-image/02',
         component: BorderImage02
+    }, {
+        path: '/box-model/border/border-image/03',
+        component: BorderImage03
     }, {
         path: '/box-model/padding/left',
         component: PaddingLeft
@@ -806,6 +811,9 @@ export default [
     }, {
         path: '/instances/typing-02',
         component: Typing02
+    }, {
+        path: '/instances/fading',
+        component: Fading
     },
 
     {
