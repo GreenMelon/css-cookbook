@@ -99,6 +99,8 @@ export default {
                 }, {
                     alias: '打字效果 02',
                     route: 'typing-02',
+                }, {
+                    route: 'fading',
                 },
             ],
         }
