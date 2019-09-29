@@ -101,6 +101,8 @@ export default {
                     route: 'typing-02',
                 }, {
                     route: 'fading',
+                }, {
+                    route: 'search',
                 },
             ],
         }
