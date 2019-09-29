@@ -209,6 +209,7 @@ const AntLine = () => import('../pages/instances/ant-line');
 const Typing01 = () => import('../pages/instances/typing-01');
 const Typing02 = () => import('../pages/instances/typing-02');
 const Fading = () => import('../pages/instances/fading');
+const Search = () => import('../pages/instances/search');
 
 const Grid = () => import('../pages/grid/index');
 const Grid01 = () => import('../pages/grid/01');
@@ -814,6 +815,9 @@ export default [
     }, {
         path: '/instances/fading',
         component: Fading
+    }, {
+        path: '/instances/search',
+        component: Search
     },
 
     {
