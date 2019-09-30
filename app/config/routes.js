@@ -89,6 +89,7 @@ const ImageText = () => import('../pages/typographic/text-effect/image-text');
 const FlashLight = () => import('../pages/typographic/text-effect/flash-light');
 const Glitch = () => import('../pages/typographic/text-effect/glitch');
 const BlurryText = () => import('../pages/typographic/text-effect/blurry-text');
+const TearPaper = () => import('../pages/typographic/text-effect/tear-paper');
 
 const VisualIndex = () => import('../pages/visual/index');
 const BorderRadius01 = () => import('../pages/visual/border-radius/01');
@@ -463,6 +464,9 @@ export default [
     }, {
         path: '/typographic/text-effect/blurry-text',
         component: BlurryText
+    }, {
+        path: '/typographic/text-effect/tear-paper',
+        component: TearPaper
     },
 
     {
