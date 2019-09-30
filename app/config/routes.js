@@ -89,6 +89,7 @@ const ImageText = () => import('../pages/typographic/text-effect/image-text');
 const FlashLight = () => import('../pages/typographic/text-effect/flash-light');
 const Glitch = () => import('../pages/typographic/text-effect/glitch');
 const BlurryText = () => import('../pages/typographic/text-effect/blurry-text');
+const TearPaper = () => import('../pages/typographic/text-effect/tear-paper');
 
 const VisualIndex = () => import('../pages/visual/index');
 const BorderRadius01 = () => import('../pages/visual/border-radius/01');
@@ -129,6 +130,7 @@ const FlashImageEffect = () => import('../pages/visual/linear-gradient/flash-ima
 const RepeatingLinearGradient01 = () => import('../pages/visual/repeating-linear-gradient/01');
 const RadialGradient01 = () => import('../pages/visual/radial-gradient/01');
 const RadialGradient02 = () => import('../pages/visual/radial-gradient/02');
+const RadialGradient03 = () => import('../pages/visual/radial-gradient/03');
 const ConicGradient01 = () => import('../pages/visual/conic-gradient/01');
 const Chessboard02 = () => import('../pages/visual/conic-gradient/chessboard');
 const GradientCircle01 = () => import('../pages/visual/conic-gradient/circle');
@@ -462,6 +464,9 @@ export default [
     }, {
         path: '/typographic/text-effect/blurry-text',
         component: BlurryText
+    }, {
+        path: '/typographic/text-effect/tear-paper',
+        component: TearPaper
     },
 
     {
@@ -581,6 +586,9 @@ export default [
     }, {
         path: '/visual/radial-gradient/02',
         component: RadialGradient02
+    }, {
+        path: '/visual/radial-gradient/03',
+        component: RadialGradient03
     }, {
         path: '/visual/conic-gradient/01',
         component: ConicGradient01

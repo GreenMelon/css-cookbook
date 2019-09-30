@@ -70,7 +70,10 @@ export default {
                         }, {
                             alias: '模糊文本',
                             route: 'blurry-text',
-                        },
+                        }, {
+                            alias: '撕纸效果',
+                            route: 'tear-paper',
+                        }
                     ],
                 }, {
                     name: 'wrap',

@@ -199,6 +199,9 @@ export default {
                         }, {
                             alias: '圆点背景',
                             route: '02',
+                        }, {
+                            alias: '文字动画',
+                            route: '03',
                         },
                     ],
                 }, {
