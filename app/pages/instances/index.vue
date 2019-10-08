@@ -113,6 +113,9 @@ export default {
                         }, {
                             alias: ':target',
                             route: '02',
+                        }, {
+                            alias: '-webkit-line-clamp',
+                            route: '03',
                         },
                     ],
                 },

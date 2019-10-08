@@ -214,6 +214,7 @@ const Fading = () => import('../pages/instances/fading');
 const Search = () => import('../pages/instances/search');
 const ShowMore01 = () => import('../pages/instances/show-more/01');
 const ShowMore02 = () => import('../pages/instances/show-more/02');
+const ShowMore03 = () => import('../pages/instances/show-more/03');
 
 const Grid = () => import('../pages/grid/index');
 const Grid01 = () => import('../pages/grid/01');
@@ -834,6 +835,9 @@ export default [
     }, {
         path: '/instances/show-more/02',
         component: ShowMore02
+    }, {
+        path: '/instances/show-more/03',
+        component: ShowMore03
     },
 
     {
