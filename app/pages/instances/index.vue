@@ -108,10 +108,10 @@ export default {
                     alias: '显示更多',
                     children: [
                         {
-                            alias: '方案1',
+                            alias: ':checked',
                             route: '01',
                         }, {
-                            alias: '方案2',
+                            alias: ':target',
                             route: '02',
                         },
                     ],
