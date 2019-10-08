@@ -103,6 +103,18 @@ export default {
                     route: 'fading',
                 }, {
                     route: 'search',
+                }, {
+                    name: 'show-more',
+                    alias: '显示更多',
+                    children: [
+                        {
+                            alias: '方案1',
+                            route: '01',
+                        }, {
+                            alias: '方案2',
+                            route: '02',
+                        },
+                    ],
                 },
             ],
         }
