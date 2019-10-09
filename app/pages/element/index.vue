@@ -25,6 +25,8 @@ export default {
                     children: [
                         {
                             route: '01'
+                        }, {
+                            route: '02'
                         },
                     ]
                 }, {

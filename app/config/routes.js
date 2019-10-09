@@ -9,7 +9,8 @@ const Index = () => import('../pages/index');
 
 const ElementIndex = () => import('../pages/element/index');
 const A = () => import('../pages/element/a/01');
-const Dialog = () => import('../pages/element/dialog/01');
+const Dialog01 = () => import('../pages/element/dialog/01');
+const Dialog02 = () => import('../pages/element/dialog/02');
 const Video01 = () => import('../pages/element/video/01');
 const VideoGif = () => import('../pages/element/video/gif');
 const VideoMse = () => import('../pages/element/video/mse');
@@ -199,6 +200,7 @@ const RibbonCard = () => import('../pages/instances/creative/ribbon/card');
 const TextAnimation = () => import('../pages/instances/creative/text-animation');
 const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
+const Loader03 = () => import('../pages/instances/loader/03');
 const Color = () => import('../pages/instances/color');
 const Accordion = () => import('../pages/instances/accordion');
 const SuspendBar = () => import('../pages/instances/suspend-bar');
@@ -239,7 +241,10 @@ export default [
         component: A
     }, {
         path: '/element/dialog/01',
-        component: Dialog
+        component: Dialog01
+    }, {
+        path: '/element/dialog/02',
+        component: Dialog02
     }, {
         path: '/element/video/01',
         component: Video01
@@ -794,6 +799,18 @@ export default [
         path: '/instances/loader/02',
         component: Loader02
     }, {
+        path: '/instances/loader/03',
+        component: Loader03
+    }, {
+        path: '/instances/show-more/01',
+        component: ShowMore01
+    }, {
+        path: '/instances/show-more/02',
+        component: ShowMore02
+    }, {
+        path: '/instances/show-more/03',
+        component: ShowMore03
+    }, {
         path: '/instances/color',
         component: Color
     }, {
@@ -826,15 +843,6 @@ export default [
     }, {
         path: '/instances/search',
         component: Search
-    }, {
-        path: '/instances/show-more/01',
-        component: ShowMore01
-    }, {
-        path: '/instances/show-more/02',
-        component: ShowMore02
-    }, {
-        path: '/instances/show-more/03',
-        component: ShowMore03
     },
 
     {
