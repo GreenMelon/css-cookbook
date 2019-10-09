@@ -30,7 +30,7 @@ const BeforeAttr = () => import('../pages/selector/before/attr');
 const Quotes = () => import('../pages/selector/before/quotes');
 const BrokenImage = () => import('../pages/selector/before/broken-image');
 const JiuGong = () => import('../pages/selector/before/jiu-gong');
-const Counter1 = () => import('../pages/selector/before/counter-001');
+const Counter = () => import('../pages/selector/before/counter');
 const PointerEvents = () => import('../pages/selector/before/pointer-events');
 const BeforeInput = () => import('../pages/selector/before/input');
 const BorderCornerShape = () => import('../pages/selector/before/border-corner-shape');
@@ -312,7 +312,7 @@ export default [
         component: JiuGong
     }, {
         path: '/selector/before/counter',
-        component: Counter1
+        component: Counter
     }, {
         path: '/selector/before/pointer-events',
         component: PointerEvents
