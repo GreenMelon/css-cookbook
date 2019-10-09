@@ -29,13 +29,6 @@ export default {
                         },
                     ],
                 }, {
-                    name: 'grid',
-                    children: [
-                        {
-                            route: '01',
-                        },
-                    ],
-                }, {
                     name: 'shape',
                     children: [
                         {
