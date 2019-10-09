@@ -72,6 +72,24 @@ export default {
                         }, {
                             alias: '旋转彩虹',
                             route: '02',
+                        }, {
+                            alias: 'infinity-path-loader',
+                            route: '03',
+                        }
+                    ],
+                }, {
+                    name: 'show-more',
+                    alias: '显示更多',
+                    children: [
+                        {
+                            alias: ':checked',
+                            route: '01',
+                        }, {
+                            alias: ':target',
+                            route: '02',
+                        }, {
+                            alias: '-webkit-line-clamp',
+                            route: '03',
                         },
                     ],
                 }, {
@@ -103,21 +121,6 @@ export default {
                     route: 'fading',
                 }, {
                     route: 'search',
-                }, {
-                    name: 'show-more',
-                    alias: '显示更多',
-                    children: [
-                        {
-                            alias: ':checked',
-                            route: '01',
-                        }, {
-                            alias: ':target',
-                            route: '02',
-                        }, {
-                            alias: '-webkit-line-clamp',
-                            route: '03',
-                        },
-                    ],
                 },
             ],
         }

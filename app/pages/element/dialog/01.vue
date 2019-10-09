@@ -1,12 +1,4 @@
-<style lang="less">
-    main {
-        position: relative;
-    }
-    dialog {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+<style lang="less" scoped>
 </style>
 
 <template>
