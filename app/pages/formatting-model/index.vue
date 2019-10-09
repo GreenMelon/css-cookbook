@@ -29,13 +29,6 @@ export default {
                         },
                     ],
                 }, {
-                    name: 'flex',
-                    children: [
-                        {
-                            route: '01'
-                        },
-                    ],
-                }, {
                     name: 'grid',
                     children: [
                         {

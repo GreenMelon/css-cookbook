@@ -54,6 +54,9 @@
                         name: 'visual',
                         route: '/visual'
                     }, {
+                        name: 'flex',
+                        route: '/flex'
+                    }, {
                         name: 'grid',
                         route: '/grid'
                     },
