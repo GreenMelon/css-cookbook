@@ -220,6 +220,7 @@ const Grid01 = () => import('../pages/grid/01');
 
 const Flex = () => import('../pages/flex/index');
 const Flex01 = () => import('../pages/flex/01');
+const Flex02 = () => import('../pages/flex/02');
 
 export default [
     {
@@ -853,6 +854,9 @@ export default [
     }, {
         path: '/flex/01',
         component: Flex01
+    }, {
+        path: '/flex/02',
+        component: Flex02
     },
 
     {
