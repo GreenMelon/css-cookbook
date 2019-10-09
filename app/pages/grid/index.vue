@@ -14,7 +14,11 @@ export default {
             baseRoute: '/grid',
             categories: [
                 {
+                    alias: '总览',
                     route: '01',
+                }, {
+                    alias: '瀑布流',
+                    route: '02',
                 }
             ]
         }

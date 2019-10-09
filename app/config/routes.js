@@ -53,7 +53,6 @@ const UserInvalid01 = () => import('../pages/selector/user-invalid/01');
 const FormattingModelIndex = () => import('../pages/formatting-model/index');
 const ColumnCount = () => import('../pages/formatting-model/column/column-count');
 const VerticalAlign = () => import('../pages/formatting-model/align/vertical-align');
-const FormattingModelGrid01 = () => import('../pages/formatting-model/grid/01');
 const ShapeCircle = () => import('../pages/formatting-model/shape/circle');
 const ShapePolygon = () => import('../pages/formatting-model/shape/polygon');
 
@@ -217,6 +216,7 @@ const ShowMore03 = () => import('../pages/instances/show-more/03');
 
 const Grid = () => import('../pages/grid/index');
 const Grid01 = () => import('../pages/grid/01');
+const Grid02 = () => import('../pages/grid/02');
 
 const Flex = () => import('../pages/flex/index');
 const Flex01 = () => import('../pages/flex/01');
@@ -364,9 +364,6 @@ export default [
     }, {
         path: '/formatting-model/align/vertical-align',
         component: VerticalAlign
-    }, {
-        path: '/formatting-model/grid/01',
-        component: FormattingModelGrid01
     }, {
         path: '/formatting-model/shape/circle',
         component: ShapeCircle
@@ -846,6 +843,9 @@ export default [
     }, {
         path: '/grid/01',
         component: Grid01
+    }, {
+        path: '/grid/02',
+        component: Grid02
     },
 
     {
