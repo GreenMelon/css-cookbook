@@ -66,6 +66,7 @@ const PaddingLeft = () => import('../pages/box-model/padding/left');
 const Clip01 = () => import('../pages/box-model/clip/01');
 const GradientCircle03 = () => import('../pages/box-model/clip/circle');
 const BackgroundBlendModes = () => import('../pages/box-model/clip/reverse-clip-path-with-blend-modes');
+const ClipPath01 = () => import('../pages/box-model/clip-path/01');
 
 const TypographicIndex = () => import('../pages/typographic/index');
 const FontFamily = () => import('../pages/typographic/font/font-family');
@@ -405,6 +406,9 @@ export default [
     }, {
         path: '/box-model/clip/reverse-clip-path-with-blend-modes',
         component: BackgroundBlendModes
+    }, {
+        path: '/box-model/clip-path/01',
+        component: ClipPath01
     },
 
     {

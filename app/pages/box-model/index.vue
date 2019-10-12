@@ -58,6 +58,13 @@ export default {
                             route: 'reverse-clip-path-with-blend-modes',
                         },
                     ],
+                }, {
+                    name: 'clip-path',
+                    children: [
+                        {
+                            route: '01',
+                        }
+                    ],
                 },
             ],
         }
