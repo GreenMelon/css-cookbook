@@ -52,6 +52,8 @@ export default {
                             alias: '明月几时有',
                             route: 'moon',
                         }, {
+                            route: 'mars',
+                        }, {
                             alias: '多重边框',
                             route: 'multi-border',
                         }, {
