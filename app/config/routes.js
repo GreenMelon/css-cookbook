@@ -101,6 +101,7 @@ const OutlineStyle = () => import('../pages/visual/outline/outline-style');
 const VisualBoxShadowLoading1 = () => import('../pages/visual/box-shadow/loading.01');
 const VisualBoxShadowLoading2 = () => import('../pages/visual/box-shadow/loading.02');
 const Moon = () => import('../pages/visual/box-shadow/moon');
+const Mars = () => import('../pages/visual/box-shadow/mars');
 const MultiBorder = () => import('../pages/visual/box-shadow/multi-border');
 const BoxShadowPpointerEvents = () => import('../pages/visual/box-shadow/pointer-events');
 const Monalisa = () => import('../pages/visual/box-shadow/monalisa');
@@ -507,6 +508,9 @@ export default [
     }, {
         path: '/visual/box-shadow/moon',
         component: Moon
+    }, {
+        path: '/visual/box-shadow/mars',
+        component: Mars
     }, {
         path: '/visual/box-shadow/multi-border',
         component: MultiBorder
