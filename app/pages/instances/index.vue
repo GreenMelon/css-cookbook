@@ -61,7 +61,9 @@ export default {
                             route: 'ribbon/card',
                         }, {
                             route: 'text-animation',
-                        },
+                        }, {
+                            route: 'no-js-slider',
+                        }
                     ],
                 }, {
                     name: 'loader',

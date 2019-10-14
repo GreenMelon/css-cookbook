@@ -200,6 +200,7 @@ const RibbonAlphabet = () => import('../pages/instances/creative/ribbon/alphabet
 const RibbonName = () => import('../pages/instances/creative/ribbon/name');
 const RibbonCard = () => import('../pages/instances/creative/ribbon/card');
 const TextAnimation = () => import('../pages/instances/creative/text-animation');
+const NoJsSlider = () => import('../pages/instances/creative/no-js-slider');
 const Loader01 = () => import('../pages/instances/loader/01');
 const Loader02 = () => import('../pages/instances/loader/02');
 const Loader03 = () => import('../pages/instances/loader/03');
@@ -800,6 +801,9 @@ export default [
     }, {
         path: '/instances/creative/text-animation',
         component: TextAnimation
+    }, {
+        path: '/instances/creative/no-js-slider',
+        component: NoJsSlider
     }, {
         path: '/instances/loader/01',
         component: Loader01
