@@ -68,6 +68,9 @@ export default {
                         }, {
                             alias: '电灯泡',
                             route: 'bulb',
+                        }, {
+                            alias: '单边阴影',
+                            route: 'oneside',
                         },
                     ],
                 }, {
