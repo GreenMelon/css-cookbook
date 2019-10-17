@@ -109,6 +109,7 @@ const Monalisa = () => import('../pages/visual/box-shadow/monalisa');
 const Emphasize = () => import('../pages/visual/box-shadow/emphasize');
 const Bulb = () => import('../pages/visual/box-shadow/bulb');
 const Oneside = () => import('../pages/visual/box-shadow/oneside');
+const AnimateBoxSHadow = () => import('../pages/visual/box-shadow/animate');
 const Background01 = () => import('../pages/visual/background/01');
 const BackgroundColor01 = () => import('../pages/visual/background-color/01');
 const BackgroundImage01 = () => import('../pages/visual/background-image/01');
@@ -535,6 +536,9 @@ export default [
     }, {
         path: '/visual/box-shadow/oneside',
         component: Oneside
+    }, {
+        path: '/visual/box-shadow/animate',
+        component: AnimateBoxSHadow
     }, {
         path: '/visual/background/01',
         component: Background01

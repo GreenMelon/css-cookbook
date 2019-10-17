@@ -71,6 +71,8 @@ export default {
                         }, {
                             alias: '单边阴影',
                             route: 'oneside',
+                        }, {
+                            route: 'animate',
                         },
                     ],
                 }, {
