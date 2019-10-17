@@ -76,14 +76,15 @@ const LineClamp01 = () => import('../pages/typographic/wrap/line-clamp-01');
 const LineClamp02 = () => import('../pages/typographic/wrap/line-clamp-02');
 const TextAlign = () => import('../pages/typographic/text/text-align');
 const TextAlignJustify = () => import('../pages/typographic/text/text-align-justify');
-const TextShadow = () => import('../pages/typographic/text/text-shadow');
-const TextShadowLlluminate = () => import('../pages/typographic/text/text-shadow-llluminate');
 const TextFillColor = () => import('../pages/typographic/text/text-fill-color');
 const TextStroke = () => import('../pages/typographic/text/text-stroke');
 const TextTransform = () => import('../pages/typographic/text/text-transform');
 const WritingMode = () => import('../pages/typographic/text/writing-mode');
 const TextDecoration01 = () => import('../pages/typographic/text-decoration/01');
 const TextDecoration02 = () => import('../pages/typographic/text-decoration/02');
+const TextShadow01 = () => import('../pages/typographic/text-shadow/01');
+const TextShadow02 = () => import('../pages/typographic/text-shadow/02');
+const TextShadow03 = () => import('../pages/typographic/text-shadow/03');
 const TextOutline = () => import('../pages/typographic/text-effect/text-outline');
 const ImageText = () => import('../pages/typographic/text-effect/image-text');
 const FlashLight = () => import('../pages/typographic/text-effect/flash-light');
@@ -439,12 +440,6 @@ export default [
         path: '/typographic/text/text-align-justify',
         component: TextAlignJustify
     }, {
-        path: '/typographic/text/text-shadow',
-        component: TextShadow
-    }, {
-        path: '/typographic/text/text-shadow-llluminate',
-        component: TextShadowLlluminate
-    }, {
         path: '/typographic/text/text-fill-color',
         component: TextFillColor
     }, {
@@ -462,6 +457,15 @@ export default [
     }, {
         path: '/typographic/text-decoration/02',
         component: TextDecoration02
+    }, {
+        path: '/typographic/text-shadow/01',
+        component: TextShadow01
+    }, {
+        path: '/typographic/text-shadow/02',
+        component: TextShadow02
+    }, {
+        path: '/typographic/text-shadow/03',
+        component: TextShadow03
     }, {
         path: '/typographic/text-effect/text-outline',
         component: TextOutline
