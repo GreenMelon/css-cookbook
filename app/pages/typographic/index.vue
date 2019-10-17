@@ -30,11 +30,6 @@ export default {
                         }, {
                             route: 'text-align-justify',
                         }, {
-                            route: 'text-shadow',
-                        }, {
-                            alias: '发光文字',
-                            route: 'text-shadow-llluminate'
-                        }, {
                             route: 'text-fill-color',
                         }, {
                             route: 'text-stroke',
@@ -54,6 +49,18 @@ export default {
                             alias: '可配置项',
                             route: '02',
                         },
+                    ],
+                }, {
+                    name: 'text-shadow',
+                    children: [
+                        {
+                            route: '01',
+                        }, {
+                            alias: '发光文字',
+                            route: '02',
+                        }, {
+                            route: '03',
+                        }
                     ],
                 }, {
                     name: 'text-effect',
