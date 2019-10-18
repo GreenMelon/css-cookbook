@@ -60,6 +60,9 @@ export default {
                             route: '02',
                         }, {
                             route: '03',
+                        }, {
+                            alias: '线性渐变配合阴影实现条纹立体阴影条纹字',
+                            route: '04',
                         }
                     ],
                 }, {
