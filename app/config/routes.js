@@ -85,6 +85,7 @@ const TextDecoration02 = () => import('../pages/typographic/text-decoration/02')
 const TextShadow01 = () => import('../pages/typographic/text-shadow/01');
 const TextShadow02 = () => import('../pages/typographic/text-shadow/02');
 const TextShadow03 = () => import('../pages/typographic/text-shadow/03');
+const TextShadow04 = () => import('../pages/typographic/text-shadow/04');
 const TextOutline = () => import('../pages/typographic/text-effect/text-outline');
 const ImageText = () => import('../pages/typographic/text-effect/image-text');
 const FlashLight = () => import('../pages/typographic/text-effect/flash-light');
@@ -466,6 +467,9 @@ export default [
     }, {
         path: '/typographic/text-shadow/03',
         component: TextShadow03
+    }, {
+        path: '/typographic/text-shadow/04',
+        component: TextShadow04
     }, {
         path: '/typographic/text-effect/text-outline',
         component: TextOutline
