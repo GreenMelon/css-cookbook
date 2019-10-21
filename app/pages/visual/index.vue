@@ -73,6 +73,9 @@ export default {
                             route: 'oneside',
                         }, {
                             route: 'animate',
+                        }, {
+                            alias: '线性渐变模拟长阴影',
+                            route: '01',
                         },
                     ],
                 }, {
