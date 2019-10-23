@@ -8,7 +8,8 @@ const NotFound = () => import('../pages/404');
 const Index = () => import('../pages/index');
 
 const ElementIndex = () => import('../pages/element/index');
-const A = () => import('../pages/element/a/01');
+const A01 = () => import('../pages/element/a/01');
+const A02 = () => import('../pages/element/a/02');
 const Dialog01 = () => import('../pages/element/dialog/01');
 const Dialog02 = () => import('../pages/element/dialog/02');
 const Video01 = () => import('../pages/element/video/01');
@@ -246,7 +247,10 @@ export default [
         component: ElementIndex
     }, {
         path: '/element/a/01',
-        component: A
+        component: A01
+    }, {
+        path: '/element/a/02',
+        component: A02
     }, {
         path: '/element/dialog/01',
         component: Dialog01

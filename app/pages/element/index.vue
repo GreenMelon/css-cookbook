@@ -18,6 +18,9 @@ export default {
                     children: [
                         {
                             route: '01',
+                        }, {
+                            alias: 'footer notes',
+                            route: '02',
                         },
                     ]
                 }, {
@@ -35,10 +38,10 @@ export default {
                         {
                             route: '01',
                         }, {
-                            name: '用 img 播放 mp4 文件',
+                            alias: '用 img 播放 mp4 文件',
                             route: 'gif',
                         }, {
-                            name: 'Media Source Extensions',
+                            alias: 'Media Source Extensions',
                             route: 'mse',
                         },
                     ],
