@@ -45,6 +45,9 @@ export default {
                             alias: '太极',
                             route: 'tai-chi',
                         }, {
+                            alias: '旋转的太极',
+                            route: 'tai-chi-animate',
+                        }, {
                             route: 'animated-weather-icons',
                         }, {
                             route: 'animated-book',

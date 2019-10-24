@@ -22,7 +22,7 @@
         top: 50%;
         width: @width;
         height: @width;
-        border-radius:100%;
+        border-radius: 100%;
     }
 
     .tai-chi::before {

@@ -199,6 +199,7 @@ const CssDoodle07 = () => import('../pages/instances/css-doodle/07');
 const FloatCenter = () => import('../pages/instances/creative/float-center');
 const Hexagon = () => import('../pages/instances/creative/hexagon');
 const TaiChi = () => import('../pages/instances/creative/tai-chi');
+const AnimateTaiChi = () => import('../pages/instances/creative/tai-chi-animate');
 const AnimatedWeatherIcons = () => import('../pages/instances/creative/animated-weather-icons');
 const AnimatedBook = () => import('../pages/instances/creative/animated-book');
 const HeartBeat = () => import('../pages/instances/creative/heart-beat');
@@ -804,6 +805,9 @@ export default [
     }, {
         path: '/instances/creative/tai-chi',
         component: TaiChi
+    }, {
+        path: '/instances/creative/tai-chi-animate',
+        component: AnimateTaiChi
     }, {
         path: '/instances/creative/animated-weather-icons',
         component: AnimatedWeatherIcons
