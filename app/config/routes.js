@@ -150,6 +150,7 @@ const GradientShadowFilter = () => import('../pages/visual/filter/gradient-shado
 const FrostedGlass = () => import('../pages/visual/filter/frosted-glass');
 const Alpha = () => import('../pages/visual/filter/alpha');
 const FusionFilter = () => import('../pages/visual/filter/fusion');
+const Filter01 = () => import('../pages/visual/filter/01');
 const MaskImage01 = () => import('../pages/visual/mask-image/01');
 const MaskImage02 = () => import('../pages/visual/mask-image/02');
 const Visibility01 = () => import('../pages/visual/visibility/01');
@@ -664,6 +665,9 @@ export default [
     }, {
         path: '/visual/filter/fusion',
         component: FusionFilter
+    }, {
+        path: '/visual/filter/01',
+        component: Filter01
     }, {
         path: '/visual/mask-image/01',
         component: MaskImage01

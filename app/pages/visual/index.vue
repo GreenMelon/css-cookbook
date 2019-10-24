@@ -269,6 +269,9 @@ export default {
                         }, {
                             alias: '融合动画',
                             route: 'fusion',
+                        }, {
+                            alias: '拖拽',
+                            route: '01',
                         },
                     ],
                 }, {
