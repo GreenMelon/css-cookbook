@@ -19,6 +19,8 @@ export default {
                         {
                             route: 'font-family',
                         }, {
+                            route: 'font-size',
+                        }, {
                             route: 'font-smoothing',
                         },
                     ],

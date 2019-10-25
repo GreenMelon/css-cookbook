@@ -71,6 +71,7 @@ const ClipPath01 = () => import('../pages/box-model/clip-path/01');
 
 const TypographicIndex = () => import('../pages/typographic/index');
 const FontFamily = () => import('../pages/typographic/font/font-family');
+const FontSize = () => import('../pages/typographic/font/font-size');
 const FontSmoothing = () => import('../pages/typographic/font/font-smoothing');
 const OverflowWrap = () => import('../pages/typographic/wrap/overflow-wrap');
 const LineClamp01 = () => import('../pages/typographic/wrap/line-clamp-01');
@@ -150,6 +151,7 @@ const GradientShadowFilter = () => import('../pages/visual/filter/gradient-shado
 const FrostedGlass = () => import('../pages/visual/filter/frosted-glass');
 const Alpha = () => import('../pages/visual/filter/alpha');
 const FusionFilter = () => import('../pages/visual/filter/fusion');
+const Filter01 = () => import('../pages/visual/filter/01');
 const MaskImage01 = () => import('../pages/visual/mask-image/01');
 const MaskImage02 = () => import('../pages/visual/mask-image/02');
 const Visibility01 = () => import('../pages/visual/visibility/01');
@@ -429,6 +431,9 @@ export default [
         path: '/typographic/font/font-family',
         component: FontFamily
     }, {
+        path: '/typographic/font/font-size',
+        component: FontSize
+    }, {
         path: '/typographic/font/font-smoothing',
         component: FontSmoothing
     }, {
@@ -664,6 +669,9 @@ export default [
     }, {
         path: '/visual/filter/fusion',
         component: FusionFilter
+    }, {
+        path: '/visual/filter/01',
+        component: Filter01
     }, {
         path: '/visual/mask-image/01',
         component: MaskImage01
