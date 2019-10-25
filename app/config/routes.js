@@ -71,6 +71,7 @@ const ClipPath01 = () => import('../pages/box-model/clip-path/01');
 
 const TypographicIndex = () => import('../pages/typographic/index');
 const FontFamily = () => import('../pages/typographic/font/font-family');
+const FontSize = () => import('../pages/typographic/font/font-size');
 const FontSmoothing = () => import('../pages/typographic/font/font-smoothing');
 const OverflowWrap = () => import('../pages/typographic/wrap/overflow-wrap');
 const LineClamp01 = () => import('../pages/typographic/wrap/line-clamp-01');
@@ -429,6 +430,9 @@ export default [
     }, {
         path: '/typographic/font/font-family',
         component: FontFamily
+    }, {
+        path: '/typographic/font/font-size',
+        component: FontSize
     }, {
         path: '/typographic/font/font-smoothing',
         component: FontSmoothing
