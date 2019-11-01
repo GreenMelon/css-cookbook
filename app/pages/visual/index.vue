@@ -189,6 +189,9 @@ export default {
                         }, {
                             alias: '图片闪光划过效果',
                             route: 'flash-image-effect',
+                        }, {
+                            alias: 'multi-line spanning animated underline',
+                            route: '04',
                         },
                     ],
                 }, {
