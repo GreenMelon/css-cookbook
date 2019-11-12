@@ -25,9 +25,11 @@ export default {
                     name: 'rotateX',
                     children: [
                         {
-                            route: '3d-button',
+                            route: '01',
+                            alias: '3d 旋转按钮',
                         }, {
-                            route: 'swing',
+                            route: '02',
+                            alias: 'swing',
                         },
                     ],
                 }, {

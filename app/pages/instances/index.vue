@@ -98,6 +98,15 @@ export default {
                         },
                     ],
                 }, {
+                    name: 'button',
+                    alias: '按钮',
+                    children: [
+                        {
+                            alias: '3d 按钮',
+                            route: '01',
+                        }
+                    ],
+                }, {
                     route: 'color',
                 }, {
                     alias: '手风琴式导航',
