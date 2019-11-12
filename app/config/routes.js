@@ -158,8 +158,8 @@ const MaskImage02 = () => import('../pages/visual/mask-image/02');
 const Visibility01 = () => import('../pages/visual/visibility/01');
 
 const TransformIndex = () => import('../pages/transform/index');
-const Transform3DButton = () => import('../pages/transform/rotateX/3d-button');
-const RotateXSwing = () => import('../pages/transform/rotateX/swing');
+const RotateX01 = () => import('../pages/transform/rotateX/01');
+const RotateX02 = () => import('../pages/transform/rotateX/02');
 const RotateY01 = () => import('../pages/transform/rotateY/01');
 const RotateY02 = () => import('../pages/transform/rotateY/02');
 const HamburgerMenu = () => import('../pages/transform/rotateZ/hamburger-menu');
@@ -228,6 +228,7 @@ const Search = () => import('../pages/instances/search');
 const ShowMore01 = () => import('../pages/instances/show-more/01');
 const ShowMore02 = () => import('../pages/instances/show-more/02');
 const ShowMore03 = () => import('../pages/instances/show-more/03');
+const Button01 = () => import('../pages/instances/button/01');
 
 const Grid = () => import('../pages/grid/index');
 const Grid01 = () => import('../pages/grid/01');
@@ -694,11 +695,11 @@ export default [
         path: '/transform/rotate/pie',
         component: Pie
     }, {
-        path: '/transform/rotateX/3d-button',
-        component: Transform3DButton,
+        path: '/transform/rotateX/01',
+        component: RotateX01,
     }, {
-        path: '/transform/rotateX/swing',
-        component: RotateXSwing,
+        path: '/transform/rotateX/02',
+        component: RotateX02,
     }, {
         path: '/transform/rotateY/01',
         component: RotateY01
@@ -862,6 +863,9 @@ export default [
     }, {
         path: '/instances/show-more/03',
         component: ShowMore03
+    }, {
+        path: '/instances/button/01',
+        component: Button01
     }, {
         path: '/instances/color',
         component: Color
