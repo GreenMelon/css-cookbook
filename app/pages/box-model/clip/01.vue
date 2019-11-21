@@ -22,11 +22,6 @@
                 <div class="outer">
                     <div class="clip">背景裁切</div>
                 </div>
-                <pre class="pre-code">
-                    <code>
-                        //
-                    </code>
-                </pre>
             </li>
         </ul>
     </main>

@@ -192,11 +192,6 @@
         <ul>
             <li>
                 <div class="ui-loading"></div>
-                <pre class="pre-code">
-                    <code>
-
-                    </code>
-                </pre>
             </li>
         </ul>
     </main>
