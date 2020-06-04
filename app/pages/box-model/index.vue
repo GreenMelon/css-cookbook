@@ -33,6 +33,8 @@ export default {
                                     route: '02',
                                 }, {
                                     route: '03',
+                                }, {
+                                    route: '04',
                                 },
                             ],
                         }

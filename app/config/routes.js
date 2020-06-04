@@ -63,6 +63,7 @@ const BorderWidth01 = () => import('../pages/box-model/border/border-width/01');
 const BorderImage01 = () => import('../pages/box-model/border/border-image/01');
 const BorderImage02 = () => import('../pages/box-model/border/border-image/02');
 const BorderImage03 = () => import('../pages/box-model/border/border-image/03');
+const BorderImage04 = () => import('../pages/box-model/border/border-image/04');
 const PaddingLeft = () => import('../pages/box-model/padding/left');
 const Clip01 = () => import('../pages/box-model/clip/01');
 const GradientCircle03 = () => import('../pages/box-model/clip/circle');
@@ -409,6 +410,9 @@ export default [
     }, {
         path: '/box-model/border/border-image/03',
         component: BorderImage03
+    },  {
+        path: '/box-model/border/border-image/04',
+        component: BorderImage04
     }, {
         path: '/box-model/padding/left',
         component: PaddingLeft
