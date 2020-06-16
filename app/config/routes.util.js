@@ -1,19 +1,13 @@
 const NotFound = () => import('../pages/404');
 
-const pages = {};
 const files = require.context('../pages', true, /\.vue$/);
 
-files.keys().forEach(key => {
+const dynamicRoutes = files.keys().map(key => {
     const file = files(key);
-    const path = key.replace(/(\.\/|\.vue)/g, '');
-    pages[path] = file;
-});
-
-const dynamicRoutes = Object.keys(pages).map(path => {
-    const p = path.replace('/index', '');
+    const path = key.replace(/(\.\/|\.vue)/g, '').replace('/index', '');
     const route = {
-        path: `/${p}`,
-        component: pages[path],
+        path: `/${path}`,
+        component: file,
     };
     return route;
 });

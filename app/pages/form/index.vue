@@ -11,7 +11,7 @@
 export default {
     data() {
         return {
-            baseRoute: '/form.',
+            baseRoute: '/Form',
             categories: [
                 {
                     name: 'autocomplete',

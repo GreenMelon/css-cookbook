@@ -1,4 +1,4 @@
-<style lang="less">
+<style lang="less" scoped>
 main {
     display: flex;
     justify-content: center;
