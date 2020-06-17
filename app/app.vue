@@ -32,8 +32,8 @@ export default {
                     name: 'instances',
                     route: '/instances'
                 }, {
-                    name: 'pointerevents',
-                    route: '/pointerevents'
+                    name: 'pointer events',
+                    route: '/pointer-events'
                 }, {
                     name: 'selector',
                     route: '/selector'

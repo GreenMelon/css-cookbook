@@ -9,13 +9,12 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                src: 'http://www.caiguazai.com/796795205.mp4'
-            }
-        },
-        methods: {},
-        mounted() {}
-    };
+// 用 img 播放 mp4 文件
+export default {
+    data() {
+        return {
+            src: 'http://www.caiguazai.com/796795205.mp4',
+        }
+    },
+};
 </script>

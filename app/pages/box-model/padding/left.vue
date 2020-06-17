@@ -37,5 +37,6 @@
 </template>
 
 <script>
-    export default {}
+// padding-left 百分比
+export default {}
 </script>

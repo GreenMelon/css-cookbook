@@ -1,75 +1,14 @@
-<template>
-    <main>
-        <categories
-            :base-route="baseRoute"
-            :categories="categories"
-        />
-    </main>
-</template>
-
 <script>
-export default {
+import Vue from 'vue';
+import Catalogue from '@/components/catalogue';
+
+export default Vue.extend({
+    mixins: [Catalogue],
+
     data() {
         return {
-            baseRoute: '/box-model',
-            categories: [
-                {
-                    name: 'border',
-                    children: [
-                        {
-                            name: 'border-width',
-                            children: [
-                                {
-                                    alias: '边框宽度可继承',
-                                    route: '01',
-                                },
-                            ],
-                        }, {
-                            name: 'border-image',
-                            children: [
-                                {
-                                    route: '01',
-                                }, {
-                                    route: '02',
-                                }, {
-                                    route: '03',
-                                }, {
-                                    route: '04',
-                                },
-                            ],
-                        }
-                    ]
-                }, {
-                    name: 'padding',
-                    children: [
-                        {
-                            alias: 'padding-left 百分比',
-                            route: 'left',
-                        },
-                    ],
-                }, {
-                    name: 'clip',
-                    children: [
-                        {
-                            alias: '背景裁切',
-                            route: '01',
-                        }, {
-                            alias: '渐变圆环',
-                            route: 'circle',
-                        }, {
-                            route: 'reverse-clip-path-with-blend-modes',
-                        },
-                    ],
-                }, {
-                    name: 'clip-path',
-                    children: [
-                        {
-                            route: '01',
-                        }
-                    ],
-                },
-            ],
-        }
+            dir: 'box-model',
+        };
     },
-}
+});
 </script>

@@ -1,45 +1,14 @@
-<template>
-    <main>
-        <categories
-            :base-route="baseRoute"
-            :categories="categories"
-        />
-    </main>
-</template>
-
 <script>
-export default {
+import Vue from 'vue';
+import Catalogue from '@/components/catalogue';
+
+export default Vue.extend({
+    mixins: [Catalogue],
+
     data() {
         return {
-            baseRoute: '/formatting-model',
-            categories: [
-                {
-                    name: 'align',
-                    children: [
-                        {
-                            alias: '垂直对齐',
-                            route: 'vertical-align',
-                        },
-                    ],
-                }, {
-                    name: 'column',
-                    children: [
-                        {
-                            route: 'column-count',
-                        },
-                    ],
-                }, {
-                    name: 'shape',
-                    children: [
-                        {
-                            route: 'circle',
-                        }, {
-                            route: 'polygon',
-                        },
-                    ],
-                },
-            ],
-        }
+            dir: 'formatting-model',
+        };
     },
-}
+});
 </script>

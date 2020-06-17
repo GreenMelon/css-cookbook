@@ -1,28 +1,14 @@
-<template>
-    <main>
-        <categories
-            :base-route="baseRoute"
-            :categories="categories"
-        />
-    </main>
-</template>
-
 <script>
-export default {
+import Vue from 'vue';
+import Catalogue from '@/components/catalogue';
+
+export default Vue.extend({
+    mixins: [Catalogue],
+
     data() {
         return {
-            baseRoute: '/table',
-            categories: [
-                {
-                    name: 'table-layout',
-                    children: [
-                        {
-                            route: '01',
-                        },
-                    ],
-                },
-            ],
-        }
+            dir: 'table',
+        };
     },
-}
+});
 </script>

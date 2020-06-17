@@ -7,7 +7,7 @@ export default Vue.extend({
 
     data() {
         return {
-            dir: 'transform',
+            dir: 'pointer-events',
         };
     },
 });

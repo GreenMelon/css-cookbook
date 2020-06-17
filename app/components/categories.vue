@@ -12,12 +12,12 @@
             <categories
                 v-if="isParent(category)"
                 :base-route="getBaseRoute(category)"
-                :categories="category.children"
+                :categories="category.childrens"
             />
 
             <router-link
                 v-if="!isParent(category)"
-                :to="getRoute(category)"
+                :to="getRoutePath(category)"
                 v-text="getRouteName(category)"
             />
         </li>
@@ -42,7 +42,7 @@ const categories = Vue.extend({
 
     methods: {
         isParent(c) {
-            return c.children;
+            return c.childrens.length > 0;
         },
 
         getBaseRoute(c) {
@@ -52,12 +52,12 @@ const categories = Vue.extend({
             return this.baseRoute;
         },
 
-        getRoute(c) {
-            return `${this.baseRoute}/${c.route}`;
+        getRoutePath(c) {
+            return `${this.baseRoute}/${c.name}`;
         },
 
         getRouteName(c) {
-            return c.alias || c.route;
+            return c.name;
         },
     },
 });
