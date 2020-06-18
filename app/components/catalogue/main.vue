@@ -29,8 +29,7 @@ export default {
             const paths = files.keys()
                 .map(i => i.replace(/(\.\/|\.vue)/g, ''))
                 .filter(i => i.startsWith(name))
-                .map(i => i.replace(`${name}/`, ''))
-                .filter(i => i !== 'index');
+                .map(i => i.replace(`${name}/`, ''));
 
             const { categories } = this;
 

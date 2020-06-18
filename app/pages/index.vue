@@ -1,8 +1,8 @@
 <style scoped>
-    img {
-        width: 200px;
-        height: auto;
-    }
+img {
+    width: 200px;
+    height: auto;
+}
 </style>
 
 <template>
@@ -17,14 +17,14 @@
 </template>
 
 <script>
-    import preview2 from '@/images/blue-sky.jpg';
+import preview2 from '@/images/blue-sky.jpg';
 
-    export default {
-        data() {
-            return {
-                preview1: require('../images/blue-sky.jpg'),
-                preview2: preview2,
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            preview1: require('../images/blue-sky.jpg'),
+            preview2: preview2,
+        }
+    },
+}
 </script>
