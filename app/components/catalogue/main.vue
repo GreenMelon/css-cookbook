@@ -24,7 +24,7 @@ export default {
 
     methods: {
         getTableOfContents(name) {
-            const files = require.context('../pages', true, /\.vue$/);
+            const files = require.context('../../pages', true, /\.vue$/);
 
             const paths = files.keys()
                 .map(i => i.replace(/(\.\/|\.vue)/g, ''))
