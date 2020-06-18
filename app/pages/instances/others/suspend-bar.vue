@@ -113,31 +113,32 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                teams: [
-                    'LAL Lakers',
-                    'GS Warriors',
-                    'SAS Spurs',
-                    'MIA Heats',
-                    'BOS Celtics',
-                ],
-                team: '',
-            };
-        },
+// 悬挂条导航
+export default {
+    data() {
+        return {
+            teams: [
+                'LAL Lakers',
+                'GS Warriors',
+                'SAS Spurs',
+                'MIA Heats',
+                'BOS Celtics',
+            ],
+            team: '',
+        };
+    },
 
-        mounted() {
-            this.init();
-        },
+    mounted() {
+        this.init();
+    },
 
-        methods: {
-            init() {
-                this.team = this.teams[0];
-            },
-            activeItem(team) {
-                this.team = team;
-            },
+    methods: {
+        init() {
+            this.team = this.teams[0];
         },
-    };
+        activeItem(team) {
+            this.team = team;
+        },
+    },
+};
 </script>

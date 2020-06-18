@@ -1,40 +1,40 @@
 <style lang="less" scoped>
-    .page.wrapper {
-        position: relative;
-        width: 60%;
-        margin: 30px auto;
-        font-size: 0;
-    }
-    .logo {
-        position: absolute;
-        top: 15px;
-        left: 50%;
-        width: 250px;
-        margin-left: -125px;
-    }
-    .page-left,
-    .page-right {
-        display: inline-block;
-        box-sizing: border-box;
-        width: 50%;
-        padding: 10px;
-        font: 14px/1.8 Georgia, serif;
-        -ms-word-break: break-all;
-            word-break: break-all;
-    }
-    .page-left::before,
-    .page-right::before {
-        content: '';
-        width: 125px;
-        height: 160px;
-        margin: 5px;
-    }
-    .page-left::before {
-        float: right;
-    }
-    .page-right::before {
-        float: left;
-    }
+.page.wrapper {
+    position: relative;
+    width: 60%;
+    margin: 30px auto;
+    font-size: 0;
+}
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 250px;
+    margin-left: -125px;
+}
+.page-left,
+.page-right {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+    font: 14px/1.8 Georgia, serif;
+    -ms-word-break: break-all;
+        word-break: break-all;
+}
+.page-left::before,
+.page-right::before {
+    content: '';
+    width: 125px;
+    height: 160px;
+    margin: 5px;
+}
+.page-left::before {
+    float: right;
+}
+.page-right::before {
+    float: left;
+}
 </style>
 
 <template>
@@ -54,5 +54,6 @@
 </template>
 
 <script>
-    export default {}
+// 两列排版的文章
+export default {}
 </script>

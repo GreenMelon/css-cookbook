@@ -1,29 +1,29 @@
 <style lang="less" scoped>
-    .hexagon {
-        margin: 10px auto;
-        width: 205px;
-        height: 170px;
+.hexagon {
+    margin: 10px auto;
+    width: 205px;
+    height: 170px;
+    overflow: hidden;
+    div {
+        width: 100%;
+        height: 100%;
         overflow: hidden;
-        div {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-        .content {
-            background: url(~images/blue-sky.jpg);
-            background-size: cover;
-        }
-
-        .inner {
-            transform: rotate(60deg);
-        }
-        .outer {
-            transform: rotate(-120deg);
-        }
-        & {
-            transform: rotate(60deg);
-        }
     }
+    .content {
+        background: url(~images/blue-sky.jpg);
+        background-size: cover;
+    }
+
+    .inner {
+        transform: rotate(60deg);
+    }
+    .outer {
+        transform: rotate(-120deg);
+    }
+    & {
+        transform: rotate(60deg);
+    }
+}
 </style>
 
 <template>
@@ -43,5 +43,6 @@
 </template>
 
 <script>
-    export default {}
+// 六边形
+export default {}
 </script>

@@ -58,5 +58,6 @@ html {
 </template>
 
 <script>
+// footer notes
 export default {}
 </script>
