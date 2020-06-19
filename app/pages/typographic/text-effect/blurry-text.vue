@@ -14,5 +14,7 @@
 </template>
 
 <script>
-    export default {}
+export default {
+    alias: '模糊文字',
+}
 </script>

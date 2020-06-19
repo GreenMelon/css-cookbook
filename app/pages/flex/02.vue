@@ -30,6 +30,8 @@ ul li {
 
 <script>
 export default {
+    alias: 'order 排序',
+
     data() {
         return {
             list: [

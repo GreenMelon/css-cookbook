@@ -83,11 +83,13 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                groups: [6, 6, 6, 6]
-            }
+export default {
+    alias: '总览',
+
+    data() {
+        return {
+            groups: [6, 6, 6, 6],
         }
-    };
+    },
+};
 </script>

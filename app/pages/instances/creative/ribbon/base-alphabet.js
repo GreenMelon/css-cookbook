@@ -1,6 +1,6 @@
-import RibbonAlphabet from './ribbon-alphabet';
-import RibbonSharp from './ribbon-sharp';
-import RibbonSquare from './ribbon-square';
+import RibbonAlphabet from './ignore-ribbon-alphabet';
+import RibbonSharp from './ignore-ribbon-sharp';
+import RibbonSquare from './ignore-ribbon-square';
 
 const baseAlphabet = {
     components: {
