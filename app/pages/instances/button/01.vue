@@ -61,5 +61,7 @@ button {
 </template>
 
 <script>
-    export default {};
+export default {
+    alias: '3D 按钮',
+};
 </script>

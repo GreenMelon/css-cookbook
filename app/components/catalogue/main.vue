@@ -27,30 +27,41 @@ export default {
             const files = require.context('../../pages', true, /\.vue$/);
 
             const paths = files.keys()
-                .map(i => i.replace(/(\.\/|\.vue)/g, ''))
-                .filter(i => i.startsWith(name))
-                .map(i => i.replace(`${name}/`, ''));
+                .map(i => {
+                    const { alias } = files(i);
+                    return {
+                        path: i.replace(/(\.\/|\.vue)/g, ''),
+                        alias,
+                    };
+                })
+                .filter(i => i.path.startsWith(name) && !i.path.includes('ignore'))
+                .map(i => ({
+                    alias: i.alias,
+                    path: i.path.replace(`${name}/`, '').split('/'),
+                }));
 
             const { categories } = this;
 
-            paths.map(i => i.split('/')).forEach(g => {
-                this.createNode(g, categories);
+            paths.forEach(i => {
+                this.createNode(i, categories);
             });
         },
 
-        createNode(path, nodes) {
+        createNode(item, nodes) {
+            const { path, alias } = item;
             const name = path.shift();
             const idx = nodes.findIndex((i) => i.name === name);
             if (idx < 0) {
                 nodes.push({
                     name,
+                    alias: path.length === 0 ? alias : '',
                     childrens: [],
                 });
                 if (path.length !== 0) {
-                    this.createNode(path, nodes[nodes.length - 1].childrens);
+                    this.createNode(item, nodes[nodes.length - 1].childrens);
                 }
             } else {
-                this.createNode(path, nodes[idx].childrens);
+                this.createNode(item, nodes[idx].childrens);
             }
         },
     },

@@ -57,7 +57,7 @@ const categories = Vue.extend({
         },
 
         getRouteName(c) {
-            return c.name;
+            return c.alias || c.name;
         },
     },
 });

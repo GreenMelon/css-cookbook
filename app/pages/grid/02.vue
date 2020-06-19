@@ -30,17 +30,20 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                count: 15,
-            }
+export default {
+    alias: '瀑布流',
+
+    data() {
+        return {
+            count: 15,
+        }
+    },
+
+    methods: {
+        getRandomHeight() {
+            const height = `${Math.random() * 200 + 300}px`;
+            return height;
         },
-        methods: {
-            getRandomHeight() {
-                const height = `${Math.random() * 200 + 300}px`;
-                return height;
-            },
-        },
-    };
+    },
+};
 </script>
