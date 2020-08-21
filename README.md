@@ -1,6 +1,6 @@
 # CSS-COOKBOOK
 
-[中文说明](./README-ZH.md)
+[中文说明](./README.zh.md)
 
 ## Install
 
