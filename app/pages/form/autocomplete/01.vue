@@ -28,7 +28,10 @@
         </form>
 
         <ul>
-            <li v-for="(item, inx) in articles">
+            <li
+                v-for="(item, inx) in articles"
+                :key="inx"
+            >
                 <a :href="item" target="_blank">参考文章 {{ inx+1 }}</a>
             </li>
         </ul>
@@ -36,20 +39,18 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                articles: [
-                    'https://blog.niceue.com/front-end-development/Remove-forced-yellow-input-background-in-Chrome.html',
-                    'http://stackoverflow.com/questions/2338102/override-browser-form-filling-and-input-highlighting-with-html-css',
-                    'http://labs.enonic.com/articles/remove-forced-yellow-input-background-in-chrome'
-                ]
-            }
-        },
-        methods: {
-            save() {
-                //
-            }
+export default {
+    data() {
+        return {
+            articles: [
+                'https://blog.niceue.com/front-end-development/Remove-forced-yellow-input-background-in-Chrome.html',
+                'http://stackoverflow.com/questions/2338102/override-browser-form-filling-and-input-highlighting-with-html-css',
+                'http://labs.enonic.com/articles/remove-forced-yellow-input-background-in-chrome'
+            ]
         }
-    };
+    },
+    methods: {
+        save() {}
+    }
+};
 </script>

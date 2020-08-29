@@ -18,26 +18,26 @@
 </template>
 
 <script>
-    export default {
-        name: 'ribbon-square',
+export default {
+    name: 'ribbon-square',
 
-        props: {
-            size: {
-                type: Number,
-                default: 12,
-            },
-            times: {
-                type: Number,
-                default: 1,
-            },
-            color: {
-                type: String,
-                default: '',
-            },
-            zIndex: {
-                type: Number,
-                default: 0,
-            },
-        }
-    };
+    props: {
+        size: {
+            type: Number,
+            default: 12,
+        },
+        times: {
+            type: Number,
+            default: 1,
+        },
+        color: {
+            type: String,
+            default: '',
+        },
+        zIndex: {
+            type: Number,
+            default: 0,
+        },
+    }
+}
 </script>

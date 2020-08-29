@@ -48,75 +48,75 @@ code {
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                options: [
-                    {
-                        name: '',
-                        type: 'double',
-                        backgroundColor: '#976bee',
-                        width: '14px',
-                        color: 'white',
-                        offset: '-20px',
-                    }, {
-                        name: '',
-                        type: 'dotted',
-                        backgroundColor: '#e65353',
-                        width: '24px',
-                        color: 'white',
-                        offset: '-12px',
-                    }, {
-                        name: '',
-                        type: 'dotted',
-                        backgroundColor: '#ffd835',
-                        width: '40px',
-                        color: 'white',
-                        offset: '-20px',
-                    }, {
-                        name: '',
-                        type: 'dashed',
-                        backgroundColor: '#70bc59',
-                        width: '22px',
-                        color: 'white',
-                        offset: '-12px',
-                    }, {
-                        name: '',
-                        type: 'groove',
-                        backgroundColor: 'antiquewhite',
-                        width: '14px',
-                        color: 'burlywood',
-                        offset: '-14px',
-                    }, {
-                        name: '',
-                        type: 'ridge',
-                        backgroundColor: 'azure',
-                        width: '14px',
-                        color: 'lightblue',
-                        offset: '-14px',
-                    }, {
-                        name: '',
-                        type: 'outset',
-                        backgroundColor: 'floralwhite',
-                        width: '24px',
-                        color: 'pink',
-                        offset: '-24px',
-                    }, {
-                        name: '',
-                        type: 'inset',
-                        backgroundColor: 'bisque',
-                        width: '24px',
-                        color: 'sandybrown',
-                        offset: '-24px',
-                    }, {
-                        name: '',
-                        type: 'auto',
-                        backgroundColor: 'aliceblue',
-                        width: '50px',
-                        color: 'lavender',
-                    }
-                ],
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            options: [
+                {
+                    name: '',
+                    type: 'double',
+                    backgroundColor: '#976bee',
+                    width: '14px',
+                    color: 'white',
+                    offset: '-20px',
+                }, {
+                    name: '',
+                    type: 'dotted',
+                    backgroundColor: '#e65353',
+                    width: '24px',
+                    color: 'white',
+                    offset: '-12px',
+                }, {
+                    name: '',
+                    type: 'dotted',
+                    backgroundColor: '#ffd835',
+                    width: '40px',
+                    color: 'white',
+                    offset: '-20px',
+                }, {
+                    name: '',
+                    type: 'dashed',
+                    backgroundColor: '#70bc59',
+                    width: '22px',
+                    color: 'white',
+                    offset: '-12px',
+                }, {
+                    name: '',
+                    type: 'groove',
+                    backgroundColor: 'antiquewhite',
+                    width: '14px',
+                    color: 'burlywood',
+                    offset: '-14px',
+                }, {
+                    name: '',
+                    type: 'ridge',
+                    backgroundColor: 'azure',
+                    width: '14px',
+                    color: 'lightblue',
+                    offset: '-14px',
+                }, {
+                    name: '',
+                    type: 'outset',
+                    backgroundColor: 'floralwhite',
+                    width: '24px',
+                    color: 'pink',
+                    offset: '-24px',
+                }, {
+                    name: '',
+                    type: 'inset',
+                    backgroundColor: 'bisque',
+                    width: '24px',
+                    color: 'sandybrown',
+                    offset: '-24px',
+                }, {
+                    name: '',
+                    type: 'auto',
+                    backgroundColor: 'aliceblue',
+                    width: '50px',
+                    color: 'lavender',
+                }
+            ],
+        }
+    },
+}
 </script>

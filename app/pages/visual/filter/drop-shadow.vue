@@ -45,23 +45,24 @@
         <ul>
             <li
                 v-for="color in colors"
+                :key="color"
                 :style="{
                     background: color,
                 }"
-                @click="curColor = color;"
                 class="icon-color"
+                @click="curColor = color;"
             ></li>
         </ul>
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                curColor: '',
-                colors: ['red', 'orange', 'yellow', 'green', 'teal','blue', 'purple'],
-            }
-        },
-    };
+export default {
+    data() {
+        return {
+            curColor: '',
+            colors: ['red', 'orange', 'yellow', 'green', 'teal','blue', 'purple'],
+        }
+    },
+}
 </script>

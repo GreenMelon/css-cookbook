@@ -63,30 +63,30 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                src: 'http://www.caiguazai.com/796795205.mp4',
-                video: {}
-            }
-        },
-        methods: {
-            init() {
-                this.video = window.video;
-                console.log('video', video);
-            },
-            toggleControls() {
-                this.video.controls = !this.video.controls;
-            },
-            play() {
-                this.video.play();
-            },
-            pause() {
-                this.video.pause();
-            }
-        },
-        mounted() {
-            this.init();
+export default {
+    data() {
+        return {
+            src: 'http://www.caiguazai.com/796795205.mp4',
+            video: {}
         }
-    };
+    },
+    mounted() {
+        this.init();
+    },
+    methods: {
+        init() {
+            this.video = window.video;
+            console.log('video', video);
+        },
+        toggleControls() {
+            this.video.controls = !this.video.controls;
+        },
+        play() {
+            this.video.play();
+        },
+        pause() {
+            this.video.pause();
+        }
+    },
+};
 </script>

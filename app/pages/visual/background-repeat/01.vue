@@ -27,16 +27,16 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                options: [
-                    'repeat',
-                    'round',
-                    'space'
-                ],
-                url: 'https://st-gdx.dancf.com/gaodingx/341/design/20190731-152542-1dab.png',
-            };
-        },
-    }
+export default {
+    data() {
+        return {
+            options: [
+                'repeat',
+                'round',
+                'space'
+            ],
+            url: 'https://st-gdx.dancf.com/gaodingx/341/design/20190731-152542-1dab.png',
+        };
+    },
+}
 </script>

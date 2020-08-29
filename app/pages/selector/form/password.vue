@@ -19,15 +19,15 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                links: [
-                    'https://github.com/maxchehab/CSS-Keylogging',
-                    'https://github.com/jbtronics/CrookedStyleSheets',
-                    'https://github.com/jbtronics/CrookedStyleSheets/blob/master/docs/README.zh.md'
-                ],
-            }
+export default {
+    data() {
+        return {
+            links: [
+                'https://github.com/maxchehab/CSS-Keylogging',
+                'https://github.com/jbtronics/CrookedStyleSheets',
+                'https://github.com/jbtronics/CrookedStyleSheets/blob/master/docs/README.zh.md'
+            ],
         }
-    };
+    }
+}
 </script>

@@ -178,22 +178,22 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                links: [
-                    {
-                        name: 'Glitch Effect',
-                        href: 'https://hacdias.com/xxx',
-                    }, {
-                        name: 'Glitch Effect on Text / Images / SVG',
-                        href: 'https://css-tricks.com/glitch-effect-text-images-svg/',
-                    }, {
-                        name: '让你的网站文字抖起来',
-                        href: 'https://paugram.com/coding/shake-your-text.html',
-                    }
-                ],
-            };
-        },
-    };
+export default {
+    data() {
+        return {
+            links: [
+                {
+                    name: 'Glitch Effect',
+                    href: 'https://hacdias.com/xxx',
+                }, {
+                    name: 'Glitch Effect on Text / Images / SVG',
+                    href: 'https://css-tricks.com/glitch-effect-text-images-svg/',
+                }, {
+                    name: '让你的网站文字抖起来',
+                    href: 'https://paugram.com/coding/shake-your-text.html',
+                }
+            ],
+        };
+    },
+}
 </script>

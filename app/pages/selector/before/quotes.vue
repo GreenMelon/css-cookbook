@@ -18,13 +18,13 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                references: [
-                    'https://github.com/dwqs/blog/issues/28'
-                ],
-            };
-        },
-    };
+export default {
+    data() {
+        return {
+            references: [
+                'https://github.com/dwqs/blog/issues/28'
+            ],
+        };
+    },
+}
 </script>

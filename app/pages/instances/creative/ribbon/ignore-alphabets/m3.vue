@@ -56,19 +56,19 @@
 </template>
 
 <script>
-    import Vue from 'vue';
-    import baseAlphabet from '../base-alphabet';
+import Vue from 'vue';
+import baseAlphabet from '../base-alphabet';
 
-    export default Vue.extend({
-        mixins: [baseAlphabet],
+export default Vue.extend({
+    mixins: [baseAlphabet],
 
-        computed: {
-            degree() {
-                const width = (1 + this.widthTimes + 1) / 2 - 0.5;
-                const height = (1 + this.heightTimes + 1) / 2;
+    computed: {
+        degree() {
+            const width = (1 + this.widthTimes + 1) / 2 - 0.5;
+            const height = (1 + this.heightTimes + 1) / 2;
 
-                return Math.atan(width / height) * 360 / (Math.PI * 2);
-            },
+            return Math.atan(width / height) * 360 / (Math.PI * 2);
         },
-    });
+    },
+})
 </script>

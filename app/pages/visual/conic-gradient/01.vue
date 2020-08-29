@@ -55,11 +55,11 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                url: 'http://www.cnblogs.com/coco1s/p/7079529.html'
-            }
+export default {
+    data() {
+        return {
+            url: 'http://www.cnblogs.com/coco1s/p/7079529.html'
         }
     }
+}
 </script>

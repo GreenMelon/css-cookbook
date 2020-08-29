@@ -28,26 +28,26 @@
 </template>
 
 <script>
-    export default {
-        methods: {
-            init() {
-                const input = document.querySelector('input');
+export default {
+    mounted() {
+        this.init();
+    },
+    methods: {
+        init() {
+            const input = document.querySelector('input');
 
-                console.log({
-                    indeterminate: input.indeterminate,
-                    checked: input.checked,
-                });
+            console.log({
+                indeterminate: input.indeterminate,
+                checked: input.checked,
+            });
 
-                input.indeterminate = true;
+            input.indeterminate = true;
 
-                console.log({
-                    indeterminate: input.indeterminate,
-                    checked: input.checked,
-                });
-            },
+            console.log({
+                indeterminate: input.indeterminate,
+                checked: input.checked,
+            });
         },
-        mounted() {
-            this.init();
-        },
-    };
+    },
+}
 </script>
