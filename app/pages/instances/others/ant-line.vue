@@ -119,5 +119,5 @@
 
 <script>
 // 蚂蚁线
-export default {};
+export default {}
 </script>

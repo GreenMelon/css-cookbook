@@ -53,5 +53,5 @@ h1 span {
 
 <script>
 // 打字效果
-export default {};
+export default {}
 </script>

@@ -76,5 +76,5 @@ h1::before {
 </template>
 
 <script>
-    export default {};
+export default {}
 </script>

@@ -35,5 +35,5 @@ main {
 <script>
     import 'css-doodle';
 
-    export default {};
+export default {}
 </script>

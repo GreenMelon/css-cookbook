@@ -21,5 +21,5 @@ input[type="number"] {
 </template>
 
 <script>
-    export default {};
+export default {}
 </script>

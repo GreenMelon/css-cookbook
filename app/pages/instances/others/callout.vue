@@ -52,5 +52,5 @@ input:not(:focus) + .callout:not(:hover) {
 
 <script>
 // 弹出提示框
-export default {};
+export default {}
 </script>

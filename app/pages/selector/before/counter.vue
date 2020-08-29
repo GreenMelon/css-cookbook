@@ -70,5 +70,5 @@ input[type=checkbox]:checked + label:before {
 </template>
 
 <script>
-    export default {};
+export default {}
 </script>
