@@ -49,18 +49,18 @@
 </template>
 
 <script>
-    import $ from 'jquery';
-    export default {
-        data() {
-            return {
-                a: 'xxxxx',
-                b: 'yyyyy'
-            }
-        },
-        methods: {
-            select(e) {
-                $(e.target).select();
-            }
+import $ from 'jquery';
+export default {
+    data() {
+        return {
+            a: 'xxxxx',
+            b: 'yyyyy'
         }
-    };
+    },
+    methods: {
+        select(e) {
+            $(e.target).select();
+        }
+    }
+}
 </script>

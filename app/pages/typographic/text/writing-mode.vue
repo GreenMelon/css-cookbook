@@ -21,17 +21,17 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                mode: ''
-            }
-        },
-        methods: {
-            changeMode(mode) {
-                this.mode = mode;
-            }
-        },
-        created() {}
-    };
+export default {
+    data() {
+        return {
+            mode: ''
+        }
+    },
+    methods: {
+        changeMode(mode) {
+            this.mode = mode;
+        }
+    },
+    created() {}
+}
 </script>

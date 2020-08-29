@@ -23,19 +23,19 @@ main {
 </template>
 
 <script>
-    import 'css-doodle';
+import 'css-doodle';
 
-    export default {
-        mounted() {
-            this.init();
-        },
+export default {
+    mounted() {
+        this.init();
+    },
 
-        methods: {
-            init() {
-                this.$el.addEventListener('click', evt => {
-                    evt.target.update && evt.target.update();
-                });
-            },
+    methods: {
+        init() {
+            this.$el.addEventListener('click', evt => {
+                evt.target.update && evt.target.update();
+            });
         },
-    };
+    },
+}
 </script>

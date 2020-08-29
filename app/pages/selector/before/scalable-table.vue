@@ -90,25 +90,25 @@ td {
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                teams: [
-                    {
-                        city: 'los angeles',
-                        name: 'lakers',
-                        player: 'kobe',
-                    }, {
-                        city: 'golden state',
-                        name: 'warriors',
-                        player: 'curry',
-                    }, {
-                        city: 'san antonio',
-                        name: 'spurs',
-                        player: 'duncan',
-                    }
-                ],
-            }
-        },
-    };
+export default {
+    data() {
+        return {
+            teams: [
+                {
+                    city: 'los angeles',
+                    name: 'lakers',
+                    player: 'kobe',
+                }, {
+                    city: 'golden state',
+                    name: 'warriors',
+                    player: 'curry',
+                }, {
+                    city: 'san antonio',
+                    name: 'spurs',
+                    player: 'duncan',
+                }
+            ],
+        }
+    },
+}
 </script>

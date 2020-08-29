@@ -22,11 +22,11 @@
 </template>
 
 <script>
-    export default {
-        methods: {
-            click() {
-                alert(1);
-            },
+export default {
+    methods: {
+        click() {
+            alert(1);
         },
-    }
+    },
+}
 </script>

@@ -70,25 +70,25 @@ input[type=radio] {
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                controls: [
-                    {
-                        type: 'checkbox',
-                        value: 1,
-                    }, {
-                        type: 'checkbox',
-                        value: 2,
-                    }, {
-                        type: 'radio',
-                        value: 1,
-                    }, {
-                        type: 'radio',
-                        value: 2,
-                    }
-                ],
-            }
-        },
-    };
+export default {
+    data() {
+        return {
+            controls: [
+                {
+                    type: 'checkbox',
+                    value: 1,
+                }, {
+                    type: 'checkbox',
+                    value: 2,
+                }, {
+                    type: 'radio',
+                    value: 1,
+                }, {
+                    type: 'radio',
+                    value: 2,
+                }
+            ],
+        }
+    },
+}
 </script>

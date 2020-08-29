@@ -120,82 +120,82 @@ input {
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                option: {
-                    width: {
-                        top: 26,
-                        right: 26,
-                        bottom: 26,
-                        left: 26,
-                    },
-                    outset: {
-                        top: 0,
-                        right: 0,
-                        bottom: 0,
-                        left: 0,
-                    },
-                    slice: {
-                        top: 26,
-                        right: 26,
-                        bottom: 26,
-                        left: 26,
-                    },
-                    repeat: 'stretch',
+export default {
+    data() {
+        return {
+            option: {
+                width: {
+                    top: 26,
+                    right: 26,
+                    bottom: 26,
+                    left: 26,
                 },
-                directions: [
-                    'top',
-                    'right',
-                    'bottom',
-                    'left',
-                ],
-                boborderImageSliceOptions: {
-                    min: 0,
-                    max: 100,
+                outset: {
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    left: 0,
                 },
-                boborderImageWidthOptions: {
-                    min: 0,
-                    max: 100,
+                slice: {
+                    top: 26,
+                    right: 26,
+                    bottom: 26,
+                    left: 26,
                 },
-                boborderImageOutsetOptions: {
-                    min: 0,
-                    max: 26,
-                },
-                boborderImageRepeatOptions: [
-                    'stretch',
-                    'round',
-                    'repeat',
-                    'space',
-                    'stretch round',
-                    'stretch repeat',
-                    'stretch space',
-                    'round stretch',
-                    'round repeat',
-                    'round space',
-                    'repeat stretch',
-                    'repeat round',
-                    'repeat space',
-                    'space stretch',
-                    'space round',
-                    'space repeat',
-                ],
-            };
-        },
-
-        computed: {},
-
-        methods: {
-            getAttribute(attr, unit) {
-                const  {
-                    top,
-                    right,
-                    bottom,
-                    left,
-                } = this.option[attr];
-
-                return `${top}${unit} ${right}${unit} ${bottom}${unit} ${left}${unit}`;
+                repeat: 'stretch',
             },
+            directions: [
+                'top',
+                'right',
+                'bottom',
+                'left',
+            ],
+            boborderImageSliceOptions: {
+                min: 0,
+                max: 100,
+            },
+            boborderImageWidthOptions: {
+                min: 0,
+                max: 100,
+            },
+            boborderImageOutsetOptions: {
+                min: 0,
+                max: 26,
+            },
+            boborderImageRepeatOptions: [
+                'stretch',
+                'round',
+                'repeat',
+                'space',
+                'stretch round',
+                'stretch repeat',
+                'stretch space',
+                'round stretch',
+                'round repeat',
+                'round space',
+                'repeat stretch',
+                'repeat round',
+                'repeat space',
+                'space stretch',
+                'space round',
+                'space repeat',
+            ],
+        };
+    },
+
+    computed: {},
+
+    methods: {
+        getAttribute(attr, unit) {
+            const  {
+                top,
+                right,
+                bottom,
+                left,
+            } = this.option[attr];
+
+            return `${top}${unit} ${right}${unit} ${bottom}${unit} ${left}${unit}`;
         },
-    }
+    },
+}
 </script>

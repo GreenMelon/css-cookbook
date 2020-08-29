@@ -39,28 +39,28 @@ main {
 </template>
 
 <script>
-    export default {
-        mounted() {
-            this.fading();
+export default {
+    mounted() {
+        this.fading();
+    },
+
+    methods: {
+        fading() {
+            const fancy = document.getElementsByClassName('fancy')[0];
+            const letters = fancy.textContent.split('');
+
+            const content = letters.map(val => {
+                const delay = Math.floor((Math.random() * 1000) + 1);
+
+                return `<span style="animation-delay: ${delay}ms">${val}</span>`;
+            });
+
+            fancy.innerHTML = '';
+
+            for (var i = 0; i < content.length; i++) {
+                fancy.innerHTML += content[i];
+            }
         },
-
-        methods: {
-            fading() {
-                const fancy = document.getElementsByClassName('fancy')[0];
-                const letters = fancy.textContent.split('');
-
-                const content = letters.map(val => {
-                    const delay = Math.floor((Math.random() * 1000) + 1);
-
-                    return `<span style="animation-delay: ${delay}ms">${val}</span>`;
-                });
-
-                fancy.innerHTML = '';
-
-                for (var i = 0; i < content.length; i++) {
-                    fancy.innerHTML += content[i];
-                }
-            },
-        },
-    };
+    },
+}
 </script>

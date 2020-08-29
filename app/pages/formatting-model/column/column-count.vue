@@ -19,11 +19,11 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                text: 'hello darkness my old friend, i have come to talk with you again.'
-            };
-        },
-    };
+export default {
+    data() {
+        return {
+            text: 'hello darkness my old friend, i have come to talk with you again.'
+        };
+    },
+}
 </script>

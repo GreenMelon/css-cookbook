@@ -39,11 +39,11 @@
 </template>
 
 <script>
-    export default {
-        methods: {
-            submit(e) {
-                console.log(e.target);
-            }
+export default {
+    methods: {
+        submit(e) {
+            console.log(e.target);
         }
-    };
+    }
+}
 </script>

@@ -95,30 +95,30 @@ input[id="more"]:checked ~ .more:after {
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                choices: [
-                    {
-                        value: 1,
-                        alias: '内容少',
-                    }, {
-                        value: 10,
-                        alias: '内容适中',
-                    }, {
-                        value: 20,
-                        alias: '内容多',
-                    },
-                ],
-                repeatCount: 1,
-                baseContent: 'life is but a span. ',
-            };
-        },
+export default {
+    data() {
+        return {
+            choices: [
+                {
+                    value: 1,
+                    alias: '内容少',
+                }, {
+                    value: 10,
+                    alias: '内容适中',
+                }, {
+                    value: 20,
+                    alias: '内容多',
+                },
+            ],
+            repeatCount: 1,
+            baseContent: 'life is but a span. ',
+        };
+    },
 
-        computed: {
-            content() {
-                return this.baseContent.repeat(this.repeatCount);
-            },
+    computed: {
+        content() {
+            return this.baseContent.repeat(this.repeatCount);
         },
-    }
+    },
+}
 </script>

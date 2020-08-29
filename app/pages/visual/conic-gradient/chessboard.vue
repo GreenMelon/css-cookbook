@@ -16,14 +16,14 @@
 </template>
 
 <script>
-    export default {
-        methods: {
-            loadScript() {
-                //http://leaverou.github.io/conic-gradient/conic-gradient.js
-            },
+export default {
+    methods: {
+        loadScript() {
+            //http://leaverou.github.io/conic-gradient/conic-gradient.js
         },
-        mounted() {
-            this.loadScript();
-        }
+    },
+    mounted() {
+        this.loadScript();
     }
+}
 </script>

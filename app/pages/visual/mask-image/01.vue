@@ -11,17 +11,22 @@
 <template>
     <main>
         <div>
-            <span v-for="item in times">superman</span>
+            <span
+                v-for="item in times"
+                :key="item"
+            >
+                superman
+            </span>
         </div>
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                times: 100,
-            }
-        },
-    };
+export default {
+    data() {
+        return {
+            times: 100,
+        }
+    },
+}
 </script>

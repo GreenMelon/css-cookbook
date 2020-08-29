@@ -75,10 +75,10 @@
 </template>
 
 <script>
-    import Vue from 'vue';
-    import baseAlphabet from '../base-alphabet';
+import Vue from 'vue';
+import baseAlphabet from '../base-alphabet';
 
-    export default Vue.extend({
-        mixins: [baseAlphabet],
-    });
+export default Vue.extend({
+    mixins: [baseAlphabet],
+})
 </script>

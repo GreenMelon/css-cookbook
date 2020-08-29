@@ -21,22 +21,22 @@
 </template>
 
 <script>
-    export default {
-        name: 'ribbon-alphabet',
+export default {
+    name: 'ribbon-alphabet',
 
-        props: {
-            size: {
-                type: Number,
-                default: 12,
-            },
-            widthTimes: {
-                type: Number,
-                default: 4,
-            },
-            heightTimes: {
-                type: Number,
-                default: 8,
-            },
+    props: {
+        size: {
+            type: Number,
+            default: 12,
         },
-    };
+        widthTimes: {
+            type: Number,
+            default: 4,
+        },
+        heightTimes: {
+            type: Number,
+            default: 8,
+        },
+    },
+}
 </script>

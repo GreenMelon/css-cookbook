@@ -49,17 +49,22 @@
 <template>
     <main>
         <ul>
-            <li v-for="item in menus">{{ item }}</li>
+            <li
+                v-for="item in menus"
+                :key="item"
+            >
+                {{ item }}
+            </li>
         </ul>
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                menus: ['菜瓜', '菜瓜', '菜瓜', '菜瓜', '菜瓜', '菜瓜', '菜瓜']
-            }
+export default {
+    data() {
+        return {
+            menus: ['菜瓜', '菜瓜', '菜瓜', '菜瓜', '菜瓜', '菜瓜', '菜瓜']
         }
     }
+}
 </script>

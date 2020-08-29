@@ -38,16 +38,16 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                isShape: false
-            }
-        },
-        methods: {
-            toggleShape() {
-                this.isShape = !this.isShape;
-            }
-        },
-    };
+export default {
+    data() {
+        return {
+            isShape: false
+        }
+    },
+    methods: {
+        toggleShape() {
+            this.isShape = !this.isShape;
+        }
+    },
+}
 </script>

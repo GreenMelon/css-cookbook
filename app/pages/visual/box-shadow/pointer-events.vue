@@ -20,11 +20,11 @@
 </template>
 
 <script>
-    export default {
-        methods: {
-            click(e) {
-                console.log(e.target);
-            }
+export default {
+    methods: {
+        click(e) {
+            console.log(e.target);
         }
-    };
+    }
+}
 </script>

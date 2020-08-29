@@ -44,20 +44,20 @@
 </template>
 
 <script>
-    export default {
-        methods: {
-            getProgressPosition() {
-                const { position } = progress;
-                console.log({ position }); // 50 / 100 === 0.5. 如果没有确定的 value, 那么 position 就是 1
-            },
-            getProgressLabels() {
-                const { labels } = progress;
-                console.log(labels);
-            },
+export default {
+    mounted() {
+        this.getProgressPosition();
+        this.getProgressLabels();
+    },
+    methods: {
+        getProgressPosition() {
+            const { position } = progress;
+            console.log({ position }); // 50 / 100 === 0.5. 如果没有确定的 value, 那么 position 就是 1
         },
-        mounted() {
-            this.getProgressPosition();
-            this.getProgressLabels();
+        getProgressLabels() {
+            const { labels } = progress;
+            console.log(labels);
         },
-    }
+    },
+}
 </script>

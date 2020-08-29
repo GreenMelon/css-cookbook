@@ -47,26 +47,26 @@
 </template>
 
 <script>
-    export default {
-        name: 'ribbon-sharp',
+export default {
+    name: 'ribbon-sharp',
 
-        props: {
-            size: {
-                type: Number,
-                default: 12,
-            },
-            times: {
-                type: Number,
-                default: 0,
-            },
-            color: {
-                type: String,
-                default: '',
-            },
-            zIndex: {
-                type: Number,
-                default: 0,
-            },
-        }
-    };
+    props: {
+        size: {
+            type: Number,
+            default: 12,
+        },
+        times: {
+            type: Number,
+            default: 0,
+        },
+        color: {
+            type: String,
+            default: '',
+        },
+        zIndex: {
+            type: Number,
+            default: 0,
+        },
+    }
+}
 </script>
