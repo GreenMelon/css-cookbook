@@ -79,5 +79,5 @@ h1::after {
 </template>
 
 <script>
-    export default {};
+export default {}
 </script>

@@ -86,5 +86,5 @@ a:nth-child(5):hover~.animation {
 </template>
 
 <script>
-    export default {};
+export default {}
 </script>

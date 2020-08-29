@@ -58,5 +58,5 @@ fixed：固定布局的算法。在这算法中，水平布局是仅仅基于表
 </template>
 
 <script>
-    export default {}
+export default {}
 </script>
