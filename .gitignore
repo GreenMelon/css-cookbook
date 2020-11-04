@@ -3,16 +3,8 @@ node_modules/
 npm-debug.log
 
 # build
-dist/
-app/css
 package-lock.json
 
 # env
 .DS_Store
-
-# sublime
-*.sublime-project
-*.sublime-workspace
-
-# vscode
 .history/
