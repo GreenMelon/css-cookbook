@@ -2,6 +2,7 @@ import createCatalogue from '@/components/catalogue/index.js';
 
 const NotFound = () => import('../pages/404');
 
+/* eslint-disable */
 const files = require.context('../pages', true, /\.vue$/);
 
 const dynamicRoutes = files.keys().map(key => {

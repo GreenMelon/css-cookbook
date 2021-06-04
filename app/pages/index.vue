@@ -22,6 +22,7 @@ import preview2 from '@/images/blue-sky.jpg';
 export default {
     data() {
         return {
+            /* eslint-disable */
             preview1: require('../images/blue-sky.jpg'),
             preview2: preview2,
         }

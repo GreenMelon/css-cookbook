@@ -36,6 +36,7 @@ const categories = Vue.extend({
 
         categories: {
             type: Array,
+            /* eslint-disable */
             default: [],
         },
     },
