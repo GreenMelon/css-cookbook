@@ -22,7 +22,7 @@ const Modules = Vue.extend({
     props: {
         modules: {
             type: Array,
-            /* eslint-disable */
+            /* eslint-disable-next-line */
             default: [],
         },
     },

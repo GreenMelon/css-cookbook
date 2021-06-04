@@ -22,9 +22,9 @@ import preview2 from '@/images/blue-sky.jpg';
 export default {
     data() {
         return {
-            /* eslint-disable */
+            /* eslint-disable-next-line */
             preview1: require('../images/blue-sky.jpg'),
-            preview2: preview2,
+          preview2: preview2,
         }
     },
 }
