@@ -21,7 +21,6 @@
                 type="checkbox"
                 id="indeterminate-choice"
                 class="indeterminate-choice"
-                indeterminate
             >
             <label for="indeterminate-choice">I agree with the Terms &amp; Conditions</label>
         </div>
