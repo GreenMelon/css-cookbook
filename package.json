@@ -11,17 +11,6 @@
     "dev": "webpack-dev-server --port 8181 --open --inline --hot --compress --history-api-fallback --config webpack.dev.config.js",
     "build": "webpack --progress --hide-modules --config webpack.prod.config.js"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "app/**/*.{js,vue}": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GreenMelon/css-cookbook.git"
