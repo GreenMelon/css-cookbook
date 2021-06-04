@@ -1,7 +1,7 @@
 import focus from './focus';
 
 const directives = {
-    focus
+  focus
 };
 
 export default directives;

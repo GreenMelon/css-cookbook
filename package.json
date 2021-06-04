@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ext .js,.vue app",
+    "lint": "eslint app/**/*.{js,vue}",
     "init": "webpack --progress --config webpack.dev.config.js",
     "dev": "webpack-dev-server --port 8181 --open --inline --hot --compress --history-api-fallback --config webpack.dev.config.js",
     "build": "webpack --progress --hide-modules --config webpack.prod.config.js"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "console.log(1) && npm run lint"
+      "pre-commit": "npm run lint"
     }
   },
   "repository": {
