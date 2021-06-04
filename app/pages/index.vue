@@ -24,7 +24,7 @@ export default {
         return {
             /* eslint-disable-next-line */
             preview1: require('../images/blue-sky.jpg'),
-          preview2: preview2,
+            preview2: preview2,
         }
     },
 }
