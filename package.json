@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "eslint app/**/*.js",
     "init": "webpack --progress --config webpack.dev.config.js",
     "dev": "webpack-dev-server --port 8181 --open --inline --hot --compress --history-api-fallback --config webpack.dev.config.js",
     "build": "webpack --progress --hide-modules --config webpack.prod.config.js"
@@ -47,6 +48,7 @@
     "gulp-sass": "^2.3.2",
     "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.24.1",
+    "husky": "^6.0.0",
     "less-loader": "^2.2.3",
     "node-sass": "4.12.0",
     "postcss-loader": "^1.2.1",
