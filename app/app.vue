@@ -35,6 +35,9 @@ export default {
                     name: 'pointer events',
                     route: '/pointer-events'
                 }, {
+                    name: 'property',
+                    route: '/property'
+                }, {
                     name: 'selector',
                     route: '/selector'
                 }, {
